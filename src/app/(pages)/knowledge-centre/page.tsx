@@ -87,11 +87,11 @@ export default function KnowledgeCentrePage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Explore Our Resources</h2>
-            <p className="text-xl text-gray-600">Comprehensive maritime knowledge at your fingertips</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">Explore Our Resources</h2>
+            <p className="text-lg sm:text-xl text-gray-600">Comprehensive maritime knowledge at your fingertips</p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             {resources.map((resource, index) => (
               <motion.div
                 key={index}
@@ -131,8 +131,8 @@ export default function KnowledgeCentrePage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Featured Case Studies</h2>
-            <p className="text-xl text-gray-600">Learn from our successful projects</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">Featured Case Studies</h2>
+            <p className="text-lg sm:text-xl text-gray-600">Learn from our successful projects</p>
           </motion.div>
 
           <div className="max-w-4xl mx-auto space-y-6">

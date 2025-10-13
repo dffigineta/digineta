@@ -22,19 +22,21 @@ export default function ResearchPage() {
       <section className="relative py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white">
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <div className="flex justify-between items-start">
-              <div>
-                <h1 className="text-5xl md:text-6xl font-bold mb-6">Maritime Industry Analysis & Research</h1>
-                <p className="text-xl text-blue-100">Comprehensive research reports and industry analysis</p>
+            <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-6">
+              <div className="flex-1">
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 md:mb-6">Maritime Industry Analysis & Research</h1>
+                <p className="text-lg sm:text-xl text-blue-100">Comprehensive research reports and industry analysis</p>
               </div>
-              <div className="flex gap-4">
-                <Button variant="outline" size="sm" className="text-white border-white hover:bg-white hover:text-blue-900">
+              <div className="flex flex-col sm:flex-row gap-3 lg:gap-4">
+                <Button variant="outline" size="sm" className="text-white border-white hover:bg-white hover:text-blue-900 text-sm">
                   <Printer className="w-4 h-4 mr-2" />
-                  Print this page
+                  <span className="hidden sm:inline">Print this page</span>
+                  <span className="sm:hidden">Print</span>
                 </Button>
-                <Button variant="outline" size="sm" className="text-white border-white hover:bg-white hover:text-blue-900">
+                <Button variant="outline" size="sm" className="text-white border-white hover:bg-white hover:text-blue-900 text-sm">
                   <Mail className="w-4 h-4 mr-2" />
-                  Email to a friend
+                  <span className="hidden sm:inline">Email to a friend</span>
+                  <span className="sm:hidden">Email</span>
                 </Button>
               </div>
             </div>
@@ -73,38 +75,38 @@ export default function ResearchPage() {
                 >
                   <Card className="border-0 shadow-xl hover:shadow-2xl transition-all">
                     <CardHeader>
-                      <div className="flex items-start justify-between gap-4 mb-6">
-                        <div>
-                          <Badge className="bg-blue-100 text-blue-700 mb-3">{report.category}</Badge>
-                          <CardTitle className="text-3xl mb-4 text-blue-900">{report.title}</CardTitle>
+                      <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-6">
+                        <div className="flex-1">
+                          <Badge className="bg-blue-100 text-blue-700 mb-3 text-xs sm:text-sm">{report.category}</Badge>
+                          <CardTitle className="text-xl sm:text-2xl lg:text-3xl mb-4 text-blue-900">{report.title}</CardTitle>
                         </div>
-                        <Badge className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white whitespace-nowrap">
+                        <Badge className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white whitespace-nowrap text-xs sm:text-sm self-start">
                           {report.type}
                         </Badge>
                       </div>
                       
-                      <p className="text-lg text-gray-700 mb-6">
+                      <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 leading-relaxed">
                         {report.description}
                       </p>
                       
-                      <div className="bg-blue-50 p-6 rounded-lg">
-                        <h4 className="text-lg font-semibold text-blue-900 mb-4">Key Features:</h4>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                      <div className="bg-blue-50 p-4 sm:p-6 rounded-lg">
+                        <h4 className="text-base sm:text-lg font-semibold text-blue-900 mb-3 sm:mb-4">Key Features:</h4>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
                           {report.features.map((feature, idx) => (
-                            <div key={idx} className="flex items-center text-gray-700">
-                              <div className="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
+                            <div key={idx} className="flex items-center text-gray-700 text-sm sm:text-base">
+                              <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue-500 rounded-full mr-2 sm:mr-3 flex-shrink-0"></div>
                               {feature}
                             </div>
                           ))}
                         </div>
                       </div>
                       
-                      <div className="flex gap-4 mt-6">
-                        <Button className="bg-blue-600 hover:bg-blue-700 text-white">
+                      <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6">
+                        <Button className="bg-blue-600 hover:bg-blue-700 text-white text-sm sm:text-base">
                           <Download className="w-4 h-4 mr-2" />
                           Download Report
                         </Button>
-                        <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
+                        <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 text-sm sm:text-base">
                           <FileText className="w-4 h-4 mr-2" />
                           View Summary
                         </Button>
@@ -124,8 +126,8 @@ export default function ResearchPage() {
             >
               <Card className="border-0 shadow-xl">
                 <CardHeader>
-                  <CardTitle className="text-2xl text-gray-900 mb-4">Additional Research Reports</CardTitle>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <CardTitle className="text-xl sm:text-2xl text-gray-900 mb-4">Additional Research Reports</CardTitle>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                     <div className="space-y-4">
                       <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
                         <div>

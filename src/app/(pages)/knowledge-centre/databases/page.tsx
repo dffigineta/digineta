@@ -34,19 +34,21 @@ export default function DatabasesPage() {
       <section className="relative py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white">
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <div className="flex justify-between items-start">
-              <div>
-                <h1 className="text-5xl md:text-6xl font-bold mb-6">Database</h1>
-                <p className="text-xl text-blue-100">Exhaustive Database on various sectors of maritime industry</p>
+            <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-6">
+              <div className="flex-1">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6">Database</h1>
+                <p className="text-lg sm:text-xl text-blue-100">Exhaustive Database on various sectors of maritime industry</p>
               </div>
-              <div className="flex gap-4">
-                <Button variant="outline" size="sm" className="text-white border-white hover:bg-white hover:text-blue-900">
+              <div className="flex flex-col sm:flex-row gap-3 lg:gap-4">
+                <Button variant="outline" size="sm" className="text-white border-white hover:bg-white hover:text-blue-900 text-sm">
                   <Printer className="w-4 h-4 mr-2" />
-                  Print this page
+                  <span className="hidden sm:inline">Print this page</span>
+                  <span className="sm:hidden">Print</span>
                 </Button>
-                <Button variant="outline" size="sm" className="text-white border-white hover:bg-white hover:text-blue-900">
+                <Button variant="outline" size="sm" className="text-white border-white hover:bg-white hover:text-blue-900 text-sm">
                   <Mail className="w-4 h-4 mr-2" />
-                  Email to a friend
+                  <span className="hidden sm:inline">Email to a friend</span>
+                  <span className="sm:hidden">Email</span>
                 </Button>
               </div>
             </div>
@@ -71,7 +73,7 @@ export default function DatabasesPage() {
               
               <h2 className="text-3xl font-bold text-gray-900 mb-6">The features of the i-maritime Knowledge Base include..</h2>
               
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 mb-8">
                 {features.map((feature, index) => (
                   <motion.div
                     key={index}
@@ -133,73 +135,73 @@ export default function DatabasesPage() {
                 </div>
 
                 {/* Content Layout */}
-                <div className="flex">
+                <div className="flex flex-col lg:flex-row">
                   {/* Left Sidebar */}
-                  <div className="w-1/4 bg-gray-800 text-white p-4">
-                    <h5 className="font-bold mb-4">Explore Our Knowledge Base</h5>
-                    <div className="space-y-2 text-sm">
+                  <div className="w-full lg:w-1/4 bg-gray-800 text-white p-3 lg:p-4">
+                    <h5 className="font-bold mb-3 lg:mb-4 text-sm lg:text-base">Explore Our Knowledge Base</h5>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-1 lg:space-y-2 text-xs lg:text-sm">
                       <div className="flex items-center">
-                        <ChevronRight className="w-4 h-4 mr-2" />
+                        <ChevronRight className="w-3 h-3 lg:w-4 lg:h-4 mr-1 lg:mr-2" />
                         Ports & Terminals
                       </div>
                       <div className="flex items-center">
-                        <ChevronRight className="w-4 h-4 mr-2" />
+                        <ChevronRight className="w-3 h-3 lg:w-4 lg:h-4 mr-1 lg:mr-2" />
                         Container Logistics
                       </div>
                       <div className="flex items-center">
-                        <ChevronRight className="w-4 h-4 mr-2" />
+                        <ChevronRight className="w-3 h-3 lg:w-4 lg:h-4 mr-1 lg:mr-2" />
                         Shipbuilding and Demolition
                       </div>
                       <div className="flex items-center">
-                        <ChevronRight className="w-4 h-4 mr-2" />
+                        <ChevronRight className="w-3 h-3 lg:w-4 lg:h-4 mr-1 lg:mr-2" />
                         Shipping
                       </div>
                       <div className="flex items-center">
-                        <ChevronRight className="w-4 h-4 mr-2" />
+                        <ChevronRight className="w-3 h-3 lg:w-4 lg:h-4 mr-1 lg:mr-2" />
                         Tenders
                       </div>
                       <div className="flex items-center">
-                        <ChevronRight className="w-4 h-4 mr-2" />
+                        <ChevronRight className="w-3 h-3 lg:w-4 lg:h-4 mr-1 lg:mr-2" />
                         Maritime Contacts
                       </div>
                       <div className="flex items-center">
-                        <ChevronRight className="w-4 h-4 mr-2" />
+                        <ChevronRight className="w-3 h-3 lg:w-4 lg:h-4 mr-1 lg:mr-2" />
                         Events
                       </div>
                     </div>
                   </div>
 
                   {/* Main Content */}
-                  <div className="flex-1 p-4">
-                    <div className="text-sm text-gray-500 mb-2">Knowledge Base &gt; Home</div>
-                    <h5 className="text-xl font-bold mb-4">A World on Knowledge, a click away</h5>
+                  <div className="flex-1 p-3 lg:p-4">
+                    <div className="text-xs lg:text-sm text-gray-500 mb-2">Knowledge Base &gt; Home</div>
+                    <h5 className="text-lg lg:text-xl font-bold mb-3 lg:mb-4">A World on Knowledge, a click away</h5>
                     
                     {/* Placeholder Images */}
-                    <div className="flex gap-2 mb-4">
-                      <div className="w-20 h-16 bg-gray-200 rounded flex items-center justify-center text-xs text-gray-500">
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-3 lg:mb-4">
+                      <div className="w-full h-12 lg:h-16 bg-gray-200 rounded flex items-center justify-center text-xs text-gray-500">
                         Ship Image
                       </div>
-                      <div className="w-20 h-16 bg-gray-200 rounded flex items-center justify-center text-xs text-gray-500">
+                      <div className="w-full h-12 lg:h-16 bg-gray-200 rounded flex items-center justify-center text-xs text-gray-500">
                         Compass
                       </div>
-                      <div className="w-20 h-16 bg-gray-200 rounded flex items-center justify-center text-xs text-gray-500">
+                      <div className="w-full h-12 lg:h-16 bg-gray-200 rounded flex items-center justify-center text-xs text-gray-500">
                         Port
                       </div>
-                      <div className="w-20 h-16 bg-gray-200 rounded flex items-center justify-center text-xs text-gray-500">
+                      <div className="w-full h-12 lg:h-16 bg-gray-200 rounded flex items-center justify-center text-xs text-gray-500">
                         Container
                       </div>
                     </div>
                     
-                    <p className="text-sm text-gray-700 mb-4">
+                    <p className="text-xs lg:text-sm text-gray-700 mb-3 lg:mb-4">
                       i-maritime is a leader in the consulting services across the maritime sector. 
                       i-maritime has established itself in almost all consulting practices for maritime service industry.
                     </p>
                     
-                    <h6 className="font-bold mb-2">Portal Structure</h6>
-                    <p className="text-sm text-gray-700 mb-2">
+                    <h6 className="font-bold mb-2 text-sm lg:text-base">Portal Structure</h6>
+                    <p className="text-xs lg:text-sm text-gray-700 mb-2">
                       The maritime database is segmented into four broad heads in sync with the industry classification –
                     </p>
-                    <ul className="text-sm text-gray-700 ml-4 mb-4">
+                    <ul className="text-xs lg:text-sm text-gray-700 ml-4 mb-4">
                       <li>• Ports & Terminals</li>
                       <li>• Container Logistics</li>
                       <li>• Ship Building and Demolition</li>
@@ -208,30 +210,30 @@ export default function DatabasesPage() {
                   </div>
 
                   {/* Right Sidebar */}
-                  <div className="w-1/4 bg-blue-600 text-white p-4">
-                    <h5 className="font-bold mb-4">Access to a world of knowledge</h5>
-                    <div className="space-y-2 text-sm mb-4">
+                  <div className="w-full lg:w-1/4 bg-blue-600 text-white p-3 lg:p-4">
+                    <h5 className="font-bold mb-3 lg:mb-4 text-sm lg:text-base">Access to a world of knowledge</h5>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-1 lg:space-y-2 text-xs lg:text-sm mb-3 lg:mb-4">
                       <div className="flex items-center">
-                        <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
+                        <div className="w-1.5 h-1.5 lg:w-2 lg:h-2 bg-white rounded-full mr-1 lg:mr-2"></div>
                         Case Studies
                       </div>
                       <div className="flex items-center">
-                        <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
+                        <div className="w-1.5 h-1.5 lg:w-2 lg:h-2 bg-white rounded-full mr-1 lg:mr-2"></div>
                         Reports
                       </div>
                       <div className="flex items-center">
-                        <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
+                        <div className="w-1.5 h-1.5 lg:w-2 lg:h-2 bg-white rounded-full mr-1 lg:mr-2"></div>
                         Trade Data
                       </div>
                       <div className="flex items-center">
-                        <div className="w-2 h-2 bg-white rounded-full mr-2"></div>
+                        <div className="w-1.5 h-1.5 lg:w-2 lg:h-2 bg-white rounded-full mr-1 lg:mr-2"></div>
                         Research Documents & More
                       </div>
                     </div>
-                    <Button className="w-full bg-white text-blue-600 hover:bg-gray-100">
+                    <Button className="w-full bg-white text-blue-600 hover:bg-gray-100 text-sm lg:text-base py-2 lg:py-3">
                       Register with us today!
                     </Button>
-                    <p className="text-xs mt-2">
+                    <p className="text-xs mt-2 leading-relaxed">
                       Download information through our exclusive Knowledge Base. 
                       Get in touch with us and we&apos;ll get you started.
                     </p>

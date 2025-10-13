@@ -35,12 +35,12 @@ export default function DirectoryPage() {
       <section className="relative py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white">
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <div className="flex justify-between items-start">
-              <div>
-                <h1 className="text-5xl md:text-6xl font-bold mb-6">Maritime Directory</h1>
-                <p className="text-xl text-blue-100">Our efforts have been to create an exhaustive directory of maritime and related industry.</p>
+            <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-6">
+              <div className="flex-1">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6">Maritime Directory</h1>
+                <p className="text-lg sm:text-xl text-blue-100">Our efforts have been to create an exhaustive directory of maritime and related industry.</p>
               </div>
-              <Button className="bg-white text-blue-900 hover:bg-gray-100">
+              <Button className="bg-white text-blue-900 hover:bg-gray-100 text-sm sm:text-base">
                 <UserPlus className="w-4 h-4 mr-2" />
                 Register Yourself
               </Button>
@@ -59,8 +59,8 @@ export default function DirectoryPage() {
               viewport={{ once: true }}
               className="mb-12"
             >
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">Browse by Category</h2>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 sm:mb-8">Browse by Category</h2>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
                 {categories.map((category, index) => (
                   <motion.div
                     key={index}
@@ -89,16 +89,16 @@ export default function DirectoryPage() {
               viewport={{ once: true }}
               className="mb-8"
             >
-              <div className="flex justify-between items-center mb-6">
-                <h2 className="text-3xl font-bold text-gray-900">List of Register Members</h2>
-                <div className="flex items-center gap-4">
-                  <span className="text-sm text-gray-600">1 of 1</span>
-                  <Button variant="outline" size="sm" disabled>
-                    <ChevronLeft className="w-4 h-4" />
+              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-6">
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">List of Register Members</h2>
+                <div className="flex items-center gap-3 sm:gap-4">
+                  <span className="text-xs sm:text-sm text-gray-600">1 of 1</span>
+                  <Button variant="outline" size="sm" disabled className="text-xs sm:text-sm">
+                    <ChevronLeft className="w-3 h-3 sm:w-4 sm:h-4" />
                   </Button>
-                  <Button variant="outline" size="sm">
+                  <Button variant="outline" size="sm" className="text-xs sm:text-sm">
                     Next
-                    <ChevronRight className="w-4 h-4 ml-1" />
+                    <ChevronRight className="w-3 h-3 sm:w-4 sm:h-4 ml-1" />
                   </Button>
                 </div>
               </div>
@@ -114,33 +114,33 @@ export default function DirectoryPage() {
                   >
                     <Card className="border-0 shadow-xl hover:shadow-2xl transition-all">
                       <CardHeader>
-                        <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+                        <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4">
                           <div className="flex-1">
-                            <div className="flex items-center gap-4 mb-4">
-                              <Badge className="bg-blue-100 text-blue-700">{member.category}</Badge>
-                              <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center">
-                                <Users className="w-6 h-6 text-white" />
+                            <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
+                              <Badge className="bg-blue-100 text-blue-700 text-xs sm:text-sm">{member.category}</Badge>
+                              <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center">
+                                <Users className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                               </div>
                             </div>
                             
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
                               <div>
-                                <h3 className="text-xl font-bold text-gray-900 mb-2">{member.name}</h3>
+                                <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">{member.name}</h3>
                                 <div className="space-y-2">
                                   <div className="flex items-center text-gray-700">
-                                    <Building className="w-4 h-4 mr-2 text-blue-600" />
-                                    <span className="font-medium">{member.companyName}</span>
+                                    <Building className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-blue-600 flex-shrink-0" />
+                                    <span className="font-medium text-sm sm:text-base">{member.companyName}</span>
                                   </div>
-                                  <p className="text-gray-600 text-sm ml-6">{member.companyDescription}</p>
+                                  <p className="text-gray-600 text-xs sm:text-sm ml-5 sm:ml-6">{member.companyDescription}</p>
                                   
                                   <div className="flex items-start text-gray-700">
-                                    <MapPin className="w-4 h-4 mr-2 text-blue-600 mt-0.5" />
-                                    <span className="text-sm">{member.address}</span>
+                                    <MapPin className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-blue-600 mt-0.5 flex-shrink-0" />
+                                    <span className="text-xs sm:text-sm">{member.address}</span>
                                   </div>
                                   
                                   <div className="flex items-center text-gray-700">
-                                    <ExternalLink className="w-4 h-4 mr-2 text-blue-600" />
-                                    <a href={`https://${member.website}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm">
+                                    <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-blue-600 flex-shrink-0" />
+                                    <a href={`https://${member.website}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-xs sm:text-sm break-all">
                                       {member.website}
                                     </a>
                                   </div>
@@ -148,32 +148,32 @@ export default function DirectoryPage() {
                               </div>
                               
                               <div>
-                                <h4 className="font-semibold text-gray-900 mb-3">Contact Information</h4>
+                                <h4 className="font-semibold text-gray-900 mb-2 sm:mb-3 text-sm sm:text-base">Contact Information</h4>
                                 <div className="space-y-2">
                                   <div className="flex items-center text-gray-700">
-                                    <Mail className="w-4 h-4 mr-2 text-blue-600" />
-                                    <span className="text-sm">{member.email}</span>
+                                    <Mail className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-blue-600 flex-shrink-0" />
+                                    <span className="text-xs sm:text-sm break-all">{member.email}</span>
                                   </div>
                                   
                                   <div className="flex items-center text-gray-700">
-                                    <Phone className="w-4 h-4 mr-2 text-blue-600" />
-                                    <span className="text-sm">{member.telephone}</span>
+                                    <Phone className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-blue-600 flex-shrink-0" />
+                                    <span className="text-xs sm:text-sm">{member.telephone}</span>
                                   </div>
                                   
                                   <div className="flex items-center text-gray-700">
-                                    <Phone className="w-4 h-4 mr-2 text-blue-600" />
-                                    <span className="text-sm">Fax: {member.fax}</span>
+                                    <Phone className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-blue-600 flex-shrink-0" />
+                                    <span className="text-xs sm:text-sm">Fax: {member.fax}</span>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
                           
-                          <div className="flex gap-2">
-                            <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
+                          <div className="flex flex-col sm:flex-row gap-2 sm:gap-2">
+                            <Button size="sm" className="bg-blue-600 hover:bg-blue-700 text-xs sm:text-sm">
                               View Profile
                             </Button>
-                            <Button variant="outline" size="sm">
+                            <Button variant="outline" size="sm" className="text-xs sm:text-sm">
                               Contact
                             </Button>
                           </div>
@@ -193,15 +193,15 @@ export default function DirectoryPage() {
               className="text-center"
             >
               <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
-                <CardContent className="p-8">
-                  <Users className="w-16 h-16 text-blue-600 mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Join Our Maritime Directory</h3>
-                  <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
+                <CardContent className="p-6 sm:p-8">
+                  <Users className="w-12 h-12 sm:w-16 sm:h-16 text-blue-600 mx-auto mb-3 sm:mb-4" />
+                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Join Our Maritime Directory</h3>
+                  <p className="text-sm sm:text-base text-gray-700 mb-4 sm:mb-6 max-w-2xl mx-auto leading-relaxed">
                     Register your company in our comprehensive maritime directory and connect with industry professionals, 
                     potential clients, and business partners across the maritime sector.
                   </p>
-                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                    <UserPlus className="w-5 h-5 mr-2" />
+                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-sm sm:text-base">
+                    <UserPlus className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                     Register Your Company
                   </Button>
                 </CardContent>
