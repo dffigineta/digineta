@@ -28,15 +28,15 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-lg flex items-center justify-center group-hover:scale-105 transition-transform">
-              <span className="text-white font-bold text-lg">i</span>
+          <Link href="/" className="flex items-center space-x-2 sm:space-x-3 group">
+            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-br from-blue-600 to-cyan-500 rounded-lg flex items-center justify-center group-hover:scale-105 transition-transform">
+              <span className="text-white font-bold text-sm sm:text-lg">i</span>
             </div>
             <div>
-              <span className="text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+              <span className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
                 i-maritime
               </span>
-              <div className="text-xs text-gray-500 -mt-1">Consultancy</div>
+              <div className="text-xs text-gray-500 -mt-1 hidden sm:block">Consultancy</div>
             </div>
           </Link>
 
@@ -76,7 +76,7 @@ export default function Header() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: 10 }}
                         transition={{ duration: 0.2 }}
-                        className="absolute top-full left-0 mt-1 w-80 bg-white rounded-xl shadow-2xl border border-gray-100 overflow-visible"
+                        className="absolute top-full left-0 mt-1 w-72 xl:w-80 bg-white rounded-xl shadow-2xl border border-gray-100 overflow-visible"
                         onMouseEnter={() => handleDropdownEnter(item.label)}
                         onMouseLeave={handleDropdownLeave}
                       >
@@ -127,7 +127,7 @@ export default function Header() {
                                       animate={{ opacity: 1, x: 0 }}
                                       exit={{ opacity: 0, x: 6 }}
                                       transition={{ duration: 0.15 }}
-                                      className="absolute top-0 left-full ml-2 w-80 bg-white rounded-xl shadow-2xl border border-gray-100 p-4 z-50"
+                                      className="absolute top-0 left-full ml-2 w-72 xl:w-80 bg-white rounded-xl shadow-2xl border border-gray-100 p-3 xl:p-4 z-50"
                                       onMouseEnter={() => setActiveSubmenu(child.label)}
                                       onMouseLeave={() => setActiveSubmenu(null)}
                                     >
@@ -164,14 +164,14 @@ export default function Header() {
           </nav>
 
           {/* Right Side Actions */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-1 sm:space-x-2 md:space-x-3">
             {/* Search */}
             <div className="relative">
               <button
                 onClick={() => setIsSearchOpen(!isSearchOpen)}
-                className="p-2 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-all duration-200"
+                className="p-1.5 sm:p-2 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-all duration-200"
               >
-                <Search className="w-5 h-5" />
+                <Search className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
               
               <AnimatePresence>
@@ -180,12 +180,12 @@ export default function Header() {
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     exit={{ opacity: 0, scale: 0.95 }}
-                    className="absolute right-0 top-full mt-2 w-80 bg-white rounded-xl shadow-2xl border border-gray-100 p-4"
+                    className="absolute right-0 top-full mt-2 w-72 sm:w-80 bg-white rounded-xl shadow-2xl border border-gray-100 p-3 sm:p-4 z-50"
                   >
                     <input
                       type="text"
                       placeholder="Search maritime topics..."
-                      className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                      className="w-full px-3 sm:px-4 py-2 text-sm sm:text-base border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                       autoFocus
                     />
                   </motion.div>
@@ -193,9 +193,9 @@ export default function Header() {
               </AnimatePresence>
             </div>
 
-            {/* CTA Button */}
-            <Link href="/contact">
-              <button className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:shadow-lg">
+            {/* CTA Button - Hidden on very small screens */}
+            <Link href="/contact" className="hidden sm:block">
+              <button className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-medium transition-all duration-200 hover:shadow-lg">
                 Get Quote
               </button>
             </Link>
@@ -203,9 +203,9 @@ export default function Header() {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="lg:hidden p-2 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-all duration-200"
+              className="lg:hidden p-1.5 sm:p-2 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-all duration-200"
             >
-              {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {isMenuOpen ? <X className="w-5 h-5 sm:w-6 sm:h-6" /> : <Menu className="w-5 h-5 sm:w-6 sm:h-6" />}
             </button>
           </div>
         </div>
@@ -217,36 +217,48 @@ export default function Header() {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden border-t border-gray-100 bg-white"
+              className="lg:hidden border-t border-gray-100 bg-white max-h-screen overflow-y-auto"
             >
-              <div className="py-4 space-y-2">
+              <div className="py-3 sm:py-4 space-y-1 sm:space-y-2">
+                {/* Mobile CTA Button */}
+                <div className="px-4 py-2 sm:hidden">
+                  <Link href="/contact">
+                    <button 
+                      className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:shadow-lg"
+                      onClick={() => setIsMenuOpen(false)}
+                    >
+                      Get Quote
+                    </button>
+                  </Link>
+                </div>
+                
                 {navigation.map((item) => (
-                  <div key={item.label}>
+                  <div key={item.label} className="px-2 sm:px-0">
                     <Link
                       href={item.href}
-                      className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors font-medium"
+                      className="block px-3 sm:px-4 py-2.5 sm:py-3 text-gray-700 hover:bg-gray-50 hover:text-blue-600 rounded-lg transition-colors font-medium text-sm sm:text-base"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {item.label}
                     </Link>
                     {item.children && (
-                      <div className="ml-4 space-y-1">
+                      <div className="ml-2 sm:ml-4 space-y-0.5 sm:space-y-1">
                         {item.children.map((child) => (
-                          <div key={child.href} className="mb-1">
+                          <div key={child.href} className="mb-0.5 sm:mb-1">
                             <Link
                               href={child.href}
-                              className="block px-4 py-2 text-sm text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-colors"
+                              className="block px-3 sm:px-4 py-2 text-xs sm:text-sm text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-colors"
                               onClick={() => setIsMenuOpen(false)}
                             >
                               {child.label}
                             </Link>
                             {child.children && (
-                              <div className="ml-4">
+                              <div className="ml-2 sm:ml-4">
                                 {child.children.map((gchild) => (
                                   <Link
                                     key={gchild.href}
                                     href={gchild.href}
-                                    className="block px-4 py-2 text-sm text-gray-500 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-colors"
+                                    className="block px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm text-gray-500 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-colors"
                                     onClick={() => setIsMenuOpen(false)}
                                   >
                                     {gchild.label}
