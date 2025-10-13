@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
-import { Users, Target, Award, TrendingUp, Globe, Lightbulb } from 'lucide-react'
+import { Users, Target, Award, Globe, Lightbulb } from 'lucide-react'
 
 const stats = [
   { value: '1993', label: 'Founded' },
@@ -66,10 +66,10 @@ export default function AboutPage() {
               About Us
             </Badge>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              India's Leading Maritime Consultancy
+              India&apos;s Leading Maritime Consultancy
             </h1>
             <p className="text-xl text-blue-100 leading-relaxed">
-              Since 1993, we've been transforming the maritime industry with innovative solutions, 
+              Since 1993, we&apos;ve been transforming the maritime industry with innovative solutions, 
               deep expertise, and unwavering commitment to excellence.
             </p>
           </motion.div>
@@ -112,7 +112,7 @@ export default function AboutPage() {
               <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
                 <p>
                   Founded in 1993 by Mr. Ramesh Singhal, i-maritime Consultancy has grown 
-                  into India's premier maritime consulting firm. Our journey began with a 
+                  into India&apos;s premier maritime consulting firm. Our journey began with a 
                   vision to provide world-class consulting services to the maritime industry.
                 </p>
                 <p>

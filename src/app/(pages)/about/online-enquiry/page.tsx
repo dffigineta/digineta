@@ -2,11 +2,10 @@
 
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
+import { Card, CardContent } from '@/components/ui/Card'
 import { Input } from '@/components/ui/Input'
 import { Textarea } from '@/components/ui/Textarea'
 import { Button } from '@/components/ui/Button'
-import { Mail, Phone, MessageSquare } from 'lucide-react'
 
 export default function OnlineEnquiryPage() {
   return (

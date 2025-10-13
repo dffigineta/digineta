@@ -50,11 +50,6 @@ const practiceAreas = [
   { icon: Globe, title: 'M&A Advisory', description: 'Mergers and acquisitions consulting' }
 ]
 
-const fadeInUp = {
-  initial: { opacity: 0, y: 30 },
-  animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.5 }
-}
 
 export default function ServicesPage() {
   return (
@@ -180,7 +175,7 @@ export default function ServicesPage() {
           >
             <h2 className="text-4xl font-bold mb-6">Need Expert Maritime Consulting?</h2>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Let's discuss how we can help transform your maritime operations
+              Let&apos;s discuss how we can help transform your maritime operations
             </p>
             <Link href="/contact">
               <Button size="lg" className="bg-white text-blue-900 hover:bg-blue-50">

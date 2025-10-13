@@ -47,7 +47,7 @@ export default function ContactPage() {
           >
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Get in Touch</h1>
             <p className="text-xl text-blue-100">
-              Ready to start your maritime project? We're here to help.
+              Ready to start your maritime project? We&apos;re here to help.
             </p>
           </motion.div>
         </div>

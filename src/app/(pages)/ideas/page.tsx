@@ -1,10 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
-import { Calendar, User, ArrowRight } from 'lucide-react'
+import { Calendar, User } from 'lucide-react'
 
 const blogs = [
   {

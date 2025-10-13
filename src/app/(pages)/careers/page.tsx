@@ -3,9 +3,7 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
-import { Button } from '@/components/ui/Button'
-import { Badge } from '@/components/ui/Badge'
-import { MapPin, Briefcase, Clock, ArrowRight, Users, Target, Shirt, Network } from 'lucide-react'
+import { Target, Shirt, Network } from 'lucide-react'
 
 export default function CareersPage() {
   return (
@@ -20,7 +18,7 @@ export default function CareersPage() {
               <span className="text-white">Career</span>
             </nav>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Career</h1>
-            <p className="text-xl text-blue-100">Join i-maritime and build your career with India's leading maritime consultancy</p>
+            <p className="text-xl text-blue-100">Join i-maritime and build your career with India&apos;s leading maritime consultancy</p>
           </motion.div>
         </div>
       </section>

@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
+import { Card, CardHeader } from '@/components/ui/Card'
 import { Building, Calendar, Users, Award } from 'lucide-react'
 
 export default function CorporateProfilePage() {
@@ -23,7 +23,7 @@ export default function CorporateProfilePage() {
               <div className="prose max-w-none">
                 <h2 className="text-3xl font-bold text-gray-900 mb-4">About i-maritime</h2>
                 <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                  i-maritime Consultancy Private Limited was founded in 1993 by Mr. Ramesh Singhal with a vision to provide comprehensive maritime consulting services. Over three decades, we have established ourselves as India's premier maritime consulting firm.
+                  i-maritime Consultancy Private Limited was founded in 1993 by Mr. Ramesh Singhal with a vision to provide comprehensive maritime consulting services. Over three decades, we have established ourselves as India&apos;s premier maritime consulting firm.
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed mb-4">
                   Our services span the entire maritime value chain including ports and terminals, shipping, container logistics, shipbuilding, and maritime infrastructure. We serve over 100 clients globally and have successfully delivered more than 200 projects.

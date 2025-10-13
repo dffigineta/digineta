@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
-import { FileText, Database, BookOpen, Search, TrendingUp, ArrowRight } from 'lucide-react'
+import { FileText, Database, BookOpen, TrendingUp, ArrowRight } from 'lucide-react'
 
 const resources = [
   {

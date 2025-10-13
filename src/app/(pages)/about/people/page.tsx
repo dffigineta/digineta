@@ -1,11 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
-import { Users, Award, GraduationCap, Briefcase, Target } from 'lucide-react'
 
 export default function PeoplePage() {
   return (

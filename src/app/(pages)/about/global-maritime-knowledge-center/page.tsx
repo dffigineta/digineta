@@ -1,8 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
-import { BookOpen, Database, TrendingUp, Globe } from 'lucide-react'
+import { Card, CardContent } from '@/components/ui/Card'
 
 const services = [
   'Industry Research',

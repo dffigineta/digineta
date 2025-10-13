@@ -13,7 +13,7 @@ export default function Footer() {
               <p className="text-blue-200 text-sm">Consultancy Private Limited</p>
             </div>
             <p className="text-blue-100 text-sm leading-relaxed">
-              India's top maritime, port and shipbuilding consultant providing quality consulting and research-based maritime services.
+              India&apos;s top maritime, port and shipbuilding consultant providing quality consulting and research-based maritime services.
             </p>
           </div>
 
