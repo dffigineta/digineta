@@ -6,8 +6,57 @@ import { Card, CardContent } from '@/components/ui/Card'
 import { Input } from '@/components/ui/Input'
 import { Textarea } from '@/components/ui/Textarea'
 import { Button } from '@/components/ui/Button'
+import { CheckCircle, AlertCircle } from 'lucide-react'
+import { useState } from 'react'
 
 export default function OnlineEnquiryPage() {
+  const [formData, setFormData] = useState({
+    serviceType: 'Internship',
+    firstName: '',
+    lastName: '',
+    email: '',
+    mobile: '',
+    message: ''
+  })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target
+    setFormData(prev => ({ ...prev, [name]: value }))
+  }
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setIsSubmitting(true)
+    setSubmitStatus('idle')
+
+    try {
+      // Simulate API call
+      await new Promise(resolve => setTimeout(resolve, 1500))
+      
+      console.log('Enquiry form submitted:', formData)
+      setSubmitStatus('success')
+      
+      // Reset form
+      setFormData({
+        serviceType: 'Internship',
+        firstName: '',
+        lastName: '',
+        email: '',
+        mobile: '',
+        message: ''
+      })
+      
+      // Clear success message after 5 seconds
+      setTimeout(() => setSubmitStatus('idle'), 5000)
+    } catch (error) {
+      console.error('Error submitting form:', error)
+      setSubmitStatus('error')
+    } finally {
+      setIsSubmitting(false)
+    }
+  }
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -58,7 +107,21 @@ export default function OnlineEnquiryPage() {
           >
             <Card className="border-0 shadow-2xl bg-gradient-to-br from-gray-50 to-blue-50">
               <CardContent className="p-8">
-                <form className="space-y-8">
+                {submitStatus === 'success' && (
+                  <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-green-600" />
+                    <p className="text-green-800 font-medium">Thank you! Your enquiry has been submitted successfully. We will get back to you shortly.</p>
+                  </div>
+                )}
+                
+                {submitStatus === 'error' && (
+                  <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex items-center space-x-3">
+                    <AlertCircle className="w-5 h-5 text-red-600" />
+                    <p className="text-red-800 font-medium">Sorry, there was an error. Please try again.</p>
+                  </div>
+                )}
+                
+                <form className="space-y-8" onSubmit={handleSubmit}>
                   {/* How can we help section */}
                   <div className="bg-white rounded-xl p-6 shadow-lg">
                     <h3 className="text-xl font-semibold text-gray-900 mb-6">How can we help:</h3>
@@ -76,7 +139,8 @@ export default function OnlineEnquiryPage() {
                             type="radio"
                             name="serviceType"
                             value={option}
-                            defaultChecked={option === 'Internship'}
+                            checked={formData.serviceType === option}
+                            onChange={handleChange}
                             className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500"
                           />
                           <span className="text-gray-700 font-medium">{option}</span>
@@ -91,13 +155,27 @@ export default function OnlineEnquiryPage() {
                         <label className="block text-sm font-medium text-gray-700 mb-2">
                           First Name <span className="text-red-500">*</span>
                         </label>
-                        <Input placeholder="Enter your first name" className="w-full" />
+                        <Input 
+                          name="firstName"
+                          value={formData.firstName}
+                          onChange={handleChange}
+                          placeholder="Enter your first name" 
+                          className="w-full" 
+                          required
+                        />
                       </div>
                       <div>
                         <label className="block text-sm font-medium text-gray-700 mb-2">
                           Last Name <span className="text-red-500">*</span>
                         </label>
-                        <Input placeholder="Enter your last name" className="w-full" />
+                        <Input 
+                          name="lastName"
+                          value={formData.lastName}
+                          onChange={handleChange}
+                          placeholder="Enter your last name" 
+                          className="w-full" 
+                          required
+                        />
                       </div>
                     </div>
                     
@@ -106,13 +184,29 @@ export default function OnlineEnquiryPage() {
                         <label className="block text-sm font-medium text-gray-700 mb-2">
                           Email <span className="text-red-500">*</span>
                         </label>
-                        <Input type="email" placeholder="Enter your email address" className="w-full" />
+                        <Input 
+                          name="email"
+                          type="email"
+                          value={formData.email}
+                          onChange={handleChange}
+                          placeholder="Enter your email address" 
+                          className="w-full" 
+                          required
+                        />
                       </div>
                       <div>
                         <label className="block text-sm font-medium text-gray-700 mb-2">
                           Mobile <span className="text-red-500">*</span>
                         </label>
-                        <Input type="tel" placeholder="Enter your mobile number" className="w-full" />
+                        <Input 
+                          name="mobile"
+                          type="tel"
+                          value={formData.mobile}
+                          onChange={handleChange}
+                          placeholder="Enter your mobile number" 
+                          className="w-full" 
+                          required
+                        />
                       </div>
                     </div>
                     
@@ -121,18 +215,24 @@ export default function OnlineEnquiryPage() {
                         Message <span className="text-red-500">*</span>
                       </label>
                       <Textarea 
+                        name="message"
+                        value={formData.message}
+                        onChange={handleChange}
                         placeholder="Please describe your enquiry or project requirements..."
                         rows={6}
                         className="w-full resize-y"
+                        required
                       />
                     </div>
                     
                     <div className="mt-8">
                       <Button 
+                        type="submit"
                         size="lg" 
                         className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white py-4 text-lg font-semibold"
+                        disabled={isSubmitting}
                       >
-                        Submit
+                        {isSubmitting ? 'Submitting...' : 'Submit'}
                       </Button>
                     </div>
                   </div>

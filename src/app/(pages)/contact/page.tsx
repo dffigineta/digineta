@@ -5,7 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Input } from '@/components/ui/Input'
 import { Textarea } from '@/components/ui/Textarea'
 import { Button } from '@/components/ui/Button'
-import { MapPin, Phone, Mail, Clock } from 'lucide-react'
+import { MapPin, Phone, Mail, Clock, CheckCircle, AlertCircle } from 'lucide-react'
+import { useState } from 'react'
 
 const contactInfo = [
   {
@@ -35,6 +36,61 @@ const contactInfo = [
 ]
 
 export default function ContactPage() {
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    phone: '',
+    subject: '',
+    message: ''
+  })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target
+    setFormData(prev => ({ ...prev, [name]: value }))
+  }
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    setIsSubmitting(true)
+    setSubmitStatus('idle')
+
+    try {
+      // Simulate API call
+      await new Promise(resolve => setTimeout(resolve, 1500))
+      
+      // In production, you would send data to your API:
+      // const response = await fetch('/api/contact', {
+      //   method: 'POST',
+      //   headers: { 'Content-Type': 'application/json' },
+      //   body: JSON.stringify(formData)
+      // })
+      
+      console.log('Contact form submitted:', formData)
+      setSubmitStatus('success')
+      
+      // Reset form
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phone: '',
+        subject: '',
+        message: ''
+      })
+      
+      // Clear success message after 5 seconds
+      setTimeout(() => setSubmitStatus('idle'), 5000)
+    } catch (error) {
+      console.error('Error submitting form:', error)
+      setSubmitStatus('error')
+    } finally {
+      setIsSubmitting(false)
+    }
+  }
+
   return (
     <div className="min-h-screen">
       {/* Hero */}
@@ -96,55 +152,109 @@ export default function ContactPage() {
                   <CardTitle className="text-3xl">Send us a Message</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <form className="space-y-6">
+                  {submitStatus === 'success' && (
+                    <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center space-x-3">
+                      <CheckCircle className="w-5 h-5 text-green-600" />
+                      <p className="text-green-800 font-medium">Thank you! Your message has been sent successfully.</p>
+                    </div>
+                  )}
+                  
+                  {submitStatus === 'error' && (
+                    <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex items-center space-x-3">
+                      <AlertCircle className="w-5 h-5 text-red-600" />
+                      <p className="text-red-800 font-medium">Sorry, there was an error. Please try again.</p>
+                    </div>
+                  )}
+                  
+                  <form className="space-y-6" onSubmit={handleSubmit}>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
                         <label className="block text-sm font-medium text-gray-700 mb-2">
-                          First Name
+                          First Name <span className="text-red-500">*</span>
                         </label>
-                        <Input placeholder="John" />
+                        <Input 
+                          name="firstName"
+                          value={formData.firstName}
+                          onChange={handleChange}
+                          placeholder="John" 
+                          required
+                        />
                       </div>
                       <div>
                         <label className="block text-sm font-medium text-gray-700 mb-2">
-                          Last Name
+                          Last Name <span className="text-red-500">*</span>
                         </label>
-                        <Input placeholder="Doe" />
+                        <Input 
+                          name="lastName"
+                          value={formData.lastName}
+                          onChange={handleChange}
+                          placeholder="Doe" 
+                          required
+                        />
                       </div>
                     </div>
                     
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-2">
-                        Email
+                        Email <span className="text-red-500">*</span>
                       </label>
-                      <Input type="email" placeholder="john.doe@example.com" />
+                      <Input 
+                        name="email"
+                        type="email"
+                        value={formData.email}
+                        onChange={handleChange}
+                        placeholder="john.doe@example.com" 
+                        required
+                      />
                     </div>
                     
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-2">
                         Phone
                       </label>
-                      <Input type="tel" placeholder="+91 98765 43210" />
-                    </div>
-                    
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
-                        Subject
-                      </label>
-                      <Input placeholder="How can we help you?" />
-                    </div>
-                    
-                    <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
-                        Message
-                      </label>
-                      <Textarea 
-                        placeholder="Tell us more about your project..."
-                        rows={6}
+                      <Input 
+                        name="phone"
+                        type="tel"
+                        value={formData.phone}
+                        onChange={handleChange}
+                        placeholder="+91 98765 43210" 
                       />
                     </div>
                     
-                    <Button size="lg" className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white">
-                      Send Message
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                        Subject <span className="text-red-500">*</span>
+                      </label>
+                      <Input 
+                        name="subject"
+                        value={formData.subject}
+                        onChange={handleChange}
+                        placeholder="How can we help you?" 
+                        required
+                      />
+                    </div>
+                    
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                        Message <span className="text-red-500">*</span>
+                      </label>
+                      <Textarea 
+                        name="message"
+                        value={formData.message}
+                        onChange={handleChange}
+                        placeholder="Tell us more about your project..."
+                        rows={6}
+                        required
+                      />
+                    </div>
+                    
+                    <Button 
+                      type="submit"
+                      size="lg" 
+                      className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white"
+                      disabled={isSubmitting}
+                    >
+                      {isSubmitting ? 'Sending...' : 'Send Message'}
                     </Button>
                   </form>
                 </CardContent>

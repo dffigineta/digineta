@@ -1,17 +1,21 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, Search, ChevronDown, ArrowRight } from 'lucide-react'
 import { navigation } from '@/lib/constants'
 import { cn } from '@/lib/utils'
 
 export default function Header() {
+  const router = useRouter()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
   const [activeSubmenu, setActiveSubmenu] = useState<string | null>(null)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
+  const [searchQuery, setSearchQuery] = useState('')
+  const [searchResults, setSearchResults] = useState<Array<{label: string, href: string}>>([])
 
   const handleDropdownEnter = (label: string) => {
     setActiveDropdown(label)
@@ -20,6 +24,51 @@ export default function Header() {
   const handleDropdownLeave = () => {
     setActiveDropdown(null)
     setActiveSubmenu(null)
+  }
+
+  // Search functionality
+  useEffect(() => {
+    if (searchQuery.trim().length < 2) {
+      setSearchResults([])
+      return
+    }
+
+    const results: Array<{label: string, href: string}> = []
+    const query = searchQuery.toLowerCase()
+
+    // Search through navigation items
+    navigation.forEach((item) => {
+      if (item.label.toLowerCase().includes(query)) {
+        results.push({ label: item.label, href: item.href })
+      }
+      
+      if (item.children) {
+        item.children.forEach((child) => {
+          if (child.label.toLowerCase().includes(query)) {
+            results.push({ label: `${item.label} > ${child.label}`, href: child.href })
+          }
+          
+          if (child.children) {
+            child.children.forEach((gchild) => {
+              if (gchild.label.toLowerCase().includes(query)) {
+                results.push({ label: `${item.label} > ${child.label} > ${gchild.label}`, href: gchild.href })
+              }
+            })
+          }
+        })
+      }
+    })
+
+    setSearchResults(results.slice(0, 8)) // Limit to 8 results
+  }, [searchQuery])
+
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault()
+    if (searchResults.length > 0) {
+      router.push(searchResults[0].href)
+      setIsSearchOpen(false)
+      setSearchQuery('')
+    }
   }
 
   return (
@@ -180,14 +229,44 @@ export default function Header() {
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     exit={{ opacity: 0, scale: 0.95 }}
-                    className="absolute right-0 top-full mt-2 w-72 sm:w-80 bg-white rounded-xl shadow-2xl border border-gray-100 p-3 sm:p-4 z-50"
+                    className="absolute right-0 top-full mt-2 w-72 sm:w-96 bg-white rounded-xl shadow-2xl border border-gray-100 z-50"
                   >
-                    <input
-                      type="text"
-                      placeholder="Search maritime topics..."
-                      className="w-full px-3 sm:px-4 py-2 text-sm sm:text-base border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      autoFocus
-                    />
+                    <form onSubmit={handleSearchSubmit} className="p-3 sm:p-4">
+                      <input
+                        type="text"
+                        placeholder="Search maritime topics..."
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                        className="w-full px-3 sm:px-4 py-2 text-sm sm:text-base border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                        autoFocus
+                      />
+                    </form>
+                    
+                    {searchResults.length > 0 && (
+                      <div className="border-t border-gray-100 max-h-80 overflow-y-auto">
+                        {searchResults.map((result, index) => (
+                          <Link
+                            key={index}
+                            href={result.href}
+                            onClick={() => {
+                              setIsSearchOpen(false)
+                              setSearchQuery('')
+                            }}
+                            className="block px-4 py-3 hover:bg-blue-50 transition-colors border-b border-gray-50 last:border-b-0"
+                          >
+                            <div className="text-sm text-gray-700 hover:text-blue-600 font-medium">
+                              {result.label}
+                            </div>
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                    
+                    {searchQuery.trim().length >= 2 && searchResults.length === 0 && (
+                      <div className="px-4 py-6 text-center text-gray-500 text-sm border-t border-gray-100">
+                        No results found for &quot;{searchQuery}&quot;
+                      </div>
+                    )}
                   </motion.div>
                 )}
               </AnimatePresence>

@@ -1,6 +1,9 @@
+'use client'
+
 import { PageContent } from '@/types'
 import { Button } from '@/components/ui/Button'
 import { Printer, Mail } from 'lucide-react'
+import { useState } from 'react'
 
 interface HeroProps {
   content: PageContent
@@ -13,6 +16,21 @@ export default function Hero({
   showBreadcrumbs = true, 
   showActions = true 
 }: HeroProps) {
+  const [emailSent, setEmailSent] = useState(false)
+
+  const handlePrint = () => {
+    window.print()
+  }
+
+  const handleEmailToFriend = () => {
+    const subject = encodeURIComponent(`Check out: ${content.title}`)
+    const body = encodeURIComponent(
+      `I thought you might be interested in this page:\n\n${content.title}\n\n${window.location.href}\n\n${content.description || ''}`
+    )
+    window.location.href = `mailto:?subject=${subject}&body=${body}`
+    setEmailSent(true)
+    setTimeout(() => setEmailSent(false), 3000)
+  }
   return (
     <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16 relative overflow-hidden">
       {/* Background Pattern */}
@@ -56,6 +74,7 @@ export default function Hero({
                 size="lg" 
                 variant="secondary"
                 className="flex items-center space-x-2"
+                onClick={handlePrint}
               >
                 <Printer className="w-4 h-4" />
                 <span>Print this page</span>
@@ -64,9 +83,10 @@ export default function Hero({
                 size="lg" 
                 variant="outline" 
                 className="border-white text-white hover:bg-white hover:text-blue-600 flex items-center space-x-2"
+                onClick={handleEmailToFriend}
               >
                 <Mail className="w-4 h-4" />
-                <span>Email to a friend</span>
+                <span>{emailSent ? 'Email client opened!' : 'Email to a friend'}</span>
               </Button>
             </div>
           )}
