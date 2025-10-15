@@ -94,7 +94,7 @@ export default function PeoplePage() {
                     <div className="flex flex-col items-center text-center">
                       <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 border-4 border-blue-500 shadow-lg">
                         <Image
-                          src="/rameshSinghal2.jpg"
+                          src="/RameshSinghal2.jpg"
                           alt="Ramesh Singhal"
                           width={128}
                           height={128}
