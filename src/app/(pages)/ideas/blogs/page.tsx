@@ -3,10 +3,12 @@
 import { motion } from 'framer-motion'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
-import { Calendar, User } from 'lucide-react'
+import { Calendar, User, ArrowRight } from 'lucide-react'
+import Link from 'next/link'
 
 const blogs = [
   {
+    id: 'maritime-industry-trends-2025',
     title: 'Maritime Industry Trends for 2025',
     excerpt: 'Exploring the latest trends and developments shaping the maritime sector including digitalization, sustainability initiatives, and emerging technologies.',
     author: 'Dr. Ramesh Singhal',
@@ -14,6 +16,7 @@ const blogs = [
     tags: ['Trends', 'Industry', 'Analysis']
   },
   {
+    id: 'future-of-port-automation',
     title: 'The Future of Port Automation',
     excerpt: 'How automation and AI are revolutionizing port operations, improving efficiency, and reducing costs across global maritime terminals.',
     author: 'Sarah Johnson',
@@ -21,6 +24,7 @@ const blogs = [
     tags: ['Automation', 'Technology', 'Ports']
   },
   {
+    id: 'sustainable-shipping-practices',
     title: 'Sustainable Shipping Practices',
     excerpt: 'Environmental considerations and green technologies in modern maritime operations, including alternative fuels and emission reduction strategies.',
     author: 'Michael Chen',
@@ -28,6 +32,7 @@ const blogs = [
     tags: ['Sustainability', 'Environment']
   },
   {
+    id: 'container-shipping-market-analysis',
     title: 'Container Shipping Market Analysis',
     excerpt: 'Deep dive into current container shipping market dynamics, freight rates, and future outlook for global trade.',
     author: 'Dr. Ramesh Singhal',
@@ -53,35 +58,41 @@ export default function BlogsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogs.map((blog, index) => (
               <motion.div
-                key={index}
+                key={blog.id}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
               >
-                <Card className="h-full border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-2">
-                  <CardHeader>
-                    <div className="flex flex-wrap gap-2 mb-3">
-                      {blog.tags.map((tag, idx) => (
-                        <Badge key={idx} className="bg-blue-100 text-blue-700">{tag}</Badge>
-                      ))}
-                    </div>
-                    <CardTitle className="text-xl">{blog.title}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-gray-600 mb-4">{blog.excerpt}</p>
-                    <div className="flex items-center justify-between text-sm text-gray-500">
-                      <div className="flex items-center">
-                        <User className="w-4 h-4 mr-1" />
-                        {blog.author}
+                <Link href={`/ideas/blogs/${blog.id}`}>
+                  <Card className="h-full border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-2 cursor-pointer group">
+                    <CardHeader>
+                      <div className="flex flex-wrap gap-2 mb-3">
+                        {blog.tags.map((tag, idx) => (
+                          <Badge key={idx} className="bg-blue-100 text-blue-700">{tag}</Badge>
+                        ))}
                       </div>
-                      <div className="flex items-center">
-                        <Calendar className="w-4 h-4 mr-1" />
-                        {blog.date}
+                      <CardTitle className="text-xl group-hover:text-blue-600 transition-colors">{blog.title}</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-gray-600 mb-4">{blog.excerpt}</p>
+                      <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
+                        <div className="flex items-center">
+                          <User className="w-4 h-4 mr-1" />
+                          {blog.author}
+                        </div>
+                        <div className="flex items-center">
+                          <Calendar className="w-4 h-4 mr-1" />
+                          {blog.date}
+                        </div>
                       </div>
-                    </div>
-                  </CardContent>
-                </Card>
+                      <div className="flex items-center text-blue-600 text-sm font-medium group-hover:text-blue-700">
+                        <span>Read Full Article</span>
+                        <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
               </motion.div>
             ))}
           </div>
