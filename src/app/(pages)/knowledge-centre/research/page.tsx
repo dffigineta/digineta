@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { Card, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
-import { FileText, Download, Printer, Mail } from 'lucide-react'
+import { FileText, Download} from 'lucide-react'
 
 const researchReports = [
   {
@@ -27,7 +27,7 @@ export default function ResearchPage() {
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 md:mb-6">Maritime Industry Analysis & Research</h1>
                 <p className="text-lg sm:text-xl text-blue-100">Comprehensive research reports and industry analysis</p>
               </div>
-              <div className="flex flex-col sm:flex-row gap-3 lg:gap-4">
+              {/* <div className="flex flex-col sm:flex-row gap-3 lg:gap-4">
                 <Button variant="outline" size="sm" className="text-white border-white hover:bg-white hover:text-blue-900 text-sm">
                   <Printer className="w-4 h-4 mr-2" />
                   <span className="hidden sm:inline">Print this page</span>
@@ -38,7 +38,7 @@ export default function ResearchPage() {
                   <span className="hidden sm:inline">Email to a friend</span>
                   <span className="sm:hidden">Email</span>
                 </Button>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>

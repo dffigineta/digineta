@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 
@@ -91,8 +92,14 @@ export default function PeoplePage() {
                 <Card className="h-full border-0 shadow-xl hover:shadow-2xl transition-all">
                   <CardHeader>
                     <div className="flex flex-col items-center text-center">
-                      <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <span className="text-white text-4xl font-bold">RS</span>
+                      <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 border-4 border-blue-500 shadow-lg">
+                        <Image
+                          src="/rameshSinghal2.jpg"
+                          alt="Ramesh Singhal"
+                          width={128}
+                          height={128}
+                          className="w-full h-full object-cover"
+                        />
                       </div>
                       <CardTitle className="text-xl mb-2">Ramesh Singhal</CardTitle>
                       <p className="text-blue-600 font-semibold">B.Tech, Naval Architecture, IIT Madras and MBA, IIM Bangalore</p>
@@ -116,8 +123,14 @@ export default function PeoplePage() {
                 <Card className="h-full border-0 shadow-xl hover:shadow-2xl transition-all">
                   <CardHeader>
                     <div className="flex flex-col items-center text-center">
-                      <div className="w-32 h-32 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-6">
-                        <span className="text-white text-4xl font-bold">VN</span>
+                      <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 border-4 border-purple-500 shadow-lg">
+                        <Image
+                          src="/Vishram-250x300.jpg"
+                          alt="Vishram Naniwadekar"
+                          width={128}
+                          height={128}
+                          className="w-full h-full object-cover"
+                        />
                       </div>
                       <CardTitle className="text-xl mb-2">Vishram Naniwadekar</CardTitle>
                       <p className="text-purple-600 font-semibold">B. Tech, IIT Madras and MBA, IIM Calcutta</p>

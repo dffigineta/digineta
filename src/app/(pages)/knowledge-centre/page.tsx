@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { FileText, Database, BookOpen, TrendingUp, ArrowRight } from 'lucide-react'
@@ -65,16 +66,32 @@ export default function KnowledgeCentrePage() {
       {/* Hero */}
       <section className="relative py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white">
         <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="max-w-3xl"
-          >
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Knowledge Centre</h1>
-            <p className="text-xl text-blue-100">
-              Access comprehensive maritime industry research, data, and insights
-            </p>
-          </motion.div>
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="max-w-3xl"
+            >
+              <h1 className="text-5xl md:text-6xl font-bold mb-6">Knowledge Centre</h1>
+              <p className="text-xl text-blue-100">
+                Access comprehensive maritime industry research, data, and insights
+              </p>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="flex justify-center lg:justify-end"
+            >
+              <Image
+                src="/i-kc.gif"
+                alt="Knowledge Centre"
+                width={400}
+                height={300}
+                className="rounded-lg shadow-2xl"
+              />
+            </motion.div>
+          </div>
         </div>
       </section>
 
