@@ -1,11 +1,11 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
-import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
-import { Anchor, TrendingUp, MapPin, FileText, Users, Target, Building } from 'lucide-react'
+import { Anchor, TrendingUp, Users, Building } from 'lucide-react'
 
 const benefits = [
   {
@@ -268,12 +268,14 @@ export default function PortsTerminalsPage() {
               Partner with India&apos;s leading port consultants to optimize your port infrastructure 
               and maximize operational efficiency.
             </p>
-            <Button 
-              size="lg" 
-              className="bg-white text-blue-900 hover:bg-blue-50 font-semibold px-8 py-4"
-            >
-              Get Expert Consultation
-            </Button>
+            <Link href="/contact">
+              <Button 
+                size="lg" 
+                className="bg-white text-blue-900 hover:bg-blue-50 font-semibold px-8 py-4"
+              >
+                Get Expert Consultation
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>

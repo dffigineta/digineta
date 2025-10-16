@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -323,12 +324,14 @@ export default function ShippingPage() {
               Partner with India&apos;s leading shipping consultants to optimize your fleet operations, 
               identify investment opportunities, and navigate market challenges.
             </p>
-            <Button 
-              size="lg" 
-              className="bg-white text-purple-900 hover:bg-purple-50 font-semibold px-8 py-4"
-            >
-              Get Expert Consultation
-            </Button>
+            <Link href="/contact">
+              <Button 
+                size="lg" 
+                className="bg-white text-purple-900 hover:bg-purple-50 font-semibold px-8 py-4"
+              >
+                Get Expert Consultation
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>

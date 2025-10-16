@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -329,12 +330,14 @@ export default function EquityResearchPage() {
               Partner with our equity research experts to identify value opportunities 
               and make informed investment decisions in maritime markets.
             </p>
-            <Button 
-              size="lg" 
-              className="bg-white text-violet-900 hover:bg-violet-50 font-semibold px-8 py-4"
-            >
-              Request Research Report
-            </Button>
+            <Link href="/contact">
+              <Button 
+                size="lg" 
+                className="bg-white text-violet-900 hover:bg-violet-50 font-semibold px-8 py-4"
+              >
+                Request Research Report
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>

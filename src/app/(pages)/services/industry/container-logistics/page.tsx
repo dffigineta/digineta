@@ -1,11 +1,11 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
-import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
-import { Container, TrendingUp, MapPin, Truck, Warehouse, Ship, Package } from 'lucide-react'
+import { Container, TrendingUp, MapPin, Warehouse, Package } from 'lucide-react'
 
 const benefits = [
   {
@@ -310,12 +310,14 @@ export default function ContainerLogisticsPage() {
               Partner with India&apos;s leading container logistics consultants to streamline your supply chain, 
               optimize warehouse operations, and reduce logistics costs.
             </p>
-            <Button 
-              size="lg" 
-              className="bg-white text-orange-900 hover:bg-orange-50 font-semibold px-8 py-4"
-            >
-              Get Expert Consultation
-            </Button>
+            <Link href="/contact">
+              <Button 
+                size="lg" 
+                className="bg-white text-orange-900 hover:bg-orange-50 font-semibold px-8 py-4"
+              >
+                Get Expert Consultation
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>

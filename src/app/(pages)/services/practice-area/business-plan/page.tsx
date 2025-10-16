@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -345,12 +346,14 @@ export default function BusinessPlanPage() {
               Partner with our business planning experts to create compelling, 
               investor-ready business plans that drive growth and success in the maritime industry.
             </p>
-            <Button 
-              size="lg" 
-              className="bg-white text-emerald-900 hover:bg-emerald-50 font-semibold px-8 py-4"
-            >
-              Start Your Business Plan
-            </Button>
+            <Link href="/contact">
+              <Button 
+                size="lg" 
+                className="bg-white text-emerald-900 hover:bg-emerald-50 font-semibold px-8 py-4"
+              >
+                Start Your Business Plan
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>

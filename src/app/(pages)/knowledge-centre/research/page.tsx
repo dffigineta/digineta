@@ -102,11 +102,27 @@ export default function ResearchPage() {
                       </div>
                       
                       <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 mt-6">
-                        <Button className="bg-blue-600 hover:bg-blue-700 text-white text-sm sm:text-base">
+                        <Button 
+                          className="bg-blue-600 hover:bg-blue-700 text-white text-sm sm:text-base"
+                          onClick={() => {
+                            // Create a temporary link to download the report
+                            const link = document.createElement('a');
+                            link.href = '/reports/india-maritime-report.pdf'; // You can replace with actual report URL
+                            link.download = 'India Maritime Report.pdf';
+                            link.click();
+                          }}
+                        >
                           <Download className="w-4 h-4 mr-2" />
                           Download Report
                         </Button>
-                        <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50 text-sm sm:text-base">
+                        <Button 
+                          variant="outline" 
+                          className="border-blue-600 text-blue-600 hover:bg-blue-50 text-sm sm:text-base"
+                          onClick={() => {
+                            // Open summary in a new window/modal
+                            window.open('/reports/india-maritime-summary.pdf', '_blank');
+                          }}
+                        >
                           <FileText className="w-4 h-4 mr-2" />
                           View Summary
                         </Button>

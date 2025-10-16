@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -334,12 +335,14 @@ export default function ShipbuildingPage() {
               Partner with India&apos;s leading shipyard consultants to develop world-class shipbuilding 
               facilities and optimize your ship repair operations.
             </p>
-            <Button 
-              size="lg" 
-              className="bg-white text-green-900 hover:bg-green-50 font-semibold px-8 py-4"
-            >
-              Get Expert Consultation
-            </Button>
+            <Link href="/contact">
+              <Button 
+                size="lg" 
+                className="bg-white text-green-900 hover:bg-green-50 font-semibold px-8 py-4"
+              >
+                Get Expert Consultation
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>

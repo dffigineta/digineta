@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -340,12 +341,14 @@ export default function MAAdvisoryPage() {
               Partner with our M&A advisory experts to identify opportunities, structure deals, 
               and execute successful transactions in the maritime industry.
             </p>
-            <Button 
-              size="lg" 
-              className="bg-white text-indigo-900 hover:bg-indigo-50 font-semibold px-8 py-4"
-            >
-              Discuss M&A Opportunities
-            </Button>
+            <Link href="/contact">
+              <Button 
+                size="lg" 
+                className="bg-white text-indigo-900 hover:bg-indigo-50 font-semibold px-8 py-4"
+              >
+                Discuss M&A Opportunities
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>

@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -330,12 +331,14 @@ export default function InfrastructureFinancePage() {
               Partner with our infrastructure finance experts to secure optimal funding 
               solutions for your maritime infrastructure projects and achieve financial success.
             </p>
-            <Button 
-              size="lg" 
-              className="bg-white text-sky-900 hover:bg-sky-50 font-semibold px-8 py-4"
-            >
-              Discuss Financing Options
-            </Button>
+            <Link href="/contact">
+              <Button 
+                size="lg" 
+                className="bg-white text-sky-900 hover:bg-sky-50 font-semibold px-8 py-4"
+              >
+                Discuss Financing Options
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>

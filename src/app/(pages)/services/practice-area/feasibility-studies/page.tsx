@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -341,12 +342,14 @@ export default function FeasibilityStudiesPage() {
               Get comprehensive feasibility analysis to ensure your maritime project 
               investment is sound and aligned with market opportunities.
             </p>
-            <Button 
-              size="lg" 
-              className="bg-white text-teal-900 hover:bg-teal-50 font-semibold px-8 py-4"
-            >
-              Request Feasibility Study
-            </Button>
+            <Link href="/contact">
+              <Button 
+                size="lg" 
+                className="bg-white text-teal-900 hover:bg-teal-50 font-semibold px-8 py-4"
+              >
+                Request Feasibility Study
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>

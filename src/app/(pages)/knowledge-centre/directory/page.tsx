@@ -1,10 +1,12 @@
 'use client'
 
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Card, CardContent, CardHeader } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Users, Building, Mail, Phone, MapPin, ExternalLink, ChevronLeft, ChevronRight, UserPlus } from 'lucide-react'
+import RegistrationModal from '@/components/RegistrationModal'
 
 const directoryMembers = [
   {
@@ -30,6 +32,14 @@ const categories = [
 ]
 
 export default function DirectoryPage() {
+  const [isRegistrationModalOpen, setIsRegistrationModalOpen] = useState(false)
+  const [registrationType, setRegistrationType] = useState<'individual' | 'company'>('individual')
+
+  const openRegistrationModal = (type: 'individual' | 'company') => {
+    setRegistrationType(type)
+    setIsRegistrationModalOpen(true)
+  }
+
   return (
     <div className="min-h-screen">
       <section className="relative py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white">
@@ -40,7 +50,10 @@ export default function DirectoryPage() {
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6">Maritime Directory</h1>
                 <p className="text-lg sm:text-xl text-blue-100">Our efforts have been to create an exhaustive directory of maritime and related industry.</p>
               </div>
-              <Button className="bg-white text-blue-900 hover:bg-gray-100 text-sm sm:text-base">
+              <Button 
+                className="bg-white text-blue-900 hover:bg-gray-100 text-sm sm:text-base"
+                onClick={() => openRegistrationModal('individual')}
+              >
                 <UserPlus className="w-4 h-4 mr-2" />
                 Register Yourself
               </Button>
@@ -200,7 +213,11 @@ export default function DirectoryPage() {
                     Register your company in our comprehensive maritime directory and connect with industry professionals, 
                     potential clients, and business partners across the maritime sector.
                   </p>
-                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-sm sm:text-base">
+                  <Button 
+                    size="lg" 
+                    className="bg-blue-600 hover:bg-blue-700 text-sm sm:text-base"
+                    onClick={() => openRegistrationModal('company')}
+                  >
                     <UserPlus className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                     Register Your Company
                   </Button>
@@ -210,6 +227,13 @@ export default function DirectoryPage() {
           </div>
         </div>
       </section>
+
+      {/* Registration Modal */}
+      <RegistrationModal
+        isOpen={isRegistrationModalOpen}
+        onClose={() => setIsRegistrationModalOpen(false)}
+        type={registrationType}
+      />
     </div>
   )
 }

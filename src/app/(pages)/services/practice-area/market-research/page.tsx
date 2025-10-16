@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -328,12 +329,14 @@ export default function MarketResearchPage() {
               Partner with our market research experts to gain competitive intelligence 
               and make data-driven decisions for your maritime business.
             </p>
-            <Button 
-              size="lg" 
-              className="bg-white text-indigo-900 hover:bg-indigo-50 font-semibold px-8 py-4"
-            >
-              Request Market Research
-            </Button>
+            <Link href="/contact">
+              <Button 
+                size="lg" 
+                className="bg-white text-indigo-900 hover:bg-indigo-50 font-semibold px-8 py-4"
+              >
+                Request Market Research
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>

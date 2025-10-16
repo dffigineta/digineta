@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Badge } from '@/components/ui/Badge'
@@ -329,12 +330,14 @@ export default function TechnicalDesignPage() {
               Partner with our technical design experts to create innovative, efficient, 
               and compliant maritime infrastructure solutions.
             </p>
-            <Button 
-              size="lg" 
-              className="bg-white text-rose-900 hover:bg-rose-50 font-semibold px-8 py-4"
-            >
-              Discuss Design Requirements
-            </Button>
+            <Link href="/contact">
+              <Button 
+                size="lg" 
+                className="bg-white text-rose-900 hover:bg-rose-50 font-semibold px-8 py-4"
+              >
+                Discuss Design Requirements
+              </Button>
+            </Link>
           </motion.div>
         </div>
       </section>
