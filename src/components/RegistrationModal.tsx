@@ -4,8 +4,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
-import { Badge } from '@/components/ui/Badge'
-import { X, UserPlus, Building, Mail, Phone, MapPin, Globe, FileText } from 'lucide-react'
+import { X, UserPlus } from 'lucide-react'
 
 interface RegistrationModalProps {
   isOpen: boolean
@@ -89,7 +88,7 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
             transition={{ duration: 0.2 }}
             className="w-full max-w-4xl max-h-[90vh] overflow-y-auto"
           >
-            <Card className="border-0 shadow-2xl">
+            <Card className="border-0 shadow-2xl bg-white">
               <CardHeader className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3">
@@ -127,7 +126,7 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                           value={formData.name}
                           onChange={handleInputChange}
                           required
-                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
                           placeholder="Enter your full name"
                         />
                       </div>
@@ -142,7 +141,7 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                           value={formData.companyName}
                           onChange={handleInputChange}
                           required
-                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
                           placeholder="Enter company name"
                         />
                       </div>
@@ -156,7 +155,7 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                           value={formData.companyDescription}
                           onChange={handleInputChange}
                           rows={3}
-                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
                           placeholder="Brief description of your company"
                         />
                       </div>
@@ -171,7 +170,7 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                           onChange={handleInputChange}
                           required
                           rows={3}
-                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
                           placeholder="Enter complete address"
                         />
                       </div>
@@ -185,7 +184,7 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                           name="website"
                           value={formData.website}
                           onChange={handleInputChange}
-                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
                           placeholder="https://www.example.com"
                         />
                       </div>
@@ -200,7 +199,7 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                           value={formData.email}
                           onChange={handleInputChange}
                           required
-                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
                           placeholder="Enter email address"
                         />
                       </div>
@@ -216,7 +215,7 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                             value={formData.telephone}
                             onChange={handleInputChange}
                             required
-                            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
                             placeholder="Enter phone number"
                           />
                         </div>
@@ -229,7 +228,7 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                             name="fax"
                             value={formData.fax}
                             onChange={handleInputChange}
-                            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
                             placeholder="Enter fax number"
                           />
                         </div>
@@ -242,9 +241,9 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                         <label className="block text-sm font-medium text-gray-700 mb-3">
                           Select Category *
                         </label>
-                        <div className="space-y-2 max-h-60 overflow-y-auto">
+                        <div className="space-y-2 max-h-60 overflow-y-auto bg-gray-50 p-3 rounded-md">
                           {categories.map((category, index) => (
-                            <label key={index} className="flex items-center space-x-3 cursor-pointer">
+                            <label key={index} className="flex items-center space-x-3 cursor-pointer hover:bg-gray-100 p-2 rounded">
                               <input
                                 type="radio"
                                 name="category"

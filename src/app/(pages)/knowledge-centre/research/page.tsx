@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { Card, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
-import { FileText, Download} from 'lucide-react'
+import { Download} from 'lucide-react'
 
 const researchReports = [
   {
@@ -115,7 +115,7 @@ export default function ResearchPage() {
                           <Download className="w-4 h-4 mr-2" />
                           Download Report
                         </Button>
-                        <Button 
+                        {/* <Button 
                           variant="outline" 
                           className="border-blue-600 text-blue-600 hover:bg-blue-50 text-sm sm:text-base"
                           onClick={() => {
@@ -125,7 +125,7 @@ export default function ResearchPage() {
                         >
                           <FileText className="w-4 h-4 mr-2" />
                           View Summary
-                        </Button>
+                        </Button> */}
                       </div>
                     </CardHeader>
                   </Card>
