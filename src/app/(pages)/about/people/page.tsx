@@ -10,16 +10,19 @@ export default function PeoplePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white">
+      <section className="relative py-20 bg-gradient-to-br from-[#B31942] via-[#002147] to-[#00152e] text-white">
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <nav className="text-sm text-blue-200 mb-4">
+            <nav className="text-sm text-white/70 mb-4">
               <Link href="/about" className="hover:text-white">About Us</Link>
               <span className="mx-2">›</span>
-              <span className="text-white">People</span>
+              <span className="text-white">Leadership &amp; Network</span>
             </nav>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Key People</h1>
-            <p className="text-xl text-blue-100">Meet our team of maritime experts</p>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">Leadership &amp; Network</h1>
+            <p className="text-xl text-white/80 max-w-2xl">
+              A distributed leadership, data, and field network that turns political intent into
+              operational reality across campaigns and governance programs.
+            </p>
           </motion.div>
         </div>
       </section>
@@ -36,8 +39,10 @@ export default function PeoplePage() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <p className="text-lg text-gray-600 leading-relaxed">
-                i-maritime comprises professionals with diverse functional skills in areas like maritime, international trade, corporate finance advisory, marketing, human resources, logistics and supply chain management.
+              <p className="text-lg text-black leading-relaxed">
+                Digineta brings together campaign strategists, data scientists, technologists and
+                on-ground organisers. Our network stretches from national war rooms to booth-level
+                coordinators and issue experts.
               </p>
             </motion.section>
 
@@ -48,41 +53,32 @@ export default function PeoplePage() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">A mix of experience and youthful dynamism</h2>
-              <p className="text-gray-600 leading-relaxed">
-                We believe that experienced professionals provide the necessary knowledge, experience and pragmatism. We also believe that youthful dynamism contributes vitally due to their drive, out-of-the-box thinking and their ease with modern advancements.
+              <h2 className="text-2xl font-bold text-black mb-4">A mix of experience and youthful dynamism</h2>
+              <p className="text-black leading-relaxed">
+                Senior political practitioners provide judgement and context. Younger leaders bring
+                digital fluency, on-ground energy and comfort with experimentation. We intentionally
+                design teams that combine both.
               </p>
             </motion.section>
 
-            {/* Profile of a Business Analyst */}
+            {/* Profiles */}
             <motion.section
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Profile of a Business Analyst</h2>
-              <p className="text-gray-600 leading-relaxed">
-                A typical i-maritime Analyst is an MBA-technocrat from IIT-IIM-ISB. They work alongside technically experienced professionals from Navy, Shipping etc.
-              </p>
-            </motion.section>
-
-            {/* Profile of an Associate */}
-            <motion.section
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Profile of an Associate</h2>
-              <p className="text-gray-600 leading-relaxed">
-                i-maritime has a team of specialized experts from maritime industry and academics who work on project basis to bring in the expertise, management principles and domain knowledge.
+              <h2 className="text-2xl font-bold text-black mb-4">Who makes Digineta work</h2>
+              <p className="text-black leading-relaxed">
+                Behind every engagement is a cross-functional team – people who understand party
+                structures, constitutional offices and campaign realities as deeply as they understand
+                dashboards and field apps.
               </p>
             </motion.section>
 
             {/* Key People Profiles */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {/* Ramesh Singhal */}
+              {/* Campaign Strategy Lead */}
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -92,28 +88,22 @@ export default function PeoplePage() {
                 <Card className="h-full border-0 shadow-xl hover:shadow-2xl transition-all">
                   <CardHeader>
                     <div className="flex flex-col items-center text-center">
-                      <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 border-4 border-blue-500 shadow-lg">
-                        <Image
-                          src="/RameshSinghal2.jpg"
-                          alt="Ramesh Singhal"
-                          width={128}
-                          height={128}
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                      <CardTitle className="text-xl mb-2">Ramesh Singhal</CardTitle>
-                      <p className="text-blue-600 font-semibold">B.Tech, Naval Architecture, IIT Madras and MBA, IIM Bangalore</p>
+                      <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 border-4 border-[#B31942] shadow-lg bg-[#002147]/20"></div>
+                      <CardTitle className="text-xl mb-2">Campaign Strategy Lead</CardTitle>
+                      <p className="text-black font-semibold">National and state election strategy, narrative and coalition design</p>
                     </div>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-600 leading-relaxed">
-                      Mr. Ramesh Singhal is the CEO of i-maritime Consultancy and is one of the pioneers of marine consulting in India. He has led more than 450 consulting studies in the maritime sector including leading domestic, international business conglomerates, maritime companies, financial institutions, banks and private equity investors. He works on a wide spectrum of verticals within the maritime sector including ports, shipping, shipbuilding, offshore and logistics sectors.
+                    <p className="text-black leading-relaxed">
+                      Leads cross-state political strategy for campaigns and governance programs.
+                      Works closely with party leadership and senior office-bearers to clarify goals,
+                      design winning paths and keep the organisation aligned through the cycle.
                     </p>
                   </CardContent>
                 </Card>
               </motion.div>
 
-              {/* Vishram Naniwadekar */}
+              {/* Data & Insights Director */}
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -123,22 +113,16 @@ export default function PeoplePage() {
                 <Card className="h-full border-0 shadow-xl hover:shadow-2xl transition-all">
                   <CardHeader>
                     <div className="flex flex-col items-center text-center">
-                      <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 border-4 border-purple-500 shadow-lg">
-                        <Image
-                          src="/Vishram-250x300.jpg"
-                          alt="Vishram Naniwadekar"
-                          width={128}
-                          height={128}
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                      <CardTitle className="text-xl mb-2">Vishram Naniwadekar</CardTitle>
-                      <p className="text-purple-600 font-semibold">B. Tech, IIT Madras and MBA, IIM Calcutta</p>
+                      <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 border-4 border-[#002147] shadow-lg bg-[#B31942]/20"></div>
+                      <CardTitle className="text-xl mb-2">Data &amp; Insights Director</CardTitle>
+                      <p className="text-black font-semibold">Polling, sentiment intelligence and decision dashboards</p>
                     </div>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-600 leading-relaxed">
-                      Mr. Vishram Naniwadkar, working as Corporate Advisor of i-maritime Consultancy is Co-founder of AppLabs, a 1000 people strong software firm; Presently an IT Advisor for several IT Firms and Government organizations across India, US, Europe and South-East Asia.
+                    <p className="text-black leading-relaxed">
+                      Designs the data backbone for campaigns and governance programs – integrating
+                      voter files, surveys, digital signals and on-ground reports into simple stories
+                      that leaders can act on.
                     </p>
                   </CardContent>
                 </Card>
@@ -149,7 +133,7 @@ export default function PeoplePage() {
           {/* Sidebar */}
           <div className="space-y-8">
             {/* Testimonials */}
-            <Card className="bg-gradient-to-br from-blue-900 to-blue-800 text-white border-0 shadow-2xl">
+            <Card className="bg-[#B31942] text-white border-0 shadow-2xl">
               <CardHeader>
                 <div className="flex items-center space-x-2 mb-4">
                   <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
@@ -161,12 +145,13 @@ export default function PeoplePage() {
               <CardContent>
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-semibold text-lg">Gulf Petrochem</h4>
-                    <p className="text-blue-200 text-sm">Himadri S. Roy</p>
-                    <p className="text-blue-200 text-sm">Financial Controller</p>
+                    <h4 className="font-semibold text-lg">National campaign team</h4>
+                    <p className="text-white/80 text-sm">Campaign Director</p>
                   </div>
-                  <blockquote className="text-blue-100 italic text-sm leading-relaxed">
-                    &ldquo;Gulf Petrochem FZC, UAE, had commissioned i-maritime Consultants Pvt. Ltd., Navi Mumbai, to carry out the Market Feasibility and Techno-Economic Validation studies for our upcoming 320,000 MT Bulk Liquid Storage & Handling Terminal at Pipavav Port, Gujarat. In this connection, we are happy to place on record our sincere appreciation to them for a job well done...&rdquo;
+                  <blockquote className="text-white/80 italic text-sm leading-relaxed">
+                    &ldquo;The Digineta team plugged directly into our structures – from war-room to booth.
+                    They brought discipline to our meetings and visibility into what was actually
+                    happening on the ground.&rdquo;
                   </blockquote>
                   <Link href="/about/testimonials">
                     <Button variant="outline" size="sm" className="border-white/20 text-white hover:bg-white/10">
@@ -178,7 +163,7 @@ export default function PeoplePage() {
             </Card>
 
             {/* Case Studies */}
-            <Card className="bg-gradient-to-br from-purple-900 to-purple-800 text-white border-0 shadow-2xl">
+            <Card className="bg-[#002147] text-white border-0 shadow-2xl">
               <CardHeader>
                 <div className="flex items-center space-x-2 mb-4">
                   <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
@@ -189,14 +174,14 @@ export default function PeoplePage() {
               </CardHeader>
               <CardContent>
                 <div className="space-y-3">
-                  <div className="text-purple-100 text-sm">
-                    Techno Economic Feasibility Study for setting a port at Colachel
+                  <div className="text-white/80 text-sm">
+                    Leadership coaching and decision frameworks for a Chief Minister&apos;s Office
                   </div>
-                  <div className="text-purple-100 text-sm">
-                    Multi Logistics Park in Ahmedabad
+                  <div className="text-white/80 text-sm">
+                    Rapid-response narrative and war-room setup for a national campaign
                   </div>
-                  <div className="text-purple-100 text-sm">
-                    Strategy Report for Indian Port sector
+                  <div className="text-white/80 text-sm">
+                    Network-building program for local leaders across urban wards
                   </div>
                   <Link href="/knowledge-centre/case-studies">
                     <Button variant="outline" size="sm" className="border-white/20 text-white hover:bg-white/10">

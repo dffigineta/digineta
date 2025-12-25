@@ -12,28 +12,28 @@ const knowledgeCenterItems = [
   {
     icon: FileText,
     title: 'Case Studies',
-    description: 'In-depth analysis of maritime projects and solutions',
+    description: 'Real campaign stories from across India',
     href: '/knowledge-centre/case-studies'
   },
   {
     icon: Database,
-    title: 'Infobank',
-    description: 'Comprehensive maritime data and information repository',
-    href: '/knowledge-centre/infobank'
+    title: 'Election Analytics',
+    description: 'Booth and village-level insights for your constituency',
+    href: '/knowledge-centre/databases'
   },
   {
     icon: Search,
-    title: 'Research',
-    description: 'Cutting-edge maritime research and analysis',
+    title: 'Research & Insights',
+    description: 'Daily political intelligence and issue tracking',
     href: '/knowledge-centre/research'
   }
 ]
 
 const stats = [
-  { icon: TrendingUp, value: '30+', label: 'Years Experience' },
-  { icon: Users, value: '100+', label: 'Clients Worldwide' },
-  { icon: Award, value: '200+', label: 'Projects Completed' },
-  { icon: Globe, value: '15+', label: 'Countries Served' }
+  { icon: TrendingUp, value: '5000+', label: 'Booths Analysed' },
+  { icon: Users, value: '200+', label: 'Leaders & Teams Served' },
+  { icon: Award, value: '50+', label: 'Election Campaigns Supported' },
+  { icon: Globe, value: '20+', label: 'States & UTs Covered' }
 ]
 
 const fadeInUp = {
@@ -54,7 +54,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 py-20">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#002147] via-[#003366] to-[#00152e] py-20">
         <div className="container mx-auto px-4 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -69,7 +69,7 @@ export default function HomePage() {
               className="mb-6"
             >
               <Badge className="bg-white/10 backdrop-blur-sm text-white border-white/20 px-4 py-2 text-sm">
-                India&apos;s Top Maritime, Port and Shipbuilding Consultant
+                India&apos;s Political Technology Venture
               </Badge>
             </motion.div>
             
@@ -79,9 +79,9 @@ export default function HomePage() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight"
             >
-              Welcome to
-              <span className="block bg-gradient-to-r from-cyan-400 to-blue-300 bg-clip-text text-transparent">
-                i-maritime
+              For Political Success
+              <span className="block text-[#B31942]">
+                in the Digital World
               </span>
             </motion.h1>
             
@@ -89,9 +89,9 @@ export default function HomePage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-xl md:text-2xl text-blue-100 mb-12 leading-relaxed max-w-4xl mx-auto"
+              className="text-xl md:text-2xl text-white mb-12 leading-relaxed max-w-4xl mx-auto"
             >
-              i-maritime has established itself in almost all consulting practices for maritime service industry. With matchless expertise, vast maritime knowledge and database, we provide quality consulting and research-based maritime services to a wide pool of Indian and international clients.
+              Digineta is India&apos;s dedicated political technology venture. We combine deep election data, powerful apps and full-funnel digital outreach to help political leaders, parties and organisations win and govern better in the digital age.
             </motion.p>
             
             <motion.div
@@ -101,14 +101,14 @@ export default function HomePage() {
               className="flex flex-col sm:flex-row gap-4 justify-center"
             >
               <Link href="/services">
-                <Button size="lg" className="bg-white text-blue-900 hover:bg-blue-50 text-lg px-8 py-6 group">
-                  Our Services
+                <Button size="lg" className="bg-[#B31942] text-white hover:bg-[#8F1333] text-lg px-8 py-6 group">
+                  Talk to Our Political Tech Team
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              <Link href="/about">
+              <Link href="/knowledge-centre/case-studies">
                 <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6">
-                  Read More About Us
+                  View Campaign Case Studies
                 </Button>
               </Link>
             </motion.div>
@@ -116,7 +116,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Maritime Services Section */}
+      {/* Platforms & Solutions Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -127,10 +127,10 @@ export default function HomePage() {
               transition={{ duration: 0.6 }}
               className="relative"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl transform rotate-3 opacity-10"></div>
+              <div className="absolute inset-0 bg-[#B31942] rounded-2xl transform rotate-3 opacity-10"></div>
               <Image
                 src="/home-i-img-services.png"
-                alt="Maritime Services"
+                alt="Digineta Platforms"
                 width={600}
                 height={400}
                 className="relative z-10 rounded-2xl shadow-2xl"
@@ -144,19 +144,19 @@ export default function HomePage() {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                Maritime Services
+                Platforms for Political Success
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                i-maritime&apos;s focus has been on consulting assignments covering the entire maritime industry and its related practice areas. i-maritime not only provides in-depth knowledge but also provides assessment and analysis that address the demands of the client. Our maritime services run deep in the following segments of maritime industry:
+                Digineta brings together a suite of political technology platforms designed for leaders at every level. From hyper-local visibility to national narrative control, our solutions are built for Indian politics.
               </p>
               
               <div className="space-y-4 mb-8">
                 {[
-                  'Ports and terminals',
-                  'Shipping',
-                  'Container Logistics and warehousing',
-                  'Shipbuilding and Ship repair',
-                  'Other maritime and port infrastructure'
+                  'Mahaneta – public profile & performance showcase',
+                  'Netabanner – one-stop promotion & poster engine',
+                  'Smart Apps – Sarpanch, Corporator, MLA/MP & more',
+                  'Voter Search & management tools',
+                  'Party, association and social group platforms'
                 ].map((item, index) => (
           <motion.div
                     key={index}
@@ -166,15 +166,15 @@ export default function HomePage() {
                     transition={{ duration: 0.4, delay: index * 0.1 }}
                     className="flex items-center space-x-3"
                   >
-                    <div className="w-2 h-2 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full"></div>
+                    <div className="w-2 h-2 bg-[#B31942] rounded-full"></div>
                     <span className="text-gray-700 font-medium">{item}</span>
           </motion.div>
                 ))}
               </div>
               
               <Link href="/services">
-                <Button className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-6 py-6 group sm:px-8 sm:py-4">
-                  More about port, maritime and shipping consulting services...
+                <Button className="bg-[#B31942] hover:bg-[#8F1333] text-white px-6 py-6 group sm:px-8 sm:py-4">
+                  Explore all Digineta platforms and solutions
                   <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
@@ -184,7 +184,7 @@ export default function HomePage() {
       </section>
 
       {/* Stats Section */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <motion.div
             variants={staggerContainer}
@@ -199,11 +199,11 @@ export default function HomePage() {
                 variants={fadeInUp}
                 className="text-center"
               >
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl mb-4">
+                <div className="inline-flex items-center justify-center w-16 h-16 bg-[#B31942] rounded-2xl mb-4">
                   <stat.icon className="w-8 h-8 text-white" />
           </div>
-                <div className="text-4xl font-bold text-gray-900 mb-2">{stat.value}</div>
-                <div className="text-gray-600">{stat.label}</div>
+                <div className="text-4xl font-bold text-black mb-2">{stat.value}</div>
+                <div className="text-black">{stat.label}</div>
               </motion.div>
             ))}
           </motion.div>
@@ -222,7 +222,7 @@ export default function HomePage() {
               transition={{ duration: 0.6 }}
               className="relative"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl transform rotate-2 opacity-10"></div>
+              <div className="absolute inset-0 bg-[#002147] rounded-2xl transform rotate-2 opacity-10"></div>
               <Card className="relative z-10 h-full bg-white/80 backdrop-blur-sm border-0 shadow-2xl">
                 <CardHeader>
                   <div className="flex items-center space-x-4 mb-4">
@@ -234,22 +234,22 @@ export default function HomePage() {
                       className="rounded-lg shadow-lg"
                     />
                     <div>
-                      <CardTitle className="text-2xl text-gray-900">Knowledge Centre</CardTitle>
+                      <CardTitle className="text-2xl text-gray-900">Political Intelligence & Knowledge Centre</CardTitle>
                     </div>
                   </div>
-                  <CardDescription className="text-lg text-gray-600 leading-relaxed">
-                    i-maritime takes a lot of physical and mental challenge to gather maritime data and convert this into information and subsequently knowledge.
+                  <CardDescription className="text-lg text-black leading-relaxed">
+                    Daily political updates, election data and campaign learnings curated for leaders, party teams and spokespersons across India.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-3">
                     {knowledgeCenterItems.map((item, index) => (
                       <Link key={index} href={item.href}>
-                        <div className="flex items-center space-x-3 p-3 rounded-lg hover:bg-blue-50 transition-colors group">
-                          <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center">
+                        <div className="flex items-center space-x-3 p-3 rounded-lg hover:bg-[#002147]/5 transition-colors group">
+                          <div className="w-8 h-8 bg-[#B31942] rounded-lg flex items-center justify-center">
                             <item.icon className="w-4 h-4 text-white" />
                           </div>
-                          <span className="text-gray-700 group-hover:text-blue-600 font-medium">{item.title}</span>
+                          <span className="text-black group-hover:text-black font-medium">{item.title}</span>
                         </div>
                       </Link>
                     ))}
@@ -266,7 +266,7 @@ export default function HomePage() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="relative"
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl transform -rotate-2 opacity-10"></div>
+              <div className="absolute inset-0 bg-[#B31942] rounded-2xl transform -rotate-2 opacity-10"></div>
               <Card className="relative z-10 h-full bg-white/80 backdrop-blur-sm border-0 shadow-2xl">
                 <CardHeader>
                   <div className="flex items-center space-x-4 mb-4">
@@ -284,18 +284,18 @@ export default function HomePage() {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-4 mb-6">
-                    <div className="flex items-center space-x-3 p-3 rounded-lg hover:bg-purple-50 transition-colors">
-                      <div className="w-2 h-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full"></div>
-                      <span className="text-gray-700 font-medium">India Port Report</span>
+                    <div className="flex items-center space-x-3 p-3 rounded-lg hover:bg-[#f3f2ff] transition-colors">
+                      <div className="w-2 h-2 bg-[#B31942] rounded-full"></div>
+                      <span className="text-black font-medium">Cross-party digital campaign for an urban constituency</span>
                     </div>
-                    <div className="flex items-center space-x-3 p-3 rounded-lg hover:bg-purple-50 transition-colors">
-                      <div className="w-2 h-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full"></div>
-                      <span className="text-gray-700 font-medium">Multi Logistics Park in Ahmedabad</span>
+                    <div className="flex items-center space-x-3 p-3 rounded-lg hover:bg-[#f3f2ff] transition-colors">
+                      <div className="w-2 h-2 bg-[#B31942] rounded-full"></div>
+                      <span className="text-black font-medium">Booth-level analytics strategy in a rural district</span>
                     </div>
                   </div>
                   <Link href="/knowledge-centre/case-studies">
-                    <Button variant="outline" className="border-purple-200 text-purple-600 hover:bg-purple-50 group">
-                      More...
+                    <Button variant="outline" className="border-[#002147]/30 text-[#002147] hover:bg-[#002147]/5 group">
+                      View all political case studies
                       <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </Button>
                   </Link>
@@ -307,7 +307,7 @@ export default function HomePage() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950">
+      <section className="py-20 bg-[#B31942]">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -318,24 +318,24 @@ export default function HomePage() {
           >
             <div className="text-center mb-12">
               <Badge className="bg-white/10 backdrop-blur-sm text-white border-white/20 px-4 py-2 text-sm mb-4">
-                Testimonials
+                Proof of Political Impact
               </Badge>
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">What Our Clients Say</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">What Leaders Say About Digineta</h2>
             </div>
             
-            <Card className="bg-white/95 backdrop-blur-sm border-0 shadow-2xl">
+            <Card className="bg-white border-0 shadow-2xl">
               <CardContent className="p-8">
                 <div className="text-center mb-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Gulf Petrochem</h3>
-                  <p className="text-blue-600 font-medium">Himadri S. Roy, Financial Controller</p>
-                      </div>
-                <blockquote className="text-lg text-gray-700 italic leading-relaxed text-center">
-                  &ldquo;Gulf Petrochem FZC, UAE, had commissioned i-maritime Consultants Pvt. Ltd., Navi Mumbai, to carry out the Market Feasibility and Techno-Economic Validation studies for our upcoming 320,000 MT Bulk Liquid Storage & Handling Terminal at Pipavav Port, Gujarat. In this connection, we are happy to place on record our sincere appreciation to them for a job well done...&rdquo;
+                  <h3 className="text-xl font-semibold text-black mb-2">Sitting MLA, Western India</h3>
+                  <p className="text-black font-medium">Name withheld, multi-term legislator</p>
+                </div>
+                <blockquote className="text-lg text-black italic leading-relaxed text-center">
+                  &ldquo;Digineta&apos;s team helped us turn scattered data into clear booth-level strategy. Their apps and digital communication support ensured that every message reached the right voter segment at the right time.&rdquo;
                 </blockquote>
                 <div className="text-center mt-6">
                   <Link href="/about/testimonials">
-                    <Button variant="outline" className="border-blue-200 text-blue-600 hover:bg-blue-50 group">
-                      More...
+                    <Button variant="outline" className="border-[#B31942]/30 text-[#B31942] hover:bg-white group">
+                      Read more leader testimonials
                       <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </Button>
                   </Link>
@@ -357,20 +357,20 @@ export default function HomePage() {
             className="text-center max-w-4xl mx-auto"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Ready to Partner with India&apos;s Leading Maritime Consultants?
+              Ready to Partner with India&apos;s Political Technology Venture?
           </h2>
             <p className="text-xl text-gray-600 mb-10">
-              While focusing solely on creating value for our client through deep understanding of the maritime industry and unique thinking, we stand as ideal choice as maritime consultant, shipbuilding consultant and port consultant.
+              From booth-level analytics to full-funnel digital communication, Digineta becomes your dedicated political technology partner for the next election and beyond.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">
-                <Button size="lg" className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white text-lg px-8 py-6">
-                  Get Started Today
+                <Button size="lg" className="bg-[#B31942] hover:bg-[#8F1333] text-white text-lg px-8 py-6">
+                  Schedule a Strategy Call
                 </Button>
               </Link>
-              <Link href="/about">
+              <Link href="/services">
                 <Button size="lg" variant="outline" className="border-gray-300 text-gray-700 hover:bg-gray-50 text-lg px-8 py-6">
-              Learn More About Us
+              Explore Services & Platforms
                 </Button>
               </Link>
           </div>

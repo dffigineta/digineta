@@ -60,16 +60,19 @@ export default function OnlineEnquiryPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white">
+      <section className="relative py-20 bg-gradient-to-br from-[#B31942] via-[#002147] to-[#00152e] text-white">
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <nav className="text-sm text-blue-200 mb-4">
+            <nav className="text-sm text-white/70 mb-4">
               <Link href="/about" className="hover:text-white">About Us</Link>
               <span className="mx-2">›</span>
-              <span className="text-white">Online Enquiry</span>
+              <span className="text-white">Partner with Digineta</span>
             </nav>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Online Enquiry</h1>
-            <p className="text-xl text-blue-100">Contact us for questions about our services, solutions, or i-maritime Consultancy Pvt. Ltd.</p>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">Partner with Digineta</h1>
+            <p className="text-xl text-white/80 max-w-2xl">
+              Share a few details about your campaign, organisation or governance program and our
+              team will get in touch.
+            </p>
           </motion.div>
         </div>
       </section>
@@ -85,13 +88,14 @@ export default function OnlineEnquiryPage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <p className="text-lg text-gray-600 leading-relaxed mb-4">
-              Please contact us if you have questions about our services, solutions, or i-maritime Consultancy Pvt. Ltd. 
-              The information provided will be used to route your request to the appropriate person for a faster response.
+            <p className="text-lg text-black leading-relaxed mb-4">
+              Tell us where you are in your journey – preparing for an election, running a
+              government program, building a digital platform or exploring research – and we will
+              route your enquiry to the right team.
             </p>
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-black/70">
               Your information will not be shared with anyone else. Please read our{' '}
-              <Link href="/policy" className="text-blue-600 hover:text-blue-700 underline">
+              <Link href="/policy" className="text-[#002147] hover:text-[#B31942] underline">
                 Privacy Policy
               </Link>{' '}
               for more information.
@@ -105,19 +109,19 @@ export default function OnlineEnquiryPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <Card className="border-0 shadow-2xl bg-gradient-to-br from-gray-50 to-blue-50">
+            <Card className="border-0 shadow-2xl bg-white">
               <CardContent className="p-8">
                 {submitStatus === 'success' && (
-                  <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center space-x-3">
-                    <CheckCircle className="w-5 h-5 text-green-600" />
-                    <p className="text-green-800 font-medium">Thank you! Your enquiry has been submitted successfully. We will get back to you shortly.</p>
+                  <div className="mb-6 p-4 bg-[#002147]/5 border border-[#002147]/30 rounded-lg flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-[#002147]" />
+                    <p className="text-black font-medium">Thank you! Your enquiry has been submitted successfully. We will get back to you shortly.</p>
                   </div>
                 )}
                 
                 {submitStatus === 'error' && (
-                  <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg flex items-center space-x-3">
-                    <AlertCircle className="w-5 h-5 text-red-600" />
-                    <p className="text-red-800 font-medium">Sorry, there was an error. Please try again.</p>
+                  <div className="mb-6 p-4 bg-[#B31942]/5 border border-[#B31942]/30 rounded-lg flex items-center space-x-3">
+                    <AlertCircle className="w-5 h-5 text-[#B31942]" />
+                    <p className="text-black font-medium">Sorry, there was an error. Please try again.</p>
                   </div>
                 )}
                 
@@ -127,10 +131,10 @@ export default function OnlineEnquiryPage() {
                     <h3 className="text-xl font-semibold text-gray-900 mb-6">How can we help:</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                       {[
-                        'Business Consulting',
-                        'Research',
-                        'Technical Design',
-                        'Corporate Finance Advisory',
+                        'Election campaigns',
+                        'Governance & policy outreach',
+                        'Digital platforms & tools',
+                        'Research & intelligence',
                         'Internship',
                         'Other'
                       ].map((option, index) => (
@@ -141,9 +145,9 @@ export default function OnlineEnquiryPage() {
                             value={option}
                             checked={formData.serviceType === option}
                             onChange={handleChange}
-                            className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500"
+                            className="w-4 h-4 text-[#B31942] bg-gray-100 border-gray-300 focus:ring-[#B31942]"
                           />
-                          <span className="text-gray-700 font-medium">{option}</span>
+                          <span className="text-black font-medium">{option}</span>
                         </label>
                       ))}
                     </div>
@@ -229,7 +233,7 @@ export default function OnlineEnquiryPage() {
                       <Button 
                         type="submit"
                         size="lg" 
-                        className="w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white py-4 text-lg font-semibold"
+                        className="w-full bg-gradient-to-r from-[#B31942] to-[#002147] hover:from-[#B31942] hover:to-[#002147] text-white py-4 text-lg font-semibold"
                         disabled={isSubmitting}
                       >
                         {isSubmitting ? 'Submitting...' : 'Submit'}

@@ -6,56 +6,56 @@ import { Badge } from '@/components/ui/Badge'
 import { Users, Target, Award, Globe, Lightbulb } from 'lucide-react'
 
 const stats = [
-  { value: '1993', label: 'Founded' },
-  { value: '30+', label: 'Years of Excellence' },
-  { value: '100+', label: 'Global Clients' },
-  { value: '200+', label: 'Projects Delivered' }
+  { value: '5000+', label: 'Booths Analysed' },
+  { value: '200+', label: 'Leaders & Teams Served' },
+  { value: '50+', label: 'Election Campaigns' },
+  { value: '20+', label: 'States & UTs Covered' }
 ]
 
 const values = [
   {
     icon: Target,
-    title: 'Excellence',
-    description: 'Committed to delivering exceptional quality in every project',
-    color: 'from-blue-500 to-cyan-500'
+    title: 'Outcome Focused',
+    description: 'Every product, dashboard and campaign is built to deliver political outcomes, not vanity metrics.',
+    color: 'from-[#B31942] to-[#002147]'
   },
   {
     icon: Lightbulb,
-    title: 'Innovation',
-    description: 'Pioneering solutions for complex maritime challenges',
-    color: 'from-purple-500 to-pink-500'
+    title: 'Technology First',
+    description: 'Apps, data platforms and automated outreach workflows designed for Indian politics.',
+    color: 'from-[#002147] to-[#004080]'
   },
   {
     icon: Users,
-    title: 'Collaboration',
-    description: 'Building lasting partnerships with our clients',
-    color: 'from-orange-500 to-red-500'
+    title: 'On-Ground Understanding',
+    description: 'Strategies shaped by real constituency realities, not just spreadsheets.',
+    color: 'from-[#B31942] to-[#80102D]'
   },
   {
     icon: Award,
-    title: 'Integrity',
-    description: 'Upholding the highest ethical standards',
-    color: 'from-green-500 to-emerald-500'
+    title: 'Trust & Discretion',
+    description: 'Long-term relationships with leaders, parties and teams built on confidentiality and integrity.',
+    color: 'from-[#002147] to-[#00152e]'
   }
 ]
 
 const spus = [
-  { title: 'Business Consulting', description: 'Strategic advisory and market intelligence' },
-  { title: 'Technical Design Consulting', description: 'Engineering and design excellence' },
-  { title: 'Corporate Finance Advisory', description: 'Financial structuring and investment advisory' },
-  { title: 'Global Maritime Knowledge Centre', description: 'Industry research and insights' }
+  { title: 'Political Intelligence', description: 'Booth, village and ward-level data for sharper strategy.' },
+  { title: 'Digital Campaign Platforms', description: 'Mahaneta, Netabanner and leader apps built for visibility and engagement.' },
+  { title: 'Content & Social Media Engines', description: 'Always-on content, creative and distribution tuned to local realities.' },
+  { title: 'Organisation & Cadre Tools', description: 'Workflows, apps and dashboards that keep teams aligned from HQ to booth.' }
 ]
 
 export default function AboutPage() {
   return (
     <div className="min-h-screen">
       {/* Hero */}
-      <section className="relative py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 left-10 w-96 h-96 bg-cyan-500 rounded-full filter blur-3xl"></div>
-          <div className="absolute bottom-10 right-10 w-96 h-96 bg-blue-500 rounded-full filter blur-3xl"></div>
+      <section className="relative py-20 bg-gradient-to-br from-[#002147] via-[#003366] to-[#00152e] text-white overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
+          <div className="absolute top-10 left-10 w-96 h-96 bg-[#B31942] rounded-full filter blur-3xl"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-[#002147] rounded-full filter blur-3xl"></div>
         </div>
-        
+
         <div className="container mx-auto px-4 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -63,14 +63,14 @@ export default function AboutPage() {
             className="max-w-4xl"
           >
             <Badge className="bg-white/10 backdrop-blur-sm text-white border-white/20 mb-4">
-              About Us
+              About Digineta
             </Badge>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              India&apos;s Leading Maritime Consultancy
+              India&apos;s Political Technology Venture
             </h1>
-            <p className="text-xl text-blue-100 leading-relaxed">
-              Since 1993, we&apos;ve been transforming the maritime industry with innovative solutions, 
-              deep expertise, and unwavering commitment to excellence.
+            <p className="text-xl text-white leading-relaxed">
+              Digineta brings together election intelligence, digital products and full-funnel outreach to help
+              political leaders, parties and organisations win and govern better in the digital age.
             </p>
           </motion.div>
         </div>
@@ -89,10 +89,10 @@ export default function AboutPage() {
                 transition={{ delay: index * 0.1 }}
                 className="text-center"
               >
-                <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent mb-2">
+                <div className="text-5xl font-bold bg-gradient-to-r from-[#B31942] to-[#002147] bg-clip-text text-transparent mb-2">
                   {stat.value}
                 </div>
-                <div className="text-gray-600 text-lg">{stat.label}</div>
+                <div className="text-black text-lg">{stat.label}</div>
               </motion.div>
             ))}
           </div>
@@ -100,7 +100,7 @@ export default function AboutPage() {
       </section>
 
       {/* Story */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -108,22 +108,23 @@ export default function AboutPage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
-              <div className="space-y-4 text-lg text-gray-700 leading-relaxed">
+              <h2 className="text-4xl font-bold text-black mb-6">Our Story</h2>
+              <div className="space-y-4 text-lg text-black leading-relaxed">
                 <p>
-                  Founded in 1993 by Mr. Ramesh Singhal, i-maritime Consultancy has grown 
-                  into India&apos;s premier maritime consulting firm. Our journey began with a 
-                  vision to provide world-class consulting services to the maritime industry.
+                  Digineta was created with a single belief: Indian politics needs dedicated technology built
+                  for its scale, complexity and pace. Generic marketing tools and scattered spreadsheets
+                  are not enough for modern election campaigns.
                 </p>
                 <p>
-                  Today, we serve over 100 clients globally, having successfully delivered 
-                  more than 200 projects across ports, shipping, logistics, and shipbuilding sectors.
+                  Our team brings together experience across elections, data, digital marketing and product
+                  building. We have supported leaders and teams across India with booth-level analytics,
+                  mobile apps, content engines and digital outreach.
                 </p>
                 <p>
-                  Our expertise spans the entire maritime value chain, supported by our 
-                  Strategic Practice Units and Global Maritime Knowledge Centre.
-              </p>
-            </div>
+                  Today, Digineta works as a long-term political technology partner – helping leaders track
+                  ground reality, communicate with citizens and run more organised campaigns cycle after cycle.
+                </p>
+              </div>
             </motion.div>
 
             <motion.div
@@ -133,12 +134,12 @@ export default function AboutPage() {
               className="grid grid-cols-2 gap-4"
             >
               {spus.map((spu, index) => (
-                <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-shadow">
+                <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-shadow bg-white">
                   <CardHeader>
-                    <CardTitle className="text-base">{spu.title}</CardTitle>
+                    <CardTitle className="text-base text-black">{spu.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-gray-600">{spu.description}</p>
+                    <p className="text-sm text-black">{spu.description}</p>
                   </CardContent>
                 </Card>
               ))}
@@ -148,7 +149,7 @@ export default function AboutPage() {
       </section>
 
       {/* Values */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-[#002147]">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -156,8 +157,8 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Our Core Values</h2>
-            <p className="text-xl text-gray-600">The principles that guide everything we do</p>
+            <h2 className="text-4xl font-bold text-white mb-4">What Digineta Stands For</h2>
+            <p className="text-xl text-white">The principles that guide how we build, measure and support political technology</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -169,15 +170,15 @@ export default function AboutPage() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
               >
-                <Card className="h-full text-center border-0 shadow-lg hover:shadow-xl transition-all hover:-translate-y-2">
+                <Card className="h-full text-center border-0 shadow-lg hover:shadow-xl transition-all hover:-translate-y-2 bg-white">
                   <CardHeader>
                     <div className={`w-16 h-16 bg-gradient-to-br ${value.color} rounded-2xl flex items-center justify-center mx-auto mb-4`}>
                       <value.icon className="w-8 h-8 text-white" />
                     </div>
-                    <CardTitle className="text-xl">{value.title}</CardTitle>
+                    <CardTitle className="text-xl text-black">{value.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-600">{value.description}</p>
+                    <p className="text-black">{value.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -187,7 +188,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white">
+      <section className="py-20 bg-gradient-to-br from-[#002147] via-[#003366] to-[#00152e] text-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <motion.div
@@ -198,11 +199,10 @@ export default function AboutPage() {
               <div className="flex items-center mb-6">
                 <Target className="w-10 h-10 mr-4" />
                 <h2 className="text-3xl font-bold">Our Mission</h2>
-          </div>
-              <p className="text-lg text-blue-100 leading-relaxed">
-                To provide world-class maritime consulting services that empower our clients 
-                to navigate industry complexities and achieve sustainable growth through 
-                innovation, expertise, and unwavering commitment to excellence.
+              </div>
+              <p className="text-lg text-white leading-relaxed">
+                To be the dedicated political technology partner for leaders, parties and organisations across India –
+                turning data, apps and digital communication into practical tools that improve campaigns and governance.
               </p>
             </motion.div>
 
@@ -215,10 +215,9 @@ export default function AboutPage() {
                 <Globe className="w-10 h-10 mr-4" />
                 <h2 className="text-3xl font-bold">Our Vision</h2>
               </div>
-              <p className="text-lg text-blue-100 leading-relaxed">
-                To be the most trusted and respected maritime consulting firm in India and 
-                beyond, recognized globally for our expertise, integrity, and transformative 
-                impact on the maritime industry.
+              <p className="text-lg text-white leading-relaxed">
+                To help Indian politics adopt technology that is rooted in local realities – where every leader,
+                from village to Parliament, can access the intelligence and digital infrastructure they need.
               </p>
             </motion.div>
           </div>

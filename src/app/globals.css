@@ -7,7 +7,8 @@
   --card-foreground: #171717;
   --popover: #ffffff;
   --popover-foreground: #171717;
-  --primary: #3b82f6;
+  /* Digineta brand colors */
+  --primary: #B31942;
   --primary-foreground: #ffffff;
   --secondary: #f1f5f9;
   --secondary-foreground: #171717;
@@ -19,30 +20,30 @@
   --destructive-foreground: #ffffff;
   --border: #e2e8f0;
   --input: #e2e8f0;
-  --ring: #3b82f6;
+  --ring: #4169E1;
   --radius: 0.5rem;
 }
 
 .dark {
-  --background: #0a0a0a;
-  --foreground: #ededed;
-  --card: #0a0a0a;
-  --card-foreground: #ededed;
-  --popover: #0a0a0a;
-  --popover-foreground: #ededed;
-  --primary: #60a5fa;
-  --primary-foreground: #0a0a0a;
-  --secondary: #1e293b;
+  --background: #0f172a;
+  --foreground: #e5e7eb;
+  --card: #0f172a;
+  --card-foreground: #e5e7eb;
+  --popover: #0f172a;
+  --popover-foreground: #e5e7eb;
+  --primary: #B31942;
+  --primary-foreground: #ffffff;
+  --secondary: #111827;
   --secondary-foreground: #ededed;
-  --muted: #1e293b;
+  --muted: #111827;
   --muted-foreground: #a1a1aa;
-  --accent: #1e293b;
+  --accent: #111827;
   --accent-foreground: #ededed;
   --destructive: #7f1d1d;
   --destructive-foreground: #ededed;
-  --border: #1e293b;
-  --input: #1e293b;
-  --ring: #60a5fa;
+  --border: #111827;
+  --input: #111827;
+  --ring: #4169E1;
 }
 
 * {
@@ -57,9 +58,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Better selection color */
+/* Better selection color using brand blue */
 ::selection {
-  background: rgba(59, 130, 246, 0.2);
+  background: rgba(65, 105, 225, 0.2);
 }
 
 /* Smooth link transitions */
@@ -110,12 +111,12 @@ a {
 }
 
 .prose a {
-  color: #2563eb;
+  color: #4169E1;
   text-decoration: underline;
 }
 
 .prose a:hover {
-  color: #1d4ed8;
+  color: #2747a8;
 }
 
 .prose strong {

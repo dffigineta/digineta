@@ -68,7 +68,7 @@ export default function MAAdvisoryPage() {
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-white">
       {/* Header */}
       <section className="relative py-20 bg-gradient-to-r from-indigo-900 to-purple-700 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="absolute inset-0 bg-[#0f172a]/40"></div>
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}

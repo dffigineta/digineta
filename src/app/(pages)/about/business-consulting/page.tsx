@@ -1,35 +1,56 @@
-'use client'
+"use client"
 
-import { motion } from 'framer-motion'
-import { Card, CardContent } from '@/components/ui/Card'
+import { motion } from "framer-motion"
+import Image from "next/image"
+import { Card, CardContent } from "@/components/ui/Card"
 
 const services = [
-  'Market Research & Analysis',
-  'Business Strategy Development',
-  'Feasibility Studies',
-  'Investment Advisory',
-  'Operations Optimization',
-  'Growth Planning'
+  "Constituency & booth-level diagnostics",
+  "Political positioning & narrative definition",
+  "Campaign strategy & war-room planning",
+  "Organisational structure & role clarity",
+  "Digital + on-ground integration plans",
+  "Leader reputation & visibility roadmaps",
 ]
 
 export default function BusinessConsultingPage() {
   return (
     <div className="min-h-screen">
-      <section className="relative py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white">
+      <section className="relative py-20 bg-gradient-to-br from-[#B31942] via-[#8F1333] to-[#002147] text-white overflow-hidden">
         <div className="container mx-auto px-4">
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Business Consulting</h1>
-            <p className="text-xl text-blue-100">Strategic advisory for maritime business excellence</p>
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">Political Strategy & Consulting</h1>
+            <p className="text-xl text-white leading-relaxed">
+              Digineta&apos;s consulting practice works as a political war-room partner – helping leaders and teams
+              turn data, feedback and ground signals into clear strategies and execution roadmaps.
+            </p>
           </motion.div>
         </div>
       </section>
 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto mb-12">
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Our Business Consulting practice provides strategic advisory services to help maritime organizations achieve their business objectives. We combine industry expertise with analytical rigor to deliver actionable insights and sustainable solutions.
-            </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start mb-12">
+            <div className="space-y-4">
+              <h2 className="text-3xl font-bold text-black mb-2">From Insight to Campaign Plan</h2>
+              <p className="text-lg text-black leading-relaxed">
+                We work with leaders, parties and campaign teams to define clear objectives, understand voter
+                segments and build practical plans that can be executed by real organisations on the ground.
+              </p>
+              <p className="text-lg text-black leading-relaxed">
+                Our teams combine political experience with analytics, technology and creative thinking – so
+                that every strategy document translates into dashboards, apps and communication workflows.
+              </p>
+            </div>
+
+            <div className="relative w-full h-56 md:h-72 lg:h-80 rounded-2xl overflow-hidden shadow-xl">
+              <Image
+                src="/about-business-consulting-placeholder.jpg"
+                alt="Leaders reviewing political strategy dashboards"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
@@ -41,11 +62,11 @@ export default function BusinessConsultingPage() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.05 }}
               >
-                <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
+                <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow bg-white">
                   <CardContent className="pt-6">
                     <div className="flex items-center">
-                      <div className="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
-                      <p className="font-semibold text-gray-900">{service}</p>
+                      <div className="w-2 h-2 bg-[#B31942] rounded-full mr-3" />
+                      <p className="font-semibold text-black">{service}</p>
                     </div>
                   </CardContent>
                 </Card>

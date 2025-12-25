@@ -15,12 +15,12 @@ export const navigation: NavigationItem[] = [
           { label: 'Global Maritime Knowledge Center', href: '/about/global-maritime-knowledge-center' },
         ],
       },
-      { label: 'Expertise', href: '/about/expertise' },
-      { label: 'People', href: '/about/people' },
-      { label: 'Clients', href: '/about/clients' },
+      { label: 'Capabilities & Expertise', href: '/about/expertise' },
+      { label: 'Leadership & Network', href: '/about/people' },
+      { label: 'Campaigns & Partners', href: '/about/clients' },
       { label: 'Testimonials', href: '/about/testimonials' },
-      { label: 'Projects', href: '/about/projects' },
-      { label: 'Online Enquiry', href: '/about/online-enquiry' },
+      { label: 'Flagship Engagements', href: '/about/projects' },
+      { label: 'Partner with Digineta', href: '/about/online-enquiry' },
     ]
   },
   {
@@ -28,30 +28,30 @@ export const navigation: NavigationItem[] = [
     href: '/services',
     children: [
       {
-        label: 'Industry',
+        label: 'Who we work with',
         href: '/services/industry',
         children: [
-          { label: 'Ports & Terminals', href: '/services/industry/ports-terminals' },
-          { label: 'Shipping', href: '/services/industry/shipping' },
-          { label: 'Container Logistics & Warehousing', href: '/services/industry/container-logistics' },
-          { label: 'Shipbuilding', href: '/services/industry/shipbuilding' },
-          { label: 'Other Infrastructure', href: '/services/industry/infrastructure' },
+          { label: 'National & state campaigns', href: '/services/industry/ports-terminals' },
+          { label: 'Leaders & offices', href: '/services/industry/shipping' },
+          { label: 'Local bodies & city campaigns', href: '/services/industry/container-logistics' },
+          { label: 'Movements & citizen platforms', href: '/services/industry/shipbuilding' },
+          { label: 'Governance & public programs', href: '/services/industry/infrastructure' },
         ]
       },
       {
-        label: 'Practice Area',
+        label: 'What we deliver',
         href: '/services/practice-area',
         children: [
-          { label: 'Market Research', href: '/services/practice-area/market-research' },
-          { label: 'Business Plan', href: '/services/practice-area/business-plan' },
-          { label: 'Traffic Studies', href: '/services/practice-area/traffic-studies' },
-          { label: 'Feasibility Studies', href: '/services/practice-area/feasibility-studies' },
-          { label: 'Fund Syndication', href: '/services/practice-area/fund-syndication' },
-          { label: 'Equity Research', href: '/services/practice-area/equity-research' },
-          { label: 'Detailed Project Report', href: '/services/practice-area/detailed-project-report' },
-          { label: 'Technical Design', href: '/services/practice-area/technical-design' },
-          { label: 'Infrastructure Finance Advisory', href: '/services/practice-area/infrastructure-finance' },
-          { label: 'M&A Advisory', href: '/services/practice-area/ma-advisory' },
+          { label: 'Research & intelligence', href: '/services/practice-area/market-research' },
+          { label: 'Strategy & roadmapping', href: '/services/practice-area/business-plan' },
+          { label: 'Booth & segment analysis', href: '/services/practice-area/traffic-studies' },
+          { label: 'Program design & feasibility', href: '/services/practice-area/feasibility-studies' },
+          { label: 'Resource planning & mobilisation', href: '/services/practice-area/fund-syndication' },
+          { label: 'Reputation & equity tracking', href: '/services/practice-area/equity-research' },
+          { label: 'Execution blueprints', href: '/services/practice-area/detailed-project-report' },
+          { label: 'Digital product & UX design', href: '/services/practice-area/technical-design' },
+          { label: 'Program finance advisory', href: '/services/practice-area/infrastructure-finance' },
+          { label: 'Alliances & coalition advisory', href: '/services/practice-area/ma-advisory' },
         ]
       },
     ]
@@ -105,32 +105,32 @@ export const navigation: NavigationItem[] = [
 export const services: Service[] = [
   {
     id: 'ports-terminals',
-    title: 'Ports & Terminals',
-    description: 'Comprehensive consulting for port development and terminal operations',
+    title: 'National & state campaigns',
+    description: 'End-to-end support for national, state and regional election campaigns',
     href: '/services/industry/ports-terminals'
   },
   {
     id: 'shipping',
-    title: 'Shipping',
-    description: 'Strategic advisory for shipping operations and fleet management',
+    title: 'Leaders & offices',
+    description: 'Advisory and execution support for leaders, offices and core teams',
     href: '/services/industry/shipping'
   },
   {
     id: 'container-logistics',
-    title: 'Container Logistics & Warehousing',
-    description: 'End-to-end logistics solutions and warehouse optimization',
+    title: 'Local bodies & city campaigns',
+    description: 'Campaigns and governance programs for cities, municipalities and local bodies',
     href: '/services/industry/container-logistics'
   },
   {
     id: 'shipbuilding',
-    title: 'Shipbuilding',
-    description: 'Technical consulting for ship construction and repair facilities',
+    title: 'Movements & citizen platforms',
+    description: 'Support for issue-based movements, coalitions and citizen platforms',
     href: '/services/industry/shipbuilding'
   },
   {
     id: 'infrastructure',
-    title: 'Other Infrastructure',
-    description: 'Maritime infrastructure development and planning',
+    title: 'Governance & public programs',
+    description: 'Design and communication support for governance and public programs',
     href: '/services/industry/infrastructure'
   }
 ]
@@ -138,62 +138,62 @@ export const services: Service[] = [
 export const practiceAreas: Service[] = [
   {
     id: 'market-research',
-    title: 'Market Research',
-    description: 'Comprehensive market analysis and industry insights',
+    title: 'Research & intelligence',
+    description: 'Opinion research, sentiment intelligence and issue mapping',
     href: '/services/practice-area/market-research'
   },
   {
     id: 'business-plan',
-    title: 'Business Plan',
-    description: 'Strategic business planning and development',
+    title: 'Strategy & roadmapping',
+    description: 'Election and governance strategy, scenario planning and roadmaps',
     href: '/services/practice-area/business-plan'
   },
   {
     id: 'traffic-studies',
-    title: 'Traffic Studies',
-    description: 'Port traffic analysis and forecasting',
+    title: 'Booth & segment analysis',
+    description: 'Booth-level, segment and geography analysis for campaigns',
     href: '/services/practice-area/traffic-studies'
   },
   {
     id: 'feasibility-studies',
-    title: 'Feasibility Studies',
-    description: 'Project feasibility and viability assessment',
+    title: 'Program design & feasibility',
+    description: 'Design and feasibility assessment for programs and initiatives',
     href: '/services/practice-area/feasibility-studies'
   },
   {
     id: 'fund-syndication',
-    title: 'Fund Syndication',
-    description: 'Financial structuring and fund raising',
+    title: 'Resource planning & mobilisation',
+    description: 'Planning and structuring resources, teams and partner networks',
     href: '/services/practice-area/fund-syndication'
   },
   {
     id: 'equity-research',
-    title: 'Equity Research',
-    description: 'Investment analysis and equity research',
+    title: 'Reputation & equity tracking',
+    description: 'Tracking leadership equity, reputation and narrative over time',
     href: '/services/practice-area/equity-research'
   },
   {
     id: 'detailed-project-report',
-    title: 'Detailed Project Report',
-    description: 'Comprehensive project documentation and planning',
+    title: 'Execution blueprints',
+    description: 'Detailed execution plans for campaigns and governance programs',
     href: '/services/practice-area/detailed-project-report'
   },
   {
     id: 'technical-design',
-    title: 'Technical Design',
-    description: 'Engineering and technical design services',
+    title: 'Digital product & UX design',
+    description: 'Design of political and governance digital products and tools',
     href: '/services/practice-area/technical-design'
   },
   {
     id: 'infrastructure-finance',
-    title: 'Infrastructure Finance Advisory',
-    description: 'Financial advisory for infrastructure projects',
+    title: 'Program finance advisory',
+    description: 'Advisory on financial structuring for campaigns and public programs',
     href: '/services/practice-area/infrastructure-finance'
   },
   {
     id: 'ma-advisory',
-    title: 'M&A Advisory',
-    description: 'Mergers and acquisitions consulting',
+    title: 'Alliances & coalition advisory',
+    description: 'Support for alliances, coalitions and structural political moves',
     href: '/services/practice-area/ma-advisory'
   }
 ]

@@ -10,51 +10,53 @@ import { Anchor, TrendingUp, Users, Building } from 'lucide-react'
 const benefits = [
   {
     icon: Anchor,
-    title: "Comprehensive Coverage",
-    description: "i-maritime has provided port consulting services to almost all ports in India."
+    title: 'Integrated view of the campaign',
+    description:
+      'Digineta brings together research, field intelligence and digital signals so leadership sees one coherent picture of the election.'
   },
   {
     icon: TrendingUp,
-    title: "Advanced Analytics",
-    description: "Expertise in use of management principles like Game theory in understanding of port competition."
+    title: 'Evidence-led strategy',
+    description:
+      'Strategies are grounded in data – vote share scenarios, segment movement and narrative testing – not just instincts.'
   },
   {
     icon: Users,
-    title: "Technical Excellence",
-    description: "Strong technical team along with port consulting team to provide single window of services from market feasibility study, detailed project report, Techno economic analysis, etc."
+    title: 'Booth-level execution discipline',
+    description:
+      'We help parties build strong booth, mandal and district structures with clear roles, cadences and accountability.'
   },
   {
     icon: Building,
-    title: "Industry Experience",
-    description: "Vast experience in port infrastructure, equipments, warehousing and inland logistics helps realize Port business plan."
+    title: 'War-room and decision support',
+    description:
+      'Leaders get simple, regular views of progress and risks, enabling timely interventions instead of last-minute fire-fighting.'
   }
 ]
 
 const segments = [
-  "Major Transshipment Ports and Terminals",
-  "Private Sector Ports and Terminals", 
-  "Port based Special Economic Zones (SEZs)",
-  "Container Freight Station (CFS)",
-  "Passenger terminal or jetty",
-  "Cargo handling jetty"
+  'National general elections',
+  'State assembly elections',
+  'Urban local body and municipal elections',
+  'By-elections and issue-based campaigns',
+  'Alliance and coalition management programmes',
+  'Cross-state narrative and brand-building initiatives'
 ]
 
 const practiceAreas = [
-  "Terminal Traffic Study",
-  "Port Feasibility Study",
-  "Ports and Terminal Due-Diligence",
-  "Port Hinterland analysis",
-  "Port and Terminals Detailed Project Report (DPR)",
-  "Valuation studies",
-  "Techno Economic Studies"
+  'Pre-poll research and sentiment mapping',
+  'Path-to-victory and seat prioritisation',
+  'Booth and segment targeting frameworks',
+  'Narrative and message architecture',
+  'Volunteer and cadre mobilisation systems',
+  'Polling day and GOTV planning'
 ]
 
-export default function PortsTerminalsPage() {
+export default function NationalStateCampaignsPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white">
+    <div className="min-h-screen bg-white">
       {/* Header */}
-      <section className="relative py-20 bg-gradient-to-r from-blue-900 to-blue-700 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-black/20"></div>
+      <section className="relative py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white overflow-hidden">
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -63,16 +65,16 @@ export default function PortsTerminalsPage() {
             className="max-w-4xl mx-auto text-center"
           >
             <div className="flex items-center justify-center mb-6">
-              <span className="text-blue-200 text-sm font-medium px-3 py-1 bg-blue-800/30 rounded-full">
-                Services &gt; Industry &gt; Ports and Terminals
+              <span className="text-white/80 text-sm font-medium px-3 py-1 bg-white/10 rounded-full">
+                Services &gt; Who we work with &gt; National & state campaigns
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Port Consulting
+              National & state campaigns
             </h1>
-            <p className="text-xl text-blue-100 leading-relaxed">
-              Leading Port Consultants in India providing comprehensive solutions for port development, 
-              terminal operations, and maritime infrastructure planning.
+            <p className="text-xl text-white/80 leading-relaxed max-w-3xl mx-auto">
+              Digineta partners with parties and alliances to design, run and refine large-scale
+              election campaigns with discipline from announcement to counting day.
             </p>
           </motion.div>
         </div>
@@ -90,15 +92,9 @@ export default function PortsTerminalsPage() {
               className="lg:col-span-1"
             >
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-full h-full bg-blue-200 rounded-2xl rotate-3"></div>
-                <div className="relative bg-white p-4 rounded-2xl shadow-xl">
-                  <Image
-                    src="/i-port.jpg"
-                    alt="Port Scene"
-                    width={400}
-                    height={300}
-                    className="rounded-xl w-full h-auto"
-                  />
+                <div className="absolute -top-4 -left-4 w-full h-full bg-[#B31942]/20 rounded-2xl rotate-3"></div>
+                <div className="relative bg-[#002147] p-4 rounded-2xl shadow-xl flex items-center justify-center">
+                  <div className="w-full h-48 md:h-64 bg-white/10 rounded-xl" />
                 </div>
               </div>
             </motion.div>
@@ -112,27 +108,25 @@ export default function PortsTerminalsPage() {
             >
               {/* Leading Port Consultants */}
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Leading Port Consultants in India
+                <h2 className="text-3xl font-bold text-black mb-6">
+                  Designing and running large election campaigns
                 </h2>
-                <div className="space-y-4 text-gray-700 leading-relaxed">
+                <div className="space-y-4 text-black leading-relaxed">
                   <p>
-                    India has an extensive coastline with 13 major ports and over 200 minor ports, 
-                    and the private sector is increasingly playing a significant role in port development 
-                    and operations. As a leading port consultant in India, i-maritime has conducted 
-                    traffic studies for major ports and consulting assignments for developers, investors, 
-                    and operators across Indian major and minor ports.
+                    National and state campaigns are complex systems – leaders, cadre, coalitions,
+                    media and field realities all moving at once. Digineta helps bring structure to this
+                    complexity.
                   </p>
                   <p>
-                    As port consultants, i-maritime provides business consulting services including:
+                    We work with parties and alliances on the full journey: understanding the ground,
+                    identifying the path to victory, designing narratives and programmes, and building
+                    the discipline to execute at booth level.
                   </p>
                   <ul className="list-disc list-inside space-y-2 ml-4">
-                    <li>Port or Terminal traffic and tariff study</li>
-                    <li>Feasibility studies of port</li>
-                    <li>Due diligence</li>
-                    <li>Detailed project report (DPR)</li>
-                    <li>Advisory services in bidding</li>
-                    <li>Port business plan, etc.</li>
+                    <li>Integrated research and sentiment intelligence</li>
+                    <li>Seat and booth prioritisation frameworks</li>
+                    <li>Message and narrative systems that travel across channels</li>
+                    <li>Field structures, training and daily/weekly cadences</li>
                   </ul>
                 </div>
               </div>
@@ -142,7 +136,7 @@ export default function PortsTerminalsPage() {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-20 bg-gradient-to-r from-blue-50 to-cyan-50">
+      <section className="py-20 bg-gradient-to-r from-[#f9fafb] to-[#e5e7eb]">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -151,12 +145,12 @@ export default function PortsTerminalsPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Benefits with i-maritime&apos;s Port Consulting Services
+            <h2 className="text-4xl font-bold text-black mb-6">
+              Why campaigns work with Digineta
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our comprehensive approach combines industry expertise with cutting-edge analytics 
-              to deliver exceptional results for port development projects.
+            <p className="text-xl text-black/70 max-w-3xl mx-auto">
+              We combine political judgement, structured data and disciplined execution so large
+              campaigns can move in one direction.
             </p>
           </motion.div>
 
@@ -169,15 +163,15 @@ export default function PortsTerminalsPage() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
               >
-                <Card className="h-full hover:shadow-xl transition-all duration-300 border-0 bg-white/70 backdrop-blur-sm">
+                <Card className="h-full hover:shadow-xl transition-all duration-300 border-0 bg-white">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center mb-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#B31942] to-[#002147] rounded-2xl flex items-center justify-center mb-4">
                       <benefit.icon className="w-8 h-8 text-white" />
                     </div>
                     <CardTitle className="text-xl">{benefit.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
+                    <p className="text-black/80 leading-relaxed">{benefit.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>

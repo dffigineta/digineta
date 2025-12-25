@@ -10,16 +10,19 @@ export default function ExpertisePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white">
+      <section className="relative py-20 bg-gradient-to-br from-[#B31942] via-[#002147] to-[#00152e] text-white">
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <nav className="text-sm text-blue-200 mb-4">
+            <nav className="text-sm text-white/70 mb-4">
               <Link href="/about" className="hover:text-white">About Us</Link>
               <span className="mx-2">›</span>
-              <span className="text-white">Expertise</span>
+              <span className="text-white">Capabilities &amp; Expertise</span>
             </nav>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Expertise</h1>
-            <p className="text-xl text-blue-100">Deep maritime industry knowledge and experience</p>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">Capabilities &amp; Expertise</h1>
+            <p className="text-xl text-white/80 max-w-2xl">
+              Digineta blends political intelligence, technology, and on-ground networks to design, run,
+              and optimise campaigns for parties, leaders, and governments.
+            </p>
           </motion.div>
         </div>
       </section>
@@ -29,7 +32,7 @@ export default function ExpertisePage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-16">
-            {/* i-maritime Consultancy Overview */}
+            {/* Digineta capabilities overview */}
             <motion.section
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -38,41 +41,48 @@ export default function ExpertisePage() {
             >
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl transform rotate-3 opacity-10"></div>
-                  <div className="relative bg-gradient-to-br from-purple-400 via-pink-400 to-yellow-400 rounded-2xl p-8 h-80 flex items-center justify-center">
+                  <div className="absolute inset-0 bg-gradient-to-r from-[#B31942] to-[#002147] rounded-2xl transform rotate-3 opacity-20"></div>
+                  <div className="relative bg-[#002147] rounded-2xl p-8 h-80 flex items-center justify-center">
                     <div className="text-center text-white">
-                      <div className="w-16 h-20 bg-white/20 rounded-lg mx-auto mb-4"></div>
-                      <div className="w-12 h-16 bg-white/30 rounded-lg mx-auto mb-2"></div>
-                      <div className="w-14 h-18 bg-white/25 rounded-lg mx-auto"></div>
+                      <div className="w-24 h-24 bg-white/10 rounded-full mx-auto mb-4"></div>
+                      <div className="w-32 h-4 bg-white/20 rounded mx-auto mb-2"></div>
+                      <div className="w-24 h-4 bg-white/20 rounded mx-auto"></div>
+                      <p className="mt-4 text-sm text-white/80">
+                        Placeholder visual for campaign intelligence dashboards
+                      </p>
                     </div>
                   </div>
                 </div>
                 
                 <div>
-                  <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                    i-maritime Consultancy is India&apos;s top maritime and port consultancy
+                  <h2 className="text-3xl font-bold text-black mb-6">
+                    Political technology, intelligence and execution in one stack
                   </h2>
-                  <div className="space-y-4 text-gray-600 leading-relaxed">
+                  <div className="space-y-4 text-black leading-relaxed">
                     <p>
-                      i-maritime Consultancy has established itself in almost all <strong>maritime consulting practices</strong>. Starting from business and market research, feasibility and traffic studies, we have diversified to more challenging areas like <strong>Business Plans</strong> and <strong>Detailed Project Reports</strong>. We provide our clients with maritime consulting, port consultancy, etc. Our research division continuously tracks the industries and creates a vast knowledge repository. Outcome of this has been a number of <strong>Maritime Research publications</strong> which have been highly appreciated by the industry.
+                      Digineta partners with campaigns, parties and governments to turn complex political
+                      environments into clear, data-backed action. We combine research, digital
+                      infrastructure, messaging, and field operations into one integrated capability set.
                     </p>
                     <p>
-                      With a highly energetic and talented team, we are never short of innovative ideas.
+                      From early listening and sentiment intelligence to booth-level mobilisation and
+                      performance reviews, our teams bring together strategists, technologists and
+                      on-ground organisers who speak the language of politics as well as data.
                     </p>
                   </div>
                 </div>
               </div>
             </motion.section>
 
-            {/* What Makes Us Different */}
+            {/* What makes Digineta different */}
             <motion.section
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">
-                What makes us different from other port consultancy services?
+              <h2 className="text-3xl font-bold text-black mb-8">
+                What makes us different from typical political consulting?
               </h2>
               
               <div className="space-y-6">
@@ -83,9 +93,11 @@ export default function ExpertisePage() {
                   transition={{ duration: 0.4 }}
                   className="flex items-start space-x-4"
                 >
-                  <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
-                  <p className="text-gray-600">
-                    We focus solely on creating value for our clients. To that end, solid ports and shipping industry expertise, unbiased advice, innovation and the delivery of sustainable results are the foundation of every project.
+                  <CheckCircle className="w-6 h-6 text-[#B31942] mt-1 flex-shrink-0" />
+                  <p className="text-black">
+                    We start with evidence, not assumptions. Our campaign and governance strategies are
+                    built on real voter behaviour, sentiment signals and network maps – not just
+                    instincts.
                   </p>
                 </motion.div>
 
@@ -96,9 +108,11 @@ export default function ExpertisePage() {
                   transition={{ duration: 0.4, delay: 0.1 }}
                   className="flex items-start space-x-4"
                 >
-                  <Users className="w-6 h-6 text-blue-500 mt-1 flex-shrink-0" />
-                  <p className="text-gray-600">
-                    We understand our <strong>clients&apos;</strong> industries, their strategic pressures and their competitors.
+                  <Users className="w-6 h-6 text-[#002147] mt-1 flex-shrink-0" />
+                  <p className="text-black">
+                    We understand our partners&apos; realities – coalition dynamics, local leadership,
+                    internal structures and media ecosystems – and design solutions that work inside
+                    those constraints.
                   </p>
                 </motion.div>
 
@@ -109,9 +123,10 @@ export default function ExpertisePage() {
                   transition={{ duration: 0.4, delay: 0.2 }}
                   className="flex items-start space-x-4"
                 >
-                  <Award className="w-6 h-6 text-purple-500 mt-1 flex-shrink-0" />
-                  <p className="text-gray-600">
-                    We combine our <strong>deep maritime and port consultancy experience</strong> and insight with forward-thinking strategies, new ideas and innovative thinking.
+                  <Award className="w-6 h-6 text-[#B31942] mt-1 flex-shrink-0" />
+                  <p className="text-black">
+                    We blend political experience with product-thinking and modern campaign technology –
+                    from data platforms and dashboards to field tools and narrative labs.
                   </p>
                 </motion.div>
 
@@ -122,9 +137,10 @@ export default function ExpertisePage() {
                   transition={{ duration: 0.4, delay: 0.3 }}
                   className="flex items-start space-x-4"
                 >
-                  <Lightbulb className="w-6 h-6 text-yellow-500 mt-1 flex-shrink-0" />
-                  <p className="text-gray-600">
-                    We bring <strong>innovative thinking</strong> and innovative solutions.
+                  <Lightbulb className="w-6 h-6 text-[#002147] mt-1 flex-shrink-0" />
+                  <p className="text-black">
+                    We bring structured experimentation to politics – rapid testing of messages,
+                    creatives and formats across digital and field, so you scale what actually works.
                   </p>
                 </motion.div>
 
@@ -135,9 +151,10 @@ export default function ExpertisePage() {
                   transition={{ duration: 0.4, delay: 0.4 }}
                   className="flex items-start space-x-4"
                 >
-                  <Target className="w-6 h-6 text-red-500 mt-1 flex-shrink-0" />
-                  <p className="text-gray-600">
-                    We pride ourselves on our creativity and <strong>unique thinking</strong>; both in the strategies we develop and in the way we deliver our maritime consulting engagements.
+                  <Target className="w-6 h-6 text-[#B31942] mt-1 flex-shrink-0" />
+                  <p className="text-black">
+                    We go down to the booth and ward level – identifying priority segments, local
+                    influencers and micro-geographies, then designing targeted interventions for each.
                   </p>
                 </motion.div>
 
@@ -148,9 +165,10 @@ export default function ExpertisePage() {
                   transition={{ duration: 0.4, delay: 0.5 }}
                   className="flex items-start space-x-4"
                 >
-                  <CheckCircle className="w-6 h-6 text-green-500 mt-1 flex-shrink-0" />
-                  <p className="text-gray-600">
-                    Our maritime consultancy division uses our <strong>industry alliances</strong> to recommend the best partners and solutions for individual client challenges. We don&apos;t merely make recommendations.
+                  <CheckCircle className="w-6 h-6 text-[#002147] mt-1 flex-shrink-0" />
+                  <p className="text-black">
+                    We stay through implementation – building teams, training cadre, tracking execution
+                    and feeding intelligence back into strategy every week.
                   </p>
                 </motion.div>
 
@@ -161,9 +179,10 @@ export default function ExpertisePage() {
                   transition={{ duration: 0.4, delay: 0.6 }}
                   className="flex items-start space-x-4"
                 >
-                  <ArrowRight className="w-6 h-6 text-blue-500 mt-1 flex-shrink-0" />
-                  <p className="text-gray-600">
-                    We work with senior management to implement ideas into workable plans, and strategize to turn those plans into results. Our teams are efficient and productive, so you are not forced into a protracted maritime consulting engagement.
+                  <ArrowRight className="w-6 h-6 text-[#B31942] mt-1 flex-shrink-0" />
+                  <p className="text-black">
+                    We measure what matters – vote share movement, favourability shifts, network growth
+                    and narrative adoption – and present it in simple frameworks leaders can act on.
                   </p>
                 </motion.div>
               </div>
@@ -172,25 +191,25 @@ export default function ExpertisePage() {
 
           {/* Sidebar */}
           <div className="space-y-8">
-            {/* Testimonials */}
-            <Card className="bg-gradient-to-br from-blue-900 to-blue-800 text-white border-0 shadow-2xl">
+            {/* Sample impact stories */}
+            <Card className="bg-[#B31942] text-white border-0 shadow-2xl">
               <CardHeader>
                 <div className="flex items-center space-x-2 mb-4">
                   <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
                     <span className="text-white text-sm font-bold">4</span>
                   </div>
-                  <CardTitle className="text-xl">Testimonials</CardTitle>
+                  <CardTitle className="text-xl">Impact snapshots</CardTitle>
                 </div>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-semibold text-lg">Gulf Petrochem</h4>
-                    <p className="text-blue-200 text-sm">Himadri S. Roy</p>
-                    <p className="text-blue-200 text-sm">Financial Controller</p>
+                    <h4 className="font-semibold text-lg">State election campaign</h4>
+                    <p className="text-white/80 text-sm">Integrated ground intelligence and digital orchestration</p>
                   </div>
-                  <blockquote className="text-blue-100 italic text-sm leading-relaxed">
-                    &ldquo;Gulf Petrochem FZC, UAE, had commissioned i-maritime Consultants Pvt. Ltd., Navi Mumbai, to carry out the Market Feasibility and Techno-Economic Validation studies for our upcoming 320,000 MT Bulk Liquid Storage & Handling Terminal at Pipavav Port, Gujarat. In this connection, we are happy to place on record our sincere appreciation to them for a job well done...&rdquo;
+                  <blockquote className="text-white/80 italic text-sm leading-relaxed">
+                    &ldquo;Digineta helped us move from intuition-driven politics to a cadence of weekly
+                    evidence, clear priorities and disciplined execution across districts.&rdquo;
                   </blockquote>
                   <Link href="/about/testimonials">
                     <Button variant="outline" size="sm" className="border-white/20 text-white hover:bg-white/10">
@@ -202,7 +221,7 @@ export default function ExpertisePage() {
             </Card>
 
             {/* Case Studies */}
-            <Card className="bg-gradient-to-br from-purple-900 to-purple-800 text-white border-0 shadow-2xl">
+            <Card className="bg-[#002147] text-white border-0 shadow-2xl">
               <CardHeader>
                 <div className="flex items-center space-x-2 mb-4">
                   <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
@@ -213,14 +232,14 @@ export default function ExpertisePage() {
               </CardHeader>
               <CardContent>
                 <div className="space-y-3">
-                  <div className="text-purple-100 text-sm">
-                    Techno Economic Feasibility Study for setting a port at Colachel
+                  <div className="text-white/80 text-sm">
+                    State-wide campaign: booth-level influence mapping and narrative roll-out
                   </div>
-                  <div className="text-purple-100 text-sm">
-                    Multi Logistics Park in Ahmedabad
+                  <div className="text-white/80 text-sm">
+                    Governance outreach: citizen feedback loops for a flagship public program
                   </div>
-                  <div className="text-purple-100 text-sm">
-                    Strategy Report for Indian Port sector
+                  <div className="text-white/80 text-sm">
+                    Digital infrastructure: unified political data platform for a multi-state party
                   </div>
                   <Link href="/knowledge-centre/case-studies">
                     <Button variant="outline" size="sm" className="border-white/20 text-white hover:bg-white/10">

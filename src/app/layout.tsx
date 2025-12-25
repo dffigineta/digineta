@@ -11,20 +11,20 @@ const plusJakarta = Plus_Jakarta_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'i-maritime - Maritime Consultant',
-  description: 'India\'s top maritime, port and shipbuilding consultant providing quality consulting and research-based maritime services.',
-  keywords: 'maritime consultant, port consultant, shipping consultant, shipbuilding consultant, logistics consultant',
-  authors: [{ name: 'i-maritime Consultancy Private Limited' }],
+  title: 'Digineta – India\'s Political Technology Venture',
+  description: 'Digineta is India\'s dedicated political technology venture, providing data-driven apps, analytics and digital outreach solutions for leaders, parties and political organisations.',
+  keywords: 'political technology, election analytics, political campaign management, voter analytics, digital campaigning, Indian politics, Digineta',
+  authors: [{ name: 'Digineta' }],
   openGraph: {
-    title: 'i-maritime - Maritime Consultant',
-    description: 'India\'s top maritime, port and shipbuilding consultant providing quality consulting and research-based maritime services.',
+    title: 'Digineta – For Political Success in the Digital World',
+    description: 'Apps, analytics and full-funnel digital outreach for political leaders, parties and organisations across India.',
     type: 'website',
-    locale: 'en_US',
+    locale: 'en_IN',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'i-maritime - Maritime Consultant',
-    description: 'India\'s top maritime, port and shipbuilding consultant providing quality consulting and research-based maritime services.',
+    title: 'Digineta – India\'s Political Technology Venture',
+    description: 'Data-driven political technology, voter insights and digital communication for Indian politics.',
   },
 }
 
