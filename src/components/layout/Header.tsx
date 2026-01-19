@@ -86,7 +86,7 @@ export default function Header() {
               <span className="text-lg sm:text-xl md:text-2xl font-bold text-white group-hover:text-[#B31942] transition-colors">
                 Digineta
               </span>
-              <div className="text-xs text-white -mt-1 hidden sm:block">India's Political Technology Venture</div>
+              <div className="text-xs text-white -mt-1 hidden sm:block">India&apos;s Political Technology Venture</div>
             </div>
           </Link>
 

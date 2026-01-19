@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
-import { ChevronDown, ChevronUp, Ship, Anchor, Container, Building, DollarSign, Globe, Wrench } from 'lucide-react'
+import { ChevronDown, ChevronUp, Ship, Anchor, Container, Building, Globe } from 'lucide-react'
 import { useState } from 'react'
 
 const clientCategories = [

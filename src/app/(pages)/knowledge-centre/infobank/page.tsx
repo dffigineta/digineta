@@ -305,7 +305,7 @@ export default function InfobankPage() {
                   {isExpanded && (
                   <CardContent>
                       <div className="space-y-6">
-                        {section.subsections.map((subsection, _subsectionIndex) => {
+                        {section.subsections.map((subsection) => {
                           const isSubExpanded = expandedSubsections.includes(subsection.id)
                           
                           return (

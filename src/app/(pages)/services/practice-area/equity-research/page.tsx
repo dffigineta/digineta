@@ -4,9 +4,8 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
-import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
-import { TrendingUp, BarChart, Target, Users, DollarSign, FileText, Globe, Shield } from 'lucide-react'
+import { TrendingUp, BarChart, Target, Users, DollarSign, FileText, Shield } from 'lucide-react'
 
 const services = [
   {

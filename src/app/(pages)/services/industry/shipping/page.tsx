@@ -4,9 +4,8 @@ import { motion } from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
-import { Badge } from '@/components/ui/Badge'
 import { Button } from '@/components/ui/Button'
-import { Ship, TrendingUp, Target, Users, BookOpen, Globe, DollarSign } from 'lucide-react'
+import { TrendingUp, Target, Users, BookOpen } from 'lucide-react'
 
 const benefits = [
   {
@@ -48,15 +47,6 @@ const practiceAreas = [
   "Shipping Market entry strategy",
   "Market analysis for Shipping investment",
   "Joint venture and positioning"
-]
-
-const shippingSegments = [
-  "Container shipping",
-  "Ro-Ro",
-  "Tanker shipping", 
-  "Dry/bulk shipping",
-  "LNG shipping",
-  "Offshore"
 ]
 
 const publications = [
