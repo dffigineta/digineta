@@ -18,8 +18,8 @@ export default function CurrentOpeningsPage() {
               <span className="mx-2">›</span>
               <span className="text-white">Current Opening</span>
             </nav>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Current Opening</h1>
-            <p className="text-xl text-blue-100">Want to join the i-maritime team? Here is the list of the current job openings with us. Pick the one which suits you and submit your resume.</p>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">Current Openings</h1>
+            <p className="text-xl text-blue-100">Want to join the Digineta team? Here are our current openings in political technology, research, and campaign operations. Pick the one which suits you and submit your resume.</p>
           </motion.div>
         </div>
       </section>
@@ -36,8 +36,8 @@ export default function CurrentOpeningsPage() {
             className="text-center mb-12"
           >
             <p className="text-lg text-gray-600 leading-relaxed">
-              Want to join the i-maritime team? Here is the list of the current job openings with us. 
-              Pick the one which suits you and submit your resume.
+              Want to join the Digineta team? Here are our current openings in political technology, 
+              research, and campaign operations. Pick the one which suits you and submit your resume.
             </p>
           </motion.div>
 
@@ -54,19 +54,19 @@ export default function CurrentOpeningsPage() {
               <CardHeader>
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                   <div className="flex-1">
-                    <CardTitle className="text-2xl mb-3">Senior Maritime Consultant</CardTitle>
+                    <CardTitle className="text-2xl mb-3">Senior Campaign Strategist</CardTitle>
                     <p className="text-gray-600 mb-4">
-                      Lead maritime consulting projects for ports, terminals, and shipping operations. 
-                      Work with national and international clients on challenging assignments.
+                      Lead multi-state election campaigns, design path-to-victory strategies, and work with party leadership 
+                      on narrative and booth-level execution. Experience in Indian politics and data-driven campaigning required.
                     </p>
                     <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                       <div className="flex items-center">
                         <Briefcase className="w-4 h-4 mr-2" />
-                        Consulting
+                        Strategy
                       </div>
                       <div className="flex items-center">
                         <MapPin className="w-4 h-4 mr-2" />
-                        Mumbai
+                        Delhi / Remote
                       </div>
                       <div className="flex items-center">
                         <Clock className="w-4 h-4 mr-2" />
@@ -89,10 +89,10 @@ export default function CurrentOpeningsPage() {
               <CardHeader>
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                   <div className="flex-1">
-                    <CardTitle className="text-2xl mb-3">Research Analyst</CardTitle>
+                    <CardTitle className="text-2xl mb-3">Political Research & Data Analyst</CardTitle>
                     <p className="text-gray-600 mb-4">
-                      Analyze maritime industry data, trends, and market dynamics. 
-                      Provide insights for strategic decision making and business development.
+                      Analyze polling data, voter sentiment, and constituency-level trends. Build dashboards and models 
+                      for vote share forecasting and segment analysis. Experience with survey research and statistical modeling preferred.
                     </p>
                     <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                       <div className="flex items-center">
@@ -101,7 +101,7 @@ export default function CurrentOpeningsPage() {
                       </div>
                       <div className="flex items-center">
                         <MapPin className="w-4 h-4 mr-2" />
-                        Mumbai
+                        Bengaluru / Remote
                       </div>
                       <div className="flex items-center">
                         <Clock className="w-4 h-4 mr-2" />
@@ -124,19 +124,19 @@ export default function CurrentOpeningsPage() {
               <CardHeader>
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                   <div className="flex-1">
-                    <CardTitle className="text-2xl mb-3">Technical Design Engineer</CardTitle>
+                    <CardTitle className="text-2xl mb-3">Product Designer (Political Platforms)</CardTitle>
                     <p className="text-gray-600 mb-4">
-                      Design and optimize port infrastructure and terminal layouts. 
-                      Work on feasibility studies and technical design projects.
+                      Design user experiences for leader apps, voter management tools, and campaign dashboards. 
+                      Work on Mahaneta, Netabanner and other Digineta platforms. Experience with mobile-first design and Indian language interfaces preferred.
                     </p>
                     <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                       <div className="flex items-center">
                         <Briefcase className="w-4 h-4 mr-2" />
-                        Engineering
+                        Design
                       </div>
                       <div className="flex items-center">
                         <MapPin className="w-4 h-4 mr-2" />
-                        Mumbai
+                        Remote
                       </div>
                       <div className="flex items-center">
                         <Clock className="w-4 h-4 mr-2" />
@@ -159,10 +159,10 @@ export default function CurrentOpeningsPage() {
               <CardHeader>
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                   <div className="flex-1">
-                    <CardTitle className="text-2xl mb-3">Financial Analyst</CardTitle>
+                    <CardTitle className="text-2xl mb-3">Program Finance & Operations Analyst</CardTitle>
                     <p className="text-gray-600 mb-4">
-                      Provide financial modeling and investment analysis for maritime projects. 
-                      Support corporate finance advisory and feasibility studies.
+                      Support campaign and governance program budgeting, resource allocation, and financial planning. 
+                      Work with teams on program feasibility and cost optimization. Experience with political campaigns or public programs preferred.
                     </p>
                     <div className="flex flex-wrap gap-4 text-sm text-gray-600">
                       <div className="flex items-center">
@@ -171,7 +171,7 @@ export default function CurrentOpeningsPage() {
                       </div>
                       <div className="flex items-center">
                         <MapPin className="w-4 h-4 mr-2" />
-                        Mumbai
+                        Delhi / Remote
                       </div>
                       <div className="flex items-center">
                         <Clock className="w-4 h-4 mr-2" />

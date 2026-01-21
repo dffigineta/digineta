@@ -190,7 +190,7 @@ export default function NationalStateCampaignsPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              Segments of Port Consulting
+              Campaign Types We Support
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -223,7 +223,7 @@ export default function NationalStateCampaignsPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              Practice Areas of Port Consulting
+              Core Capabilities for Campaigns
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -255,18 +255,18 @@ export default function NationalStateCampaignsPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Ready to Transform Your Port Operations?
+              Ready to Run a Winning Campaign?
             </h2>
             <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-              Partner with India&apos;s leading port consultants to optimize your port infrastructure 
-              and maximize operational efficiency.
+              Partner with Digineta to design and execute large-scale election campaigns with 
+              discipline, data and strategic clarity.
             </p>
             <Link href="/contact">
               <Button 
                 size="lg" 
                 className="bg-white text-blue-900 hover:bg-blue-50 font-semibold px-8 py-4"
               >
-                Get Expert Consultation
+                Get Started
               </Button>
             </Link>
           </motion.div>

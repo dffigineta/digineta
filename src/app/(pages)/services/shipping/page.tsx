@@ -11,7 +11,7 @@ export default function ShippingConsultingPage() {
       <p>
         <strong>Tel:</strong> +91 9820340418
         <br />
-        <strong>Email:</strong> ramesh@imaritime.com
+        <strong>Email:</strong> contact@digineta.com
       </p>
       <p>
         Shipping is a global industry and its prospects are associated with the level of global economic and industrial activity. However, the shipping market is known to be cyclical in nature with volatile freight rates.

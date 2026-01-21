@@ -5,71 +5,70 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
-import { Container, TrendingUp, MapPin, Warehouse, Package } from 'lucide-react'
+import { Users, MapPin, Building, Target, TrendingUp } from 'lucide-react'
 
 const benefits = [
   {
-    icon: Container,
-    title: "Multimodal Expertise",
-    description: "Expertise in multimodal transportation, including inland container logistics."
+    icon: Users,
+    title: "Ward-level precision",
+    description: "Granular understanding of ward dynamics, voter segments and local issues that drive turnout and outcomes."
   },
   {
     icon: MapPin,
-    title: "Market Understanding",
-    description: "Understanding of growth in existing and upcoming cargo clusters within India."
+    title: "Local narrative expertise",
+    description: "Deep knowledge of city-specific issues, local media ecosystems and community engagement channels."
   },
   {
-    icon: Warehouse,
-    title: "Regulatory Knowledge",
-    description: "Understanding of rules for setting up Container Freight Stations and Inland Container Depots in India."
+    icon: Building,
+    title: "Municipal governance focus",
+    description: "Understanding of urban local body structures, ward committees and citizen participation mechanisms."
   },
   {
-    icon: Package,
-    title: "Technical Excellence",
-    description: "Sound technical understanding of material handling equipment."
+    icon: Target,
+    title: "Turnout optimization",
+    description: "Data-driven strategies to maximize voter turnout and ensure effective ground mobilization."
   },
   {
     icon: TrendingUp,
-    title: "Advanced Analytics",
-    description: "Robust management tools for understanding container shipping logistics, including origin-destination analysis and cost analysis."
+    title: "Delivery visibility",
+    description: "Frameworks to showcase governance delivery, track citizen feedback and build credibility."
   }
 ]
 
 const segments = [
-  "Container Freight stations",
-  "Inland Container Depot",
-  "Warehouses",
-  "Ro-Ro (Roll-on/Roll-off)",
-  "Coal logistics",
-  "Mineral logistics",
-  "Road and rail logistics"
+  "Urban local body elections",
+  "Municipal corporation campaigns",
+  "Ward-level programs",
+  "City issue campaigns",
+  "Panchayat elections",
+  "Metropolitan area campaigns",
+  "Smart city initiatives"
 ]
 
 const practiceAreas = [
-  "Research report of Container Logistics in India",
-  "Business plan",
-  "Market study & analysis of Container Logistics",
-  "Shipping Logistics cost analysis",
-  "Feasibility for Container Freight station (CFS) or Inland container depot (ICD)"
+  "Ward-level voter segmentation and targeting",
+  "Local narrative and message design",
+  "Volunteer and cadre mobilization systems",
+  "Citizen engagement and feedback programs",
+  "Governance scorecards and delivery tracking"
 ]
 
-const logisticsAreas = [
-  "Container logistics",
-  "Shipping logistics", 
-  "Port feasibility",
-  "Warehousing/CFS feasibility studies",
-  "Iron ore logistics",
-  "Steel logistics",
-  "Coal logistics",
-  "Automobile logistics"
+const campaignTypes = [
+  "Municipal elections",
+  "Ward-level campaigns",
+  "City issue movements",
+  "Local governance programs",
+  "Citizen participation initiatives",
+  "Urban development campaigns",
+  "Smart city programs",
+  "Local body leadership support"
 ]
 
-export default function ContainerLogisticsPage() {
+export default function LocalBodiesCityCampaignsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 to-white">
       {/* Header */}
-      <section className="relative py-20 bg-gradient-to-r from-orange-900 to-red-700 text-white overflow-hidden">
-        <div className="absolute inset-0 bg-[#0f172a]/40"></div>
+      <section className="relative py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white overflow-hidden">
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -78,16 +77,16 @@ export default function ContainerLogisticsPage() {
             className="max-w-4xl mx-auto text-center"
           >
             <div className="flex items-center justify-center mb-6">
-              <span className="text-orange-200 text-sm font-medium px-3 py-1 bg-orange-800/30 rounded-full">
-                Services &gt; Industry &gt; Container Logistics and Warehousing
+              <span className="text-white/80 text-sm font-medium px-3 py-1 bg-white/10 rounded-full">
+                Services &gt; Who we work with &gt; Local bodies & city campaigns
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Container Logistics Consulting Services
+              Local bodies & city campaigns
             </h1>
-            <p className="text-xl text-orange-100 leading-relaxed">
-              India&apos;s Leading Container and Shipping Logistics Consultant providing end-to-end 
-              logistics solutions and warehouse optimization services.
+            <p className="text-xl text-white/80 leading-relaxed">
+              Digineta supports urban local bodies, panchayats and city campaigns with ward-level 
+              precision, local narrative expertise and governance delivery frameworks.
             </p>
           </motion.div>
         </div>
@@ -105,15 +104,9 @@ export default function ContainerLogisticsPage() {
               className="lg:col-span-1"
             >
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-full h-full bg-orange-200 rounded-2xl rotate-3"></div>
-                <div className="relative bg-white p-4 rounded-2xl shadow-xl">
-                  <Image
-                    src="/i-consultancy.jpg"
-                    alt="Container Logistics Consulting"
-                    width={400}
-                    height={400}
-                    className="rounded-xl w-full h-auto"
-                  />
+                <div className="absolute -top-4 -left-4 w-full h-full bg-[#B31942]/20 rounded-2xl rotate-3"></div>
+                <div className="relative bg-[#002147] p-4 rounded-2xl shadow-xl flex items-center justify-center">
+                  <div className="w-full h-48 md:h-64 bg-white/10 rounded-xl" />
                 </div>
               </div>
             </motion.div>
@@ -125,24 +118,30 @@ export default function ContainerLogisticsPage() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="lg:col-span-2 space-y-8"
             >
-              {/* Leading Container Logistics Consultant */}
+              {/* Overview */}
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  We are India&apos;s Leading Container and Shipping Logistics Consultant
+                  Campaigns and governance programs for cities and local bodies
                 </h2>
                 <div className="space-y-4 text-gray-700 leading-relaxed">
                   <p>
-                    Logistics and warehousing are important for controlling and managing the flow of goods, 
-                    streamlining processes, and eliminating non-value-adding activities. The logistics industry 
-                    is closely linked to <strong>containers, ports and shipping</strong>, and we have expertise in 
-                    <strong>container logistics, shipping logistics, port feasibility, warehousing/CFS feasibility studies</strong>, 
-                    and various specific logistics areas like <strong>iron ore, steel, coal, and automobile logistics</strong>.
+                    Local body and city campaigns require a different kind of precision – understanding 
+                    ward-level dynamics, local issues, and everyday citizen experience. Digineta brings 
+                    together research, strategy and execution frameworks tailored for urban local bodies, 
+                    panchayats and city-level campaigns.
                   </p>
                   <p>
-                    Our comprehensive approach ensures that we provide end-to-end solutions that optimize 
-                    supply chain efficiency, reduce costs, and improve operational performance across all 
-                    logistics segments.
+                    We help parties and candidates build strong ward-level structures, design local narratives 
+                    that resonate, and create governance programs that demonstrate delivery and build trust. 
+                    Our approach combines granular data analysis with deep local knowledge to drive turnout, 
+                    engagement and electoral success.
                   </p>
+                  <ul className="list-disc list-inside space-y-2 ml-4">
+                    <li>Ward-level voter segmentation and targeting</li>
+                    <li>Local narrative and message architecture</li>
+                    <li>Volunteer and cadre mobilization systems</li>
+                    <li>Citizen engagement and feedback programs</li>
+                  </ul>
                 </div>
               </div>
             </motion.div>
@@ -151,7 +150,7 @@ export default function ContainerLogisticsPage() {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-20 bg-gradient-to-r from-orange-50 to-red-50">
+      <section className="py-20 bg-gradient-to-r from-[#f9fafb] to-[#e5e7eb]">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -161,11 +160,11 @@ export default function ContainerLogisticsPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Benefits with i-maritime&apos;s Container Logistics and Warehousing Services
+              Benefits with Digineta&apos;s local body & city campaign support
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our comprehensive approach combines industry expertise with cutting-edge logistics solutions 
-              to deliver exceptional results for container and warehousing operations.
+              Our comprehensive approach combines local expertise with data-driven strategies 
+              to deliver exceptional results for city and local body campaigns.
             </p>
           </motion.div>
 
@@ -178,9 +177,9 @@ export default function ContainerLogisticsPage() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
               >
-                <Card className="h-full hover:shadow-xl transition-all duration-300 border-0 bg-white/70 backdrop-blur-sm">
+                <Card className="h-full hover:shadow-xl transition-all duration-300 border-0 bg-white">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center mb-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#B31942] to-[#002147] rounded-2xl flex items-center justify-center mb-4">
                       <benefit.icon className="w-8 h-8 text-white" />
                     </div>
                     <CardTitle className="text-xl">{benefit.title}</CardTitle>
@@ -195,7 +194,7 @@ export default function ContainerLogisticsPage() {
         </div>
       </section>
 
-      {/* Logistics Areas */}
+      {/* Campaign Types Section */}
       <section className="py-20 bg-gradient-to-r from-gray-50 to-orange-50">
         <div className="container mx-auto px-6">
           <motion.div
@@ -206,11 +205,11 @@ export default function ContainerLogisticsPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              Our Logistics Expertise Areas
+              Campaign Types We Support
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
-              {logisticsAreas.map((area, index) => (
+              {campaignTypes.map((type, index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
@@ -219,8 +218,8 @@ export default function ContainerLogisticsPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-3 h-3 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-gray-700 font-medium">{area}</p>
+                  <div className="w-3 h-3 bg-[#B31942] rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-gray-700 font-medium">{type}</p>
                 </motion.div>
               ))}
             </div>
@@ -239,7 +238,7 @@ export default function ContainerLogisticsPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              Segments of Container and Shipping Logistics
+              Local Body & City Campaign Segments
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -252,7 +251,7 @@ export default function ContainerLogisticsPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-3 h-3 bg-red-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-3 h-3 bg-[#002147] rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-700 font-medium">{segment}</p>
                 </motion.div>
               ))}
@@ -272,7 +271,7 @@ export default function ContainerLogisticsPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              Practice Area in Shipping and Container Logistics
+              Core Capabilities for Local Body Campaigns
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -285,7 +284,7 @@ export default function ContainerLogisticsPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-3 h-3 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-3 h-3 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-700 font-medium">{area}</p>
                 </motion.div>
               ))}
@@ -295,7 +294,7 @@ export default function ContainerLogisticsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-orange-900 to-red-700">
+      <section className="py-20 bg-gradient-to-r from-[#B31942] to-[#002147]">
         <div className="container mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -304,18 +303,18 @@ export default function ContainerLogisticsPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Optimize Your Container Logistics
+              Ready to Win Your Local Campaign?
             </h2>
-            <p className="text-xl text-orange-100 mb-8 max-w-2xl mx-auto">
-              Partner with India&apos;s leading container logistics consultants to streamline your supply chain, 
-              optimize warehouse operations, and reduce logistics costs.
+            <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+              Partner with Digineta to build ward-level precision, local narrative strength 
+              and governance delivery frameworks for your city or local body campaign.
             </p>
             <Link href="/contact">
               <Button 
                 size="lg" 
-                className="bg-white text-orange-900 hover:bg-orange-50 font-semibold px-8 py-4"
+                className="bg-white text-[#002147] hover:bg-white/90 font-semibold px-8 py-4"
               >
-                Get Expert Consultation
+                Get Started
               </Button>
             </Link>
           </motion.div>

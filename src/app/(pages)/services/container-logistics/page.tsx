@@ -11,7 +11,7 @@ export default function ContainerLogisticsPage() {
       <p>
         <strong>Tel:</strong> +91 9820340418
         <br />
-        <strong>Email:</strong> ramesh@imaritime.com
+        <strong>Email:</strong> contact@digineta.com
       </p>
       <p>
         Logistics and warehousing are important part of controlling and managing flow of production goods. It refers to not just transportation itself, but to streamline and control the flow through the value adding processes and eliminates non-value adding ones.

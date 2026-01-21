@@ -10,7 +10,7 @@ export default function KnowledgeCentreShippingPage() {
       <p>
         <strong>Tel:</strong> +91 9820340418
         <br />
-        <strong>Email:</strong> ramesh@imaritime.com
+        <strong>Email:</strong> contact@digineta.com
       </p>
       <p>
         India holds 17th rank among the world maritime nations in terms of GRT and 15th position in terms of DWT. The total Indian fleet, which was hovering around 7.0 million GT for a long time, registered a sudden surge over the last two years and reached a historic high when it crossed the 8.0 million GT mark. This corresponds, for the last two years, to nearly 14% growth for the last two years. Today Indian shipping companies collectively owns about 704 vessels with 8.3 million gross tonnage (GT) or around 13.75 million deadweight tonnages. This recent surge is attributable to the remarkable upswing in the shipping markets globally, coupled with the supportive measures initiated by the Indian Government such as the introduction of tonnage tax and easing of procedures for acquiring second-hand vessels. Indian shipping industry contributes approximately 0.3% to the country’s GDP.

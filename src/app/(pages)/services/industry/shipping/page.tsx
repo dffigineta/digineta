@@ -31,29 +31,22 @@ const benefits = [
 ]
 
 const segments = [
-  "Tanker shipping",
-  "Container shipping", 
-  "Dry/bulk Shipping",
-  "Offshore Shipping",
-  "Shipping investment and finance",
-  "Ro-Ro vessels",
-  "Coastal shipping"
+  "Party leadership and CMs' offices",
+  "Key ministries and departments",
+  "Constitutional offices",
+  "Core political teams",
+  "Strategic advisory groups",
+  "Decision support systems",
+  "Office communication frameworks"
 ]
 
 const practiceAreas = [
-  "Ship Valuation",
-  "Ship buying and selling",
-  "Shipping Disinvestment",
-  "Shipping Market entry strategy",
-  "Market analysis for Shipping investment",
-  "Joint venture and positioning"
-]
-
-const publications = [
-  "Indian Shipping Industry Report",
-  "Shipping Investment Report", 
-  "Equity Research Report",
-  "Crude Tanker Report"
+  "Leader reputation tracking and management",
+  "Office communication systems",
+  "Decision support dashboards",
+  "Stakeholder engagement frameworks",
+  "Strategic planning and roadmapping",
+  "Crisis management and response"
 ]
 
 export default function ShippingPage() {
@@ -129,19 +122,16 @@ export default function ShippingPage() {
                     in nature with volatile freight rates.
                   </p>
                   <p>
-                    As shipping consultants in India, i-maritime has been at the forefront in providing 
-                    business-consulting solutions to the shipping companies looking for diversification and 
-                    business expansion and opportunities for shipping investment. Shipping industry in India 
-                    is at its all time high, owing to substantial rise in shipping freight rate at a global level. 
-                    Our shipping consultants have carried out market studies in different shipping segments like{' '}
-                    <strong>container shipping, Ro-Ro, tanker shipping, dry/bulk shipping, LNG shipping, offshore</strong> etc. 
-                    i-maritime has also assisted individual companies in syndicating funds for shipping investment 
-                    from financial Institutions & commercial banks.
+                    Digineta provides strategic advisory and execution support for leaders, offices and core teams 
+                    across India. Our team brings together deep political experience, data expertise and digital 
+                    capabilities to help leaders make informed decisions, communicate effectively and build stronger 
+                    organizations. We work with party leadership, Chief Ministers&apos; offices, key ministries and 
+                    constitutional offices to align intent, information and action.
                   </p>
                   <p>
-                    i-maritime&apos;s Shipping Consultants have been carrying out focused research in the sector by 
-                    coming out with several publications such as{' '}
-                    <strong>Indian Shipping Industry Report, Shipping Investment Report, Equity Research Report, Crude Tanker Report</strong> etc.
+                    Digineta&apos;s leadership advisory services include reputation management, office communication 
+                    systems, decision support dashboards and strategic planning. We have supported leaders across 
+                    levels with research, intelligence and execution frameworks that improve governance and campaign outcomes.
                   </p>
                 </div>
               </div>
@@ -161,7 +151,7 @@ export default function ShippingPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Benefits with i-maritime&apos;s shipping consultants
+              Benefits with Digineta&apos;s leadership advisory
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Our comprehensive approach combines industry expertise with cutting-edge analytics 
@@ -206,7 +196,7 @@ export default function ShippingPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              Segments Our Shipping Consultants work on
+              Leaders & Offices We Support
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -239,7 +229,7 @@ export default function ShippingPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              Practice Area our Shipping consultants work on
+              Core Capabilities for Leaders & Offices
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -261,42 +251,6 @@ export default function ShippingPage() {
         </div>
       </section>
 
-      {/* Research & Publications */}
-      <section className="py-20 bg-gradient-to-r from-purple-900 to-blue-700 text-white">
-        <div className="container mx-auto px-6">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="max-w-4xl mx-auto text-center"
-          >
-            <h2 className="text-4xl font-bold mb-8">
-              Research & Publications
-            </h2>
-            <p className="text-xl text-purple-100 mb-12">
-              Our shipping consultants conduct focused research and publish comprehensive reports 
-              covering various aspects of the shipping industry.
-            </p>
-            
-            <div className="grid md:grid-cols-2 gap-6">
-              {publications.map((publication, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
-                >
-                  <BookOpen className="w-8 h-8 text-purple-200 mx-auto mb-4" />
-                  <h3 className="text-lg font-semibold">{publication}</h3>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-gray-900 to-purple-900">
@@ -308,18 +262,18 @@ export default function ShippingPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Navigate Your Shipping Success
+              Strengthen Your Leadership & Office
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Partner with India&apos;s leading shipping consultants to optimize your fleet operations, 
-              identify investment opportunities, and navigate market challenges.
+              Partner with Digineta to build stronger leadership reputation, clearer communication 
+              systems and better decision support for your office or team.
             </p>
             <Link href="/contact">
               <Button 
                 size="lg" 
                 className="bg-white text-purple-900 hover:bg-purple-50 font-semibold px-8 py-4"
               >
-                Get Expert Consultation
+                Get Started
               </Button>
             </Link>
           </motion.div>

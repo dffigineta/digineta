@@ -9,35 +9,35 @@ import Link from 'next/link'
 const blogs = [
   {
     id: 'maritime-industry-trends-2025',
-    title: 'Maritime Industry Trends for 2025',
-    excerpt: 'Exploring the latest trends and developments shaping the maritime sector including digitalization, sustainability initiatives, and emerging technologies.',
-    author: 'Dr. Ramesh Singhal',
+    title: 'Indian Campaign Trends for 2025',
+    excerpt: 'Exploring the latest trends shaping Indian elections including digital-first campaigning, issue-based politics, and data-driven voter engagement strategies.',
+    author: 'Digineta Strategy Team',
     date: 'Jan 15, 2025',
-    tags: ['Trends', 'Industry', 'Analysis']
+    tags: ['Campaigns', 'Trends', 'Analysis']
   },
   {
     id: 'future-of-port-automation',
-    title: 'The Future of Port Automation',
-    excerpt: 'How automation and AI are revolutionizing port operations, improving efficiency, and reducing costs across global maritime terminals.',
-    author: 'Sarah Johnson',
+    title: 'The Future of Campaign Automation',
+    excerpt: 'How automation and AI are transforming campaign operations, from voter outreach workflows to booth-level execution systems and decision dashboards.',
+    author: 'Digineta Product Team',
     date: 'Jan 10, 2025',
-    tags: ['Automation', 'Technology', 'Ports']
+    tags: ['Automation', 'Technology', 'Campaigns']
   },
   {
     id: 'sustainable-shipping-practices',
-    title: 'Sustainable Shipping Practices',
-    excerpt: 'Environmental considerations and green technologies in modern maritime operations, including alternative fuels and emission reduction strategies.',
-    author: 'Michael Chen',
+    title: 'Sustainable Political Campaigning',
+    excerpt: 'Building long-term political organizations, ethical digital practices, and governance-focused campaigns that create lasting impact beyond election cycles.',
+    author: 'Digineta Research Team',
     date: 'Jan 5, 2025',
-    tags: ['Sustainability', 'Environment']
+    tags: ['Governance', 'Ethics', 'Strategy']
   },
   {
     id: 'container-shipping-market-analysis',
-    title: 'Container Shipping Market Analysis',
-    excerpt: 'Deep dive into current container shipping market dynamics, freight rates, and future outlook for global trade.',
-    author: 'Dr. Ramesh Singhal',
+    title: 'Booth & Voter Segment Analysis Playbook',
+    excerpt: 'A comprehensive guide to booth-level segmentation, voter analysis, and targeting strategies that drive campaign effectiveness in Indian elections.',
+    author: 'Digineta Data Team',
     date: 'Dec 28, 2024',
-    tags: ['Shipping', 'Market', 'Analysis']
+    tags: ['Booths', 'Segments', 'Analysis']
   }
 ]
 
@@ -48,7 +48,7 @@ export default function BlogsPage() {
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Blog Posts</h1>
-            <p className="text-xl text-blue-100">Insights and analysis from maritime experts</p>
+            <p className="text-xl text-blue-100">Insights and analysis from Digineta&apos;s political technology and campaign teams</p>
           </motion.div>
         </div>
       </section>

@@ -156,8 +156,8 @@ export default function BulkTrafficStudyMinorPortOrissaPage() {
                   </div>
                   <div className="flex items-center gap-3">
                     <Mail className="w-5 h-5 text-blue-600 flex-shrink-0" />
-                    <a href="mailto:ramesh@imaritime.com" className="text-blue-600 hover:text-blue-700">
-                      ramesh@imaritime.com
+                    <a href="mailto:contact@digineta.com" className="text-blue-600 hover:text-blue-700">
+                      contact@digineta.com
                     </a>
                   </div>
                   <div className="flex items-center gap-3">

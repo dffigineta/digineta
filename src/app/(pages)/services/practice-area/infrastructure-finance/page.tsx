@@ -10,56 +10,56 @@ import { DollarSign, Building, Users, Target, TrendingUp, Globe, Shield } from '
 const services = [
   {
     icon: DollarSign,
-    title: "Infrastructure Finance Advisory",
-    description: "Strategic financial advisory services for large-scale maritime infrastructure projects including funding strategy and financial structuring."
+    title: "Program finance advisory",
+    description: "Strategic financial advisory services for large-scale governance programs and campaigns including budget strategy and resource structuring."
   },
   {
     icon: Building,
-    title: "Project Finance Solutions",
-    description: "Comprehensive project finance solutions for port development, terminal construction, and maritime infrastructure investments."
+    title: "Budget planning solutions",
+    description: "Comprehensive budget planning solutions for campaign execution, program implementation, and governance initiatives."
   },
   {
     icon: Users,
-    title: "Investor Relations",
-    description: "Building and managing relationships with infrastructure investors, pension funds, and sovereign wealth funds for project funding."
+    title: "Stakeholder relations",
+    description: "Building and managing relationships with funders, donors, and resource partners for program and campaign funding."
   },
   {
     icon: Target,
-    title: "Financial Structuring",
-    description: "Optimal financial structuring for maritime infrastructure projects including debt-equity optimization and risk allocation."
+    title: "Resource structuring",
+    description: "Optimal resource structuring for campaigns and programs including budget allocation optimization and risk management."
   },
   {
     icon: TrendingUp,
-    title: "Capital Market Access",
-    description: "Access to capital markets including bond issuance, equity placement, and alternative financing solutions for infrastructure projects."
+    title: "Financial planning",
+    description: "Strategic financial planning including budget allocation, cost optimization, and alternative resource solutions for programs."
   },
   {
     icon: Globe,
-    title: "International Finance",
-    description: "International financing solutions including export credit agency financing, multilateral development bank funding, and cross-border transactions."
+    title: "Multi-source funding",
+    description: "Multi-source funding solutions including donor networks, partner contributions, and structured resource mobilization."
   }
 ]
 
 const financingTypes = [
-  "Project Finance",
-  "Infrastructure Bonds",
-  "Private Equity",
-  "Sovereign Wealth Fund Investment",
-  "Export Credit Agency Financing",
-  "Multilateral Development Bank Funding",
-  "Commercial Bank Lending",
-  "Alternative Financing Solutions"
+  "Campaign budget planning",
+  "Program resource allocation",
+  "Donor network development",
+  "Partner contribution structuring",
+  "Volunteer resource mobilization",
+  "Digital infrastructure budgeting",
+  "Field operation budgeting",
+  "Multi-source resource planning"
 ]
 
 const sectors = [
-  "Port Development & Expansion",
-  "Terminal Infrastructure",
-  "Shipbuilding & Repair Facilities",
-  "Maritime Logistics Infrastructure",
-  "Offshore Energy Infrastructure",
-  "Maritime Technology Infrastructure",
-  "Shipping Fleet Investment",
-  "Maritime Services Infrastructure"
+  "National & state campaigns",
+  "Local body & city campaigns",
+  "Governance programs",
+  "Issue-based movements",
+  "Leader positioning campaigns",
+  "Coalition management",
+  "Public program execution",
+  "Digital campaign platforms"
 ]
 
 export default function InfrastructureFinancePage() {
@@ -81,11 +81,11 @@ export default function InfrastructureFinancePage() {
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Infrastructure Finance Advisory
+              Program finance advisory
             </h1>
-            <p className="text-xl text-sky-100 leading-relaxed">
-              Strategic financial advisory services for maritime infrastructure projects, 
-              providing access to capital markets and optimal financing solutions.
+            <p className="text-xl text-white/80 leading-relaxed">
+              Advisory on financial structuring for campaigns and public programs, 
+              providing strategic budget planning and optimal resource solutions.
             </p>
           </motion.div>
         </div>

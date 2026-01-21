@@ -18,7 +18,7 @@ export default function CareersPage() {
               <span className="text-white">Career</span>
             </nav>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Career</h1>
-            <p className="text-xl text-blue-100">Join i-maritime and build your career with India&apos;s leading maritime consultancy</p>
+            <p className="text-xl text-blue-100">Join Digineta and build your career with India&apos;s political technology venture</p>
           </motion.div>
         </div>
       </section>
@@ -36,18 +36,20 @@ export default function CareersPage() {
           >
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-gray-600 leading-relaxed mb-8">
-                i-maritime consultancy believes employees as its key resources and hence recruits the best talent around. 
-                People working at i-maritime come from premier institutes of India or are those who have proven their 
-                talent in business areas. Diversity is the striking feature which would be observed working at i-maritime, 
-                with people not only coming from diverse cultural background but also possessing diverse skill sets. 
-                Apart from the full time professionals, we also have rich network of associates and institutes of repute 
-                working for different projects along with i-maritime. Work culture at i-maritime revolves around the 
-                principles of honesty, dedication and sincerity.
+                Digineta believes employees are our key resources and recruits the best talent across political strategy, 
+                data science, product design, and campaign operations. People working at Digineta come from diverse 
+                backgrounds - premier institutes, political organizations, tech companies, and field experience. 
+                Diversity is a striking feature at Digineta, with people not only coming from diverse cultural backgrounds 
+                but also possessing diverse skill sets - from booth-level organizers to data scientists, from campaign 
+                veterans to product designers. Apart from full-time professionals, we also have a rich network of 
+                associates, field coordinators, and domain experts working on different campaigns and programs. 
+                Work culture at Digineta revolves around the principles of honesty, dedication, discretion, and 
+                outcome-focused execution.
               </p>
               
               <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
                 <p className="text-lg text-gray-700 font-medium italic">
-                  The i-maritime work culture revolves around the principles of honesty, dedication and sincerity.
+                  Digineta&apos;s work culture revolves around the principles of honesty, dedication, discretion, and outcome-focused execution.
                 </p>
               </div>
             </div>
@@ -73,9 +75,10 @@ export default function CareersPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 leading-relaxed">
-                    Our commitment to our mission drives us towards our goals. At i-maritime, we work on projects and 
-                    assignments that are both stimulating and challenging. Our professionals work with national as well 
-                    as international clients on a variety of assignments ranging from corporate restructuring to e-business consulting.
+                    Our commitment to our mission drives us towards our goals. At Digineta, we work on campaigns and 
+                    programs that are both stimulating and impactful. Our professionals work with leaders, parties, and 
+                    organizations across India on a variety of assignments ranging from national election campaigns to 
+                    governance communication systems, from booth-level analytics to digital platform development.
                   </p>
                 </CardContent>
               </Card>
@@ -99,9 +102,10 @@ export default function CareersPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 leading-relaxed">
-                    We insist on a formal and disciplined work culture that is characterised by our formal dress code. 
-                    Our professionalism is what builds our clients&apos; confidence in us and has earned us a good reputation 
-                    among our clients. A friendly and informal work environment facilities teamwork.
+                    We maintain a professional and disciplined work culture while being flexible to the demands of campaign 
+                    cycles and field realities. Our professionalism and discretion are what build our clients&apos; confidence 
+                    in us and have earned us a strong reputation among leaders and parties. A friendly and collaborative 
+                    work environment facilitates teamwork across strategy, data, product, and field operations.
                   </p>
                 </CardContent>
               </Card>

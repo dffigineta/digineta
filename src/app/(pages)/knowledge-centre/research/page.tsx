@@ -8,11 +8,46 @@ import { Download} from 'lucide-react'
 
 const researchReports = [
   {
-    title: 'The India Maritime Report',
-    description: 'is a comprehensive coverage of the maritime sector, highlighting significant opportunities for the business going forward. Like i-maritime\'s previous reports, India Maritime Report is a pioneering report as it is the first comprehensive report to cover all the four key maritime verticals: Shipping, Shipyards, Ports and Container Logistics. A notable aspect of the India Maritime Report is the profile listing of most major maritime industry players in each of these maritime verticals. The report is a must-have for all the industry players in the maritime sector as well as Government and regulatory agencies, potential investors in the sector and bankers as an important aid in decision making. The report will also serve players across the world working on entry and expansion strategies in the Indian maritime sector. Extremely informative, India Maritime Report, showcases the unrivaled repository of data, information and knowledge that i-maritime Consultancy has acquired and developed over a period of a decade and a half.',
-    category: 'Comprehensive Report',
-    type: 'Industry Analysis',
-    features: ['All four maritime verticals', 'Major industry players profile', 'Government & regulatory insights', 'Investment decision support', 'Entry & expansion strategies']
+    title: 'India Political Intelligence Report',
+    description:
+      'A comprehensive view of India’s political landscape covering parliamentary, assembly and local body levels. The report brings together constituency archetypes, voter segment behaviour, turnout patterns, narrative trends and governance expectations from across the country. Built from Digineta’s work with leaders, offices and teams, it helps campaigns and administrations move from anecdotal understanding to structured, data-backed decision-making.',
+    category: 'Flagship Report',
+    type: 'Political Intelligence',
+    features: [
+      'National, state and constituency-level views',
+      'Voter and segment behaviour patterns',
+      'Turnout and margin archetypes',
+      'Narrative and media trend analysis',
+      'Implications for campaigns and governance'
+    ]
+  },
+  {
+    title: 'Constituency Playbook Series',
+    description:
+      'A set of deep-dive briefs that document how different types of constituencies behave – urban vs rural, multi-cornered vs bipolar contests, high-migration belts, border and coastal districts, and more. Each playbook focuses on structure, risks and proven levers.',
+    category: 'Playbook Series',
+    type: 'Campaign Strategy',
+    features: [
+      'Archetype-wise risk and opportunity mapping',
+      'Practical lessons from past campaigns',
+      'Booth and segment design principles',
+      'Sample timelines and activity calendars',
+      'Checklists for leaders and teams'
+    ]
+  },
+  {
+    title: 'Digital & Media Influence Study',
+    description:
+      'An analysis of how digital, regional media and hyper-local channels shape political narratives. The study maps which voter groups are most influenced by which channels and what that means for message design and budgeting.',
+    category: 'Insight Study',
+    type: 'Media & Communication',
+    features: [
+      'Channel-wise influence maps',
+      'Segment-specific media habits',
+      'Narrative spread and decay patterns',
+      'Guidelines for digital and creative teams',
+      'Measurement and optimisation frameworks'
+    ]
   }
 ]
 
@@ -24,8 +59,12 @@ export default function ResearchPage() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-6">
               <div className="flex-1">
-                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 md:mb-6">Maritime Industry Analysis & Research</h1>
-                <p className="text-lg sm:text-xl text-blue-100">Comprehensive research reports and industry analysis</p>
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 md:mb-6">
+                  Political Intelligence & Research
+                </h1>
+                <p className="text-lg sm:text-xl text-blue-100">
+                  Research reports and working papers to support campaigns and governance decisions.
+                </p>
               </div>
               {/* <div className="flex flex-col sm:flex-row gap-3 lg:gap-4">
                 <Button variant="outline" size="sm" className="text-white border-white hover:bg-white hover:text-blue-900 text-sm">
@@ -54,13 +93,14 @@ export default function ResearchPage() {
               className="mb-12"
             >
               <p className="text-lg text-gray-700 mb-8">
-                As a part of the ongoing maritime industry analysis, research and consulting assignments undertaken at i-maritime, 
-                we generate several research reports, which can be freely downloaded. This section houses maritime industry 
-                analysis and research reports, publications and papers.
+                As part of Digineta&apos;s ongoing political intelligence, research and consulting assignments, we generate
+                structured research outputs for leaders, offices and campaign teams. Some of these are restricted, while others
+                are made available as reference material and primers.
               </p>
               
               <p className="text-lg text-gray-700 mb-8">
-                Comprehensive list of Maritime Industry Analysis and Research documents:
+                Below is a curated list of Digineta research documents and series. For access to specific reports, please reach
+                out to our team.
               </p>
             </motion.div>
 
@@ -105,27 +145,13 @@ export default function ResearchPage() {
                         <Button 
                           className="bg-blue-600 hover:bg-blue-700 text-white text-sm sm:text-base"
                           onClick={() => {
-                            // Create a temporary link to download the report
-                            const link = document.createElement('a');
-                            link.href = '/reports/india-maritime-report.pdf'; // You can replace with actual report URL
-                            link.download = 'India Maritime Report.pdf';
-                            link.click();
+                            // Placeholder: wire this to actual report access flow
+                            alert('Please contact the Digineta team to access this research report.');
                           }}
                         >
                           <Download className="w-4 h-4 mr-2" />
-                          Download Report
+                          Request Access
                         </Button>
-                        {/* <Button 
-                          variant="outline" 
-                          className="border-blue-600 text-blue-600 hover:bg-blue-50 text-sm sm:text-base"
-                          onClick={() => {
-                            // Open summary in a new window/modal
-                            window.open('/reports/india-maritime-summary.pdf', '_blank');
-                          }}
-                        >
-                          <FileText className="w-4 h-4 mr-2" />
-                          View Summary
-                        </Button> */}
                       </div>
                     </CardHeader>
                   </Card>

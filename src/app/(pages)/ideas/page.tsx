@@ -7,40 +7,40 @@ import { Calendar, User } from 'lucide-react'
 
 const blogs = [
   {
-    title: 'Maritime Industry Trends for 2025',
-    excerpt: 'Exploring the latest trends and developments shaping the maritime sector',
-    author: 'Dr. Ramesh Singhal',
+    title: 'Indian Campaign Trends for 2025',
+    excerpt: 'Exploring the latest trends shaping Indian elections and political campaigns',
+    author: 'Digineta Strategy Team',
     date: 'Jan 15, 2025',
-    tags: ['Trends', 'Industry', 'Analysis']
+    tags: ['Campaigns', 'Trends', 'Analysis']
   },
   {
-    title: 'The Future of Port Automation',
-    excerpt: 'How automation is revolutionizing port operations worldwide',
-    author: 'Sarah Johnson',
+    title: 'The Future of Campaign Automation',
+    excerpt: 'How automation and AI are transforming political campaign operations',
+    author: 'Digineta Product Team',
     date: 'Jan 10, 2025',
-    tags: ['Automation', 'Technology', 'Ports']
+    tags: ['Automation', 'Technology', 'Campaigns']
   },
   {
-    title: 'Sustainable Shipping Practices',
-    excerpt: 'Environmental considerations in modern maritime operations',
-    author: 'Michael Chen',
+    title: 'Sustainable Political Campaigning',
+    excerpt: 'Building long-term organizations and ethical campaign practices',
+    author: 'Digineta Research Team',
     date: 'Jan 5, 2025',
-    tags: ['Sustainability', 'Environment']
+    tags: ['Governance', 'Ethics', 'Strategy']
   }
 ]
 
 const events = [
   {
-    title: 'Maritime Summit 2025',
-    description: 'Annual conference on maritime industry developments',
+    title: 'Campaign Strategy Lab 2025',
+    description: 'Closed-door workshop for campaign teams on path-to-victory, segmentation, and digital outreach',
     date: 'Mar 15, 2025',
-    location: 'Mumbai, India'
+    location: 'Delhi, India'
   },
   {
-    title: 'Port Technology Expo',
-    description: 'Exhibition of latest port technologies and solutions',
+    title: 'Political Tech & Data Summit',
+    description: 'Showcase of leader apps, voter management tools, and campaign analytics platforms',
     date: 'Apr 20, 2025',
-    location: 'Chennai, India'
+    location: 'Bengaluru, India'
   }
 ]
 
@@ -55,9 +55,9 @@ export default function IdeasPage() {
             animate={{ opacity: 1, y: 0 }}
             className="max-w-3xl"
           >
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">i-deas</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">Ideas</h1>
             <p className="text-xl text-blue-100">
-              Insights, trends, and thought leadership from the maritime industry
+              Insights, campaign learnings, and political technology ideas from Digineta
             </p>
           </motion.div>
         </div>
@@ -73,7 +73,7 @@ export default function IdeasPage() {
             className="mb-12"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Latest Blog Posts</h2>
-            <p className="text-xl text-gray-600">Stay updated with maritime industry insights</p>
+            <p className="text-xl text-gray-600">Stay updated with political technology and campaign insights</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -128,7 +128,7 @@ export default function IdeasPage() {
             className="mb-12"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Upcoming Events</h2>
-            <p className="text-xl text-gray-600">Join us at industry events and conferences</p>
+            <p className="text-xl text-gray-600">Join us at political technology workshops, labs, and briefings</p>
           </motion.div>
 
           <div className="max-w-3xl mx-auto space-y-6">

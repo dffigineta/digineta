@@ -10,63 +10,63 @@ import { CheckCircle, DollarSign, BarChart, Users, Globe, FileText } from 'lucid
 const services = [
   {
     icon: CheckCircle,
-    title: "Project Feasibility Assessment",
-    description: "Comprehensive evaluation of project viability, technical feasibility, market potential, and financial sustainability for maritime ventures."
+    title: "Program feasibility assessment",
+    description: "Comprehensive evaluation of program viability, political feasibility, impact potential, and resource sustainability for governance programs and campaigns."
   },
   {
     icon: DollarSign,
-    title: "Financial Feasibility Analysis",
-    description: "Detailed financial modeling including cost-benefit analysis, ROI calculations, payback periods, and sensitivity analysis."
+    title: "Resource feasibility analysis",
+    description: "Detailed resource modeling including budget analysis, cost-benefit assessment, and resource allocation planning."
   },
   {
     icon: BarChart,
-    title: "Market Feasibility Studies",
-    description: "Market demand analysis, competitive assessment, pricing strategies, and revenue potential evaluation for new projects."
+    title: "Impact feasibility studies",
+    description: "Impact demand analysis, stakeholder assessment, delivery strategies, and outcome potential evaluation for new programs."
   },
   {
     icon: Users,
-    title: "Technical Feasibility Studies",
-    description: "Engineering feasibility assessment, technology evaluation, regulatory compliance analysis, and implementation planning."
+    title: "Implementation feasibility",
+    description: "Implementation feasibility assessment, organizational capacity evaluation, regulatory compliance analysis, and execution planning."
   },
   {
     icon: Globe,
-    title: "Environmental Feasibility",
-    description: "Environmental impact assessment, sustainability analysis, regulatory compliance, and risk mitigation strategies."
+    title: "Political feasibility",
+    description: "Political impact assessment, stakeholder analysis, coalition building potential, and risk mitigation strategies."
   },
   {
     icon: FileText,
-    title: "Investment Feasibility Reports",
-    description: "Comprehensive investment feasibility reports for stakeholders, investors, and financial institutions."
+    title: "Program design reports",
+    description: "Comprehensive program design and feasibility reports for stakeholders, leadership, and decision-makers."
   }
 ]
 
 const studyTypes = [
-  "Port Development Feasibility",
-  "Terminal Expansion Feasibility",
-  "Shipyard Development Feasibility",
-  "Maritime Infrastructure Feasibility",
-  "Logistics Hub Feasibility",
-  "Maritime Technology Feasibility",
-  "Offshore Project Feasibility",
-  "Maritime Service Feasibility"
+  "Governance program feasibility",
+  "Campaign initiative feasibility",
+  "Public scheme design & feasibility",
+  "Policy program feasibility",
+  "Citizen engagement program feasibility",
+  "Digital governance program feasibility",
+  "Issue campaign feasibility",
+  "Movement platform feasibility"
 ]
 
 const deliverables = [
   "Executive Summary",
-  "Market Analysis & Demand Assessment",
-  "Technical Feasibility Assessment",
-  "Financial Analysis & Projections",
+  "Stakeholder Analysis & Demand Assessment",
+  "Implementation Feasibility Assessment",
+  "Resource Analysis & Budget Planning",
   "Risk Analysis & Mitigation",
   "Implementation Plan & Timeline",
-  "Investment Requirements",
+  "Resource Requirements",
   "Recommendations & Next Steps"
 ]
 
 export default function FeasibilityStudiesPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-teal-50 to-white">
+    <div className="min-h-screen bg-white">
       {/* Header */}
-      <section className="relative py-20 bg-gradient-to-r from-teal-900 to-cyan-700 text-white overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white overflow-hidden">
         <div className="absolute inset-0 bg-[#0f172a]/40"></div>
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
@@ -76,16 +76,16 @@ export default function FeasibilityStudiesPage() {
             className="max-w-4xl mx-auto text-center"
           >
             <div className="flex items-center justify-center mb-6">
-              <span className="text-teal-200 text-sm font-medium px-3 py-1 bg-teal-800/30 rounded-full">
-                Services &gt; Practice Area &gt; Feasibility Studies
+              <span className="text-white/80 text-sm font-medium px-3 py-1 bg-white/10 rounded-full">
+                Services &gt; What we deliver &gt; Program design & feasibility
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Feasibility Studies
+              Program design & feasibility
             </h1>
-            <p className="text-xl text-teal-100 leading-relaxed">
-              Comprehensive project feasibility and viability assessment to validate 
-              maritime investments and ensure successful project implementation.
+            <p className="text-xl text-white/80 leading-relaxed">
+              Design and feasibility assessment for campaigns and governance programs 
+              with clear impact hypotheses and metrics.
             </p>
           </motion.div>
         </div>
@@ -103,15 +103,9 @@ export default function FeasibilityStudiesPage() {
               className="lg:col-span-1"
             >
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-full h-full bg-teal-200 rounded-2xl rotate-3"></div>
-                <div className="relative bg-white p-4 rounded-2xl shadow-xl">
-                  <Image
-                    src="/home-i-img-services.png"
-                    alt="Feasibility Analysis"
-                    width={400}
-                    height={300}
-                    className="rounded-xl w-full h-auto"
-                  />
+                <div className="absolute -top-4 -left-4 w-full h-full bg-[#B31942]/20 rounded-2xl rotate-3"></div>
+                <div className="relative bg-[#002147] p-4 rounded-2xl shadow-xl flex items-center justify-center">
+                  <div className="w-full h-48 md:h-64 bg-white/10 rounded-xl" />
                 </div>
               </div>
             </motion.div>
@@ -126,19 +120,20 @@ export default function FeasibilityStudiesPage() {
               {/* Overview */}
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Strategic Feasibility Assessment
+                  Strategic Program Design & Feasibility
                 </h2>
                 <div className="space-y-4 text-gray-700 leading-relaxed">
                   <p>
-                    Our feasibility studies provide comprehensive evaluation of maritime project 
-                    viability across multiple dimensions including market potential, technical 
-                    feasibility, financial sustainability, and risk assessment. We help clients 
-                    make informed investment decisions and avoid costly project failures.
+                    Our program design & feasibility services provide comprehensive evaluation of 
+                    campaign and governance program viability across multiple dimensions including 
+                    impact potential, implementation feasibility, resource sustainability, and 
+                    political risk assessment. We help clients make informed decisions and avoid 
+                    costly program failures.
                   </p>
                   <p>
-                    Our studies combine rigorous analysis with industry expertise to deliver 
-                    actionable insights that support strategic decision-making and secure 
-                    stakeholder confidence in project investments.
+                    Our studies combine rigorous analysis with political and governance expertise 
+                    to deliver actionable insights that support strategic decision-making and 
+                    secure stakeholder confidence in program investments.
                   </p>
                 </div>
               </div>
@@ -148,7 +143,7 @@ export default function FeasibilityStudiesPage() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-gradient-to-r from-teal-50 to-cyan-50">
+      <section className="py-20 bg-gradient-to-r from-[#f9fafb] to-[#e5e7eb]">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -158,11 +153,11 @@ export default function FeasibilityStudiesPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Our Feasibility Study Services
+              Our Program Design & Feasibility Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive feasibility assessment solutions covering all critical aspects 
-              of maritime project evaluation and investment decision-making.
+              Comprehensive program design and feasibility assessment solutions covering all critical aspects 
+              of campaign and governance program evaluation and decision-making.
             </p>
           </motion.div>
 
@@ -177,7 +172,7 @@ export default function FeasibilityStudiesPage() {
               >
                 <Card className="h-full hover:shadow-xl transition-all duration-300 border-0 bg-white/70 backdrop-blur-sm">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-teal-500 to-cyan-500 rounded-2xl flex items-center justify-center mb-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#B31942] to-[#002147] rounded-2xl flex items-center justify-center mb-4">
                       <service.icon className="w-8 h-8 text-white" />
                     </div>
                     <CardTitle className="text-xl">{service.title}</CardTitle>
@@ -203,7 +198,7 @@ export default function FeasibilityStudiesPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              Feasibility Study Types
+              Program Types We Design
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -216,7 +211,7 @@ export default function FeasibilityStudiesPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-3 h-3 bg-teal-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-3 h-3 bg-[#002147] rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-700 font-medium">{type}</p>
                 </motion.div>
               ))}
@@ -226,7 +221,7 @@ export default function FeasibilityStudiesPage() {
       </section>
 
       {/* Deliverables Section */}
-      <section className="py-20 bg-gradient-to-r from-gray-50 to-teal-50">
+      <section className="py-20 bg-gradient-to-r from-gray-50 to-[#e5e7eb]">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -236,7 +231,7 @@ export default function FeasibilityStudiesPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              Feasibility Study Deliverables
+              Program Design Deliverables
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -249,7 +244,7 @@ export default function FeasibilityStudiesPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <CheckCircle className="w-6 h-6 text-teal-500 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-6 h-6 text-[#002147] mt-1 flex-shrink-0" />
                   <p className="text-gray-700 font-medium">{deliverable}</p>
                 </motion.div>
               ))}
@@ -259,7 +254,7 @@ export default function FeasibilityStudiesPage() {
       </section>
 
       {/* Process Section */}
-      <section className="py-20 bg-gradient-to-r from-teal-900 to-cyan-700 text-white">
+      <section className="py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -269,7 +264,7 @@ export default function FeasibilityStudiesPage() {
             className="max-w-4xl mx-auto text-center"
           >
             <h2 className="text-4xl font-bold mb-8">
-              Our Feasibility Study Process
+              Our Program Design Process
             </h2>
             
             <div className="grid md:grid-cols-4 gap-8">
@@ -280,9 +275,9 @@ export default function FeasibilityStudiesPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <div className="w-12 h-12 bg-teal-200 text-teal-900 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">1</div>
-                <h3 className="text-lg font-semibold mb-2">Project Scoping</h3>
-                <p className="text-teal-100 text-sm">Define project scope, objectives, and evaluation criteria</p>
+                <div className="w-12 h-12 bg-white/20 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">1</div>
+                <h3 className="text-lg font-semibold mb-2">Program Scoping</h3>
+                <p className="text-white/80 text-sm">Define program scope, objectives, and evaluation criteria</p>
               </motion.div>
               
               <motion.div
@@ -292,9 +287,9 @@ export default function FeasibilityStudiesPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <div className="w-12 h-12 bg-teal-200 text-teal-900 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">2</div>
+                <div className="w-12 h-12 bg-white/20 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">2</div>
                 <h3 className="text-lg font-semibold mb-2">Data Collection</h3>
-                <p className="text-teal-100 text-sm">Gather market, technical, and financial data</p>
+                <p className="text-white/80 text-sm">Gather stakeholder, implementation, and resource data</p>
               </motion.div>
               
               <motion.div
@@ -304,9 +299,9 @@ export default function FeasibilityStudiesPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <div className="w-12 h-12 bg-teal-200 text-teal-900 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">3</div>
+                <div className="w-12 h-12 bg-white/20 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">3</div>
                 <h3 className="text-lg font-semibold mb-2">Analysis</h3>
-                <p className="text-teal-100 text-sm">Comprehensive feasibility analysis across all dimensions</p>
+                <p className="text-white/80 text-sm">Comprehensive feasibility analysis across all dimensions</p>
               </motion.div>
               
               <motion.div
@@ -316,9 +311,9 @@ export default function FeasibilityStudiesPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <div className="w-12 h-12 bg-teal-200 text-teal-900 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">4</div>
+                <div className="w-12 h-12 bg-white/20 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">4</div>
                 <h3 className="text-lg font-semibold mb-2">Reporting</h3>
-                <p className="text-teal-100 text-sm">Deliver comprehensive feasibility report with recommendations</p>
+                <p className="text-white/80 text-sm">Deliver comprehensive program design report with recommendations</p>
               </motion.div>
             </div>
           </motion.div>
@@ -326,7 +321,7 @@ export default function FeasibilityStudiesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-gray-900 to-teal-900">
+      <section className="py-20 bg-gradient-to-r from-gray-900 to-[#002147]">
         <div className="container mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -335,18 +330,18 @@ export default function FeasibilityStudiesPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Validate Your Maritime Investment
+              Design Your Program with Confidence
             </h2>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Get comprehensive feasibility analysis to ensure your maritime project 
-              investment is sound and aligned with market opportunities.
+            <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+              Get comprehensive program design and feasibility analysis to ensure your campaign 
+              or governance program is sound and aligned with impact goals.
             </p>
             <Link href="/contact">
               <Button 
                 size="lg" 
-                className="bg-white text-teal-900 hover:bg-teal-50 font-semibold px-8 py-4"
+                className="bg-white text-[#002147] hover:bg-white/90 font-semibold px-8 py-4"
               >
-                Request Feasibility Study
+                Get Started
               </Button>
             </Link>
           </motion.div>

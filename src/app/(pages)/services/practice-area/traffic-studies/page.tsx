@@ -5,70 +5,70 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
-import { BarChart, TrendingUp, MapPin, Ship, Container, Clock, Target, Users } from 'lucide-react'
+import { BarChart, TrendingUp, MapPin, Clock, Target, Users } from 'lucide-react'
 
 const services = [
   {
     icon: BarChart,
-    title: "Port Traffic Analysis",
-    description: "Comprehensive analysis of current port traffic patterns, vessel movements, cargo volumes, and operational efficiency metrics."
+    title: "Booth-level analysis",
+    description: "Comprehensive analysis of booth-level voting patterns, demographic composition, and electoral performance to identify priority booths."
   },
   {
     icon: TrendingUp,
-    title: "Traffic Forecasting",
-    description: "Advanced forecasting models to predict future traffic volumes, growth trends, and capacity requirements for port facilities."
+    title: "Segment targeting",
+    description: "Advanced segmentation models to identify voter segments, their preferences, and movement patterns for targeted outreach."
   },
   {
     icon: MapPin,
-    title: "Origin-Destination Studies",
-    description: "Detailed analysis of cargo flows, trade routes, and hinterland connectivity to optimize port operations and infrastructure planning."
+    title: "Geographic analysis",
+    description: "Detailed analysis of constituency geography, voter distribution, and regional voting patterns to optimize campaign resource allocation."
   },
   {
-    icon: Ship,
-    title: "Vessel Traffic Studies",
-    description: "Analysis of vessel types, sizes, call patterns, and turnaround times to optimize port capacity and service levels."
+    icon: Target,
+    title: "Voter segmentation",
+    description: "Analysis of voter segments by demographics, issues, and voting behavior to design targeted messaging and outreach strategies."
   },
   {
-    icon: Container,
-    title: "Container Traffic Analysis",
-    description: "Specialized studies on container throughput, handling patterns, and terminal efficiency for container port optimization."
+    icon: Users,
+    title: "Influence network mapping",
+    description: "Mapping of key influencers, community leaders, and opinion makers at booth and segment levels for effective mobilization."
   },
   {
     icon: Clock,
-    title: "Peak Hour Analysis",
-    description: "Identification of peak traffic periods, congestion patterns, and capacity bottlenecks for operational planning."
+    title: "Turnout analysis",
+    description: "Identification of turnout patterns, peak voting periods, and mobilization opportunities for GOTV (Get Out The Vote) planning."
   }
 ]
 
 const methodologies = [
-  "Historical Data Analysis",
-  "Statistical Modeling & Forecasting",
-  "Origin-Destination Surveys",
-  "Vessel Tracking & AIS Data Analysis",
-  "Cargo Flow Mapping",
-  "Capacity Utilization Studies",
-  "Peak Hour Traffic Analysis",
-  "Seasonal Pattern Analysis",
-  "Growth Rate Projections",
-  "Competitive Traffic Analysis"
+  "Historical voting data analysis",
+  "Statistical modeling & forecasting",
+  "Voter surveys & opinion research",
+  "Booth-level performance tracking",
+  "Demographic & segment mapping",
+  "Voter turnout analysis",
+  "Peak voting period analysis",
+  "Seasonal & temporal pattern analysis",
+  "Vote share projections",
+  "Competitive analysis & swing mapping"
 ]
 
 const applications = [
-  "Port Master Planning",
-  "Terminal Capacity Planning",
-  "Infrastructure Investment Decisions",
-  "Operational Optimization",
-  "Tariff Setting & Revenue Planning",
-  "Hinterland Connectivity Planning",
-  "Competitive Positioning Analysis",
-  "Environmental Impact Assessment"
+  "Campaign resource allocation",
+  "Booth prioritization & targeting",
+  "Volunteer & cadre deployment",
+  "Message customization by segment",
+  "GOTV planning & execution",
+  "Constituency-level strategy",
+  "Competitive positioning & response",
+  "Voter outreach optimization"
 ]
 
 export default function TrafficStudiesPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-cyan-50 to-white">
+    <div className="min-h-screen bg-white">
       {/* Header */}
-      <section className="relative py-20 bg-gradient-to-r from-cyan-900 to-blue-700 text-white overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white overflow-hidden">
         <div className="absolute inset-0 bg-[#0f172a]/40"></div>
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
@@ -78,16 +78,16 @@ export default function TrafficStudiesPage() {
             className="max-w-4xl mx-auto text-center"
           >
             <div className="flex items-center justify-center mb-6">
-              <span className="text-cyan-200 text-sm font-medium px-3 py-1 bg-cyan-800/30 rounded-full">
-                Services &gt; Practice Area &gt; Traffic Studies
+              <span className="text-white/80 text-sm font-medium px-3 py-1 bg-white/10 rounded-full">
+                Services &gt; What we deliver &gt; Booth & segment analysis
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Traffic Studies
+              Booth & segment analysis
             </h1>
-            <p className="text-xl text-cyan-100 leading-relaxed">
-              Comprehensive port traffic analysis and forecasting to optimize operations, 
-              plan infrastructure, and maximize port efficiency and capacity.
+            <p className="text-xl text-white/80 leading-relaxed">
+              Granular analysis of booths, segments and geographies to prioritize effort 
+              and resources for maximum electoral impact.
             </p>
           </motion.div>
         </div>
@@ -105,15 +105,9 @@ export default function TrafficStudiesPage() {
               className="lg:col-span-1"
             >
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-full h-full bg-cyan-200 rounded-2xl rotate-3"></div>
-                <div className="relative bg-white p-4 rounded-2xl shadow-xl">
-                  <Image
-                    src="/home-i-img-services.png"
-                    alt="Traffic Analysis"
-                    width={400}
-                    height={300}
-                    className="rounded-xl w-full h-auto"
-                  />
+                <div className="absolute -top-4 -left-4 w-full h-full bg-[#B31942]/20 rounded-2xl rotate-3"></div>
+                <div className="relative bg-[#002147] p-4 rounded-2xl shadow-xl flex items-center justify-center">
+                  <div className="w-full h-48 md:h-64 bg-white/10 rounded-xl" />
                 </div>
               </div>
             </motion.div>
@@ -128,19 +122,18 @@ export default function TrafficStudiesPage() {
               {/* Overview */}
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Advanced Traffic Analysis & Forecasting
+                  Granular Booth & Segment Analysis
                 </h2>
                 <div className="space-y-4 text-gray-700 leading-relaxed">
                   <p>
-                    Our traffic studies provide critical insights into port operations, helping 
-                    optimize capacity utilization, plan infrastructure investments, and improve 
-                    operational efficiency. We combine advanced analytical techniques with 
-                    deep maritime industry expertise.
+                    Our booth & segment analysis provides critical insights into voter behavior, helping 
+                    campaigns optimize resource allocation, prioritize booths, and design targeted outreach. 
+                    We combine advanced analytical techniques with deep political and electoral expertise.
                   </p>
                   <p>
-                    Our studies cover current traffic patterns, future forecasting, origin-destination 
-                    analysis, and capacity planning to support strategic decision-making for port 
-                    authorities, terminal operators, and infrastructure investors.
+                    Our analysis covers booth-level voting patterns, voter segmentation, geographic 
+                    distribution, and turnout analysis to support strategic decision-making for campaigns, 
+                    parties, and candidates.
                   </p>
                 </div>
               </div>
@@ -150,7 +143,7 @@ export default function TrafficStudiesPage() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-gradient-to-r from-cyan-50 to-blue-50">
+      <section className="py-20 bg-gradient-to-r from-[#f9fafb] to-[#e5e7eb]">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -160,11 +153,11 @@ export default function TrafficStudiesPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Our Traffic Study Services
+              Our Booth & Segment Analysis Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive traffic analysis solutions designed to optimize port operations 
-              and support strategic infrastructure planning decisions.
+              Comprehensive analysis solutions designed to optimize campaign resource allocation 
+              and support strategic targeting decisions.
             </p>
           </motion.div>
 
@@ -179,7 +172,7 @@ export default function TrafficStudiesPage() {
               >
                 <Card className="h-full hover:shadow-xl transition-all duration-300 border-0 bg-white/70 backdrop-blur-sm">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-2xl flex items-center justify-center mb-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#B31942] to-[#002147] rounded-2xl flex items-center justify-center mb-4">
                       <service.icon className="w-8 h-8 text-white" />
                     </div>
                     <CardTitle className="text-xl">{service.title}</CardTitle>
@@ -205,7 +198,7 @@ export default function TrafficStudiesPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              Traffic Study Methodologies
+              Analysis Methodologies
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -218,7 +211,7 @@ export default function TrafficStudiesPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-3 h-3 bg-cyan-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-3 h-3 bg-[#002147] rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-700 font-medium">{method}</p>
                 </motion.div>
               ))}
@@ -228,7 +221,7 @@ export default function TrafficStudiesPage() {
       </section>
 
       {/* Applications Section */}
-      <section className="py-20 bg-gradient-to-r from-gray-50 to-cyan-50">
+      <section className="py-20 bg-gradient-to-r from-gray-50 to-[#e5e7eb]">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -238,7 +231,7 @@ export default function TrafficStudiesPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              Traffic Study Applications
+              Applications for Campaigns
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -251,7 +244,7 @@ export default function TrafficStudiesPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-3 h-3 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-3 h-3 bg-[#B31942] rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-700 font-medium">{application}</p>
                 </motion.div>
               ))}
@@ -261,7 +254,7 @@ export default function TrafficStudiesPage() {
       </section>
 
       {/* Key Benefits */}
-      <section className="py-20 bg-gradient-to-r from-cyan-900 to-blue-700 text-white">
+      <section className="py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -271,7 +264,7 @@ export default function TrafficStudiesPage() {
             className="max-w-4xl mx-auto text-center"
           >
             <h2 className="text-4xl font-bold mb-8">
-              Why Choose Our Traffic Studies?
+              Why Choose Our Booth & Segment Analysis?
             </h2>
             
             <div className="grid md:grid-cols-3 gap-8">
@@ -282,9 +275,9 @@ export default function TrafficStudiesPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <BarChart className="w-12 h-12 text-cyan-200 mx-auto mb-4" />
+                <BarChart className="w-12 h-12 text-white/80 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold mb-2">Data-Driven Insights</h3>
-                <p className="text-cyan-100">Advanced analytics and modeling for accurate traffic predictions</p>
+                <p className="text-white/80">Advanced analytics and modeling for accurate voter behavior predictions</p>
               </motion.div>
               
               <motion.div
@@ -294,9 +287,9 @@ export default function TrafficStudiesPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <Target className="w-12 h-12 text-cyan-200 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Strategic Planning</h3>
-                <p className="text-cyan-100">Support for infrastructure investment and operational decisions</p>
+                <Target className="w-12 h-12 text-white/80 mx-auto mb-4" />
+                <h3 className="text-lg font-semibold mb-2">Strategic Targeting</h3>
+                <p className="text-white/80">Support for campaign resource allocation and targeting decisions</p>
               </motion.div>
               
               <motion.div
@@ -306,9 +299,9 @@ export default function TrafficStudiesPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <Users className="w-12 h-12 text-cyan-200 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Industry Expertise</h3>
-                <p className="text-cyan-100">Deep maritime industry knowledge and proven methodologies</p>
+                <Users className="w-12 h-12 text-white/80 mx-auto mb-4" />
+                <h3 className="text-lg font-semibold mb-2">Electoral Expertise</h3>
+                <p className="text-white/80">Deep political and electoral knowledge with proven methodologies</p>
               </motion.div>
             </div>
           </motion.div>
@@ -316,7 +309,7 @@ export default function TrafficStudiesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-gray-900 to-cyan-900">
+      <section className="py-20 bg-gradient-to-r from-gray-900 to-[#002147]">
         <div className="container mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -325,18 +318,18 @@ export default function TrafficStudiesPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Optimize Your Port Operations
+              Optimize Your Campaign Targeting
             </h2>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Get comprehensive traffic analysis and forecasting to maximize port efficiency, 
-              plan infrastructure investments, and drive operational excellence.
+            <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+              Get comprehensive booth & segment analysis to maximize campaign efficiency, 
+              prioritize resources, and drive electoral success.
             </p>
             <Link href="/contact">
               <Button 
                 size="lg" 
-                className="bg-white text-cyan-900 hover:bg-cyan-50 font-semibold px-8 py-4"
+                className="bg-white text-[#002147] hover:bg-white/90 font-semibold px-8 py-4"
               >
-                Request Traffic Study
+                Get Started
               </Button>
             </Link>
           </motion.div>

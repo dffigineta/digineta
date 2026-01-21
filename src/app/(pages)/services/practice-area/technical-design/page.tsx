@@ -5,68 +5,68 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
-import { Wrench, Building, Ship, Anchor, Target, Users, Globe, CheckCircle } from 'lucide-react'
+import { Building, Target, Users, Globe, CheckCircle, TrendingUp } from 'lucide-react'
 
 const services = [
   {
-    icon: Wrench,
-    title: "Engineering Design",
-    description: "Comprehensive engineering design services for maritime infrastructure including ports, terminals, and shipbuilding facilities."
+    icon: Target,
+    title: "Digital product design",
+    description: "Comprehensive digital product design services for political and governance platforms including campaign apps, dashboards, and citizen engagement tools."
   },
   {
     icon: Building,
-    title: "Infrastructure Planning",
-    description: "Strategic infrastructure planning and design for maritime facilities, ensuring optimal layout and operational efficiency."
-  },
-  {
-    icon: Ship,
-    title: "Marine Engineering",
-    description: "Specialized marine engineering services including vessel design, port engineering, and offshore structure design."
-  },
-  {
-    icon: Anchor,
-    title: "Port & Terminal Design",
-    description: "Complete port and terminal design services including berth design, cargo handling systems, and port infrastructure."
-  },
-  {
-    icon: Target,
-    title: "Technical Specifications",
-    description: "Detailed technical specifications, engineering drawings, and construction documentation for maritime projects."
+    title: "UX/UI design",
+    description: "Strategic user experience and interface design for political platforms, ensuring optimal usability and engagement."
   },
   {
     icon: Users,
-    title: "Design Optimization",
-    description: "Design optimization services to enhance operational efficiency, reduce costs, and improve sustainability."
+    title: "User research",
+    description: "Specialized user research services including voter journey mapping, usability testing, and citizen feedback analysis."
+  },
+  {
+    icon: CheckCircle,
+    title: "Platform design",
+    description: "Complete platform design services including campaign management systems, volunteer platforms, and governance dashboards."
+  },
+  {
+    icon: Globe,
+    title: "Design specifications",
+    description: "Detailed design specifications, wireframes, and design documentation for political and governance digital products."
+  },
+  {
+    icon: TrendingUp,
+    title: "Design optimization",
+    description: "Design optimization services to enhance user engagement, improve conversion rates, and maximize platform effectiveness."
   }
 ]
 
 const designAreas = [
-  "Port Layout & Design",
-  "Terminal Infrastructure Design",
-  "Berth & Wharf Design",
-  "Cargo Handling Systems",
-  "Shipyard & Dry Dock Design",
-  "Maritime Building Design",
-  "Offshore Structure Design",
-  "Marine Equipment Design"
+  "Campaign management platforms",
+  "Volunteer & cadre apps",
+  "Citizen engagement platforms",
+  "Governance dashboards",
+  "Leader communication tools",
+  "Data visualization platforms",
+  "Voter outreach systems",
+  "Feedback & survey platforms"
 ]
 
 const deliverables = [
-  "Engineering Drawings & Plans",
-  "Technical Specifications",
-  "Design Calculations",
-  "Construction Documentation",
-  "Equipment Specifications",
-  "Safety & Compliance Documentation",
-  "Cost Estimation",
-  "Implementation Guidelines"
+  "User journey maps & wireframes",
+  "Design specifications",
+  "Prototype designs",
+  "Design system documentation",
+  "UI component libraries",
+  "Accessibility & compliance guidelines",
+  "Design handoff documentation",
+  "Implementation guidelines"
 ]
 
 export default function TechnicalDesignPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-rose-50 to-white">
       {/* Header */}
-      <section className="relative py-20 bg-gradient-to-r from-rose-900 to-pink-700 text-white overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white overflow-hidden">
         <div className="absolute inset-0 bg-[#0f172a]/40"></div>
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
@@ -76,16 +76,16 @@ export default function TechnicalDesignPage() {
             className="max-w-4xl mx-auto text-center"
           >
             <div className="flex items-center justify-center mb-6">
-              <span className="text-rose-200 text-sm font-medium px-3 py-1 bg-rose-800/30 rounded-full">
-                Services &gt; Practice Area &gt; Technical Design
+              <span className="text-white/80 text-sm font-medium px-3 py-1 bg-white/10 rounded-full">
+                Services &gt; What we deliver &gt; Digital product & UX design
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Technical Design
+              Digital product & UX design
             </h1>
-            <p className="text-xl text-rose-100 leading-relaxed">
-              Engineering and technical design services for maritime infrastructure, 
-              ensuring optimal functionality, efficiency, and compliance with industry standards.
+            <p className="text-xl text-white/80 leading-relaxed">
+              Design of political and governance digital products and tools that connect 
+              leaders, cadre, citizens and information in real time.
             </p>
           </motion.div>
         </div>
@@ -126,19 +126,19 @@ export default function TechnicalDesignPage() {
               {/* Overview */}
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Engineering Excellence in Maritime Design
+                  Design Excellence for Political Technology
                 </h2>
                 <div className="space-y-4 text-gray-700 leading-relaxed">
                   <p>
-                    Our technical design services provide comprehensive engineering solutions 
-                    for maritime infrastructure projects. We combine advanced engineering 
-                    principles with maritime industry expertise to deliver designs that are 
-                    both technically sound and operationally efficient.
+                    Our digital product & UX design services provide comprehensive design solutions 
+                    for political and governance platforms. We combine advanced design principles 
+                    with political and electoral expertise to deliver products that are 
+                    both user-friendly and strategically effective.
                   </p>
                   <p>
-                    Our team of experienced engineers and designers work closely with clients 
-                    to develop innovative solutions that meet project requirements while 
-                    ensuring compliance with international standards and best practices.
+                    Our team of experienced designers and UX researchers work closely with clients 
+                    to develop innovative solutions that meet campaign and governance requirements while 
+                    ensuring optimal user experience and engagement.
                   </p>
                 </div>
               </div>
@@ -148,7 +148,7 @@ export default function TechnicalDesignPage() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-gradient-to-r from-rose-50 to-pink-50">
+      <section className="py-20 bg-gradient-to-r from-[#f9fafb] to-[#e5e7eb]">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -158,11 +158,11 @@ export default function TechnicalDesignPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Our Technical Design Services
+              Our Digital Product & UX Design Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive engineering and design solutions for maritime infrastructure 
-              projects, ensuring optimal performance and compliance with industry standards.
+              Comprehensive design solutions for political and governance digital products, 
+              ensuring optimal user experience and strategic effectiveness.
             </p>
           </motion.div>
 
@@ -177,7 +177,7 @@ export default function TechnicalDesignPage() {
               >
                 <Card className="h-full hover:shadow-xl transition-all duration-300 border-0 bg-white/70 backdrop-blur-sm">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-rose-500 to-pink-500 rounded-2xl flex items-center justify-center mb-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#B31942] to-[#002147] rounded-2xl flex items-center justify-center mb-4">
                       <service.icon className="w-8 h-8 text-white" />
                     </div>
                     <CardTitle className="text-xl">{service.title}</CardTitle>
@@ -203,7 +203,7 @@ export default function TechnicalDesignPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              Technical Design Areas
+              Digital Product Types We Design
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -216,7 +216,7 @@ export default function TechnicalDesignPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-3 h-3 bg-rose-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-3 h-3 bg-[#002147] rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-700 font-medium">{area}</p>
                 </motion.div>
               ))}
@@ -249,7 +249,7 @@ export default function TechnicalDesignPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <CheckCircle className="w-6 h-6 text-pink-500 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-6 h-6 text-[#002147] mt-1 flex-shrink-0" />
                   <p className="text-gray-700 font-medium">{deliverable}</p>
                 </motion.div>
               ))}
@@ -259,7 +259,7 @@ export default function TechnicalDesignPage() {
       </section>
 
       {/* Value Proposition */}
-      <section className="py-20 bg-gradient-to-r from-rose-900 to-pink-700 text-white">
+      <section className="py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -269,7 +269,7 @@ export default function TechnicalDesignPage() {
             className="max-w-4xl mx-auto text-center"
           >
             <h2 className="text-4xl font-bold mb-8">
-              Why Choose Our Technical Design Services?
+              Why Choose Our Digital Product & UX Design Services?
             </h2>
             
             <div className="grid md:grid-cols-3 gap-8">
@@ -280,9 +280,9 @@ export default function TechnicalDesignPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <Wrench className="w-12 h-12 text-rose-200 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Engineering Excellence</h3>
-                <p className="text-rose-100">Advanced engineering principles and maritime industry expertise</p>
+                <Target className="w-12 h-12 text-white/80 mx-auto mb-4" />
+                <h3 className="text-lg font-semibold mb-2">Design Excellence</h3>
+                <p className="text-white/80">Advanced design principles and political technology expertise</p>
               </motion.div>
               
               <motion.div
@@ -292,9 +292,9 @@ export default function TechnicalDesignPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <Globe className="w-12 h-12 text-rose-200 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold mb-2">International Standards</h3>
-                <p className="text-rose-100">Compliance with international maritime standards and best practices</p>
+                <Users className="w-12 h-12 text-white/80 mx-auto mb-4" />
+                <h3 className="text-lg font-semibold mb-2">User-Centered Design</h3>
+                <p className="text-white/80">Compliance with UX best practices and accessibility standards</p>
               </motion.div>
               
               <motion.div
@@ -304,9 +304,9 @@ export default function TechnicalDesignPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <Target className="w-12 h-12 text-rose-200 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Innovative Solutions</h3>
-                <p className="text-rose-100">Cutting-edge design solutions for optimal performance and efficiency</p>
+                <CheckCircle className="w-12 h-12 text-white/80 mx-auto mb-4" />
+                <h3 className="text-lg font-semibold mb-2">Strategic Solutions</h3>
+                <p className="text-white/80">Cutting-edge design solutions for optimal engagement and impact</p>
               </motion.div>
             </div>
           </motion.div>
@@ -314,7 +314,7 @@ export default function TechnicalDesignPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-gray-900 to-rose-900">
+      <section className="py-20 bg-gradient-to-r from-gray-900 to-[#002147]">
         <div className="container mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -323,18 +323,18 @@ export default function TechnicalDesignPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Design Your Maritime Future
+              Design Your Digital Platform
             </h2>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Partner with our technical design experts to create innovative, efficient, 
-              and compliant maritime infrastructure solutions.
+            <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+              Partner with Digineta&apos;s design experts to create innovative, user-friendly, 
+              and strategically effective political and governance digital products.
             </p>
             <Link href="/contact">
               <Button 
                 size="lg" 
-                className="bg-white text-rose-900 hover:bg-rose-50 font-semibold px-8 py-4"
+                className="bg-white text-[#002147] hover:bg-white/90 font-semibold px-8 py-4"
               >
-                Discuss Design Requirements
+                Get Started
               </Button>
             </Link>
           </motion.div>

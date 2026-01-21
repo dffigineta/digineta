@@ -10,25 +10,25 @@ import RegistrationModal from '@/components/RegistrationModal'
 
 const directoryMembers = [
   {
-    name: 'b.s.bhatia',
-    companyName: 'strainwell',
-    companyDescription: 'manufacturer',
-    address: '6 DSIDC COMPLEX JHILMIL IND. AREA . DELHI-110095-INDIA',
-    website: 'www.strainwell.com',
-    email: 'sales at strainwell.com',
-    telephone: '911122583488',
-    fax: '911122583277',
-    category: 'Equipment'
+    name: 'Office of MLA – Central Constituency',
+    companyName: 'Digineta Partner Campaign',
+    companyDescription: 'Constituency office working with Digineta on booth intelligence, digital outreach and grievance management.',
+    address: 'Central Constituency Office, Main Market Road, City, State - 000000',
+    website: 'www.exampleoffice.in',
+    email: 'contact@exampleoffice.in',
+    telephone: '+91-98765-00000',
+    fax: '+91-98765-00001',
+    category: 'Leaders & Offices'
   }
 ]
 
 const categories = [
-  { name: 'Equipment', count: 25, color: 'bg-blue-100 text-blue-700' },
-  { name: 'Shipping', count: 18, color: 'bg-green-100 text-green-700' },
-  { name: 'Port Services', count: 32, color: 'bg-purple-100 text-purple-700' },
-  { name: 'Logistics', count: 15, color: 'bg-orange-100 text-orange-700' },
-  { name: 'Consulting', count: 12, color: 'bg-pink-100 text-pink-700' },
-  { name: 'Technology', count: 8, color: 'bg-cyan-100 text-cyan-700' }
+  { name: 'Leaders & Offices', count: 42, color: 'bg-blue-100 text-blue-700' },
+  { name: 'Campaign Consultants', count: 28, color: 'bg-green-100 text-green-700' },
+  { name: 'Digital & Technology Partners', count: 19, color: 'bg-purple-100 text-purple-700' },
+  { name: 'Media & Creative Teams', count: 24, color: 'bg-orange-100 text-orange-700' },
+  { name: 'Grassroots Organisations', count: 17, color: 'bg-pink-100 text-pink-700' },
+  { name: 'Research & Policy Groups', count: 11, color: 'bg-cyan-100 text-cyan-700' }
 ]
 
 export default function DirectoryPage() {
@@ -47,8 +47,10 @@ export default function DirectoryPage() {
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-6">
               <div className="flex-1">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6">Maritime Directory</h1>
-                <p className="text-lg sm:text-xl text-blue-100">Our efforts have been to create an exhaustive directory of maritime and related industry.</p>
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6">Digineta Network Directory</h1>
+                <p className="text-lg sm:text-xl text-blue-100">
+                  A curated directory of leaders, offices and partners working with Digineta on political technology, campaigns and governance programs.
+                </p>
               </div>
               <Button 
                 className="bg-white text-blue-900 hover:bg-gray-100 text-sm sm:text-base"
@@ -103,7 +105,7 @@ export default function DirectoryPage() {
               className="mb-8"
             >
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-6">
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">List of Register Members</h2>
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Directory Members</h2>
                 <div className="flex items-center gap-3 sm:gap-4">
                   <span className="text-xs sm:text-sm text-gray-600">1 of 1</span>
                   <Button variant="outline" size="sm" disabled className="text-xs sm:text-sm">
@@ -208,10 +210,10 @@ export default function DirectoryPage() {
               <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
                 <CardContent className="p-6 sm:p-8">
                   <Users className="w-12 h-12 sm:w-16 sm:h-16 text-blue-600 mx-auto mb-3 sm:mb-4" />
-                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Join Our Maritime Directory</h3>
+                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Join the Digineta Network Directory</h3>
                   <p className="text-sm sm:text-base text-gray-700 mb-4 sm:mb-6 max-w-2xl mx-auto leading-relaxed">
-                    Register your company in our comprehensive maritime directory and connect with industry professionals, 
-                    potential clients, and business partners across the maritime sector.
+                    Register your office, organisation or partnership in our directory and connect with leaders, teams and collaborators
+                    across campaigns and governance programs.
                   </p>
                   <Button 
                     size="lg" 

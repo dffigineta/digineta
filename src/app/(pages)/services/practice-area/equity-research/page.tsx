@@ -5,68 +5,68 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
-import { TrendingUp, BarChart, Target, Users, DollarSign, FileText, Shield } from 'lucide-react'
+import { TrendingUp, BarChart, Target, Users, DollarSign, FileText } from 'lucide-react'
 
 const services = [
   {
     icon: TrendingUp,
-    title: "Company Valuation",
-    description: "Comprehensive valuation analysis of maritime companies using multiple methodologies including DCF, comparable analysis, and asset-based valuation."
+    title: "Leader reputation tracking",
+    description: "Comprehensive reputation analysis of leaders using multiple methodologies including sentiment analysis, media tracking, and public opinion research."
   },
   {
     icon: BarChart,
-    title: "Financial Analysis",
-    description: "In-depth financial statement analysis, ratio analysis, and performance benchmarking for maritime companies and investment opportunities."
+    title: "Equity analysis",
+    description: "In-depth analysis of leadership equity, vote share trends, and performance benchmarking for leaders and political entities."
   },
   {
     icon: Target,
-    title: "Investment Recommendations",
-    description: "Strategic investment recommendations with detailed buy/sell/hold ratings and price targets for maritime sector investments."
+    title: "Narrative tracking",
+    description: "Strategic narrative tracking with detailed analysis of message performance, narrative shifts, and positioning recommendations."
   },
   {
     icon: Users,
-    title: "Sector Analysis",
-    description: "Comprehensive analysis of maritime industry sectors including ports, shipping, logistics, and shipbuilding with investment outlook."
+    title: "Segment analysis",
+    description: "Comprehensive analysis of voter segments including demographic groups, issue-based clusters, and geographic patterns with equity trends."
   },
   {
     icon: DollarSign,
-    title: "Risk Assessment",
-    description: "Detailed risk analysis including market risk, operational risk, regulatory risk, and financial risk assessment for investment decisions."
+    title: "Risk assessment",
+    description: "Detailed risk analysis including reputation risk, narrative risk, competitive risk, and electoral risk assessment for strategic decisions."
   },
   {
     icon: FileText,
-    title: "Research Reports",
-    description: "Detailed equity research reports covering company fundamentals, industry trends, and investment opportunities in maritime sectors."
+    title: "Tracking reports",
+    description: "Detailed reputation and equity tracking reports covering leader performance, narrative trends, and strategic opportunities."
   }
 ]
 
 const researchTypes = [
-  "Company Initiation Reports",
-  "Quarterly Earnings Analysis",
-  "Sector Outlook Reports",
-  "Merger & Acquisition Analysis",
-  "IPO Research & Valuation",
-  "Private Equity Research",
-  "Credit Analysis",
-  "ESG Investment Analysis"
+  "Leader reputation baseline reports",
+  "Quarterly equity tracking analysis",
+  "Narrative trend reports",
+  "Coalition & alliance analysis",
+  "Campaign performance research",
+  "Segment movement analysis",
+  "Competitive positioning analysis",
+  "Issue-based equity analysis"
 ]
 
 const sectors = [
-  "Port Operators & Terminal Companies",
-  "Shipping Lines & Fleet Operators",
-  "Shipbuilding & Repair Companies",
-  "Maritime Logistics & Warehousing",
-  "Offshore & Energy Services",
-  "Maritime Technology Companies",
-  "Maritime Finance & Insurance",
-  "Maritime Services & Consulting"
+  "National & state leaders",
+  "Local body leaders",
+  "Party leadership",
+  "Ministry & department heads",
+  "Constitutional office holders",
+  "Movement leaders",
+  "Coalition partners",
+  "Emerging leaders"
 ]
 
 export default function EquityResearchPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-violet-50 to-white">
+    <div className="min-h-screen bg-white">
       {/* Header */}
-      <section className="relative py-20 bg-gradient-to-r from-violet-900 to-purple-700 text-white overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white overflow-hidden">
         <div className="absolute inset-0 bg-[#0f172a]/40"></div>
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
@@ -76,16 +76,16 @@ export default function EquityResearchPage() {
             className="max-w-4xl mx-auto text-center"
           >
             <div className="flex items-center justify-center mb-6">
-              <span className="text-violet-200 text-sm font-medium px-3 py-1 bg-violet-800/30 rounded-full">
-                Services &gt; Practice Area &gt; Equity Research
+              <span className="text-white/80 text-sm font-medium px-3 py-1 bg-white/10 rounded-full">
+                Services &gt; What we deliver &gt; Reputation & equity tracking
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Equity Research
+              Reputation & equity tracking
             </h1>
-            <p className="text-xl text-violet-100 leading-relaxed">
-              Comprehensive investment analysis and equity research to identify 
-              value opportunities and drive informed investment decisions in maritime sectors.
+            <p className="text-xl text-white/80 leading-relaxed">
+              Tracking leadership equity, reputation and narrative over time to identify 
+              trends and drive informed strategic decisions.
             </p>
           </motion.div>
         </div>
@@ -103,15 +103,9 @@ export default function EquityResearchPage() {
               className="lg:col-span-1"
             >
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-full h-full bg-violet-200 rounded-2xl rotate-3"></div>
-                <div className="relative bg-white p-4 rounded-2xl shadow-xl">
-                  <Image
-                    src="/home-i-img-services.png"
-                    alt="Equity Research"
-                    width={400}
-                    height={300}
-                    className="rounded-xl w-full h-auto"
-                  />
+                <div className="absolute -top-4 -left-4 w-full h-full bg-[#B31942]/20 rounded-2xl rotate-3"></div>
+                <div className="relative bg-[#002147] p-4 rounded-2xl shadow-xl flex items-center justify-center">
+                  <div className="w-full h-48 md:h-64 bg-white/10 rounded-xl" />
                 </div>
               </div>
             </motion.div>
@@ -126,19 +120,18 @@ export default function EquityResearchPage() {
               {/* Overview */}
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Strategic Investment Analysis
+                  Strategic Reputation & Equity Tracking
                 </h2>
                 <div className="space-y-4 text-gray-700 leading-relaxed">
                   <p>
-                    Our equity research services provide comprehensive investment analysis and 
-                    valuation expertise for maritime companies and sectors. We combine fundamental 
-                    analysis with industry expertise to deliver actionable investment insights 
-                    and recommendations.
+                    Our reputation & equity tracking services provide comprehensive analysis and 
+                    monitoring expertise for leaders and political entities. We combine sentiment 
+                    analysis with political expertise to deliver actionable insights and recommendations.
                   </p>
                   <p>
-                    Our research covers company valuations, financial analysis, sector outlook, 
-                    and investment recommendations, helping institutional investors, private equity 
-                    firms, and corporate clients make informed investment decisions in maritime markets.
+                    Our tracking covers leader reputation, narrative performance, equity trends, 
+                    and strategic recommendations, helping campaigns, parties, and leadership teams 
+                    make informed decisions about positioning and communication.
                   </p>
                 </div>
               </div>
@@ -148,7 +141,7 @@ export default function EquityResearchPage() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-gradient-to-r from-violet-50 to-purple-50">
+      <section className="py-20 bg-gradient-to-r from-[#f9fafb] to-[#e5e7eb]">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -158,11 +151,11 @@ export default function EquityResearchPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Our Equity Research Services
+              Our Reputation & Equity Tracking Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive investment analysis solutions designed to identify value 
-              opportunities and support informed investment decisions in maritime markets.
+              Comprehensive tracking solutions designed to identify reputation trends 
+              and support informed strategic decisions for leaders and campaigns.
             </p>
           </motion.div>
 
@@ -177,7 +170,7 @@ export default function EquityResearchPage() {
               >
                 <Card className="h-full hover:shadow-xl transition-all duration-300 border-0 bg-white/70 backdrop-blur-sm">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-violet-500 to-purple-500 rounded-2xl flex items-center justify-center mb-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#B31942] to-[#002147] rounded-2xl flex items-center justify-center mb-4">
                       <service.icon className="w-8 h-8 text-white" />
                     </div>
                     <CardTitle className="text-xl">{service.title}</CardTitle>
@@ -203,7 +196,7 @@ export default function EquityResearchPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              Types of Research We Provide
+              Types of Tracking We Provide
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -216,7 +209,7 @@ export default function EquityResearchPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-3 h-3 bg-violet-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-3 h-3 bg-[#002147] rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-700 font-medium">{type}</p>
                 </motion.div>
               ))}
@@ -226,7 +219,7 @@ export default function EquityResearchPage() {
       </section>
 
       {/* Sectors Section */}
-      <section className="py-20 bg-gradient-to-r from-gray-50 to-violet-50">
+      <section className="py-20 bg-gradient-to-r from-gray-50 to-[#e5e7eb]">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -236,7 +229,7 @@ export default function EquityResearchPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              Maritime Sectors We Analyze
+              Leaders & Entities We Track
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -249,7 +242,7 @@ export default function EquityResearchPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-3 h-3 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-3 h-3 bg-[#B31942] rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-700 font-medium">{sector}</p>
                 </motion.div>
               ))}
@@ -259,7 +252,7 @@ export default function EquityResearchPage() {
       </section>
 
       {/* Value Proposition */}
-      <section className="py-20 bg-gradient-to-r from-violet-900 to-purple-700 text-white">
+      <section className="py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -269,7 +262,7 @@ export default function EquityResearchPage() {
             className="max-w-4xl mx-auto text-center"
           >
             <h2 className="text-4xl font-bold mb-8">
-              Why Choose Our Equity Research?
+              Why Choose Our Reputation & Equity Tracking?
             </h2>
             
             <div className="grid md:grid-cols-3 gap-8">
@@ -280,9 +273,9 @@ export default function EquityResearchPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <BarChart className="w-12 h-12 text-violet-200 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Deep Industry Knowledge</h3>
-                <p className="text-violet-100">Extensive maritime industry expertise and market insights</p>
+                <BarChart className="w-12 h-12 text-white/80 mx-auto mb-4" />
+                <h3 className="text-lg font-semibold mb-2">Deep Political Knowledge</h3>
+                <p className="text-white/80">Extensive political and electoral expertise and insights</p>
               </motion.div>
               
               <motion.div
@@ -292,9 +285,9 @@ export default function EquityResearchPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <Target className="w-12 h-12 text-violet-200 mx-auto mb-4" />
+                <Target className="w-12 h-12 text-white/80 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold mb-2">Actionable Insights</h3>
-                <p className="text-violet-100">Clear investment recommendations with price targets</p>
+                <p className="text-white/80">Clear strategic recommendations with narrative guidance</p>
               </motion.div>
               
               <motion.div
@@ -304,9 +297,9 @@ export default function EquityResearchPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <Shield className="w-12 h-12 text-violet-200 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Risk-Adjusted Returns</h3>
-                <p className="text-violet-100">Comprehensive risk assessment for informed investment decisions</p>
+                <TrendingUp className="w-12 h-12 text-white/80 mx-auto mb-4" />
+                <h3 className="text-lg font-semibold mb-2">Trend Analysis</h3>
+                <p className="text-white/80">Comprehensive trend assessment for informed strategic decisions</p>
               </motion.div>
             </div>
           </motion.div>
@@ -314,7 +307,7 @@ export default function EquityResearchPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-gray-900 to-violet-900">
+      <section className="py-20 bg-gradient-to-r from-gray-900 to-[#002147]">
         <div className="container mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -323,18 +316,18 @@ export default function EquityResearchPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Unlock Investment Opportunities
+              Track Your Reputation & Equity
             </h2>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Partner with our equity research experts to identify value opportunities 
-              and make informed investment decisions in maritime markets.
+            <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+              Partner with Digineta&apos;s tracking experts to monitor reputation trends 
+              and make informed strategic decisions for leaders and campaigns.
             </p>
             <Link href="/contact">
               <Button 
                 size="lg" 
-                className="bg-white text-violet-900 hover:bg-violet-50 font-semibold px-8 py-4"
+                className="bg-white text-[#002147] hover:bg-white/90 font-semibold px-8 py-4"
               >
-                Request Research Report
+                Get Started
               </Button>
             </Link>
           </motion.div>

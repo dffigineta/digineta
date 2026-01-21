@@ -9,140 +9,139 @@ import { ArrowRight } from 'lucide-react'
 const caseStudies = [
   {
     id: 'business-opportunity-coastal-ro-ro-shipping',
-    title: 'Business opportunity in Coastal RO-RO shipping',
-    category: 'Shipping'
+    title: 'Cross-party digital campaign for an urban constituency',
+    category: 'Election Campaigns'
   },
   {
     id: 'bulk-traffic-study-minor-port-orissa',
-    title: 'Bulk traffic study at minor port in Orissa',
-    category: 'Port Development'
+    title: 'Booth-level analytics strategy in a rural district',
+    category: 'Campaign Strategy'
   },
   {
     id: 'business-plan-cement-shipping',
-    title: 'Business plan for Cement shipping',
-    category: 'Shipping'
+    title: 'State assembly election campaign with alliance coordination',
+    category: 'Election Campaigns'
   },
   {
     id: 'market-study-cfs-facility-jnpt',
-    title: 'Market study for setting CFS facility at JNPT',
-    category: 'Logistics'
+    title: 'Leader reputation and digital presence program',
+    category: 'Leader Support'
   },
   {
     id: 'feasibility-study-port-based-multi-product-sez',
-    title: 'Feasibility Study for a port based Multi Product SEZ',
-    category: 'Port Development'
+    title: 'Chief Minister&apos;s Office governance communication system',
+    category: 'Governance'
   },
   {
     id: 'detailed-project-report-shipyard-gujarat',
-    title: 'Detailed Project Report for setting up Shipyard facility in Gujarat',
-    category: 'Shipbuilding'
+    title: 'Ward-level turnout and persuasion program for municipal elections',
+    category: 'Local Bodies'
   },
   {
     id: 'india-dredging-market-study',
-    title: 'India Dredging market study',
-    category: 'Dredging'
+    title: 'Issue-based movement platform and membership system',
+    category: 'Movements'
   },
   {
     id: 'business-opportunities-malaysian-dredging-market',
-    title: 'Business opportunities in Malaysian Dredging market',
-    category: 'Dredging'
+    title: 'National general election campaign with multi-state coordination',
+    category: 'Election Campaigns'
   },
   {
     id: 'market-study-offshore-sector-india',
-    title: 'Market study of Offshore sector in India',
-    category: 'Offshore'
+    title: 'Flagship scheme communication and feedback loop',
+    category: 'Governance'
   },
   {
     id: 'market-study-setting-up-cfs-icd',
-    title: 'Market study for setting up CFS/ICD',
-    category: 'Logistics'
+    title: 'Volunteer and cadre mobilisation system for state campaign',
+    category: 'Campaign Strategy'
   },
   {
     id: 'tanker-shipping-entry-strategy',
-    title: 'Tanker Shipping Entry strategy',
-    category: 'Shipping'
+    title: 'Pre-poll research and sentiment mapping for assembly elections',
+    category: 'Research'
   },
   {
     id: 'techno-economic-feasibility-study-multimodal-transport-coal',
-    title: 'Techno Economic Feasibility study on Multimodal Transport of Coal',
-    category: 'Transport'
+    title: 'Digital outreach and social media engine for youth mobilization',
+    category: 'Digital Campaigns'
   },
   {
     id: 'term-loan-proposal-acquisition-handymax-bulk-carrier',
-    title: 'Term loan proposal for acquisition of second hand Handymax bulk carrier',
-    category: 'Finance'
+    title: 'Constituency brand-building and voter engagement program',
+    category: 'Leader Support'
   },
   {
     id: 'india-port-report',
-    title: 'India Port Report',
+    title: 'Election data and booth analytics for Lok Sabha constituency',
     category: 'Research'
   },
   {
     id: 'study-business-opportunities-dredging-india',
-    title: 'Study for business opportunities for dredging in India',
-    category: 'Dredging'
+    title: 'Urban local body election with ward-by-ward planning',
+    category: 'Local Bodies'
   },
   {
     id: 'port-induced-road-traffic-key-sections',
-    title: 'Port induced road traffic on key sections of road',
-    category: 'Transport'
+    title: 'Narrative testing and message architecture for national campaign',
+    category: 'Campaign Strategy'
   },
   {
     id: 'market-feasibility-study-ship-repair-facility-west-coast',
-    title: 'Market feasibility study for setting up ship repair facility on west coast of India',
-    category: 'Shipbuilding'
+    title: 'Polling day and GOTV planning for assembly elections',
+    category: 'Election Campaigns'
   },
   {
     id: 'bulk-cargo-traffic-forecast-state-port-south-gujarat',
-    title: 'Bulk cargo traffic forecast for state port in South Gujarat',
-    category: 'Port Development'
+    title: 'Citizen grievance and service-delivery dashboard',
+    category: 'Governance'
   },
   {
     id: 'traffic-assessment-minor-port-andhra-pradesh',
-    title: 'Traffic assessment for a minor port in Andhra Pradesh',
-    category: 'Port Development'
+    title: 'Hyperlocal listening and mobilisation network',
+    category: 'Movements'
   },
   {
     id: 'study-dry-bulk-traffic-minor-port-orissa',
-    title: 'Study of dry bulk traffic at minor port in Orissa',
-    category: 'Port Development'
+    title: 'Regional alliance coordination across districts',
+    category: 'Election Campaigns'
   },
   {
     id: 'development-website-indias-largest-private-port',
-    title: 'Development of website for Indias largest private port',
-    category: 'Technology'
+    title: 'Mahaneta platform implementation for sitting MLA',
+    category: 'Digital Platforms'
   },
   {
     id: 'strategy-report-indian-port-sector',
-    title: 'Strategy Report for Indian Port sector',
-    category: 'Strategy'
+    title: 'Path-to-victory and seat prioritisation framework',
+    category: 'Campaign Strategy'
   },
   {
     id: 'multi-logistics-park-ahmedabad',
-    title: 'Multi Logistics Park in Ahmedabad',
-    category: 'Logistics'
+    title: 'Network-building program for local leaders across urban wards',
+    category: 'Local Bodies'
   },
   {
     id: 'techno-economic-feasibility-study-port-colachel',
-    title: 'Techno Economic Feasibility Study for setting a port at Colachel',
-    category: 'Port Development'
+    title: 'Rapid-response narrative and war-room setup for by-election',
+    category: 'Election Campaigns'
   }
 ]
 
 export default function CaseStudiesPage() {
   const getCategoryColor = (category: string) => {
     const colors = {
-      'Shipping': 'from-blue-500 to-cyan-500',
-      'Port Development': 'from-green-500 to-emerald-500',
-      'Logistics': 'from-orange-500 to-red-500',
-      'Shipbuilding': 'from-purple-500 to-pink-500',
-      'Dredging': 'from-gray-500 to-slate-500',
-      'Offshore': 'from-indigo-500 to-purple-500',
-      'Transport': 'from-teal-500 to-cyan-500',
-      'Finance': 'from-yellow-500 to-orange-500',
-      'Research': 'from-rose-500 to-pink-500',
-      'Technology': 'from-violet-500 to-purple-500',
-      'Strategy': 'from-emerald-500 to-green-500'
+      'Election Campaigns': 'from-blue-500 to-cyan-500',
+      'Campaign Strategy': 'from-green-500 to-emerald-500',
+      'Leader Support': 'from-orange-500 to-red-500',
+      'Governance': 'from-purple-500 to-pink-500',
+      'Local Bodies': 'from-gray-500 to-slate-500',
+      'Movements': 'from-indigo-500 to-purple-500',
+      'Research': 'from-teal-500 to-cyan-500',
+      'Digital Campaigns': 'from-yellow-500 to-orange-500',
+      'Digital Platforms': 'from-rose-500 to-pink-500',
+      'Strategy': 'from-violet-500 to-purple-500'
     }
     return colors[category as keyof typeof colors] || 'from-gray-500 to-slate-500'
   }
@@ -159,7 +158,7 @@ export default function CaseStudiesPage() {
               <span className="text-white">Case Studies</span>
             </nav>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Case Studies</h1>
-            <p className="text-xl text-blue-100">Listed here are case studies of some of our works, which would provide deeper insight about us and our methodology.</p>
+            <p className="text-xl text-blue-100">Real campaign stories from across India. These case studies provide deeper insight into how Digineta supports leaders, parties, and campaigns.</p>
           </motion.div>
         </div>
       </section>

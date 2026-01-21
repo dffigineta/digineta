@@ -10,67 +10,67 @@ import { FileText, CheckCircle, BarChart, Users, DollarSign, Globe, Target } fro
 const services = [
   {
     icon: FileText,
-    title: "Comprehensive DPR Development",
-    description: "Detailed project reports covering all aspects of maritime infrastructure projects including technical, financial, and operational planning."
+    title: "Comprehensive execution blueprint development",
+    description: "Detailed execution blueprints covering all aspects of campaigns and governance programs including strategy, operations, and implementation planning."
   },
   {
     icon: BarChart,
-    title: "Technical Documentation",
-    description: "Complete technical specifications, engineering designs, implementation plans, and operational procedures for maritime projects."
+    title: "Operational documentation",
+    description: "Complete operational specifications, campaign designs, implementation plans, and execution procedures for campaigns and programs."
   },
   {
     icon: DollarSign,
-    title: "Financial Projections",
-    description: "Detailed financial modeling including capital expenditure, operational costs, revenue projections, and return on investment analysis."
+    title: "Resource planning",
+    description: "Detailed resource modeling including budget allocation, team costs, operational expenses, and impact projections."
   },
   {
     icon: Users,
-    title: "Project Implementation Planning",
-    description: "Comprehensive implementation roadmap including timelines, resource allocation, risk management, and quality assurance protocols."
+    title: "Execution planning",
+    description: "Comprehensive execution roadmap including timelines, resource allocation, risk management, and quality assurance protocols."
   },
   {
     icon: Globe,
-    title: "Regulatory Compliance",
-    description: "Ensuring compliance with maritime regulations, environmental standards, and international best practices for project implementation."
+    title: "Compliance & governance",
+    description: "Ensuring compliance with electoral regulations, campaign finance rules, and best practices for program implementation."
   },
   {
     icon: Target,
-    title: "Stakeholder Documentation",
-    description: "Preparation of investor-ready documentation, government submissions, and stakeholder presentations for project approval."
+    title: "Stakeholder documentation",
+    description: "Preparation of leadership-ready documentation, stakeholder submissions, and presentation materials for campaign approval."
   }
 ]
 
 const components = [
   "Executive Summary",
-  "Project Overview & Objectives",
-  "Market Analysis & Demand Assessment",
-  "Technical Feasibility & Design",
-  "Financial Analysis & Projections",
+  "Campaign/Program Overview & Objectives",
+  "Political Landscape & Opportunity Assessment",
+  "Strategy & Design Framework",
+  "Resource Analysis & Budget Planning",
   "Implementation Plan & Timeline",
   "Risk Analysis & Mitigation",
-  "Environmental Impact Assessment",
-  "Regulatory Compliance Analysis",
-  "Operations & Maintenance Plan",
-  "Investment Requirements",
+  "Stakeholder Impact Assessment",
+  "Compliance & Regulatory Analysis",
+  "Operations & Execution Plan",
+  "Resource Requirements",
   "Appendices & Supporting Documentation"
 ]
 
 const sectors = [
-  "Port Development & Expansion",
-  "Terminal Operations & Infrastructure",
-  "Shipbuilding & Repair Facilities",
-  "Maritime Logistics & Warehousing",
-  "Offshore & Energy Infrastructure",
-  "Maritime Technology Implementation",
-  "Shipping Fleet Development",
-  "Maritime Services & Operations"
+  "National & state campaigns",
+  "Local body & city campaigns",
+  "Governance programs",
+  "Issue-based movements",
+  "Leader positioning campaigns",
+  "Coalition management",
+  "Public program execution",
+  "Digital campaign platforms"
 ]
 
 export default function DetailedProjectReportPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-white">
+    <div className="min-h-screen bg-white">
       {/* Header */}
-      <section className="relative py-20 bg-gradient-to-r from-slate-900 to-gray-700 text-white overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white overflow-hidden">
         <div className="absolute inset-0 bg-[#0f172a]/40"></div>
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
@@ -80,16 +80,16 @@ export default function DetailedProjectReportPage() {
             className="max-w-4xl mx-auto text-center"
           >
             <div className="flex items-center justify-center mb-6">
-              <span className="text-slate-200 text-sm font-medium px-3 py-1 bg-slate-800/30 rounded-full">
-                Services &gt; Practice Area &gt; Detailed Project Report
+              <span className="text-white/80 text-sm font-medium px-3 py-1 bg-white/10 rounded-full">
+                Services &gt; What we deliver &gt; Execution blueprints
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Detailed Project Report
+              Execution blueprints
             </h1>
-            <p className="text-xl text-slate-100 leading-relaxed">
-              Comprehensive project documentation and planning services to ensure 
-              successful implementation of maritime infrastructure projects and investments.
+            <p className="text-xl text-white/80 leading-relaxed">
+              Detailed execution plans for campaigns and governance programs with 
+              clear milestones, resource allocation, and success metrics.
             </p>
           </motion.div>
         </div>
@@ -107,15 +107,9 @@ export default function DetailedProjectReportPage() {
               className="lg:col-span-1"
             >
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-full h-full bg-slate-200 rounded-2xl rotate-3"></div>
-                <div className="relative bg-white p-4 rounded-2xl shadow-xl">
-                  <Image
-                    src="/home-i-img-services.png"
-                    alt="Project Documentation"
-                    width={400}
-                    height={300}
-                    className="rounded-xl w-full h-auto"
-                  />
+                <div className="absolute -top-4 -left-4 w-full h-full bg-[#B31942]/20 rounded-2xl rotate-3"></div>
+                <div className="relative bg-[#002147] p-4 rounded-2xl shadow-xl flex items-center justify-center">
+                  <div className="w-full h-48 md:h-64 bg-white/10 rounded-xl" />
                 </div>
               </div>
             </motion.div>
@@ -130,19 +124,19 @@ export default function DetailedProjectReportPage() {
               {/* Overview */}
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Comprehensive Project Documentation Excellence
+                  Comprehensive Execution Blueprint Excellence
                 </h2>
                 <div className="space-y-4 text-gray-700 leading-relaxed">
                   <p>
-                    Our Detailed Project Reports (DPR) provide comprehensive documentation for 
-                    maritime infrastructure projects, covering all aspects from technical design 
-                    to financial planning and implementation strategies. We ensure every project 
-                    is thoroughly documented and ready for execution.
+                    Our execution blueprints provide comprehensive documentation for 
+                    campaigns and governance programs, covering all aspects from strategy design 
+                    to resource planning and implementation frameworks. We ensure every campaign 
+                    or program is thoroughly documented and ready for execution.
                   </p>
                   <p>
-                    Our DPRs serve as the blueprint for project implementation, providing 
+                    Our blueprints serve as the roadmap for campaign or program implementation, providing 
                     detailed specifications, timelines, budgets, and operational procedures 
-                    that ensure successful project delivery and stakeholder satisfaction.
+                    that ensure successful execution and stakeholder satisfaction.
                   </p>
                 </div>
               </div>
@@ -152,7 +146,7 @@ export default function DetailedProjectReportPage() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-gradient-to-r from-slate-50 to-gray-50">
+      <section className="py-20 bg-gradient-to-r from-[#f9fafb] to-[#e5e7eb]">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -162,11 +156,11 @@ export default function DetailedProjectReportPage() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Our DPR Services
+              Our Execution Blueprint Services
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive project documentation solutions designed to ensure successful 
-              implementation and stakeholder approval of maritime infrastructure projects.
+              Comprehensive execution planning solutions designed to ensure successful 
+              implementation and stakeholder approval of campaigns and governance programs.
             </p>
           </motion.div>
 
@@ -181,7 +175,7 @@ export default function DetailedProjectReportPage() {
               >
                 <Card className="h-full hover:shadow-xl transition-all duration-300 border-0 bg-white/70 backdrop-blur-sm">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-slate-500 to-gray-500 rounded-2xl flex items-center justify-center mb-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#B31942] to-[#002147] rounded-2xl flex items-center justify-center mb-4">
                       <service.icon className="w-8 h-8 text-white" />
                     </div>
                     <CardTitle className="text-xl">{service.title}</CardTitle>
@@ -207,7 +201,7 @@ export default function DetailedProjectReportPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              DPR Components & Structure
+              Blueprint Components & Structure
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -220,7 +214,7 @@ export default function DetailedProjectReportPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <CheckCircle className="w-6 h-6 text-slate-500 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-6 h-6 text-[#002147] mt-1 flex-shrink-0" />
                   <p className="text-gray-700 font-medium">{component}</p>
                 </motion.div>
               ))}
@@ -230,7 +224,7 @@ export default function DetailedProjectReportPage() {
       </section>
 
       {/* Sectors Section */}
-      <section className="py-20 bg-gradient-to-r from-gray-50 to-slate-50">
+      <section className="py-20 bg-gradient-to-r from-gray-50 to-[#e5e7eb]">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -240,7 +234,7 @@ export default function DetailedProjectReportPage() {
             className="max-w-4xl mx-auto"
           >
             <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-              Maritime Sectors We Document
+              Contexts We Work In
             </h2>
             
             <div className="grid md:grid-cols-2 gap-6">
@@ -253,7 +247,7 @@ export default function DetailedProjectReportPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-3 h-3 bg-gray-500 rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-3 h-3 bg-[#002147] rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-700 font-medium">{sector}</p>
                 </motion.div>
               ))}
@@ -263,7 +257,7 @@ export default function DetailedProjectReportPage() {
       </section>
 
       {/* Process Section */}
-      <section className="py-20 bg-gradient-to-r from-slate-900 to-gray-700 text-white">
+      <section className="py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -273,7 +267,7 @@ export default function DetailedProjectReportPage() {
             className="max-w-4xl mx-auto text-center"
           >
             <h2 className="text-4xl font-bold mb-8">
-              Our DPR Development Process
+              Our Blueprint Development Process
             </h2>
             
             <div className="grid md:grid-cols-4 gap-8">
@@ -284,9 +278,9 @@ export default function DetailedProjectReportPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <div className="w-12 h-12 bg-slate-200 text-slate-900 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">1</div>
-                <h3 className="text-lg font-semibold mb-2">Project Scoping</h3>
-                <p className="text-slate-100 text-sm">Define project scope, objectives, and documentation requirements</p>
+                <div className="w-12 h-12 bg-white/20 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">1</div>
+                <h3 className="text-lg font-semibold mb-2">Program Scoping</h3>
+                <p className="text-white/80 text-sm">Define program scope, objectives, and documentation requirements</p>
               </motion.div>
               
               <motion.div
@@ -296,9 +290,9 @@ export default function DetailedProjectReportPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <div className="w-12 h-12 bg-slate-200 text-slate-900 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">2</div>
+                <div className="w-12 h-12 bg-white/20 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">2</div>
                 <h3 className="text-lg font-semibold mb-2">Data Collection</h3>
-                <p className="text-slate-100 text-sm">Gather technical, financial, and operational data</p>
+                <p className="text-white/80 text-sm">Gather strategic, resource, and operational data</p>
               </motion.div>
               
               <motion.div
@@ -308,9 +302,9 @@ export default function DetailedProjectReportPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <div className="w-12 h-12 bg-slate-200 text-slate-900 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">3</div>
+                <div className="w-12 h-12 bg-white/20 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">3</div>
                 <h3 className="text-lg font-semibold mb-2">Analysis & Planning</h3>
-                <p className="text-slate-100 text-sm">Comprehensive analysis and detailed planning documentation</p>
+                <p className="text-white/80 text-sm">Comprehensive analysis and detailed planning documentation</p>
               </motion.div>
               
               <motion.div
@@ -320,9 +314,9 @@ export default function DetailedProjectReportPage() {
                 viewport={{ once: true }}
                 className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20"
               >
-                <div className="w-12 h-12 bg-slate-200 text-slate-900 rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">4</div>
-                <h3 className="text-lg font-semibold mb-2">Report Compilation</h3>
-                <p className="text-slate-100 text-sm">Final DPR compilation and stakeholder presentation</p>
+                <div className="w-12 h-12 bg-white/20 text-white rounded-full flex items-center justify-center mx-auto mb-4 font-bold text-lg">4</div>
+                <h3 className="text-lg font-semibold mb-2">Blueprint Compilation</h3>
+                <p className="text-white/80 text-sm">Final blueprint compilation and stakeholder presentation</p>
               </motion.div>
             </div>
           </motion.div>
@@ -330,7 +324,7 @@ export default function DetailedProjectReportPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-gray-900 to-slate-900">
+      <section className="py-20 bg-gradient-to-r from-gray-900 to-[#002147]">
         <div className="container mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -339,18 +333,18 @@ export default function DetailedProjectReportPage() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Document Your Project Success
+              Blueprint Your Execution Success
             </h2>
-            <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Partner with our DPR experts to create comprehensive project documentation 
-              that ensures successful implementation and stakeholder approval.
+            <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+              Partner with Digineta&apos;s execution experts to create comprehensive blueprints 
+              that ensure successful implementation and stakeholder approval.
             </p>
             <Link href="/contact">
               <Button 
                 size="lg" 
-                className="bg-white text-slate-900 hover:bg-slate-50 font-semibold px-8 py-4"
+                className="bg-white text-[#002147] hover:bg-white/90 font-semibold px-8 py-4"
               >
-                Start Your DPR
+                Get Started
               </Button>
             </Link>
           </motion.div>

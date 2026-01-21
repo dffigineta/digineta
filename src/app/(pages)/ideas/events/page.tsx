@@ -7,24 +7,24 @@ import { Calendar, MapPin } from 'lucide-react'
 
 const events = [
   {
-    title: 'Maritime Summit 2025',
-    description: 'Annual conference bringing together maritime industry leaders, policymakers, and innovators to discuss the future of maritime trade and operations.',
+    title: 'Campaign Strategy Lab 2025',
+    description: 'Closed-door workshop for campaign teams on path-to-victory frameworks, booth-level segmentation, narrative design, and digital outreach strategies. Limited to 30 participants.',
     date: 'March 15-17, 2025',
-    location: 'Mumbai, India',
-    type: 'Conference'
+    location: 'Delhi, India',
+    type: 'Workshop'
   },
   {
-    title: 'Port Technology Expo',
-    description: 'Exhibition showcasing the latest port technologies, automation solutions, and digital innovations transforming terminal operations.',
+    title: 'Political Tech & Data Summit',
+    description: 'Showcase of Digineta platforms including Mahaneta, Netabanner, leader apps, and voter management tools. Demos, case studies, and hands-on sessions on campaign analytics.',
     date: 'April 20-22, 2025',
-    location: 'Chennai, India',
-    type: 'Exhibition'
+    location: 'Bengaluru, India',
+    type: 'Summit'
   },
   {
-    title: 'Shipbuilding Innovation Forum',
-    description: 'Forum focused on shipbuilding technology, design innovations, and sustainable ship construction practices.',
+    title: 'Governance & Program Communication Forum',
+    description: 'Forum on running effective governance communication, feedback loops, and program dashboards. For CMs&apos; offices, ministries, and public program teams.',
     date: 'May 10-11, 2025',
-    location: 'Kochi, India',
+    location: 'Delhi, India',
     type: 'Forum'
   }
 ]
@@ -36,7 +36,7 @@ export default function EventsPage() {
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Events</h1>
-            <p className="text-xl text-blue-100">Join us at maritime industry events</p>
+            <p className="text-xl text-blue-100">Join Digineta&apos;s political technology workshops, labs, and briefings</p>
           </motion.div>
         </div>
       </section>

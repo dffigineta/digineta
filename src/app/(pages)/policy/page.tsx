@@ -3,9 +3,9 @@
 export default function PrivacyPolicyPage() {
   return (
     <div className="container mx-auto px-4 py-12 prose max-w-3xl">
-      <h1>Privacy Policy for www.imaritime.com</h1>
+      <h1>Privacy Policy for www.digineta.com</h1>
       <p>
-        i-maritime Consultancy Pvt. Ltd. has created this privacy policy statement in order to demonstrate our firm&apos;s commitment to privacy. The following discloses our information gathering and dissemination practices for www.imaritime.com
+        Digineta has created this privacy policy statement in order to demonstrate our firm&apos;s commitment to privacy. The following discloses our information gathering and dissemination practices for www.digineta.com
       </p>
       <p>
         We may use your IP address to help diagnose problems with our server and/or to administer our Web site. This gives us an idea of which parts of our site users are visiting. We do not link IP addresses to anything personally identifiable. This means that a users session will be tracked, but the user will be anonymous.

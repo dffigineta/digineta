@@ -11,32 +11,32 @@ const resources = [
   {
     icon: FileText,
     title: 'Case Studies',
-    description: 'In-depth analysis of successful maritime projects',
-    count: '50+ Studies',
+    description: 'In-depth analysis of winning campaigns and governance programs',
+    count: '40+ Stories',
     color: 'from-blue-500 to-cyan-500',
     href: '/knowledge-centre/case-studies'
   },
   {
     icon: Database,
     title: 'Databases',
-    description: 'Comprehensive maritime industry data and statistics',
-    count: '10+ Databases',
+    description: 'Structured political, electoral and demographic data',
+    count: '15+ Databases',
     color: 'from-purple-500 to-pink-500',
     href: '/knowledge-centre/databases'
   },
   {
     icon: BookOpen,
     title: 'Infobank',
-    description: 'Maritime knowledge repository and resources',
-    count: '100+ Resources',
+    description: 'Political intelligence glossary, concepts and playbooks',
+    count: '120+ Resources',
     color: 'from-orange-500 to-red-500',
     href: '/knowledge-centre/infobank'
   },
   {
     icon: TrendingUp,
     title: 'Research',
-    description: 'Industry research reports and market analysis',
-    count: '30+ Reports',
+    description: 'Constituency, voter and narrative research for campaigns',
+    count: '25+ Reports',
     color: 'from-green-500 to-emerald-500',
     href: '/knowledge-centre/research'
   }
@@ -44,19 +44,19 @@ const resources = [
 
 const caseStudies = [
   {
-    title: 'Techno Economic Feasibility Study for Colachel Port',
-    description: 'Comprehensive feasibility study for new port development in Tamil Nadu',
-    category: 'Port Development'
+    title: 'Booth-Level Strategy for a Three-Term MLA',
+    description: 'Redesigned the booth strategy using voter segments, turnout patterns and local issues to secure a decisive victory margin.',
+    category: 'Booth & Ground Strategy'
   },
   {
-    title: 'Multi Logistics Park in Ahmedabad',
-    description: 'Strategic planning for integrated logistics hub in Gujarat',
-    category: 'Logistics'
+    title: 'Digital Reputation Management for an Urban Leader',
+    description: 'Combined social listening, content strategy and rapid response to reshape narrative in a high-noise urban constituency.',
+    category: 'Digital & Media'
   },
   {
-    title: 'Strategy Report for Indian Port Sector',
-    description: 'National port sector analysis and strategic recommendations',
-    category: 'Strategy'
+    title: 'Program Communication for a Flagship Governance Initiative',
+    description: 'Designed full-funnel communication and citizen touchpoints for a large-scale public program across multiple districts.',
+    category: 'Governance Programs'
   }
 ]
 
@@ -74,7 +74,7 @@ export default function KnowledgeCentrePage() {
             >
               <h1 className="text-5xl md:text-6xl font-bold mb-6">Knowledge Centre</h1>
               <p className="text-xl text-blue-100">
-                Access comprehensive maritime industry research, data, and insights
+                Access Digineta&apos;s political intelligence, election data and campaign insights
               </p>
             </motion.div>
             <motion.div
@@ -105,7 +105,7 @@ export default function KnowledgeCentrePage() {
             className="text-center mb-12"
           >
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">Explore Our Resources</h2>
-            <p className="text-lg sm:text-xl text-gray-600">Comprehensive maritime knowledge at your fingertips</p>
+            <p className="text-lg sm:text-xl text-gray-600">Political intelligence, data and learnings for leaders and teams</p>
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
