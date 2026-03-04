@@ -56,16 +56,16 @@ export const navigation: NavigationItem[] = [
       { label: 'Election Analysis', href: '/knowledge-centre' },
       { label: 'Data Insights', href: '/knowledge-centre' },
       { label: 'Campaign Guides', href: '/knowledge-centre' },
-    ]
-  },
-  {
-    label: 'Campaign i-deas',
-    href: '/ideas',
-    children: [
-      { label: 'Blog Posts', href: '/ideas/blogs' },
-      { label: 'Opinion & Strategy', href: '/ideas' },
-      { label: 'Case Studies', href: '/ideas' },
-      { label: 'Trends & Analysis', href: '/ideas' },
+      {
+        label: 'Campaign i-deas',
+        href: '/ideas',
+        children: [
+          { label: 'Blog Posts', href: '/ideas/blogs' },
+          { label: 'Opinion & Strategy', href: '/ideas' },
+          { label: 'Case Studies', href: '/ideas' },
+          { label: 'Trends & Analysis', href: '/ideas' },
+        ],
+      },
     ]
   },
   {
@@ -75,10 +75,6 @@ export const navigation: NavigationItem[] = [
       { label: 'Current Openings', href: '/careers/current-openings' },
       { label: 'Submit Resume', href: '/careers/submit-resume' },
     ]
-  },
-  {
-    label: 'Get in Touch',
-    href: '/contact',
   },
 ]
 
