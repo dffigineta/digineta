@@ -115,7 +115,7 @@ export default function ServicesPage() {
             className="max-w-3xl"
           >
             <Badge className="bg-white/10 backdrop-blur-sm text-white border-white/20 mb-4">
-              Services
+              Our Solutions
             </Badge>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
               Political technology for campaigns and governance

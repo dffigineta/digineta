@@ -78,7 +78,7 @@ export default function LocalBodiesCityCampaignsPage() {
           >
             <div className="flex items-center justify-center mb-6">
               <span className="text-white/80 text-sm font-medium px-3 py-1 bg-white/10 rounded-full">
-                Services &gt; Who we work with &gt; Local bodies & city campaigns
+                Our Solutions &gt; Who we work with &gt; Local bodies & city campaigns
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">

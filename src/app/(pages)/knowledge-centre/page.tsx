@@ -72,7 +72,7 @@ export default function KnowledgeCentrePage() {
               animate={{ opacity: 1, y: 0 }}
               className="max-w-3xl"
             >
-              <h1 className="text-5xl md:text-6xl font-bold mb-6">Knowledge Centre</h1>
+              <h1 className="text-5xl md:text-6xl font-bold mb-6">Political Intelligence</h1>
               <p className="text-xl text-blue-100">
                 Access Digineta&apos;s political intelligence, election data and campaign insights
               </p>
@@ -85,7 +85,7 @@ export default function KnowledgeCentrePage() {
             >
               <Image
                 src="/i-kc.gif"
-                alt="Knowledge Centre"
+                alt="Political Intelligence"
                 width={400}
                 height={300}
                 className="rounded-lg shadow-2xl"

@@ -88,7 +88,7 @@ export default function ProjectsPage() {
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <nav className="text-sm text-white/70 mb-4">
-              <Link href="/about" className="hover:text-white">About Us</Link>
+              <Link href="/about" className="hover:text-white">About Digineta</Link>
               <span className="mx-2">›</span>
               <span className="text-white">Flagship Engagements</span>
             </nav>

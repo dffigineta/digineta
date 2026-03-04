@@ -210,11 +210,11 @@ export default function HomePage() {
         </div>
       </section>
       
-      {/* Knowledge Centre & Case Studies Section */}
+      {/* Political Intelligence & Case Studies Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Knowledge Centre */}
+            {/* Political Intelligence */}
             <motion.div
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -228,13 +228,13 @@ export default function HomePage() {
                   <div className="flex items-center space-x-4 mb-4">
                     <Image
                       src="/i-img-knowledgecenter.jpg"
-                      alt="Knowledge Centre"
+                      alt="Political Intelligence"
                       width={80}
                       height={60}
                       className="rounded-lg shadow-lg"
                     />
                     <div>
-                      <CardTitle className="text-2xl text-gray-900">Political Intelligence & Knowledge Centre</CardTitle>
+                      <CardTitle className="text-2xl text-gray-900">Political Intelligence</CardTitle>
                     </div>
                   </div>
                   <CardDescription className="text-lg text-black leading-relaxed">

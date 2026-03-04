@@ -13,7 +13,7 @@ export default function CareersPage() {
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <nav className="text-sm text-blue-200 mb-4">
-              <Link href="/careers" className="hover:text-white">Careers</Link>
+              <Link href="/careers" className="hover:text-white">Join Our Team</Link>
               <span className="mx-2">›</span>
               <span className="text-white">Career</span>
             </nav>

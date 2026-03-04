@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
+import { useRouter, usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, Search, ChevronDown, ArrowRight } from 'lucide-react'
 import { navigation } from '@/lib/constants'
@@ -10,6 +10,9 @@ import { cn } from '@/lib/utils'
 
 export default function Header() {
   const router = useRouter()
+  const pathname = usePathname()
+  const isWhoIsItForActive = pathname?.startsWith('/who-is-it-for')
+  const isPoliticalPlatformActive = pathname === '/political-platform'
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
   const [activeSubmenu, setActiveSubmenu] = useState<string | null>(null)
@@ -93,7 +96,16 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-1 flex-1 justify-center xl:justify-start">
 
-            {navigation.map((item) => (
+            {navigation.map((item) => {
+              const isWhoIsItFor = item.label === 'Who Is It For'
+              const isPoliticalPlatform = item.label === 'Political Platform'
+              const isAccentItem = isWhoIsItFor || isPoliticalPlatform
+              const isActive = isPoliticalPlatform
+                ? isPoliticalPlatformActive
+                : isWhoIsItFor
+                  ? (activeDropdown === item.label || isWhoIsItForActive)
+                  : activeDropdown === item.label
+              return (
               <div
                 key={item.label}
                 className="relative"
@@ -103,10 +115,9 @@ export default function Header() {
                 <Link
                   href={item.href}
                   className={cn(
-                    "px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 flex items-center space-x-1 group",
-                    activeDropdown === item.label
-                      ? "bg-[#B31942] text-white"
-                      : "text-white hover:bg-[#B31942] hover:text-white"
+                    "px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 flex items-center space-x-1 group text-white",
+                    isActive && (isAccentItem ? "bg-[var(--who-accent)]" : "bg-[#B31942]"),
+                    !isActive && (isAccentItem ? "hover:bg-[var(--who-accent)]" : "hover:bg-[#B31942]")
                   )}
                 >
                   <span className="whitespace-nowrap">{item.label}</span>
@@ -147,9 +158,7 @@ export default function Header() {
                                   href={child.href}
                                   className={cn(
                                     "flex items-center justify-between p-3 rounded-lg group transition-all duration-200",
-                                    child.children 
-                                      ? "hover:bg-[#B31942]" 
-                                      : "hover:bg-[#B31942]"
+                                    isWhoIsItFor ? "hover:bg-[var(--who-accent)]" : "hover:bg-[#B31942]"
                                   )}
                                 >
                                   <span className={cn(
@@ -211,7 +220,8 @@ export default function Header() {
                   </AnimatePresence>
                 )}
               </div>
-            ))}
+            );
+            })}
           </nav>
 
           {/* Right Side Actions */}
@@ -278,7 +288,7 @@ export default function Header() {
             {/* CTA Button - Hidden on very small screens */}
             <Link href="/contact" className="hidden sm:block">
               <button className="bg-[#B31942] hover:bg-[#8F1333] text-white px-3 sm:px-3 py-1.5 sm:py-1.5 rounded-lg text-xs sm:text-xs font-medium transition-all duration-200 hover:shadow-lg">
-                Talk to Our Team
+                Work With Us
               </button>
             </Link>
 

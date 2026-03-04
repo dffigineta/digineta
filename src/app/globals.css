@@ -156,3 +156,28 @@ a {
   background-color: transparent;
   padding: 0;
 }
+
+/* Who Is It For — Digineta segment brand colors (CSS variables) */
+:root {
+  --who-primary: #0a0a0a;
+  --who-secondary: #111827;
+  --who-accent: #f97316;
+  --who-accent-hover: #ea6c0a;
+  --who-text-primary: #ffffff;
+  --who-text-secondary: #9ca3af;
+  --who-border: #1f2937;
+  --who-card-bg: #1a1f2e;
+  --who-stat-bg: #0f172a;
+}
+
+.who-is-it-for-page {
+  --color-primary: var(--who-primary);
+  --color-secondary: var(--who-secondary);
+  --color-accent: var(--who-accent);
+  --color-accent-hover: var(--who-accent-hover);
+  --color-text-primary: var(--who-text-primary);
+  --color-text-secondary: var(--who-text-secondary);
+  --color-border: var(--who-border);
+  --color-card-bg: var(--who-card-bg);
+  --color-stat-bg: var(--who-stat-bg);
+}

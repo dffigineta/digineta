@@ -21,20 +21,23 @@ export default function Footer() {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-white">Quick Links</h4>
             <div className="space-y-2">
+              <Link href="/political-platform" className="block text-blue-100 hover:text-white transition-colors text-sm">
+                Political Platform
+              </Link>
               <Link href="/about" className="block text-blue-100 hover:text-white transition-colors text-sm">
-                About Us
+                About Digineta
               </Link>
               <Link href="/services" className="block text-blue-100 hover:text-white transition-colors text-sm">
-                Services & Platforms
+                Our Solutions & Platforms
               </Link>
               <Link href="/knowledge-centre" className="block text-blue-100 hover:text-white transition-colors text-sm">
-                Knowledge Centre
+                Political Intelligence
               </Link>
               <Link href="/ideas" className="block text-blue-100 hover:text-white transition-colors text-sm">
-                i-deas
+                Campaign i-deas
               </Link>
               <Link href="/careers" className="block text-blue-100 hover:text-white transition-colors text-sm">
-                Careers
+                Join Our Team
               </Link>
             </div>
           </div>
@@ -47,7 +50,7 @@ export default function Footer() {
                 Political Intelligence & Analytics
               </Link>
               <Link href="/services" className="block text-blue-100 hover:text-white transition-colors text-sm">
-                Platforms: Mahaneta, Netabanner & Smart Apps
+                Campaign Platforms: Mahaneta, Netabanner & Smart Apps
               </Link>
               <Link href="/services" className="block text-blue-100 hover:text-white transition-colors text-sm">
                 Digital Outreach & Social Media
@@ -93,7 +96,7 @@ export default function Footer() {
               </Link>
               <span className="text-blue-200">|</span>
               <Link href="/knowledge-centre" className="text-blue-100 hover:text-white transition-colors">
-                Political Intelligence & Knowledge Centre
+                Political Intelligence
               </Link>
               <span className="text-blue-200">|</span>
               <Link href="/legal" className="text-blue-100 hover:text-white transition-colors">

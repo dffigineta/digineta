@@ -77,7 +77,7 @@ export default function InfrastructureFinancePage() {
           >
             <div className="flex items-center justify-center mb-6">
               <span className="text-sky-200 text-sm font-medium px-3 py-1 bg-sky-800/30 rounded-full">
-                Services &gt; Practice Area &gt; Infrastructure Finance Advisory
+                Our Solutions &gt; Practice Area &gt; Infrastructure Finance Advisory
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">

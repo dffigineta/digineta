@@ -13,11 +13,11 @@ export default function MaritimeIndustryTrends2025BlogPage() {
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <nav className="text-sm text-blue-200 mb-4">
-              <Link href="/ideas" className="hover:text-white">i-deas</Link>
+              <Link href="/ideas" className="hover:text-white">Campaign i-deas</Link>
               <span className="mx-2">›</span>
               <Link href="/ideas/blogs" className="hover:text-white">Blogs</Link>
               <span className="mx-2">›</span>
-              <span className="text-white">Maritime Industry Trends for 2025</span>
+              <span className="text-white">Indian Campaign Trends for 2025</span>
             </nav>
             <div className="flex items-center gap-4 mb-6">
               <Link href="/ideas/blogs">
@@ -25,15 +25,15 @@ export default function MaritimeIndustryTrends2025BlogPage() {
               </Link>
             </div>
             <div className="flex flex-wrap gap-2 mb-6">
+              <Badge className="bg-blue-500 text-white">Campaigns</Badge>
               <Badge className="bg-blue-500 text-white">Trends</Badge>
-              <Badge className="bg-blue-500 text-white">Industry</Badge>
               <Badge className="bg-blue-500 text-white">Analysis</Badge>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Maritime Industry Trends for 2025</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Indian Campaign Trends for 2025</h1>
             <div className="flex flex-wrap items-center gap-6 text-blue-100">
               <div className="flex items-center gap-2">
                 <User className="w-5 h-5" />
-                <span>Dr. Ramesh Singhal</span>
+                <span>Digineta Strategy Team</span>
               </div>
               <div className="flex items-center gap-2">
                 <Calendar className="w-5 h-5" />
@@ -54,7 +54,7 @@ export default function MaritimeIndustryTrends2025BlogPage() {
             <Card className="border-0 shadow-xl mb-12">
               <CardContent className="p-8">
                 <p className="text-xl text-gray-700 leading-relaxed mb-6">
-                  The maritime industry is undergoing unprecedented transformation as we enter 2025. From digitalization and sustainability initiatives to emerging technologies and new business models, the sector is evolving rapidly to meet the challenges of modern global trade. This article explores the key trends that will shape the maritime industry in 2025 and beyond.
+                  India&apos;s political landscape in 2025 is undergoing a fundamental shift — from crowd-driven rallies to data-driven, digital-first campaigns. As general and state elections approach, parties and independent candidates are rethinking how they connect with voters.
                 </p>
               </CardContent>
             </Card>
@@ -63,17 +63,11 @@ export default function MaritimeIndustryTrends2025BlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">1. Decarbonization and Green Shipping</CardTitle>
+                <CardTitle className="text-3xl text-gray-900">1. Digital-First Campaigning</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                  The push towards decarbonization continues to dominate the maritime agenda. With the International Maritime Organization&apos;s (IMO) 2050 greenhouse gas reduction targets, shipping companies are accelerating investments in alternative fuels and energy-efficient technologies.
-                </p>
-                <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                  <strong>Alternative Fuels:</strong> LNG, methanol, ammonia, and hydrogen are gaining traction as viable alternatives to conventional marine fuel. Major shipping lines are placing orders for dual-fuel vessels capable of operating on these cleaner fuels. Methanol-powered vessels are particularly gaining popularity, with several container ships already in operation.
-                </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  <strong>Energy Efficiency:</strong> Advanced hull designs, air lubrication systems, wind-assisted propulsion (rotor sails, kites), and AI-optimized route planning are helping reduce fuel consumption by 20-30%. Shore power connections at ports are becoming standard, eliminating emissions during berthing.
+                  WhatsApp, YouTube Shorts, and Instagram Reels have replaced pamphlets as the primary voter touchpoints. Campaigns that invest in micro-targeted digital content — tailored by constituency, age group, and local issue — are consistently outperforming traditional media-heavy strategies.
                 </p>
               </CardContent>
             </Card>
@@ -82,20 +76,11 @@ export default function MaritimeIndustryTrends2025BlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">2. Digital Transformation and Smart Shipping</CardTitle>
+                <CardTitle className="text-3xl text-gray-900">2. Issue-Based Politics Over Identity</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                  Digital technologies are revolutionizing maritime operations from ship to shore. The industry is embracing digitalization across all segments.
-                </p>
-                <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                  <strong>Autonomous and Remote-Controlled Vessels:</strong> While fully autonomous ships are still in development, remote monitoring and assistance systems are becoming common. Several coastal and short-sea shipping routes are testing autonomous vessel technologies.
-                </p>
-                <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                  <strong>IoT and Predictive Maintenance:</strong> Sensors throughout vessels provide real-time data on machinery performance, enabling predictive maintenance and reducing costly breakdowns. This approach can reduce maintenance costs by 15-25% while improving vessel reliability.
-                </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  <strong>Blockchain and Digital Documentation:</strong> Platforms like TradeLens are streamlining documentation processes, reducing paperwork, and improving supply chain transparency. Smart contracts are automating charter agreements and payment processes.
+                  Younger voters, especially urban first-timers, are increasingly issue-driven. Campaigns that lead with local infrastructure, employment, healthcare access, and education policy are gaining stronger engagement than those relying solely on identity or legacy narratives.
                 </p>
               </CardContent>
             </Card>
@@ -104,14 +89,11 @@ export default function MaritimeIndustryTrends2025BlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">3. Port Automation and Smart Terminals</CardTitle>
+                <CardTitle className="text-3xl text-gray-900">3. Data-Driven Voter Engagement</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                  Ports worldwide are investing heavily in automation to improve efficiency and reduce operational costs. Automated container terminals using automated guided vehicles (AGVs), automated stacking cranes, and remote-controlled ship-to-shore cranes are becoming the norm in new terminal developments.
-                </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Port Community Systems (PCS) are integrating all port stakeholders - shipping lines, terminal operators, customs, freight forwarders, and trucking companies - on single digital platforms, dramatically reducing cargo dwell time and improving supply chain visibility.
+                  Voter data platforms are enabling booth-level targeting, sentiment tracking, and real-time feedback loops. Leaders who use analytics dashboards to monitor ground-level shifts can respond to changing voter mood faster than ever before.
                 </p>
               </CardContent>
             </Card>
@@ -120,14 +102,11 @@ export default function MaritimeIndustryTrends2025BlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">4. Supply Chain Resilience</CardTitle>
+                <CardTitle className="text-3xl text-gray-900">4. Hyperlocal Content in Regional Languages</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                  Recent global disruptions have highlighted the need for more resilient supply chains. Companies are diversifying their supplier base, nearshoring production, and investing in inventory buffers. The maritime industry is responding with more flexible service offerings and enhanced visibility tools.
-                </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Real-time tracking systems, advanced analytics, and scenario planning tools are helping shippers and carriers anticipate and respond to disruptions more effectively.
+                  Generic national narratives are losing traction. Content crafted in local dialects and tied to constituency-specific issues — whether it&apos;s a blocked drain or a delayed railway project — drives far higher engagement and recall.
                 </p>
               </CardContent>
             </Card>
@@ -136,14 +115,11 @@ export default function MaritimeIndustryTrends2025BlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.5 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">5. Consolidation and Strategic Alliances</CardTitle>
+                <CardTitle className="text-3xl text-gray-900">5. Grassroots Digital Volunteers</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed mb-4">
-                  The container shipping industry continues to consolidate, with major alliances controlling over 80% of global container capacity. This trend is extending to other maritime sectors including bulk shipping and offshore support vessels.
-                </p>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Strategic partnerships between shipping lines, ports, and logistics providers are creating integrated end-to-end supply chain solutions, offering customers seamless service from factory to final destination.
+                  Campaigns are building armies of trained digital volunteers who amplify content, counter misinformation, and manage community groups at the ward and booth level. This decentralized model is proving more scalable and authentic than top-down broadcast communication.
                 </p>
               </CardContent>
             </Card>
@@ -156,10 +132,7 @@ export default function MaritimeIndustryTrends2025BlogPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  The maritime industry in 2025 is characterized by rapid technological advancement, environmental consciousness, and increasing customer expectations for service quality and transparency. Companies that successfully navigate these trends—investing in green technologies, embracing digitalization, building resilient operations, and forming strategic partnerships—will be well-positioned for long-term success in the evolving maritime landscape.
-                </p>
-                <p className="text-lg text-gray-700 leading-relaxed mt-4">
-                  The next decade will see continued transformation as the industry works towards sustainability goals while maintaining its critical role in global trade. Innovation, collaboration, and adaptability will be key success factors for maritime stakeholders.
+                  The 2025 campaign season will reward those who combine on-ground relationship-building with intelligent digital execution. The gap between parties that have embraced political technology and those that haven&apos;t is widening — and it&apos;s increasingly decisive.
                 </p>
               </CardContent>
             </Card>

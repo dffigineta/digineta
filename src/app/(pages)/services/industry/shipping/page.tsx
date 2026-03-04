@@ -64,7 +64,7 @@ export default function ShippingPage() {
           >
             <div className="flex items-center justify-center mb-6">
               <span className="text-purple-200 text-sm font-medium px-3 py-1 bg-purple-800/30 rounded-full">
-                Services &gt; Industry &gt; Shipping
+                Our Solutions &gt; Industry &gt; Shipping
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">

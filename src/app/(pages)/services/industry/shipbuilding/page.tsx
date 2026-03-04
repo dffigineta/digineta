@@ -63,7 +63,7 @@ export default function ShipbuildingPage() {
           >
             <div className="flex items-center justify-center mb-6">
               <span className="text-white/80 text-sm font-medium px-3 py-1 bg-white/10 rounded-full">
-                Services &gt; Who we work with &gt; Movements & citizen platforms
+                Our Solutions &gt; Who we work with &gt; Movements & citizen platforms
               </span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6">

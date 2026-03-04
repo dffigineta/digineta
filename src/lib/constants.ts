@@ -2,7 +2,11 @@ import { NavigationItem, Service, Testimonial, CaseStudy, BlogPost, Event, JobOp
 
 export const navigation: NavigationItem[] = [
   {
-    label: 'About Us',
+    label: 'Political Platform',
+    href: '/political-platform',
+  },
+  {
+    label: 'About Digineta',
     href: '/about',
     children: [
       {
@@ -24,72 +28,48 @@ export const navigation: NavigationItem[] = [
     ]
   },
   {
-    label: 'Services',
+    label: 'Our Solutions',
     href: '/services',
     children: [
-      {
-        label: 'Who we work with',
-        href: '/services/industry',
-        children: [
-          { label: 'National & state campaigns', href: '/services/industry/ports-terminals' },
-          { label: 'Leaders & offices', href: '/services/industry/shipping' },
-          { label: 'Local bodies & city campaigns', href: '/services/industry/container-logistics' },
-          { label: 'Movements & citizen platforms', href: '/services/industry/shipbuilding' },
-          { label: 'Governance & public programs', href: '/services/industry/infrastructure' },
-        ]
-      },
-      {
-        label: 'What we deliver',
-        href: '/services/practice-area',
-        children: [
-          { label: 'Research & intelligence', href: '/services/practice-area/market-research' },
-          { label: 'Strategy & roadmapping', href: '/services/practice-area/business-plan' },
-          { label: 'Booth & segment analysis', href: '/services/practice-area/traffic-studies' },
-          { label: 'Program design & feasibility', href: '/services/practice-area/feasibility-studies' },
-          { label: 'Resource planning & mobilisation', href: '/services/practice-area/fund-syndication' },
-          { label: 'Reputation & equity tracking', href: '/services/practice-area/equity-research' },
-          { label: 'Execution blueprints', href: '/services/practice-area/detailed-project-report' },
-          { label: 'Digital product & UX design', href: '/services/practice-area/technical-design' },
-          { label: 'Program finance advisory', href: '/services/practice-area/infrastructure-finance' },
-          { label: 'Alliances & coalition advisory', href: '/services/practice-area/ma-advisory' },
-        ]
-      },
+      { label: 'Political Intelligence & Analytics', href: '/services' },
+      { label: 'Campaign Platforms (Mahaneta, Netabanner & Smart Apps)', href: '/services' },
+      { label: 'Digital Outreach & Social Media', href: '/services' },
+      { label: 'Voter Data & Call Centre Operations', href: '/services' },
     ]
   },
   {
-    label: 'Knowledge Centre',
+    label: 'Who Is It For',
+    href: '/who-is-it-for',
+    children: [
+      { label: 'Members of Parliament (MPs)', href: '/who-is-it-for/members-of-parliament' },
+      { label: 'Members of Legislative Assembly (MLAs)', href: '/who-is-it-for/members-of-legislative-assembly' },
+      { label: 'Municipal Corporators', href: '/who-is-it-for/municipal-corporators' },
+      { label: 'Panchayat & Local Body Leaders', href: '/who-is-it-for/panchayat-local-body-leaders' },
+      { label: 'Political Party Workers', href: '/who-is-it-for/political-party-workers' },
+    ]
+  },
+  {
+    label: 'Political Intelligence',
     href: '/knowledge-centre',
     children: [
-      { label: 'Case Studies', href: '/knowledge-centre/case-studies' },
-      {
-        label: 'Infobank',
-        href: '/knowledge-centre/infobank',
-        children: [
-          { label: 'Ports', href: '/knowledge-centre/infobank/ports' },
-          { label: 'Shipping', href: '/knowledge-centre/infobank/shipping' },
-          { label: 'Shipyard', href: '/knowledge-centre/infobank/shipyard' },
-          { label: 'Logistics', href: '/knowledge-centre/infobank/logistics' },
-          { label: 'Finance', href: '/knowledge-centre/infobank/finance' },
-          { label: 'Internet', href: '/knowledge-centre/infobank/internet' },
-          { label: 'Trade', href: '/knowledge-centre/infobank/trade' },
-          { label: 'Education', href: '/knowledge-centre/infobank/education' },
-        ]
-      },
-      { label: 'Databases', href: '/knowledge-centre/databases' },
-      { label: 'Research', href: '/knowledge-centre/research' },
-      { label: 'Directory', href: '/knowledge-centre/directory' },
+      { label: 'Research Reports', href: '/knowledge-centre' },
+      { label: 'Election Analysis', href: '/knowledge-centre' },
+      { label: 'Data Insights', href: '/knowledge-centre' },
+      { label: 'Campaign Guides', href: '/knowledge-centre' },
     ]
   },
   {
-    label: 'i-deas',
+    label: 'Campaign i-deas',
     href: '/ideas',
     children: [
-      { label: 'Blogs', href: '/ideas/blogs' },
-      { label: 'Events', href: '/ideas/events' },
+      { label: 'Blog Posts', href: '/ideas/blogs' },
+      { label: 'Opinion & Strategy', href: '/ideas' },
+      { label: 'Case Studies', href: '/ideas' },
+      { label: 'Trends & Analysis', href: '/ideas' },
     ]
   },
   {
-    label: 'Careers',
+    label: 'Join Our Team',
     href: '/careers',
     children: [
       { label: 'Current Openings', href: '/careers/current-openings' },
@@ -97,7 +77,7 @@ export const navigation: NavigationItem[] = [
     ]
   },
   {
-    label: 'Contact Us',
+    label: 'Get in Touch',
     href: '/contact',
   },
 ]

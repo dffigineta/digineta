@@ -166,7 +166,7 @@ export default function InfobankPage() {
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <nav className="text-sm text-blue-200 mb-4">
-              <Link href="/knowledge-centre" className="hover:text-white">Knowledge Centre</Link>
+              <Link href="/knowledge-centre" className="hover:text-white">Political Intelligence</Link>
               <span className="mx-2">›</span>
               <span className="text-white">Infobank</span>
             </nav>
