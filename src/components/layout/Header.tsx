@@ -129,7 +129,7 @@ export default function Header() {
                   )}
                 </Link>
 
-                {/* Mega Dropdown */}
+                {/* Mega Dropdown — About Digineta: 3-column mega menu; others: standard dropdown */}
                 {item.children && (
                   <AnimatePresence>
                     {activeDropdown === item.label && (
@@ -138,82 +138,140 @@ export default function Header() {
                         animate={{ opacity: 1, y: 0 }}
                         exit={{ opacity: 0, y: 10 }}
                         transition={{ duration: 0.2 }}
-                        className="absolute top-full left-0 mt-1 w-72 xl:w-80 bg-[#002147] rounded-xl shadow-2xl border border-[#002147] overflow-visible"
+                        className={cn(
+                          "absolute top-full left-0 mt-1 bg-[#002147] rounded-xl shadow-2xl border border-[#002147] overflow-visible",
+                          item.label === 'About Digineta'
+                            ? "right-0 left-auto w-[min(96vw,720px)] xl:w-[min(88vw,840px)]"
+                            : "w-72 xl:w-80"
+                        )}
                         onMouseEnter={() => handleDropdownEnter(item.label)}
                         onMouseLeave={handleDropdownLeave}
                       >
                         <div className="p-4">
-                          <div className="grid grid-cols-1 gap-1">
-                            {item.children.map((child, index) => (
-                              <motion.div
-                                key={child.href}
-                                initial={{ opacity: 0, x: -10 }}
-                                animate={{ opacity: 1, x: 0 }}
-                                transition={{ delay: index * 0.05 }}
-                                className="relative"
-                                onMouseEnter={() => setActiveSubmenu(child.label)}
-                                onMouseLeave={() => setActiveSubmenu(null)}
-                              >
-                                <Link
-                                  href={child.href}
-                                  className={cn(
-                                    "flex items-center justify-between p-3 rounded-lg group transition-all duration-200",
-                                    isWhoIsItFor ? "hover:bg-[var(--who-accent)]" : "hover:bg-[#B31942]"
-                                  )}
-                                >
-                                  <span className={cn(
-                                    "font-medium transition-colors",
-                                    child.children 
-                                      ? "text-white group-hover:text-white" 
-                                      : "text-white group-hover:text-white"
-                                  )}>
-                                    {child.label}
-                                  </span>
-                                  {child.children ? (
-                                    <div className="flex items-center gap-1">
-                                      <span className="text-xs text-white font-medium">More</span>
-                                      <ChevronDown className={cn("w-4 h-4 -rotate-90 text-white transition-transform group-hover:translate-x-0.5")}/>
-                                    </div>
-                                  ) : (
-                                    <ArrowRight className="w-4 h-4 text-white group-hover:translate-x-1 transition-all" />
-                                  )}
-                                </Link>
-
-                                {/* Second-level flyout */}
-                                <AnimatePresence>
-                                  {child.children && activeSubmenu === child.label && (
-                                    <motion.div
-                                      initial={{ opacity: 0, x: 6 }}
-                                      animate={{ opacity: 1, x: 0 }}
-                                      exit={{ opacity: 0, x: 6 }}
-                                      transition={{ duration: 0.15 }}
-                                      className="absolute top-0 left-full ml-2 w-72 xl:w-80 bg-[#002147] rounded-xl shadow-2xl border border-[#002147] p-3 xl:p-4 z-50"
-                                      onMouseEnter={() => setActiveSubmenu(child.label)}
-                                      onMouseLeave={() => setActiveSubmenu(null)}
-                                    >
-                                      <div className="mb-2 px-3 py-2 border-b border-[#B31942]">
-                                        <span className="text-xs font-semibold text-white uppercase tracking-wider">
-                                          {child.label}
-                                        </span>
-                                      </div>
-                                      <div className="grid grid-cols-1 gap-1">
-                                        {child.children.map((gchild) => (
-                                          <Link
-                                            key={gchild.href}
-                                            href={gchild.href}
-                                            className="flex items-center justify-between p-3 rounded-lg hover:bg-[#B31942] group transition-colors"
-                                          >
-                                            <span className="text-sm text-white group-hover:text-white font-medium">{gchild.label}</span>
+                          {item.label === 'About Digineta' ? (
+                            <div className="grid grid-cols-3 gap-6 xl:gap-8">
+                              {(() => {
+                                const ch = item.children!
+                                const n = ch.length
+                                const perCol = Math.ceil(n / 3)
+                                return [0, 1, 2].map((col) => (
+                                  <div key={col} className="space-y-1">
+                                    {ch.slice(col * perCol, col * perCol + perCol).map((child, index) => (
+                                      <motion.div
+                                        key={child.href}
+                                        initial={{ opacity: 0, y: 6 }}
+                                        animate={{ opacity: 1, y: 0 }}
+                                        transition={{ delay: (col * perCol + index) * 0.03 }}
+                                        className="relative"
+                                        onMouseEnter={() => setActiveSubmenu(child.label)}
+                                        onMouseLeave={() => setActiveSubmenu(null)}
+                                      >
+                                        <Link
+                                          href={child.href}
+                                          className="flex items-center justify-between p-3 rounded-lg hover:bg-[#B31942] group transition-all duration-200"
+                                        >
+                                          <span className="font-medium text-white group-hover:text-white">
+                                            {child.label}
+                                          </span>
+                                          {child.children ? (
+                                            <ChevronDown className="w-4 h-4 -rotate-90 text-white/80 group-hover:text-white" />
+                                          ) : (
                                             <ArrowRight className="w-4 h-4 text-white group-hover:translate-x-1 transition-all" />
-                                          </Link>
-                                        ))}
+                                          )}
+                                        </Link>
+                                        {child.children && (
+                                          <div className="mt-1 ml-0 space-y-0.5">
+                                            {child.children.map((gchild) => (
+                                              <Link
+                                                key={gchild.href}
+                                                href={gchild.href}
+                                                className="flex items-center gap-2 py-2 pl-4 pr-3 rounded-lg hover:bg-[#B31942]/80 text-white/90 hover:text-white text-sm transition-colors"
+                                              >
+                                                <span>{gchild.label}</span>
+                                                <ArrowRight className="w-3.5 h-3.5 opacity-70" />
+                                              </Link>
+                                            ))}
+                                          </div>
+                                        )}
+                                      </motion.div>
+                                    ))}
+                                  </div>
+                                ))
+                              })()}
+                            </div>
+                          ) : (
+                            <div className="grid grid-cols-1 gap-1">
+                              {item.children.map((child, index) => (
+                                <motion.div
+                                  key={child.href}
+                                  initial={{ opacity: 0, x: -10 }}
+                                  animate={{ opacity: 1, x: 0 }}
+                                  transition={{ delay: index * 0.05 }}
+                                  className="relative"
+                                  onMouseEnter={() => setActiveSubmenu(child.label)}
+                                  onMouseLeave={() => setActiveSubmenu(null)}
+                                >
+                                  <Link
+                                    href={child.href}
+                                    className={cn(
+                                      "flex items-center justify-between p-3 rounded-lg group transition-all duration-200",
+                                      isWhoIsItFor ? "hover:bg-[var(--who-accent)]" : "hover:bg-[#B31942]"
+                                    )}
+                                  >
+                                    <span className={cn(
+                                      "font-medium transition-colors",
+                                      child.children 
+                                        ? "text-white group-hover:text-white" 
+                                        : "text-white group-hover:text-white"
+                                    )}>
+                                      {child.label}
+                                    </span>
+                                    {child.children ? (
+                                      <div className="flex items-center gap-1">
+                                        <span className="text-xs text-white font-medium">More</span>
+                                        <ChevronDown className={cn("w-4 h-4 -rotate-90 text-white transition-transform group-hover:translate-x-0.5")}/>
                                       </div>
-                                    </motion.div>
-                                  )}
-                                </AnimatePresence>
-                              </motion.div>
-                            ))}
-                          </div>
+                                    ) : (
+                                      <ArrowRight className="w-4 h-4 text-white group-hover:translate-x-1 transition-all" />
+                                    )}
+                                  </Link>
+
+                                  {/* Second-level flyout (non–About Digineta) */}
+                                  <AnimatePresence>
+                                    {child.children && activeSubmenu === child.label && (
+                                      <motion.div
+                                        initial={{ opacity: 0, x: 6 }}
+                                        animate={{ opacity: 1, x: 0 }}
+                                        exit={{ opacity: 0, x: 6 }}
+                                        transition={{ duration: 0.15 }}
+                                        className="absolute top-0 left-full ml-2 w-72 xl:w-80 bg-[#002147] rounded-xl shadow-2xl border border-[#002147] p-3 xl:p-4 z-50"
+                                        onMouseEnter={() => setActiveSubmenu(child.label)}
+                                        onMouseLeave={() => setActiveSubmenu(null)}
+                                      >
+                                        <div className="mb-2 px-3 py-2 border-b border-[#B31942]">
+                                          <span className="text-xs font-semibold text-white uppercase tracking-wider">
+                                            {child.label}
+                                          </span>
+                                        </div>
+                                        <div className="grid grid-cols-1 gap-1">
+                                          {child.children.map((gchild) => (
+                                            <Link
+                                              key={gchild.href}
+                                              href={gchild.href}
+                                              className="flex items-center justify-between p-3 rounded-lg hover:bg-[#B31942] group transition-colors"
+                                            >
+                                              <span className="text-sm text-white group-hover:text-white font-medium">{gchild.label}</span>
+                                              <ArrowRight className="w-4 h-4 text-white group-hover:translate-x-1 transition-all" />
+                                            </Link>
+                                          ))}
+                                        </div>
+                                      </motion.div>
+                                    )}
+                                  </AnimatePresence>
+                                </motion.div>
+                              ))}
+                            </div>
+                          )}
                         </div>
                       </motion.div>
                     )}

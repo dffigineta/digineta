@@ -67,7 +67,7 @@ export const navigation: NavigationItem[] = [
       { label: 'Flagship Engagements', href: '/about/projects' },
       { label: 'Partner with Digineta', href: '/about/online-enquiry' },
       {
-        label: 'Work with Us',
+        label: 'Join Our Team',
         href: '/careers',
         children: [
           { label: 'Current Openings', href: '/careers/current-openings' },
