@@ -44,8 +44,8 @@ export default function CorporateProfilePage() {
             <div className="space-y-6">
               <div className="relative w-full h-56 md:h-72 lg:h-80 rounded-2xl overflow-hidden shadow-xl">
                 <Image
-                  src="/about-corporate-placeholder.jpg"
-                  alt="Digineta team and platforms overview"
+                  src="/images/team-meeting.jpg"
+                  alt="Digineta team — India's political technology venture"
                   fill
                   className="object-cover"
                 />

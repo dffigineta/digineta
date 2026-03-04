@@ -106,7 +106,7 @@ export default function InfrastructureFinancePage() {
                 <div className="absolute -top-4 -left-4 w-full h-full bg-sky-200 rounded-2xl rotate-3"></div>
                 <div className="relative bg-white p-4 rounded-2xl shadow-xl">
                   <Image
-                    src="/home-i-img-services.png"
+                    src="/images/platform-dashboard.jpg"
                     alt="Infrastructure Finance"
                     width={400}
                     height={300}

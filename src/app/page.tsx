@@ -54,7 +54,17 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#002147] via-[#003366] to-[#00152e] py-20">
+      <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden py-20">
+        <div className="hero-image-wrapper absolute inset-0">
+          <Image
+            src="/images/hero-political-rally.jpg"
+            alt="Indian political rally — Digineta political technology platform"
+            fill
+            className="object-cover"
+            priority
+            sizes="100vw"
+          />
+        </div>
         <div className="container mx-auto px-4 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -129,11 +139,11 @@ export default function HomePage() {
             >
               <div className="absolute inset-0 bg-[#B31942] rounded-2xl transform rotate-3 opacity-10"></div>
               <Image
-                src="/home-i-img-services.png"
-                alt="Digineta Platforms"
-                width={600}
-                height={400}
-                className="relative z-10 rounded-2xl shadow-2xl"
+                src="/images/platform-dashboard.jpg"
+                alt="Digineta Political Platform Dashboard"
+                width={1200}
+                height={800}
+                className="relative z-10 rounded-2xl shadow-2xl section-image"
               />
             </motion.div>
             
@@ -227,11 +237,11 @@ export default function HomePage() {
                 <CardHeader>
                   <div className="flex items-center space-x-4 mb-4">
                     <Image
-                      src="/i-img-knowledgecenter.jpg"
-                      alt="Political Intelligence"
+                      src="/images/analytics-data.jpg"
+                      alt="Political research and campaign intelligence — Digineta"
                       width={80}
                       height={60}
-                      className="rounded-lg shadow-lg"
+                      className="rounded-lg shadow-lg card-image"
                     />
                     <div>
                       <CardTitle className="text-2xl text-gray-900">Political Intelligence</CardTitle>
@@ -271,11 +281,11 @@ export default function HomePage() {
                 <CardHeader>
                   <div className="flex items-center space-x-4 mb-4">
                     <Image
-                      src="/i-img-casestudies.jpg"
-                      alt="Case Studies"
+                      src="/images/research-reading.jpg"
+                      alt="Political research and campaign intelligence — Digineta"
                       width={80}
                       height={60}
-                      className="rounded-lg shadow-lg"
+                      className="rounded-lg shadow-lg card-image"
                     />
                     <div>
                       <CardTitle className="text-2xl text-gray-900">Case Studies</CardTitle>

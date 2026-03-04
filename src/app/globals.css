@@ -181,3 +181,33 @@ a {
   --color-card-bg: var(--who-card-bg);
   --color-stat-bg: var(--who-stat-bg);
 }
+
+/* Digineta image styling — dark brand consistency */
+.hero-image-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.hero-image-wrapper::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 10, 10, 0.5) 0%,
+    rgba(10, 10, 10, 0.75) 100%
+  );
+  pointer-events: none;
+}
+
+.section-image {
+  filter: brightness(0.85) saturate(0.9);
+  border-radius: 12px;
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 8px;
+}

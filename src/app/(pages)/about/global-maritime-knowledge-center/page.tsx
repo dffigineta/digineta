@@ -45,8 +45,8 @@ export default function GlobalMaritimeKnowledgeCenterPage() {
 
             <div className="relative w-full h-56 md:h-72 lg:h-80 rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/about-knowledge-centre-placeholder.jpg"
-                alt="Dashboards and political intelligence reports"
+                src="/images/research-reading.jpg"
+                alt="Political research and campaign intelligence — Digineta"
                 fill
                 className="object-cover"
               />

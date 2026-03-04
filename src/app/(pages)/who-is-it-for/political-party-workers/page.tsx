@@ -9,6 +9,8 @@ export const metadata = {
 export default function PoliticalPartyWorkersPage() {
   return (
     <WhoIsItForPageLayout
+      heroImageSrc="/images/party-workers-volunteers.jpg"
+      heroImageAlt="Party workers and volunteers — Digineta"
       hero={{
         breadcrumbLabel: 'Who Is It For',
         title: 'For Political Party Workers',

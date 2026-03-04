@@ -9,6 +9,8 @@ export const metadata = {
 export default function MunicipalCorporatorsPage() {
   return (
     <WhoIsItForPageLayout
+      heroImageSrc="/images/urban-india.jpg"
+      heroImageAlt="Urban India — Digineta for Municipal Corporators"
       hero={{
         breadcrumbLabel: 'Who Is It For',
         title: 'For Municipal Corporators',

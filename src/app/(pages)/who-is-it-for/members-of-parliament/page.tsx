@@ -9,6 +9,8 @@ export const metadata = {
 export default function MembersOfParliamentPage() {
   return (
     <WhoIsItForPageLayout
+      heroImageSrc="/images/parliament-leaders.jpg"
+      heroImageAlt="Members of Parliament — Digineta political technology"
       hero={{
         breadcrumbLabel: 'Who Is It For',
         title: 'For Members of Parliament',

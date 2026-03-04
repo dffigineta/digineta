@@ -9,6 +9,8 @@ export const metadata = {
 export default function MembersOfLegislativeAssemblyPage() {
   return (
     <WhoIsItForPageLayout
+      heroImageSrc="/images/state-assembly.jpg"
+      heroImageAlt="State Assembly — Digineta for MLAs"
       hero={{
         breadcrumbLabel: 'Who Is It For',
         title: 'For Members of Legislative Assembly',

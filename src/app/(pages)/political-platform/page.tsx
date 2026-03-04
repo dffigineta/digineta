@@ -194,11 +194,11 @@ export default function PoliticalPlatformPage() {
             </div>
             <div className="relative rounded-xl overflow-hidden border" style={{ borderColor: 'var(--color-border)' }}>
               <Image
-                src="/i-img-knowledgecenter.jpg"
+                src="/images/platform-dashboard.jpg"
                 alt="Digineta Political Platform Dashboard"
-                width={600}
-                height={400}
-                className="w-full h-auto object-cover"
+                width={1200}
+                height={800}
+                className="w-full h-auto object-cover section-image"
               />
             </div>
           </div>

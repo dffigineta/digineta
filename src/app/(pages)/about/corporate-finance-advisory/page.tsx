@@ -45,8 +45,8 @@ export default function CorporateFinanceAdvisoryPage() {
 
             <div className="relative w-full h-56 md:h-72 lg:h-80 rounded-2xl overflow-hidden shadow-xl">
               <Image
-                src="/about-corporate-finance-placeholder.jpg"
-                alt="Campaign budgeting and planning board"
+                src="/images/team-meeting.jpg"
+                alt="Digineta team — India's political technology venture"
                 fill
                 className="object-cover"
               />

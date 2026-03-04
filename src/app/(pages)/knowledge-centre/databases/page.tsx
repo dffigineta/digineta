@@ -118,8 +118,8 @@ export default function DatabasesPage() {
                 <div className="p-4 bg-gray-50">
                   <div className="relative rounded-lg overflow-hidden shadow-xl">
                     <Image
-                      src="/i-shipbuildingportal.jpg"
-                      alt="Digineta Shipbuilding Database Portal"
+                      src="/images/analytics-data.jpg"
+                      alt="Political research and campaign intelligence — Digineta"
                       width={1200}
                       height={800}
                       className="w-full h-auto"

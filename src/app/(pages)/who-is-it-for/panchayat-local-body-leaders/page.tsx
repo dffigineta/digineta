@@ -9,6 +9,8 @@ export const metadata = {
 export default function PanchayatLocalBodyLeadersPage() {
   return (
     <WhoIsItForPageLayout
+      heroImageSrc="/images/rural-india-community.jpg"
+      heroImageAlt="Rural India community — Digineta for Panchayat leaders"
       hero={{
         breadcrumbLabel: 'Who Is It For',
         title: 'For Panchayat & Local Body Leaders',

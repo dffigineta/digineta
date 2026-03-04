@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import {
   LayoutDashboard,
@@ -66,6 +67,8 @@ export interface WhoIsItForCtaBanner {
 
 export interface WhoIsItForPageLayoutProps {
   hero: WhoIsItForHeroProps
+  heroImageSrc?: string
+  heroImageAlt?: string
   stats: WhoIsItForStat[]
   offerSection: {
     heading: string
@@ -85,6 +88,8 @@ export interface WhoIsItForPageLayoutProps {
 
 export function WhoIsItForPageLayout({
   hero,
+  heroImageSrc,
+  heroImageAlt,
   stats,
   offerSection,
   servicesSection,
@@ -96,6 +101,17 @@ export function WhoIsItForPageLayout({
       {/* Hero */}
       <section className="relative py-16 md:py-24" style={{ backgroundColor: 'var(--color-primary)' }}>
         <div className="container mx-auto px-4">
+          {heroImageSrc && (
+            <div className="relative w-full aspect-[21/9] max-h-[320px] rounded-xl overflow-hidden mb-10 border" style={{ borderColor: 'var(--color-border)' }}>
+              <Image
+                src={heroImageSrc}
+                alt={heroImageAlt ?? hero.title}
+                fill
+                className="object-cover section-image"
+                sizes="(max-width: 1024px) 100vw, 1200px"
+              />
+            </div>
+          )}
           <nav className="text-sm mb-6" style={{ color: 'var(--color-text-secondary)' }}>
             <Link href="/who-is-it-for" className="hover:opacity-80" style={{ color: 'var(--color-text-secondary)' }}>
               {hero.breadcrumbLabel}

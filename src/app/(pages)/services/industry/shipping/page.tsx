@@ -93,7 +93,7 @@ export default function ShippingPage() {
                 <div className="absolute -top-4 -left-4 w-full h-full bg-purple-200 rounded-2xl rotate-3"></div>
                 <div className="relative bg-white p-4 rounded-2xl shadow-xl">
                   <Image
-                    src="/home-i-img-services.png"
+                    src="/images/platform-dashboard.jpg"
                     alt="Cargo Ship"
                     width={400}
                     height={300}
