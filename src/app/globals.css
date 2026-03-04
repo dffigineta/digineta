@@ -1,49 +1,48 @@
 @import "tailwindcss";
 
+/* Digineta global theme — homepage look: dark, authoritative, orange accent */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --card: #ffffff;
-  --card-foreground: #171717;
-  --popover: #ffffff;
-  --popover-foreground: #171717;
-  /* Digineta brand colors */
-  --primary: #B31942;
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --card: #111827;
+  --card-foreground: #ffffff;
+  --popover: #111827;
+  --popover-foreground: #ffffff;
+  --primary: #f97316;
   --primary-foreground: #ffffff;
-  --secondary: #f1f5f9;
-  --secondary-foreground: #171717;
-  --muted: #f1f5f9;
+  --secondary: #0f172a;
+  --secondary-foreground: #cbd5e1;
+  --muted: #1a2236;
   --muted-foreground: #64748b;
-  --accent: #f1f5f9;
-  --accent-foreground: #171717;
+  --accent: #f97316;
+  --accent-foreground: #ffffff;
   --destructive: #ef4444;
   --destructive-foreground: #ffffff;
-  --border: #e2e8f0;
-  --input: #e2e8f0;
-  --ring: #4169E1;
+  --border: rgba(255, 255, 255, 0.08);
+  --input: rgba(255, 255, 255, 0.12);
+  --ring: #f97316;
   --radius: 0.5rem;
+  /* Design system tokens */
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #0f172a;
+  --bg-card: #111827;
+  --text-primary: #ffffff;
+  --text-secondary: #cbd5e1;
+  --text-muted: #64748b;
+  --border-accent: rgba(249, 115, 22, 0.3);
 }
 
 .dark {
-  --background: #0f172a;
-  --foreground: #e5e7eb;
-  --card: #0f172a;
-  --card-foreground: #e5e7eb;
-  --popover: #0f172a;
-  --popover-foreground: #e5e7eb;
-  --primary: #B31942;
-  --primary-foreground: #ffffff;
-  --secondary: #111827;
-  --secondary-foreground: #ededed;
-  --muted: #111827;
-  --muted-foreground: #a1a1aa;
-  --accent: #111827;
-  --accent-foreground: #ededed;
-  --destructive: #7f1d1d;
-  --destructive-foreground: #ededed;
-  --border: #111827;
-  --input: #111827;
-  --ring: #4169E1;
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --card: #111827;
+  --card-foreground: #ffffff;
+  --secondary: #0f172a;
+  --muted: #1a2236;
+  --muted-foreground: #64748b;
+  --border: rgba(255, 255, 255, 0.08);
+  --input: rgba(255, 255, 255, 0.12);
+  --ring: #f97316;
 }
 
 * {
@@ -58,9 +57,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Better selection color using brand blue */
 ::selection {
-  background: rgba(65, 105, 225, 0.2);
+  background: rgba(249, 115, 22, 0.25);
 }
 
 /* Smooth link transitions */
@@ -74,12 +72,12 @@ a {
 }
 
 .prose {
-  color: #374151;
-  line-height: 1.625;
+  color: #cbd5e1;
+  line-height: 1.7;
 }
 
 .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
-  color: #111827;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -111,17 +109,17 @@ a {
 }
 
 .prose a {
-  color: #4169E1;
+  color: #f97316;
   text-decoration: underline;
 }
 
 .prose a:hover {
-  color: #2747a8;
+  color: #ea6c0a;
 }
 
 .prose strong {
   font-weight: 600;
-  color: #111827;
+  color: #ffffff;
 }
 
 .prose em {
@@ -129,32 +127,35 @@ a {
 }
 
 .prose blockquote {
-  border-left: 4px solid #dbeafe;
+  border-left: 4px solid rgba(249, 115, 22, 0.5);
   padding-left: 1rem;
   font-style: italic;
-  color: #4b5563;
+  color: #cbd5e1;
   margin: 1rem 0;
 }
 
 .prose code {
-  background-color: #f3f4f6;
+  background-color: rgba(255, 255, 255, 0.08);
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   font-size: 0.875rem;
+  color: #cbd5e1;
   font-family: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
 }
 
 .prose pre {
-  background-color: #f3f4f6;
+  background-color: #111827;
   padding: 1rem;
   border-radius: 0.5rem;
   overflow-x: auto;
   margin: 1rem 0;
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .prose pre code {
   background-color: transparent;
   padding: 0;
+  color: #cbd5e1;
 }
 
 /* Who Is It For — Digineta segment brand colors (CSS variables) */

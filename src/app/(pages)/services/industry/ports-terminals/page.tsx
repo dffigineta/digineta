@@ -55,7 +55,7 @@ export default function NationalStateCampaignsPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <section className="relative py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-r from-[#f97316] to-[#0f172a] text-white overflow-hidden">
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -91,8 +91,8 @@ export default function NationalStateCampaignsPage() {
               className="lg:col-span-1"
             >
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-full h-full bg-[#B31942]/20 rounded-2xl rotate-3"></div>
-                <div className="relative bg-[#002147] p-4 rounded-2xl shadow-xl flex items-center justify-center">
+                <div className="absolute -top-4 -left-4 w-full h-full bg-[#f97316]/20 rounded-2xl rotate-3"></div>
+                <div className="relative bg-[#0f172a] p-4 rounded-2xl shadow-xl flex items-center justify-center">
                   <div className="w-full h-48 md:h-64 bg-white/10 rounded-xl" />
                 </div>
               </div>
@@ -164,7 +164,7 @@ export default function NationalStateCampaignsPage() {
               >
                 <Card className="h-full hover:shadow-xl transition-all duration-300 border-0 bg-white">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-[#B31942] to-[#002147] rounded-2xl flex items-center justify-center mb-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#f97316] to-[#0f172a] rounded-2xl flex items-center justify-center mb-4">
                       <benefit.icon className="w-8 h-8 text-white" />
                     </div>
                     <CardTitle className="text-xl">{benefit.title}</CardTitle>
@@ -189,7 +189,7 @@ export default function NationalStateCampaignsPage() {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+            <h2 className="text-4xl font-bold text-white mb-12 text-center">
               Campaign Types We Support
             </h2>
             
@@ -204,7 +204,7 @@ export default function NationalStateCampaignsPage() {
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
                   <div className="w-3 h-3 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-gray-700 font-medium">{segment}</p>
+                  <p className="text-[#cbd5e1] font-medium">{segment}</p>
                 </motion.div>
               ))}
             </div>
@@ -222,7 +222,7 @@ export default function NationalStateCampaignsPage() {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+            <h2 className="text-4xl font-bold text-white mb-12 text-center">
               Core Capabilities for Campaigns
             </h2>
             
@@ -237,7 +237,7 @@ export default function NationalStateCampaignsPage() {
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
                   <div className="w-3 h-3 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-gray-700 font-medium">{area}</p>
+                  <p className="text-[#cbd5e1] font-medium">{area}</p>
                 </motion.div>
               ))}
             </div>

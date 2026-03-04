@@ -12,7 +12,7 @@ const clientCategories = [
     id: 'national-parties',
     title: 'National parties & alliances',
     icon: Ship,
-    color: 'from-[#B31942] to-[#002147]',
+    color: 'from-[#f97316] to-[#0f172a]',
     clients: [
       'National party – multi-state general election campaign',
       'Pre-poll alliance – shared message and seat strategy support',
@@ -24,7 +24,7 @@ const clientCategories = [
     id: 'state-leaders',
     title: 'State leaders & CMs\' offices',
     icon: Anchor,
-    color: 'from-[#002147] to-[#B31942]',
+    color: 'from-[#0f172a] to-[#f97316]',
     clients: [
       'Chief Minister\'s Office – flagship program communication and feedback loop',
       'State party – assembly election campaign with booth-level planning',
@@ -36,7 +36,7 @@ const clientCategories = [
     id: 'local-bodies',
     title: 'Local bodies & city campaigns',
     icon: Container,
-    color: 'from-[#B31942] to-[#B31942]',
+    color: 'from-[#f97316] to-[#f97316]',
     clients: [
       'Urban civic body election – ward-by-ward turnout and persuasion program',
       'City-level issue campaign – public transport and infrastructure narrative',
@@ -48,7 +48,7 @@ const clientCategories = [
     id: 'movements',
     title: 'Movements & citizen platforms',
     icon: Building,
-    color: 'from-[#002147] to-[#002147]',
+    color: 'from-[#0f172a] to-[#0f172a]',
     clients: [
       'Issue-based coalition – nationwide petition and mobilisation drive',
       'Youth movement – campus and digital organising support',
@@ -59,7 +59,7 @@ const clientCategories = [
     id: 'governance',
     title: 'Governance & public programs',
     icon: Globe,
-    color: 'from-[#002147] to-[#B31942]',
+    color: 'from-[#0f172a] to-[#f97316]',
     clients: [
       'State department – direct-to-citizen communication for welfare schemes',
       'Public agency – service feedback and transparency dashboard',
@@ -83,7 +83,7 @@ export default function ClientsPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-[#B31942] via-[#002147] to-[#00152e] text-white">
+      <section className="relative py-20 bg-gradient-to-br from-[#f97316] via-[#0f172a] to-[#0a0a0a] text-white">
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <nav className="text-sm text-white/70 mb-4">
@@ -152,7 +152,7 @@ export default function ClientsPage() {
                       <Button
                         variant="ghost"
                         size="sm"
-                        className="p-2 hover:bg-[#002147]/5"
+                        className="p-2 hover:bg-[#0f172a]/5"
                       >
                         {isExpanded ? (
                           <ChevronUp className="w-5 h-5 text-black" />
@@ -178,7 +178,7 @@ export default function ClientsPage() {
                             initial={{ opacity: 0, x: -20 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.3, delay: clientIndex * 0.02 }}
-                            className="flex items-start space-x-3 p-4 rounded-lg hover:bg-[#002147]/5 transition-colors border border-[#002147]/10 bg-white"
+                            className="flex items-start space-x-3 p-4 rounded-lg hover:bg-[#0f172a]/5 transition-colors border border-[#0f172a]/10 bg-white"
                           >
                             <div className={`w-2 h-2 bg-gradient-to-r ${category.color} rounded-full mt-2 flex-shrink-0`}></div>
                             <p className="text-black leading-relaxed text-sm font-medium">{client}</p>

@@ -74,7 +74,7 @@ export default function DirectoryPage() {
               viewport={{ once: true }}
               className="mb-12"
             >
-              <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 sm:mb-8">Browse by Category</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 sm:mb-8">Browse by Category</h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
                 {categories.map((category, index) => (
                   <motion.div
@@ -89,7 +89,7 @@ export default function DirectoryPage() {
                         <Badge className={`${category.color} mb-2`}>
                           {category.count}
                         </Badge>
-                        <p className="text-sm font-medium text-gray-900">{category.name}</p>
+                        <p className="text-sm font-medium text-white">{category.name}</p>
                       </CardContent>
                     </Card>
                   </motion.div>
@@ -105,9 +105,9 @@ export default function DirectoryPage() {
               className="mb-8"
             >
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-6">
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">Directory Members</h2>
+                <h2 className="text-2xl sm:text-3xl font-bold text-white">Directory Members</h2>
                 <div className="flex items-center gap-3 sm:gap-4">
-                  <span className="text-xs sm:text-sm text-gray-600">1 of 1</span>
+                  <span className="text-xs sm:text-sm text-[#cbd5e1]">1 of 1</span>
                   <Button variant="outline" size="sm" disabled className="text-xs sm:text-sm">
                     <ChevronLeft className="w-3 h-3 sm:w-4 sm:h-4" />
                   </Button>
@@ -140,20 +140,20 @@ export default function DirectoryPage() {
                             
                             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
                               <div>
-                                <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2">{member.name}</h3>
+                                <h3 className="text-lg sm:text-xl font-bold text-white mb-2">{member.name}</h3>
                                 <div className="space-y-2">
-                                  <div className="flex items-center text-gray-700">
+                                  <div className="flex items-center text-[#cbd5e1]">
                                     <Building className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-blue-600 flex-shrink-0" />
                                     <span className="font-medium text-sm sm:text-base">{member.companyName}</span>
                                   </div>
-                                  <p className="text-gray-600 text-xs sm:text-sm ml-5 sm:ml-6">{member.companyDescription}</p>
+                                  <p className="text-[#cbd5e1] text-xs sm:text-sm ml-5 sm:ml-6">{member.companyDescription}</p>
                                   
-                                  <div className="flex items-start text-gray-700">
+                                  <div className="flex items-start text-[#cbd5e1]">
                                     <MapPin className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-blue-600 mt-0.5 flex-shrink-0" />
                                     <span className="text-xs sm:text-sm">{member.address}</span>
                                   </div>
                                   
-                                  <div className="flex items-center text-gray-700">
+                                  <div className="flex items-center text-[#cbd5e1]">
                                     <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-blue-600 flex-shrink-0" />
                                     <a href={`https://${member.website}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-xs sm:text-sm break-all">
                                       {member.website}
@@ -163,19 +163,19 @@ export default function DirectoryPage() {
                               </div>
                               
                               <div>
-                                <h4 className="font-semibold text-gray-900 mb-2 sm:mb-3 text-sm sm:text-base">Contact Information</h4>
+                                <h4 className="font-semibold text-white mb-2 sm:mb-3 text-sm sm:text-base">Contact Information</h4>
                                 <div className="space-y-2">
-                                  <div className="flex items-center text-gray-700">
+                                  <div className="flex items-center text-[#cbd5e1]">
                                     <Mail className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-blue-600 flex-shrink-0" />
                                     <span className="text-xs sm:text-sm break-all">{member.email}</span>
                                   </div>
                                   
-                                  <div className="flex items-center text-gray-700">
+                                  <div className="flex items-center text-[#cbd5e1]">
                                     <Phone className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-blue-600 flex-shrink-0" />
                                     <span className="text-xs sm:text-sm">{member.telephone}</span>
                                   </div>
                                   
-                                  <div className="flex items-center text-gray-700">
+                                  <div className="flex items-center text-[#cbd5e1]">
                                     <Phone className="w-3 h-3 sm:w-4 sm:h-4 mr-2 text-blue-600 flex-shrink-0" />
                                     <span className="text-xs sm:text-sm">Fax: {member.fax}</span>
                                   </div>
@@ -210,8 +210,8 @@ export default function DirectoryPage() {
               <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
                 <CardContent className="p-6 sm:p-8">
                   <Users className="w-12 h-12 sm:w-16 sm:h-16 text-blue-600 mx-auto mb-3 sm:mb-4" />
-                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Join the Digineta Network Directory</h3>
-                  <p className="text-sm sm:text-base text-gray-700 mb-4 sm:mb-6 max-w-2xl mx-auto leading-relaxed">
+                  <h3 className="text-xl sm:text-2xl font-bold text-white mb-3 sm:mb-4">Join the Digineta Network Directory</h3>
+                  <p className="text-sm sm:text-base text-[#cbd5e1] mb-4 sm:mb-6 max-w-2xl mx-auto leading-relaxed">
                     Register your office, organisation or partnership in our directory and connect with leaders, teams and collaborators
                     across campaigns and governance programs.
                   </p>

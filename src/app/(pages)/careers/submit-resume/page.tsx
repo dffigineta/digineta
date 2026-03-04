@@ -171,7 +171,7 @@ export default function SubmitResumePage() {
                   {/* Form Fields */}
                   <div className="space-y-6">
                     <div className="flex flex-col md:flex-row md:items-center gap-4">
-                      <label className="w-full md:w-48 text-sm font-medium text-gray-700 flex-shrink-0">
+                      <label className="w-full md:w-48 text-sm font-medium text-[#cbd5e1] flex-shrink-0">
                         Your Email Address:
                       </label>
                       <Input 
@@ -186,7 +186,7 @@ export default function SubmitResumePage() {
                     </div>
 
                     <div className="flex flex-col md:flex-row md:items-center gap-4">
-                      <label className="w-full md:w-48 text-sm font-medium text-gray-700 flex-shrink-0">
+                      <label className="w-full md:w-48 text-sm font-medium text-[#cbd5e1] flex-shrink-0">
                         First Name:
                       </label>
                       <Input 
@@ -200,7 +200,7 @@ export default function SubmitResumePage() {
                     </div>
 
                     <div className="flex flex-col md:flex-row md:items-center gap-4">
-                      <label className="w-full md:w-48 text-sm font-medium text-gray-700 flex-shrink-0">
+                      <label className="w-full md:w-48 text-sm font-medium text-[#cbd5e1] flex-shrink-0">
                         Last Name:
                       </label>
                       <Input 
@@ -214,7 +214,7 @@ export default function SubmitResumePage() {
                     </div>
 
                     <div className="flex flex-col md:flex-row md:items-center gap-4">
-                      <label className="w-full md:w-48 text-sm font-medium text-gray-700 flex-shrink-0">
+                      <label className="w-full md:w-48 text-sm font-medium text-[#cbd5e1] flex-shrink-0">
                         Cell Number:
                       </label>
                       <Input 
@@ -229,7 +229,7 @@ export default function SubmitResumePage() {
                     </div>
 
                     <div className="flex flex-col md:flex-row md:items-center gap-4">
-                      <label className="w-full md:w-48 text-sm font-medium text-gray-700 flex-shrink-0">
+                      <label className="w-full md:w-48 text-sm font-medium text-[#cbd5e1] flex-shrink-0">
                         Phone Number:
                       </label>
                       <Input 
@@ -244,7 +244,7 @@ export default function SubmitResumePage() {
                     </div>
 
                     <div className="flex flex-col md:flex-row md:items-center gap-4">
-                      <label className="w-full md:w-48 text-sm font-medium text-gray-700 flex-shrink-0">
+                      <label className="w-full md:w-48 text-sm font-medium text-[#cbd5e1] flex-shrink-0">
                         Current Renumeration:
                       </label>
                       <Input 
@@ -258,7 +258,7 @@ export default function SubmitResumePage() {
                     </div>
 
                     <div className="flex flex-col md:flex-row md:items-center gap-4">
-                      <label className="w-full md:w-48 text-sm font-medium text-gray-700 flex-shrink-0">
+                      <label className="w-full md:w-48 text-sm font-medium text-[#cbd5e1] flex-shrink-0">
                         Current Employer:
                       </label>
                       <Input 
@@ -272,7 +272,7 @@ export default function SubmitResumePage() {
                     </div>
 
                     <div className="flex flex-col md:flex-row md:items-start gap-4">
-                      <label className="w-full md:w-48 text-sm font-medium text-gray-700 flex-shrink-0 pt-2">
+                      <label className="w-full md:w-48 text-sm font-medium text-[#cbd5e1] flex-shrink-0 pt-2">
                         Career Goal:
                       </label>
                       <Textarea 
@@ -290,7 +290,7 @@ export default function SubmitResumePage() {
                   {/* File Upload Section */}
                   <div className="border-t border-gray-200 pt-8">
                     <div className="flex flex-col md:flex-row md:items-center gap-4">
-                      <label className="w-full md:w-48 text-sm font-medium text-gray-700 flex-shrink-0">
+                      <label className="w-full md:w-48 text-sm font-medium text-[#cbd5e1] flex-shrink-0">
                         Attach Resume (.doc format):
                       </label>
                       <div className="flex-1">
@@ -308,16 +308,16 @@ export default function SubmitResumePage() {
                             type="button"
                             variant="outline"
                             onClick={() => fileInputRef.current?.click()}
-                            className="border-gray-300 hover:bg-gray-50 flex items-center space-x-2"
+                            className="border-gray-300 hover:bg-[#111827] flex items-center space-x-2"
                           >
                             <Upload className="w-4 h-4" />
                             <span>Choose File</span>
                           </Button>
-                          <span className="text-sm text-gray-600 font-medium">
+                          <span className="text-sm text-[#cbd5e1] font-medium">
                             {selectedFile ? selectedFile.name : 'No file chosen'}
                           </span>
                         </div>
-                        <p className="text-xs text-gray-500 mt-2">Max file size: 5MB</p>
+                        <p className="text-xs text-[#64748b] mt-2">Max file size: 5MB</p>
                       </div>
                     </div>
                   </div>
@@ -336,7 +336,7 @@ export default function SubmitResumePage() {
                       type="button"
                       variant="outline"
                       size="lg" 
-                      className="flex-1 border-gray-300 hover:bg-gray-50 py-3"
+                      className="flex-1 border-gray-300 hover:bg-[#111827] py-3"
                       onClick={handleClear}
                       disabled={isSubmitting}
                     >

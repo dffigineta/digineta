@@ -41,7 +41,7 @@ export default function CaseStudies({
                 <div className="font-medium text-blue-900 mb-2 group-hover:text-blue-700 transition-colors">
                   {caseStudy.title}
                 </div>
-                <div className="text-sm text-gray-600 leading-relaxed">
+                <div className="text-sm text-[#cbd5e1] leading-relaxed">
                   {caseStudy.description}
                 </div>
                 <div className="flex items-center text-blue-600 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity">

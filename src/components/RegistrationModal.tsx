@@ -117,7 +117,7 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                     {/* Left Column - Form Fields */}
                     <div className="space-y-4">
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                           Name *
                         </label>
                         <input
@@ -126,13 +126,13 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                           value={formData.name}
                           onChange={handleInputChange}
                           required
-                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-white"
                           placeholder="Enter your full name"
                         />
                       </div>
 
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                           Company Name *
                         </label>
                         <input
@@ -141,13 +141,13 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                           value={formData.companyName}
                           onChange={handleInputChange}
                           required
-                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-white"
                           placeholder="Enter company name"
                         />
                       </div>
 
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                           Company Description
                         </label>
                         <textarea
@@ -155,13 +155,13 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                           value={formData.companyDescription}
                           onChange={handleInputChange}
                           rows={3}
-                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-white"
                           placeholder="Brief description of your company"
                         />
                       </div>
 
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                           Address *
                         </label>
                         <textarea
@@ -170,13 +170,13 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                           onChange={handleInputChange}
                           required
                           rows={3}
-                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-white"
                           placeholder="Enter complete address"
                         />
                       </div>
 
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                           Website
                         </label>
                         <input
@@ -184,13 +184,13 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                           name="website"
                           value={formData.website}
                           onChange={handleInputChange}
-                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-white"
                           placeholder="https://www.example.com"
                         />
                       </div>
 
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                           Email *
                         </label>
                         <input
@@ -199,14 +199,14 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                           value={formData.email}
                           onChange={handleInputChange}
                           required
-                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-white"
                           placeholder="Enter email address"
                         />
                       </div>
 
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div>
-                          <label className="block text-sm font-medium text-gray-700 mb-2">
+                          <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                             Telephone *
                           </label>
                           <input
@@ -215,12 +215,12 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                             value={formData.telephone}
                             onChange={handleInputChange}
                             required
-                            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
+                            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-white"
                             placeholder="Enter phone number"
                           />
                         </div>
                         <div>
-                          <label className="block text-sm font-medium text-gray-700 mb-2">
+                          <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                             Fax
                           </label>
                           <input
@@ -228,7 +228,7 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                             name="fax"
                             value={formData.fax}
                             onChange={handleInputChange}
-                            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-gray-900"
+                            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-white"
                             placeholder="Enter fax number"
                           />
                         </div>
@@ -238,10 +238,10 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                     {/* Right Column - Categories */}
                     <div className="space-y-4">
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-3">
+                        <label className="block text-sm font-medium text-[#cbd5e1] mb-3">
                           Select Category *
                         </label>
-                        <div className="space-y-2 max-h-60 overflow-y-auto bg-gray-50 p-3 rounded-md">
+                        <div className="space-y-2 max-h-60 overflow-y-auto bg-[#111827] p-3 rounded-md">
                           {categories.map((category, index) => (
                             <label key={index} className="flex items-center space-x-3 cursor-pointer hover:bg-gray-100 p-2 rounded">
                               <input
@@ -252,14 +252,14 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                                 onChange={handleInputChange}
                                 className="w-4 h-4 text-blue-600 focus:ring-blue-500"
                               />
-                              <span className="text-sm text-gray-700">{category}</span>
+                              <span className="text-sm text-[#cbd5e1]">{category}</span>
                             </label>
                           ))}
                         </div>
                       </div>
 
                       <div className="border-t pt-4">
-                        <label className="block text-sm font-medium text-gray-700 mb-3">
+                        <label className="block text-sm font-medium text-[#cbd5e1] mb-3">
                           Subscribe to Newsletter
                         </label>
                         <div className="space-y-2">
@@ -272,7 +272,7 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                               onChange={handleInputChange}
                               className="w-4 h-4 text-blue-600 focus:ring-blue-500"
                             />
-                            <span className="text-sm text-gray-700">Yes</span>
+                            <span className="text-sm text-[#cbd5e1]">Yes</span>
                           </label>
                           <label className="flex items-center space-x-3 cursor-pointer">
                             <input
@@ -283,7 +283,7 @@ export default function RegistrationModal({ isOpen, onClose, type }: Registratio
                               onChange={handleInputChange}
                               className="w-4 h-4 text-blue-600 focus:ring-blue-500"
                             />
-                            <span className="text-sm text-gray-700">No</span>
+                            <span className="text-sm text-[#cbd5e1]">No</span>
                           </label>
                         </div>
                       </div>

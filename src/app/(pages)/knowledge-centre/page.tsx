@@ -104,8 +104,8 @@ export default function KnowledgeCentrePage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">Explore Our Resources</h2>
-            <p className="text-lg sm:text-xl text-gray-600">Political intelligence, data and learnings for leaders and teams</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4">Explore Our Resources</h2>
+            <p className="text-lg sm:text-xl text-[#cbd5e1]">Political intelligence, data and learnings for leaders and teams</p>
           </motion.div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
@@ -128,7 +128,7 @@ export default function KnowledgeCentrePage() {
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-gray-600 mb-4">{resource.description}</p>
+                      <p className="text-[#cbd5e1] mb-4">{resource.description}</p>
                       <div className="text-sm font-semibold text-blue-600">{resource.count}</div>
                     </CardContent>
                   </Card>
@@ -148,8 +148,8 @@ export default function KnowledgeCentrePage() {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">Featured Case Studies</h2>
-            <p className="text-lg sm:text-xl text-gray-600">Learn from our successful projects</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4">Featured Case Studies</h2>
+            <p className="text-lg sm:text-xl text-[#cbd5e1]">Learn from our successful projects</p>
           </motion.div>
 
           <div className="max-w-4xl mx-auto space-y-6">
@@ -167,7 +167,7 @@ export default function KnowledgeCentrePage() {
                       <div>
                         <div className="text-sm text-blue-600 font-semibold mb-2">{study.category}</div>
                         <CardTitle className="text-2xl mb-2">{study.title}</CardTitle>
-                        <p className="text-gray-600">{study.description}</p>
+                        <p className="text-[#cbd5e1]">{study.description}</p>
                       </div>
                       <Button variant="outline" className="whitespace-nowrap">
                         Read More

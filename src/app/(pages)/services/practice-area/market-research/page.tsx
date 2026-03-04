@@ -70,7 +70,7 @@ export default function MarketResearchPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <section className="relative py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-r from-[#f97316] to-[#0f172a] text-white overflow-hidden">
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -106,7 +106,7 @@ export default function MarketResearchPage() {
               className="lg:col-span-1"
             >
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-full h-full bg-[#B31942] rounded-2xl rotate-3"></div>
+                <div className="absolute -top-4 -left-4 w-full h-full bg-[#f97316] rounded-2xl rotate-3"></div>
                 <div className="relative bg-white p-4 rounded-2xl shadow-xl">
                   <Image
                     src="/images/platform-dashboard.jpg"
@@ -128,10 +128,10 @@ export default function MarketResearchPage() {
             >
               {/* Overview */}
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                <h2 className="text-3xl font-bold text-white mb-6">
                   Strategic Research & Intelligence
                 </h2>
-                <div className="space-y-4 text-gray-700 leading-relaxed">
+                <div className="space-y-4 text-[#cbd5e1] leading-relaxed">
                   <p>
                     Our research & intelligence services provide deep insights into campaign and governance dynamics, 
                     helping leaders make informed strategic decisions. We combine advanced analytical 
@@ -178,7 +178,7 @@ export default function MarketResearchPage() {
               >
                 <Card className="h-full hover:shadow-xl transition-all duration-300 border-0 bg-white">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-[#B31942] to-[#002147] rounded-2xl flex items-center justify-center mb-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#f97316] to-[#0f172a] rounded-2xl flex items-center justify-center mb-4">
                       <service.icon className="w-8 h-8 text-white" />
                     </div>
                     <CardTitle className="text-xl">{service.title}</CardTitle>
@@ -203,7 +203,7 @@ export default function MarketResearchPage() {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+            <h2 className="text-4xl font-bold text-white mb-12 text-center">
               Research Methodologies
             </h2>
             
@@ -217,7 +217,7 @@ export default function MarketResearchPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-3 h-3 bg-[#002147] rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-3 h-3 bg-[#0f172a] rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-black font-medium">{method}</p>
                 </motion.div>
               ))}
@@ -250,7 +250,7 @@ export default function MarketResearchPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-3 h-3 bg-[#002147] rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-3 h-3 bg-[#0f172a] rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-black font-medium">{sector}</p>
                 </motion.div>
               ))}
@@ -260,7 +260,7 @@ export default function MarketResearchPage() {
       </section>
 
       {/* Value Proposition */}
-      <section className="py-20 bg-gradient-to-r from-[#002147] to-[#00152e] text-white">
+      <section className="py-20 bg-gradient-to-r from-[#0f172a] to-[#0a0a0a] text-white">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -315,7 +315,7 @@ export default function MarketResearchPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-gray-900 to-[#002147]">
+      <section className="py-20 bg-gradient-to-r from-gray-900 to-[#0f172a]">
         <div className="container mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}

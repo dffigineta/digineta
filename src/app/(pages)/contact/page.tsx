@@ -94,7 +94,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen">
       {/* Hero */}
-      <section className="relative py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-950 text-white">
+      <section className="relative py-20 bg-gradient-to-br from-[#0f172a] via-[#0a0a0a] to-[#0f172a] text-white">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -102,7 +102,7 @@ export default function ContactPage() {
             className="max-w-3xl"
           >
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Get in Touch</h1>
-            <p className="text-xl text-blue-100">
+            <p className="text-xl text-[#cbd5e1]">
               Ready to transform your political campaign? We&apos;re here to help.
             </p>
           </motion.div>
@@ -110,7 +110,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Form & Info */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-[#111827]">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Contact Info Cards */}
@@ -132,7 +132,7 @@ export default function ContactPage() {
                     </CardHeader>
                     <CardContent>
                       {info.details.map((detail, idx) => (
-                        <p key={idx} className="text-gray-600">{detail}</p>
+                        <p key={idx} className="text-[#cbd5e1]">{detail}</p>
                       ))}
                     </CardContent>
                   </Card>
@@ -169,7 +169,7 @@ export default function ContactPage() {
                   <form className="space-y-6" onSubmit={handleSubmit}>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                           First Name <span className="text-red-500">*</span>
                         </label>
                         <Input 
@@ -181,7 +181,7 @@ export default function ContactPage() {
                         />
                       </div>
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                           Last Name <span className="text-red-500">*</span>
                         </label>
                         <Input 
@@ -195,7 +195,7 @@ export default function ContactPage() {
                     </div>
                     
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                      <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                         Email <span className="text-red-500">*</span>
                       </label>
                       <Input 
@@ -209,7 +209,7 @@ export default function ContactPage() {
                     </div>
                     
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                      <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                         Phone
                       </label>
                       <Input 
@@ -222,7 +222,7 @@ export default function ContactPage() {
                     </div>
                     
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                      <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                         Subject <span className="text-red-500">*</span>
                       </label>
                       <Input 
@@ -235,7 +235,7 @@ export default function ContactPage() {
                     </div>
                     
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                      <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                         Message <span className="text-red-500">*</span>
                       </label>
                       <Textarea 

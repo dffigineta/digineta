@@ -9,7 +9,7 @@ export default function PeoplePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-[#B31942] via-[#002147] to-[#00152e] text-white">
+      <section className="relative py-20 bg-gradient-to-br from-[#f97316] via-[#0f172a] to-[#0a0a0a] text-white">
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <nav className="text-sm text-white/70 mb-4">
@@ -87,7 +87,7 @@ export default function PeoplePage() {
                 <Card className="h-full border-0 shadow-xl hover:shadow-2xl transition-all">
                   <CardHeader>
                     <div className="flex flex-col items-center text-center">
-                      <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 border-4 border-[#B31942] shadow-lg bg-[#002147]/20"></div>
+                      <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 border-4 border-[#f97316] shadow-lg bg-[#0f172a]/20"></div>
                       <CardTitle className="text-xl mb-2">Campaign Strategy Lead</CardTitle>
                       <p className="text-black font-semibold">National and state election strategy, narrative and coalition design</p>
                     </div>
@@ -112,7 +112,7 @@ export default function PeoplePage() {
                 <Card className="h-full border-0 shadow-xl hover:shadow-2xl transition-all">
                   <CardHeader>
                     <div className="flex flex-col items-center text-center">
-                      <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 border-4 border-[#002147] shadow-lg bg-[#B31942]/20"></div>
+                      <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 border-4 border-[#0f172a] shadow-lg bg-[#f97316]/20"></div>
                       <CardTitle className="text-xl mb-2">Data &amp; Insights Director</CardTitle>
                       <p className="text-black font-semibold">Polling, sentiment intelligence and decision dashboards</p>
                     </div>
@@ -132,7 +132,7 @@ export default function PeoplePage() {
           {/* Sidebar */}
           <div className="space-y-8">
             {/* Testimonials */}
-            <Card className="bg-[#B31942] text-white border-0 shadow-2xl">
+            <Card className="bg-[#f97316] text-white border-0 shadow-2xl">
               <CardHeader>
                 <div className="flex items-center space-x-2 mb-4">
                   <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
@@ -162,7 +162,7 @@ export default function PeoplePage() {
             </Card>
 
             {/* Case Studies */}
-            <Card className="bg-[#002147] text-white border-0 shadow-2xl">
+            <Card className="bg-[#0f172a] text-white border-0 shadow-2xl">
               <CardHeader>
                 <div className="flex items-center space-x-2 mb-4">
                   <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">

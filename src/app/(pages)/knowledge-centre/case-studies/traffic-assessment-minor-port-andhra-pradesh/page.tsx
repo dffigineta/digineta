@@ -34,9 +34,9 @@ export default function TrafficAssessmentMinorPortAndhraPradeshPage() {
         <div className="max-w-4xl mx-auto">
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Overview</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Overview</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Traffic potential assessment for a minor port in Andhra Pradesh to support investment and development decisions. The study evaluated cargo generation in the hinterland, competitive positioning, infrastructure requirements, and realistic traffic capture potential to enable data-driven port development planning.
                 </p>
               </CardContent>
@@ -45,9 +45,9 @@ export default function TrafficAssessmentMinorPortAndhraPradeshPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Client</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Client</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Andhra Pradesh state government and private developer planning modernization of a minor port. The client required comprehensive traffic assessment to determine optimal development scale, attract private investment, and ensure sustainable operations in presence of competing major ports like Visakhapatnam and Krishnapatnam.
                 </p>
               </CardContent>
@@ -56,9 +56,9 @@ export default function TrafficAssessmentMinorPortAndhraPradeshPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Challenge</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Challenge</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Andhra Pradesh has well-established major ports creating challenging competitive environment for minor ports. Key issues included identifying niche cargo opportunities not well-served by major ports, assessing realistic market share achievable, evaluating infrastructure investments needed to attract cargo, and determining financial viability given limited traffic potential and high capital requirements.
                 </p>
               </CardContent>
@@ -67,9 +67,9 @@ export default function TrafficAssessmentMinorPortAndhraPradeshPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Methodology</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Methodology</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The study involved detailed hinterland analysis covering industrial clusters, mining operations, and agricultural areas. Primary cargo identification focused on commodities with locational advantages for the minor port. Competitive assessment evaluated service levels, tariffs, and capacity utilization of nearby major ports. Transport economics modeling identified cost-competitive catchment areas. Infrastructure gap analysis determined investments needed for different cargo types. Financial viability assessment incorporated realistic traffic growth scenarios and investment recovery timelines.
                 </p>
               </CardContent>
@@ -78,9 +78,9 @@ export default function TrafficAssessmentMinorPortAndhraPradeshPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Digineta identified niche opportunities in breakbulk cargo, coastal shipping, and serving local industries with specialized requirements. Traffic potential estimated at 1-1.5 million tonnes initially, growing to 2.5-3 million tonnes in 7-10 years. Primary cargo types included steel products, project cargo for nearby industries, agricultural commodities, and coastal coal movements. Recommended focused development strategy: 1-2 multi-purpose berths with mobile harbor cranes, open storage yards, and basic warehousing. Suggested targeting cargo diversion from congested major ports through competitive pricing and faster turnaround. Implementation strategy included phased development aligned with cargo growth and PPP model for terminal operations. Financial analysis showed modest but stable returns with lower risk compared to greenfield port development, making it attractive for specific investor profiles seeking steady cash flows rather than high growth potential.
                 </p>
               </CardContent>
@@ -89,13 +89,13 @@ export default function TrafficAssessmentMinorPortAndhraPradeshPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.5 }} className="mb-12">
             <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy</div>
+                  <div className="font-semibold text-lg text-white">Digineta Consultancy</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                    <div className="text-gray-700">
+                    <div className="text-[#cbd5e1]">
                       <div>11B 114, WeWork India Management</div>
                       <div>10th floor, Tower 1</div>
                       <div>Seawoods Grand Central, Sector 40</div>

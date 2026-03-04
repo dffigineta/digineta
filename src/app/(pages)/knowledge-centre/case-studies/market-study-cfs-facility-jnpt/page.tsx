@@ -35,10 +35,10 @@ export default function MarketStudyCFSFacilityJNPTPage() {
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="mb-12">
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Overview</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Overview</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Market assessment and feasibility study for establishing a Container Freight Station (CFS) facility near Jawaharlal Nehru Port Trust (JNPT), India&apos;s largest container port. The study analyzed market dynamics, competition, cargo potential, and financial viability of the proposed CFS operation.
                 </p>
               </CardContent>
@@ -48,10 +48,10 @@ export default function MarketStudyCFSFacilityJNPTPage() {
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="mb-12">
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Client</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Client</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   A logistics company planning to invest in CFS infrastructure near JNPT. The client required comprehensive market intelligence to assess the opportunity, understand competitive landscape, and develop a viable business model for CFS operations serving EXIM trade through Mumbai.
                 </p>
               </CardContent>
@@ -61,10 +61,10 @@ export default function MarketStudyCFSFacilityJNPTPage() {
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }} className="mb-12">
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Challenge</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Challenge</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The JNPT region has numerous existing CFS facilities creating intense competition. The challenge was to assess realistic market share potential, identify differentiation strategies, evaluate location advantages, understand customer requirements, and determine optimal facility size and service offerings to achieve commercial success in a crowded market.
                 </p>
               </CardContent>
@@ -74,10 +74,10 @@ export default function MarketStudyCFSFacilityJNPTPage() {
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }} className="mb-12">
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Methodology</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Methodology</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The study involved extensive primary research with exporters, importers, shipping lines, and customs brokers. Analysis of JNPT cargo statistics identified traffic patterns and CFS utilization trends. Competitive benchmarking evaluated existing CFS operators covering tariffs, services, locations, and market positioning. Site evaluation assessed connectivity, infrastructure, and regulatory compliance. Financial modeling incorporated capital costs, operating expenses, throughput projections, and revenue assumptions.
                 </p>
               </CardContent>
@@ -87,10 +87,10 @@ export default function MarketStudyCFSFacilityJNPTPage() {
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Digineta Proposition</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Digineta recommended a medium-sized CFS facility (15-20 acres) with capacity for 50,000 TEUs annually, strategically located with excellent road connectivity. We identified niche opportunities in specific cargo types and customer segments underserved by existing facilities. The business plan emphasized value-added services including customs clearance, warehousing, and last-mile delivery. Recommended technology investments in container tracking systems and digital documentation. Financial projections showed acceptable returns with breakeven achievable within 3-4 years through competitive pricing and superior service quality.
                 </p>
               </CardContent>
@@ -100,14 +100,14 @@ export default function MarketStudyCFSFacilityJNPTPage() {
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.5 }} className="mb-12">
             <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Contact for further information</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy</div>
+                  <div className="font-semibold text-lg text-white">Digineta Consultancy</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                    <div className="text-gray-700">
+                    <div className="text-[#cbd5e1]">
                       <div>11B 114, WeWork India Management</div>
                       <div>10th floor, Tower 1</div>
                       <div>Seawoods Grand Central, Sector 40</div>

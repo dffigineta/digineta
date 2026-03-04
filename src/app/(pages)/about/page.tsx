@@ -17,25 +17,25 @@ const values = [
     icon: Target,
     title: 'Outcome Focused',
     description: 'Every product, dashboard and campaign is built to deliver political outcomes, not vanity metrics.',
-    color: 'from-[#B31942] to-[#002147]'
+    color: 'from-[#f97316] to-[#0f172a]'
   },
   {
     icon: Lightbulb,
     title: 'Technology First',
     description: 'Apps, data platforms and automated outreach workflows designed for Indian politics.',
-    color: 'from-[#002147] to-[#004080]'
+    color: 'from-[#0f172a] to-[#1a2236]'
   },
   {
     icon: Users,
     title: 'On-Ground Understanding',
     description: 'Strategies shaped by real constituency realities, not just spreadsheets.',
-    color: 'from-[#B31942] to-[#80102D]'
+    color: 'from-[#f97316] to-[#ea6c0a]'
   },
   {
     icon: Award,
     title: 'Trust & Discretion',
     description: 'Long-term relationships with leaders, parties and teams built on confidentiality and integrity.',
-    color: 'from-[#002147] to-[#00152e]'
+    color: 'from-[#0f172a] to-[#0a0a0a]'
   }
 ]
 
@@ -50,10 +50,10 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen">
       {/* Hero */}
-      <section className="relative py-20 bg-gradient-to-br from-[#002147] via-[#003366] to-[#00152e] text-white overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-br from-[#0f172a] via-[#0f172a] to-[#0a0a0a] text-white overflow-hidden">
         <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-10 left-10 w-96 h-96 bg-[#B31942] rounded-full filter blur-3xl"></div>
-          <div className="absolute bottom-10 right-10 w-96 h-96 bg-[#002147] rounded-full filter blur-3xl"></div>
+          <div className="absolute top-10 left-10 w-96 h-96 bg-[#f97316] rounded-full filter blur-3xl"></div>
+          <div className="absolute bottom-10 right-10 w-96 h-96 bg-[#0f172a] rounded-full filter blur-3xl"></div>
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
@@ -77,7 +77,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-[#0f172a]">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -89,10 +89,10 @@ export default function AboutPage() {
                 transition={{ delay: index * 0.1 }}
                 className="text-center"
               >
-                <div className="text-5xl font-bold bg-gradient-to-r from-[#B31942] to-[#002147] bg-clip-text text-transparent mb-2">
+                <div className="text-5xl font-bold bg-gradient-to-r from-[#f97316] to-[#0f172a] bg-clip-text text-transparent mb-2">
                   {stat.value}
                 </div>
-                <div className="text-black text-lg">{stat.label}</div>
+                <div className="text-[#cbd5e1] text-lg">{stat.label}</div>
               </motion.div>
             ))}
           </div>
@@ -100,7 +100,7 @@ export default function AboutPage() {
       </section>
 
       {/* Story */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-[#0f172a]">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -108,8 +108,8 @@ export default function AboutPage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-4xl font-bold text-black mb-6">Our Story</h2>
-              <div className="space-y-4 text-lg text-black leading-relaxed">
+              <h2 className="text-4xl font-bold text-white mb-6">Our Story</h2>
+              <div className="space-y-4 text-lg text-[#cbd5e1] leading-relaxed">
                 <p>
                   Digineta was created with a single belief: Indian politics needs dedicated technology built
                   for its scale, complexity and pace. Generic marketing tools and scattered spreadsheets
@@ -134,12 +134,12 @@ export default function AboutPage() {
               className="grid grid-cols-2 gap-4"
             >
               {spus.map((spu, index) => (
-                <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-shadow bg-white">
+                <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-shadow bg-[#111827] border-white/10">
                   <CardHeader>
-                    <CardTitle className="text-base text-black">{spu.title}</CardTitle>
+                    <CardTitle className="text-base text-white">{spu.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-sm text-black">{spu.description}</p>
+                    <p className="text-sm text-[#cbd5e1]">{spu.description}</p>
                   </CardContent>
                 </Card>
               ))}
@@ -149,7 +149,7 @@ export default function AboutPage() {
       </section>
 
       {/* Values */}
-      <section className="py-20 bg-[#002147]">
+      <section className="py-20 bg-[#0f172a]">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -170,15 +170,15 @@ export default function AboutPage() {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
               >
-                <Card className="h-full text-center border-0 shadow-lg hover:shadow-xl transition-all hover:-translate-y-2 bg-white">
+                <Card className="h-full text-center border-0 shadow-lg hover:shadow-xl transition-all hover:-translate-y-2 bg-[#111827] border-white/10">
                   <CardHeader>
                     <div className={`w-16 h-16 bg-gradient-to-br ${value.color} rounded-2xl flex items-center justify-center mx-auto mb-4`}>
                       <value.icon className="w-8 h-8 text-white" />
                     </div>
-                    <CardTitle className="text-xl text-black">{value.title}</CardTitle>
+                    <CardTitle className="text-xl text-white">{value.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-black">{value.description}</p>
+                    <p className="text-[#cbd5e1]">{value.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -188,7 +188,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-20 bg-gradient-to-br from-[#002147] via-[#003366] to-[#00152e] text-white">
+      <section className="py-20 bg-gradient-to-br from-[#0f172a] via-[#0f172a] to-[#0a0a0a] text-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <motion.div

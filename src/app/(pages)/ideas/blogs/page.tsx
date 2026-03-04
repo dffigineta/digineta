@@ -75,8 +75,8 @@ export default function BlogsPage() {
                       <CardTitle className="text-xl group-hover:text-blue-600 transition-colors">{blog.title}</CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-gray-600 mb-4">{blog.excerpt}</p>
-                      <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
+                      <p className="text-[#cbd5e1] mb-4">{blog.excerpt}</p>
+                      <div className="flex items-center justify-between text-sm text-[#64748b] mb-4">
                         <div className="flex items-center">
                           <User className="w-4 h-4 mr-1" />
                           {blog.author}

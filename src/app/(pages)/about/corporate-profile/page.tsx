@@ -8,7 +8,7 @@ import { Building, Calendar, Users, Award } from 'lucide-react'
 export default function CorporateProfilePage() {
   return (
     <div className="min-h-screen">
-      <section className="relative py-20 bg-gradient-to-br from-[#B31942] via-[#8F1333] to-[#002147] text-white overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-br from-[#f97316] via-[#ea6c0a] to-[#0f172a] text-white overflow-hidden">
         <div className="container mx-auto px-4 relative z-10">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Corporate Profile</h1>
@@ -68,7 +68,7 @@ export default function CorporateProfilePage() {
                     <Card className="border-0 shadow-lg bg-white">
                       <CardHeader>
                         <div className="flex items-center gap-4">
-                          <div className="w-12 h-12 bg-gradient-to-br from-[#B31942] to-[#002147] rounded-xl flex items-center justify-center">
+                          <div className="w-12 h-12 bg-gradient-to-br from-[#f97316] to-[#0f172a] rounded-xl flex items-center justify-center">
                             <item.icon className="w-6 h-6 text-white" />
                           </div>
                           <div>

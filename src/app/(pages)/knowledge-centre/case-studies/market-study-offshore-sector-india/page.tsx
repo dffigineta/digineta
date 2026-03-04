@@ -34,9 +34,9 @@ export default function MarketStudyOffshoreSectorIndiaPage() {
         <div className="max-w-4xl mx-auto">
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Overview</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Overview</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Comprehensive market study of India&apos;s offshore oil & gas sector covering exploration activities, production operations, offshore support vessel requirements, and business opportunities for maritime service providers. The study analyzed current offshore operations, future development plans, and vessel demand forecasts across India&apos;s offshore basins.
                 </p>
               </CardContent>
@@ -45,9 +45,9 @@ export default function MarketStudyOffshoreSectorIndiaPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Client</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Client</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   An offshore vessel operator planning to enter the Indian market. The client wanted to understand the size and dynamics of India&apos;s offshore sector, vessel demand patterns, charter rate benchmarks, major customers, competitive landscape, and regulatory requirements for offshore vessel operations in Indian waters.
                 </p>
               </CardContent>
@@ -56,9 +56,9 @@ export default function MarketStudyOffshoreSectorIndiaPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Challenge</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Challenge</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The challenge was to assess opportunities in a sector heavily dependent on global oil prices and government policies. Key issues included evaluating impact of NELP (New Exploration Licensing Policy) and OALP (Open Acreage Licensing Policy) on exploration activity, understanding vessel requirements for deepwater and ultra-deepwater operations, assessing demand for specialized vessels (AHTSs, PSVs, accommodation barges), and determining realistic charter rate expectations in Indian market.
                 </p>
               </CardContent>
@@ -67,9 +67,9 @@ export default function MarketStudyOffshoreSectorIndiaPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Methodology</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Methodology</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The study involved research covering ONGC, Oil India, Reliance Industries, and international E&P companies operating in India. Analysis of exploration and production plans provided vessel demand forecasts. Vessel fleet assessment covered existing offshore fleet, vessel types, ages, and utilization rates. Charter market analysis evaluated historical and current charter rates for different vessel categories. Regulatory review covered DGS (Directorate General of Shipping) requirements, cabotage regulations, and tax implications for foreign-flagged vessels.
                 </p>
               </CardContent>
@@ -78,9 +78,9 @@ export default function MarketStudyOffshoreSectorIndiaPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Digineta identified growing demand for modern, high-specification offshore support vessels driven by deepwater exploration in Krishna-Godavari and Mumbai High offshore basins. We forecasted demand for 15-20 additional AHTSs (Anchor Handling Tug Supply vessels) and 20-25 PSVs (Platform Supply Vessels) over 5-year period. Recommended target customers including ONGC (largest operator), Reliance, Cairn Energy, and international operators. Vessel specifications guidance covered bollard pull requirements, deck cargo capacity, and DP (Dynamic Positioning) capabilities. Entry strategy suggested Indian flag registration for cabotage compliance and participation in ONGC&apos;s term charter tenders. Charter rate benchmarking provided competitive pricing guidance for different vessel categories.
                 </p>
               </CardContent>
@@ -89,13 +89,13 @@ export default function MarketStudyOffshoreSectorIndiaPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.5 }} className="mb-12">
             <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy</div>
+                  <div className="font-semibold text-lg text-white">Digineta Consultancy</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                    <div className="text-gray-700">
+                    <div className="text-[#cbd5e1]">
                       <div>11B 114, WeWork India Management</div>
                       <div>10th floor, Tower 1</div>
                       <div>Seawoods Grand Central, Sector 40</div>

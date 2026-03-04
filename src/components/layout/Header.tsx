@@ -75,18 +75,18 @@ export default function Header() {
   }
 
   return (
-    <header className="bg-[#002147] shadow-lg sticky top-0 z-50">
+    <header className="bg-[#0a0a0a] border-b border-white/10 shadow-lg sticky top-0 z-50">
       {/* Single Compact Navbar */}
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap md:flex-nowrap items-center justify-between gap-2 md:gap-3 py-2 md:py-2">
 
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 sm:space-x-3 group">
-            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-[#B31942] rounded-lg flex items-center justify-center group-hover:scale-105 transition-transform">
+            <div className="w-8 h-8 sm:w-10 sm:h-10 bg-[#f97316] rounded-lg flex items-center justify-center group-hover:scale-105 transition-transform">
               <span className="text-white font-bold text-sm sm:text-lg">D</span>
             </div>
             <div>
-              <span className="text-lg sm:text-xl md:text-2xl font-bold text-white group-hover:text-[#B31942] transition-colors">
+              <span className="text-lg sm:text-xl md:text-2xl font-bold text-white group-hover:text-[#f97316] transition-colors">
                 Digineta
               </span>
               <div className="text-xs text-white -mt-1 hidden sm:block">India&apos;s Political Technology Venture</div>
@@ -116,8 +116,8 @@ export default function Header() {
                   href={item.href}
                   className={cn(
                     "px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 flex items-center space-x-1 group text-white",
-                    isActive && (isAccentItem ? "bg-[var(--who-accent)]" : "bg-[#B31942]"),
-                    !isActive && (isAccentItem ? "hover:bg-[var(--who-accent)]" : "hover:bg-[#B31942]")
+                    isActive && (isAccentItem ? "bg-[var(--who-accent)]" : "bg-[#f97316]"),
+                    !isActive && (isAccentItem ? "hover:bg-[var(--who-accent)]" : "hover:bg-[#f97316]")
                   )}
                 >
                   <span className="whitespace-nowrap">{item.label}</span>
@@ -139,10 +139,10 @@ export default function Header() {
                         exit={{ opacity: 0, y: 10 }}
                         transition={{ duration: 0.2 }}
                         className={cn(
-                          "absolute top-full left-0 mt-1 bg-[#002147] rounded-xl shadow-2xl border border-[#002147] overflow-visible",
+                          "absolute top-full left-0 mt-1 bg-[#0f172a] rounded-xl shadow-2xl border border-white/10 overflow-visible",
                           item.label === 'About Digineta'
-                            ? "right-0 left-auto w-[min(96vw,720px)] xl:w-[min(88vw,840px)]"
-                            : "w-72 xl:w-80"
+                            ? "right-0 left-auto w-[min(96vw,720px)] xl:w-[min(88vw,840px)] bg-[#0f172a] border-white/10"
+                            : "w-72 xl:w-80 bg-[#0f172a] border-white/10"
                         )}
                         onMouseEnter={() => handleDropdownEnter(item.label)}
                         onMouseLeave={handleDropdownLeave}
@@ -168,7 +168,7 @@ export default function Header() {
                                       >
                                         <Link
                                           href={child.href}
-                                          className="flex items-center justify-between p-3 rounded-lg hover:bg-[#B31942] group transition-all duration-200"
+                                          className="flex items-center justify-between p-3 rounded-lg hover:bg-[#f97316] group transition-all duration-200"
                                         >
                                           <span className="font-medium text-white group-hover:text-white">
                                             {child.label}
@@ -185,7 +185,7 @@ export default function Header() {
                                               <Link
                                                 key={gchild.href}
                                                 href={gchild.href}
-                                                className="flex items-center gap-2 py-2 pl-4 pr-3 rounded-lg hover:bg-[#B31942]/80 text-white/90 hover:text-white text-sm transition-colors"
+                                                className="flex items-center gap-2 py-2 pl-4 pr-3 rounded-lg hover:bg-[#f97316]/80 text-white/90 hover:text-white text-sm transition-colors"
                                               >
                                                 <span>{gchild.label}</span>
                                                 <ArrowRight className="w-3.5 h-3.5 opacity-70" />
@@ -215,7 +215,7 @@ export default function Header() {
                                     href={child.href}
                                     className={cn(
                                       "flex items-center justify-between p-3 rounded-lg group transition-all duration-200",
-                                      isWhoIsItFor ? "hover:bg-[var(--who-accent)]" : "hover:bg-[#B31942]"
+                                      isWhoIsItFor ? "hover:bg-[var(--who-accent)]" : "hover:bg-[#f97316]"
                                     )}
                                   >
                                     <span className={cn(
@@ -244,11 +244,11 @@ export default function Header() {
                                         animate={{ opacity: 1, x: 0 }}
                                         exit={{ opacity: 0, x: 6 }}
                                         transition={{ duration: 0.15 }}
-                                        className="absolute top-0 left-full ml-2 w-72 xl:w-80 bg-[#002147] rounded-xl shadow-2xl border border-[#002147] p-3 xl:p-4 z-50"
+                                        className="absolute top-0 left-full ml-2 w-72 xl:w-80 bg-[#0f172a] rounded-xl shadow-2xl border border-white/10 p-3 xl:p-4 z-50"
                                         onMouseEnter={() => setActiveSubmenu(child.label)}
                                         onMouseLeave={() => setActiveSubmenu(null)}
                                       >
-                                        <div className="mb-2 px-3 py-2 border-b border-[#B31942]">
+                                        <div className="mb-2 px-3 py-2 border-b border-[#f97316]">
                                           <span className="text-xs font-semibold text-white uppercase tracking-wider">
                                             {child.label}
                                           </span>
@@ -258,7 +258,7 @@ export default function Header() {
                                             <Link
                                               key={gchild.href}
                                               href={gchild.href}
-                                              className="flex items-center justify-between p-3 rounded-lg hover:bg-[#B31942] group transition-colors"
+                                              className="flex items-center justify-between p-3 rounded-lg hover:bg-[#f97316] group transition-colors"
                                             >
                                               <span className="text-sm text-white group-hover:text-white font-medium">{gchild.label}</span>
                                               <ArrowRight className="w-4 h-4 text-white group-hover:translate-x-1 transition-all" />
@@ -289,7 +289,7 @@ export default function Header() {
             <div className="relative">
               <button
                 onClick={() => setIsSearchOpen(!isSearchOpen)}
-                className="p-1.5 sm:p-2 text-gray-600 hover:text-[#B31942] hover:bg-gray-50 rounded-lg transition-all duration-200"
+                className="p-1.5 sm:p-2 text-[#cbd5e1] hover:text-[#f97316] hover:bg-white/10 rounded-lg transition-all duration-200"
               >
                 <Search className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
@@ -300,7 +300,7 @@ export default function Header() {
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     exit={{ opacity: 0, scale: 0.95 }}
-                    className="absolute right-0 top-full mt-2 w-72 sm:w-96 bg-white rounded-xl shadow-2xl border border-gray-100 z-50"
+                    className="absolute right-0 top-full mt-2 w-72 sm:w-96 bg-[#111827] rounded-xl shadow-2xl border border-white/10 z-50"
                   >
                     <form onSubmit={handleSearchSubmit} className="p-3 sm:p-4">
                       <input
@@ -308,13 +308,13 @@ export default function Header() {
                         placeholder="Search Digineta platforms, services, insights..."
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
-                        className="w-full px-3 sm:px-4 py-2 text-sm sm:text-base border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#4169E1] focus:border-transparent"
+                        className="w-full px-3 sm:px-4 py-2 text-sm sm:text-base bg-[#0a0a0a] border border-white/20 rounded-lg text-white placeholder:text-[#64748b] focus:outline-none focus:ring-2 focus:ring-[#f97316] focus:border-transparent"
                         autoFocus
                       />
                     </form>
                     
                     {searchResults.length > 0 && (
-                      <div className="border-t border-gray-100 max-h-80 overflow-y-auto">
+                      <div className="border-t border-white/10 max-h-80 overflow-y-auto">
                         {searchResults.map((result, index) => (
                           <Link
                             key={index}
@@ -323,9 +323,9 @@ export default function Header() {
                               setIsSearchOpen(false)
                               setSearchQuery('')
                             }}
-                            className="block px-4 py-3 hover:bg-[#fef2f5] transition-colors border-b border-gray-50 last:border-b-0"
+                            className="block px-4 py-3 hover:bg-white/10 transition-colors border-b border-white/5 last:border-b-0"
                           >
-                            <div className="text-sm text-gray-700 hover:text-[#B31942] font-medium">
+                            <div className="text-sm text-[#cbd5e1] hover:text-[#f97316] font-medium">
                               {result.label}
                             </div>
                           </Link>
@@ -334,7 +334,7 @@ export default function Header() {
                     )}
                     
                     {searchQuery.trim().length >= 2 && searchResults.length === 0 && (
-                      <div className="px-4 py-6 text-center text-gray-500 text-sm border-t border-gray-100">
+                      <div className="px-4 py-6 text-center text-[#64748b] text-sm border-t border-white/10">
                         No results found for &quot;{searchQuery}&quot;
                       </div>
                     )}
@@ -345,7 +345,7 @@ export default function Header() {
 
             {/* CTA Button - Hidden on very small screens */}
             <Link href="/contact" className="hidden sm:block">
-              <button className="bg-[#B31942] hover:bg-[#8F1333] text-white px-3 sm:px-3 py-1.5 sm:py-1.5 rounded-lg text-xs sm:text-xs font-medium transition-all duration-200 hover:shadow-lg">
+              <button className="bg-[#f97316] hover:bg-[#ea6c0a] text-white px-3 sm:px-3 py-1.5 sm:py-1.5 rounded-lg text-xs sm:text-xs font-medium transition-all duration-200 hover:shadow-lg">
                 Work With Us
               </button>
             </Link>
@@ -353,7 +353,7 @@ export default function Header() {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="lg:hidden p-1.5 sm:p-2 text-gray-600 hover:text-[#B31942] hover:bg-gray-50 rounded-lg transition-all duration-200"
+              className="lg:hidden p-1.5 sm:p-2 text-[#cbd5e1] hover:text-[#f97316] hover:bg-white/10 rounded-lg transition-all duration-200"
             >
               {isMenuOpen ? <X className="w-5 h-5 sm:w-6 sm:h-6" /> : <Menu className="w-5 h-5 sm:w-6 sm:h-6" />}
             </button>
@@ -367,14 +367,14 @@ export default function Header() {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden border-t border-gray-100 bg-white max-h-screen overflow-y-auto"
+              className="lg:hidden border-t border-white/10 bg-[#0f172a] max-h-screen overflow-y-auto"
             >
               <div className="py-3 sm:py-4 space-y-1 sm:space-y-2">
                 {/* Mobile CTA Button */}
                 <div className="px-4 py-2 sm:hidden">
                   <Link href="/contact">
                     <button 
-                      className="w-full bg-[#B31942] hover:bg-[#8F1333] text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:shadow-lg"
+                      className="w-full bg-[#f97316] hover:bg-[#ea6c0a] text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:shadow-lg"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       Get Quote
@@ -386,7 +386,7 @@ export default function Header() {
                   <div key={item.label} className="px-2 sm:px-0">
                     <Link
                       href={item.href}
-                      className="block px-3 sm:px-4 py-2.5 sm:py-3 text-gray-700 hover:bg-gray-50 hover:text-[#B31942] rounded-lg transition-colors font-medium text-sm sm:text-base"
+                      className="block px-3 sm:px-4 py-2.5 sm:py-3 text-[#cbd5e1] hover:bg-white/10 hover:text-[#f97316] rounded-lg transition-colors font-medium text-sm sm:text-base"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {item.label}
@@ -397,7 +397,7 @@ export default function Header() {
                           <div key={child.href} className="mb-0.5 sm:mb-1">
                             <Link
                               href={child.href}
-                              className="block px-3 sm:px-4 py-2 text-xs sm:text-sm text-gray-600 hover:text-[#B31942] hover:bg-gray-50 rounded-lg transition-colors"
+                              className="block px-3 sm:px-4 py-2 text-xs sm:text-sm text-[#cbd5e1] hover:text-[#f97316] hover:bg-white/10 rounded-lg transition-colors"
                               onClick={() => setIsMenuOpen(false)}
                             >
                               {child.label}
@@ -408,7 +408,7 @@ export default function Header() {
                                   <Link
                                     key={gchild.href}
                                     href={gchild.href}
-                                    className="block px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm text-gray-500 hover:text-[#B31942] hover:bg-gray-50 rounded-lg transition-colors"
+                                    className="block px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm text-[#64748b] hover:text-[#f97316] hover:bg-white/10 rounded-lg transition-colors"
                                     onClick={() => setIsMenuOpen(false)}
                                   >
                                     {gchild.label}

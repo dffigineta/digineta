@@ -20,10 +20,10 @@ export default function Events({
   const displayEvents = maxItems ? events.slice(0, maxItems) : events
 
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-[#111827]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             {title}
           </h2>
         </div>
@@ -36,16 +36,16 @@ export default function Events({
                   <Calendar className="w-4 h-4" />
                   <span className="font-medium">{formatDateShort(event.date)}</span>
                 </div>
-                <CardTitle className="text-xl text-gray-900 group-hover:text-blue-600 transition-colors">
+                <CardTitle className="text-xl text-white group-hover:text-blue-600 transition-colors">
                   {event.title}
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 mb-4 leading-relaxed">
+                <p className="text-[#cbd5e1] mb-4 leading-relaxed">
                   {event.description}
                 </p>
                 
-                <div className="flex items-center space-x-2 text-sm text-gray-500 mb-4">
+                <div className="flex items-center space-x-2 text-sm text-[#64748b] mb-4">
                   <MapPin className="w-4 h-4" />
                   <span>{event.location}</span>
                 </div>

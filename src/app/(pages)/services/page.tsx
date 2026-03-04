@@ -25,7 +25,7 @@ const whoWeWorkWith = [
     title: 'National & state campaigns',
     description:
       'End-to-end support for national and state election campaigns – from research and strategy to booth-level execution.',
-    color: 'from-[#B31942] to-[#002147]',
+    color: 'from-[#f97316] to-[#0f172a]',
     features: ['General elections', 'Assembly campaigns', 'Alliances & coalitions']
   },
   {
@@ -33,7 +33,7 @@ const whoWeWorkWith = [
     title: 'Leaders & offices',
     description:
       'Support for party leadership, CMs\' offices and key ministries to align intent, information and action.',
-    color: 'from-[#002147] to-[#B31942]',
+    color: 'from-[#0f172a] to-[#f97316]',
     features: ['Leader reputation', 'Office communication', 'Decision dashboards']
   },
   {
@@ -41,7 +41,7 @@ const whoWeWorkWith = [
     title: 'Local bodies & city campaigns',
     description:
       'Ward and municipality-level campaigns and governance programs focused on turnout, delivery and visibility.',
-    color: 'from-[#B31942] to-[#B31942]',
+    color: 'from-[#f97316] to-[#f97316]',
     features: ['Urban local bodies', 'City issue campaigns', 'Ward-level programs']
   },
   {
@@ -49,7 +49,7 @@ const whoWeWorkWith = [
     title: 'Movements & citizen platforms',
     description:
       'Issue-based coalitions, civic movements and citizen platforms that need structure, messaging and technology.',
-    color: 'from-[#002147] to-[#002147]',
+    color: 'from-[#0f172a] to-[#0f172a]',
     features: ['Issue campaigns', 'Membership platforms', 'Volunteer networks']
   },
   {
@@ -57,7 +57,7 @@ const whoWeWorkWith = [
     title: 'Governance & public programs',
     description:
       'Flagship schemes and governance initiatives that require sustained communication and feedback loops.',
-    color: 'from-[#002147] to-[#B31942]',
+    color: 'from-[#0f172a] to-[#f97316]',
     features: ['Scheme communication', 'Feedback systems', 'Program dashboards']
   }
 ]
@@ -106,7 +106,7 @@ export default function ServicesPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-[#B31942] via-[#002147] to-[#00152e] text-white overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-br from-[#f97316] via-[#0f172a] to-[#0a0a0a] text-white overflow-hidden">
         <div className="container mx-auto px-4 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -164,8 +164,8 @@ export default function ServicesPage() {
                   <CardContent>
                     <div className="space-y-2">
                       {item.features.map((feature, idx) => (
-                        <div key={idx} className="flex items-center text-sm text-gray-600">
-                          <div className="w-1.5 h-1.5 bg-[#002147] rounded-full mr-2"></div>
+                        <div key={idx} className="flex items-center text-sm text-[#cbd5e1]">
+                          <div className="w-1.5 h-1.5 bg-[#0f172a] rounded-full mr-2"></div>
                           <span className="text-black/80">{feature}</span>
                         </div>
                       ))}
@@ -205,7 +205,7 @@ export default function ServicesPage() {
               >
                 <Card className="h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-0 bg-white">
                   <CardHeader>
-                    <div className="w-12 h-12 bg-gradient-to-br from-[#B31942] to-[#002147] rounded-xl flex items-center justify-center mb-3">
+                    <div className="w-12 h-12 bg-gradient-to-br from-[#f97316] to-[#0f172a] rounded-xl flex items-center justify-center mb-3">
                       <area.icon className="w-6 h-6 text-white" />
                     </div>
                     <CardTitle className="text-lg text-black">{area.title}</CardTitle>
@@ -219,7 +219,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-[#002147] text-white">
+      <section className="py-20 bg-[#0f172a] text-white">
         <div className="container mx-auto px-4 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -232,7 +232,7 @@ export default function ServicesPage() {
               work together.
             </p>
             <Link href="/about/online-enquiry">
-              <Button size="lg" className="bg-white text-[#002147] hover:bg-white/90">
+              <Button size="lg" className="bg-white text-[#0f172a] hover:bg-white/90">
                 Get in Touch
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>

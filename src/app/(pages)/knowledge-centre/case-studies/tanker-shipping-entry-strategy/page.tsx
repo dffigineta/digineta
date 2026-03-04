@@ -34,9 +34,9 @@ export default function TankerShippingEntryStrategyPage() {
         <div className="max-w-4xl mx-auto">
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Overview</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Overview</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Strategic advisory project for a company planning to enter the tanker shipping business. The study covered market analysis, vessel type selection, acquisition strategy, operational model, risk assessment, and financial projections to develop a comprehensive entry strategy for the crude oil and petroleum product tanker sector.
                 </p>
               </CardContent>
@@ -45,9 +45,9 @@ export default function TankerShippingEntryStrategyPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Client</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Client</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   A diversified business group with interests in energy and logistics sectors, exploring entry into tanker shipping to vertically integrate their petroleum distribution business. The client sought expert guidance on market dynamics, vessel selection, employment strategies, and business model for sustainable tanker operations.
                 </p>
               </CardContent>
@@ -56,9 +56,9 @@ export default function TankerShippingEntryStrategyPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Challenge</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Challenge</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The tanker shipping sector is highly cyclical with significant capital requirements and operational complexities. Challenges included timing market entry given freight rate volatility, selecting optimal vessel size and type, deciding between newbuilding and second-hand tonnage, choosing between spot market exposure and time charter contracts, and building technical and commercial expertise for safe tanker operations.
                 </p>
               </CardContent>
@@ -67,9 +67,9 @@ export default function TankerShippingEntryStrategyPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Methodology</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Methodology</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The study analyzed tanker market fundamentals including crude oil trade flows, refining capacity changes, and fleet supply dynamics. Vessel segment analysis covered Aframax, Suezmax, VLCC, and product tankers with freight rate trends and earnings analysis. Due diligence on potential vessel acquisitions included technical inspections, valuation, and price negotiation guidance. Operational model design covered crewing arrangements, technical management, commercial operations, and regulatory compliance. Risk assessment evaluated freight rate exposure, vessel value fluctuations, operational hazards, and environmental liabilities.
                 </p>
               </CardContent>
@@ -78,9 +78,9 @@ export default function TankerShippingEntryStrategyPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Digineta recommended starting with product tankers (MR - Medium Range segment, 45,000-50,000 DWT) serving Indian coastal trade and Middle East routes, leveraging client&apos;s existing petroleum distribution network. We advised acquiring 2-3 modern second-hand vessels (5-8 years old) with strong technical specifications and reputable shipyard pedigree. Employment strategy combined time charter contracts (60-70% fleet utilization) for stability with spot market exposure (30-40%) for upside. Operational model suggested appointing experienced technical manager initially while building in-house capabilities. Financial projections showed acceptable returns with 12-14% IRR assuming moderate freight rate assumptions. Risk mitigation included comprehensive insurance coverage, ISM/ISPS compliance, and hedging strategies for fuel cost exposure.
                 </p>
               </CardContent>
@@ -89,13 +89,13 @@ export default function TankerShippingEntryStrategyPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.5 }} className="mb-12">
             <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy</div>
+                  <div className="font-semibold text-lg text-white">Digineta Consultancy</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                    <div className="text-gray-700">
+                    <div className="text-[#cbd5e1]">
                       <div>11B 114, WeWork India Management</div>
                       <div>10th floor, Tower 1</div>
                       <div>Seawoods Grand Central, Sector 40</div>

@@ -43,16 +43,16 @@ export default function EducationInfobankPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Maritime Education Overview</CardTitle>
+                <CardTitle className="text-3xl text-white">Maritime Education Overview</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Maritime education and training prepare professionals for careers in shipping, ports, logistics, shipbuilding, and maritime services. The sector offers diverse career opportunities both at sea and ashore, with competitive salaries and global exposure.
                 </p>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Maritime training is highly regulated, governed by international standards set by the International Maritime Organization (IMO) through the STCW (Standards of Training, Certification and Watchkeeping for Seafarers) Convention.
                 </p>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   India is one of the largest suppliers of seafarers globally, with approximately 200,000 Indian seafarers working on international vessels. The country has a well-established maritime education infrastructure with numerous training institutes approved by the Directorate General of Shipping (DGS).
                 </p>
               </CardContent>
@@ -68,33 +68,33 @@ export default function EducationInfobankPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Merchant Navy Training Programs</CardTitle>
+                <CardTitle className="text-3xl text-white">Merchant Navy Training Programs</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Deck Officer Programs</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Deck Officer Programs</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     <strong>B.Sc. Nautical Science:</strong> 3-year degree program leading to certification as a Deck Officer. Covers navigation, ship handling, cargo operations, and maritime law. Graduates complete sea time to progress through ranks: Third Officer → Second Officer → Chief Officer → Master (Captain).
                   </p>
-                  <p className="text-lg text-gray-700 leading-relaxed mt-2">
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed mt-2">
                     Entry requirements typically include completion of Class 12 with Physics, Chemistry, and Mathematics, age 17-25, and passing physical fitness tests including eyesight standards.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Marine Engineering Programs</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Marine Engineering Programs</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     <strong>B.E./B.Tech Marine Engineering:</strong> 4-year degree program for ship engine room officers. Covers marine engines, auxiliary machinery, electrical systems, and ship operations. Career progression: Fourth Engineer → Third Engineer → Second Engineer → Chief Engineer.
                   </p>
-                  <p className="text-lg text-gray-700 leading-relaxed mt-2">
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed mt-2">
                     Also available: <strong>Graduate Marine Engineering (GME)</strong> - 1-year program for engineering graduates; <strong>Diploma in Marine Engineering (DME)</strong> - post-10th diploma program.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Ratings & Support Staff Training</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Ratings & Support Staff Training</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     <strong>GP Rating Course:</strong> 6-month program for entry-level positions. Covers basic seamanship, safety, and shipboard operations.
                   </p>
-                  <p className="text-lg text-gray-700 leading-relaxed mt-2">
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed mt-2">
                     Specialized courses available for Able Seaman, Engine Room Rating, Saloon Rating (for cruise ships), and STCW safety courses (Basic Safety Training, Advanced Fire Fighting, Medical First Aid).
                   </p>
                 </div>
@@ -111,30 +111,30 @@ export default function EducationInfobankPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Shore-based Maritime Education</CardTitle>
+                <CardTitle className="text-3xl text-white">Shore-based Maritime Education</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Port & Shipping Management</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Port & Shipping Management</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     MBA/PGDM programs in Shipping & Logistics prepare professionals for managerial roles in shipping companies, port operators, freight forwarders, and logistics firms. Curriculum covers maritime economics, port operations, supply chain management, and shipping law.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Naval Architecture & Ocean Engineering</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Naval Architecture & Ocean Engineering</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     B.Tech/M.Tech programs in Naval Architecture focus on ship design, structural analysis, hydrodynamics, and marine systems. Graduates work in shipyards, classification societies, consultancies, and research organizations. IIT Madras and IIT Kharagpur offer premier programs.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Maritime Law</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Maritime Law</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     LLM programs in Maritime Law cover admiralty law, shipping regulations, marine insurance, and international conventions. Maritime lawyers work in law firms, shipping companies, insurance companies, and international organizations.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Marine Biology & Oceanography</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Marine Biology & Oceanography</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     B.Sc./M.Sc. programs in Marine Biology, Oceanography, and Coastal & Marine Science. Career opportunities in research institutions, environmental consulting, fisheries management, and ocean conservation.
                   </p>
                 </div>
@@ -151,36 +151,36 @@ export default function EducationInfobankPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Premier Maritime Institutions in India</CardTitle>
+                <CardTitle className="text-3xl text-white">Premier Maritime Institutions in India</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Indian Maritime University (IMU)</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Indian Maritime University (IMU)</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     Central university with campuses across India offering undergraduate, postgraduate, and doctoral programs in maritime disciplines. Main campus in Chennai with regional campuses in Mumbai, Kolkata, Kochi, and Visakhapatnam.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">BITS Pilani - Goa Campus</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">BITS Pilani - Goa Campus</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     Offers B.E. in Mechanical Engineering with specialization in Maritime Engineering, combining core engineering with maritime technology.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Tolani Maritime Institute (TMI), Pune</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Tolani Maritime Institute (TMI), Pune</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     Autonomous institute offering B.Sc. Nautical Science, B.Tech Marine Engineering, and MBA Maritime Management. Known for excellent infrastructure and training facilities.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">AMET University, Chennai</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">AMET University, Chennai</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     Private university offering comprehensive maritime programs including merchant navy training, marine engineering, and shipping management.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Samundra Institute of Maritime Studies (SIMS)</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Samundra Institute of Maritime Studies (SIMS)</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     Premium training institute in Mumbai and Lonavala offering pre-sea and post-sea training programs. Affiliated with MAERSK Training.
                   </p>
                 </div>
@@ -197,16 +197,16 @@ export default function EducationInfobankPage() {
           >
             <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Maritime Career Opportunities</CardTitle>
+                <CardTitle className="text-3xl text-white">Maritime Career Opportunities</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The maritime sector offers diverse career paths:
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">Sea-going Careers</h4>
-                    <ul className="list-disc pl-5 space-y-1 text-gray-700">
+                    <h4 className="font-semibold text-white mb-2">Sea-going Careers</h4>
+                    <ul className="list-disc pl-5 space-y-1 text-[#cbd5e1]">
                       <li>Deck Officers & Captains</li>
                       <li>Marine Engineers</li>
                       <li>Electro-Technical Officers</li>
@@ -215,8 +215,8 @@ export default function EducationInfobankPage() {
                     </ul>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">Shore-based Careers</h4>
-                    <ul className="list-disc pl-5 space-y-1 text-gray-700">
+                    <h4 className="font-semibold text-white mb-2">Shore-based Careers</h4>
+                    <ul className="list-disc pl-5 space-y-1 text-[#cbd5e1]">
                       <li>Shipping Management</li>
                       <li>Port Operations & Management</li>
                       <li>Freight Forwarding & Logistics</li>
@@ -230,7 +230,7 @@ export default function EducationInfobankPage() {
                     </ul>
                   </div>
                 </div>
-                <p className="text-lg text-gray-700 leading-relaxed mt-4">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed mt-4">
                   Maritime careers offer competitive compensation, global exposure, tax-free income for seafarers, and opportunities for rapid career advancement. The industry actively promotes women in maritime and provides equal opportunities.
                 </p>
               </CardContent>

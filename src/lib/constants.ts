@@ -6,16 +6,6 @@ export const navigation: NavigationItem[] = [
     href: '/political-platform',
   },
   {
-    label: 'Our Solutions',
-    href: '/services',
-    children: [
-      { label: 'Political Intelligence & Analytics', href: '/services' },
-      { label: 'Campaign Platforms (Mahaneta, Netabanner & Smart Apps)', href: '/services' },
-      { label: 'Digital Outreach & Social Media', href: '/services' },
-      { label: 'Voter Data & Call Centre Operations', href: '/services' },
-    ]
-  },
-  {
     label: 'Who Is It For',
     href: '/who-is-it-for',
     children: [
@@ -24,6 +14,16 @@ export const navigation: NavigationItem[] = [
       { label: 'Municipal Corporators', href: '/who-is-it-for/municipal-corporators' },
       { label: 'Panchayat & Local Body Leaders', href: '/who-is-it-for/panchayat-local-body-leaders' },
       { label: 'Political Party Workers', href: '/who-is-it-for/political-party-workers' },
+    ]
+  },
+  {
+    label: 'Our Solutions',
+    href: '/services',
+    children: [
+      { label: 'Political Intelligence & Analytics', href: '/services' },
+      { label: 'Campaign Platforms (Mahaneta, Netabanner & Smart Apps)', href: '/services' },
+      { label: 'Digital Outreach & Social Media', href: '/services' },
+      { label: 'Voter Data & Call Centre Operations', href: '/services' },
     ]
   },
   {
@@ -61,13 +61,13 @@ export const navigation: NavigationItem[] = [
         ],
       },
       { label: 'Capabilities & Expertise', href: '/about/expertise' },
-      { label: 'Leadership & Network', href: '/about/people' },
       { label: 'Campaigns & Partners', href: '/about/clients' },
+      { label: 'Leadership & Network', href: '/about/people' },
       { label: 'Testimonials', href: '/about/testimonials' },
       { label: 'Flagship Engagements', href: '/about/projects' },
       { label: 'Partner with Digineta', href: '/about/online-enquiry' },
       {
-        label: 'Join Our Team',
+        label: 'Work with Us',
         href: '/careers',
         children: [
           { label: 'Current Openings', href: '/careers/current-openings' },

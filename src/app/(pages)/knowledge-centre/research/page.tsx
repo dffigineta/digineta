@@ -92,13 +92,13 @@ export default function ResearchPage() {
               viewport={{ once: true }}
               className="mb-12"
             >
-              <p className="text-lg text-gray-700 mb-8">
+              <p className="text-lg text-[#cbd5e1] mb-8">
                 As part of Digineta&apos;s ongoing political intelligence, research and consulting assignments, we generate
                 structured research outputs for leaders, offices and campaign teams. Some of these are restricted, while others
                 are made available as reference material and primers.
               </p>
               
-              <p className="text-lg text-gray-700 mb-8">
+              <p className="text-lg text-[#cbd5e1] mb-8">
                 Below is a curated list of Digineta research documents and series. For access to specific reports, please reach
                 out to our team.
               </p>
@@ -125,7 +125,7 @@ export default function ResearchPage() {
                         </Badge>
                       </div>
                       
-                      <p className="text-sm sm:text-base lg:text-lg text-gray-700 mb-6 leading-relaxed">
+                      <p className="text-sm sm:text-base lg:text-lg text-[#cbd5e1] mb-6 leading-relaxed">
                         {report.description}
                       </p>
                       
@@ -133,7 +133,7 @@ export default function ResearchPage() {
                         <h4 className="text-base sm:text-lg font-semibold text-blue-900 mb-3 sm:mb-4">Key Features:</h4>
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3">
                           {report.features.map((feature, idx) => (
-                            <div key={idx} className="flex items-center text-gray-700 text-sm sm:text-base">
+                            <div key={idx} className="flex items-center text-[#cbd5e1] text-sm sm:text-base">
                               <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue-500 rounded-full mr-2 sm:mr-3 flex-shrink-0"></div>
                               {feature}
                             </div>
@@ -168,56 +168,56 @@ export default function ResearchPage() {
             >
               <Card className="border-0 shadow-xl">
                 <CardHeader>
-                  <CardTitle className="text-xl sm:text-2xl text-gray-900 mb-4">Additional Research Reports</CardTitle>
+                  <CardTitle className="text-xl sm:text-2xl text-white mb-4">Additional Research Reports</CardTitle>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                     <div className="space-y-4">
-                      <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                      <div className="flex items-center justify-between p-4 bg-[#111827] rounded-lg">
                         <div>
-                          <h4 className="font-semibold text-gray-900">Voter Turnout Patterns in Urban Constituencies — 2024 Analysis</h4>
-                          <p className="text-sm text-gray-600">Data | Elections | Urban Voters • February 2025</p>
-                          <p className="text-sm text-gray-700 mt-1">A data-driven analysis of voter turnout trends across India&apos;s top 50 urban constituencies, examining age-group participation, first-time voter rates, and the impact of digital mobilization on polling day attendance.</p>
+                          <h4 className="font-semibold text-white">Voter Turnout Patterns in Urban Constituencies — 2024 Analysis</h4>
+                          <p className="text-sm text-[#cbd5e1]">Data | Elections | Urban Voters • February 2025</p>
+                          <p className="text-sm text-[#cbd5e1] mt-1">A data-driven analysis of voter turnout trends across India&apos;s top 50 urban constituencies, examining age-group participation, first-time voter rates, and the impact of digital mobilization on polling day attendance.</p>
                         </div>
                         <Badge className="bg-green-100 text-green-700">Download Report</Badge>
                       </div>
-                      <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                      <div className="flex items-center justify-between p-4 bg-[#111827] rounded-lg">
                         <div>
-                          <h4 className="font-semibold text-gray-900">WhatsApp as a Campaign Tool — Reach, Risks & Best Practices</h4>
-                          <p className="text-sm text-gray-600">Digital | Outreach | Compliance • January 2025</p>
-                          <p className="text-sm text-gray-700 mt-1">An in-depth look at how Indian political campaigns are using WhatsApp for mass outreach, group management, and voter communication — including compliance considerations and strategies that drive genuine engagement vs. spam.</p>
+                          <h4 className="font-semibold text-white">WhatsApp as a Campaign Tool — Reach, Risks & Best Practices</h4>
+                          <p className="text-sm text-[#cbd5e1]">Digital | Outreach | Compliance • January 2025</p>
+                          <p className="text-sm text-[#cbd5e1] mt-1">An in-depth look at how Indian political campaigns are using WhatsApp for mass outreach, group management, and voter communication — including compliance considerations and strategies that drive genuine engagement vs. spam.</p>
                         </div>
                         <Badge className="bg-green-100 text-green-700">Download Report</Badge>
                       </div>
-                      <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                      <div className="flex items-center justify-between p-4 bg-[#111827] rounded-lg">
                         <div>
-                          <h4 className="font-semibold text-gray-900">Caste, Community & Coalition: Decoding Voter Alliances in State Elections</h4>
-                          <p className="text-sm text-gray-600">Segmentation | Strategy | Alliances • December 2024</p>
-                          <p className="text-sm text-gray-700 mt-1">Research into how caste-based voter blocs are evolving in key state elections, the role of coalition-building in seat allocation, and how data can help identify opportunities for expanding a candidate&apos;s base beyond traditional support groups.</p>
+                          <h4 className="font-semibold text-white">Caste, Community & Coalition: Decoding Voter Alliances in State Elections</h4>
+                          <p className="text-sm text-[#cbd5e1]">Segmentation | Strategy | Alliances • December 2024</p>
+                          <p className="text-sm text-[#cbd5e1] mt-1">Research into how caste-based voter blocs are evolving in key state elections, the role of coalition-building in seat allocation, and how data can help identify opportunities for expanding a candidate&apos;s base beyond traditional support groups.</p>
                         </div>
                         <Badge className="bg-green-100 text-green-700">Download Report</Badge>
                       </div>
                     </div>
                     <div className="space-y-4">
-                      <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                      <div className="flex items-center justify-between p-4 bg-[#111827] rounded-lg">
                         <div>
-                          <h4 className="font-semibold text-gray-900">The ROI of Political Technology: Campaign Spend vs. Outcome Analysis</h4>
-                          <p className="text-sm text-gray-600">Technology | Analytics | ROI • November 2024</p>
-                          <p className="text-sm text-gray-700 mt-1">A comparative study of campaigns that invested in political technology platforms vs. those relying on traditional methods — measuring cost-per-voter-contact, digital reach efficiency, and the correlation between tech adoption and electoral outcomes.</p>
+                          <h4 className="font-semibold text-white">The ROI of Political Technology: Campaign Spend vs. Outcome Analysis</h4>
+                          <p className="text-sm text-[#cbd5e1]">Technology | Analytics | ROI • November 2024</p>
+                          <p className="text-sm text-[#cbd5e1] mt-1">A comparative study of campaigns that invested in political technology platforms vs. those relying on traditional methods — measuring cost-per-voter-contact, digital reach efficiency, and the correlation between tech adoption and electoral outcomes.</p>
                         </div>
                         <Badge className="bg-green-100 text-green-700">Download Report</Badge>
                       </div>
-                      <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                      <div className="flex items-center justify-between p-4 bg-[#111827] rounded-lg">
                         <div>
-                          <h4 className="font-semibold text-gray-900">Misinformation in Indian Elections: Detection, Impact & Counter-Strategies</h4>
-                          <p className="text-sm text-gray-600">Ethics | Digital | Communication • October 2024</p>
-                          <p className="text-sm text-gray-700 mt-1">An evidence-based review of misinformation patterns observed across recent Indian election cycles, tools used for real-time detection, and recommended counter-communication strategies for campaigns operating in high-noise environments.</p>
+                          <h4 className="font-semibold text-white">Misinformation in Indian Elections: Detection, Impact & Counter-Strategies</h4>
+                          <p className="text-sm text-[#cbd5e1]">Ethics | Digital | Communication • October 2024</p>
+                          <p className="text-sm text-[#cbd5e1] mt-1">An evidence-based review of misinformation patterns observed across recent Indian election cycles, tools used for real-time detection, and recommended counter-communication strategies for campaigns operating in high-noise environments.</p>
                         </div>
                         <Badge className="bg-green-100 text-green-700">Download Report</Badge>
                       </div>
-                      <div className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                      <div className="flex items-center justify-between p-4 bg-[#111827] rounded-lg">
                         <div>
-                          <h4 className="font-semibold text-gray-900">Women Voters & Political Representation — Constituency-Level Insights</h4>
-                          <p className="text-sm text-gray-600">Gender | Inclusion | Segmentation • September 2024</p>
-                          <p className="text-sm text-gray-700 mt-1">Research examining female voter participation rates, issues that drive women&apos;s electoral decisions, and strategies political leaders can use to build authentic, issue-led outreach to women voters at the booth and ward level.</p>
+                          <h4 className="font-semibold text-white">Women Voters & Political Representation — Constituency-Level Insights</h4>
+                          <p className="text-sm text-[#cbd5e1]">Gender | Inclusion | Segmentation • September 2024</p>
+                          <p className="text-sm text-[#cbd5e1] mt-1">Research examining female voter participation rates, issues that drive women&apos;s electoral decisions, and strategies political leaders can use to build authentic, issue-led outreach to women voters at the booth and ward level.</p>
                         </div>
                         <Badge className="bg-green-100 text-green-700">Download Report</Badge>
                       </div>

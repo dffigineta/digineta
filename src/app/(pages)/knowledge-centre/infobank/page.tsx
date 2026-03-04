@@ -180,7 +180,7 @@ export default function InfobankPage() {
       </section>
 
       {/* Introduction */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-12 bg-[#111827]">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -189,21 +189,21 @@ export default function InfobankPage() {
             transition={{ duration: 0.6 }}
             className="text-center max-w-4xl mx-auto"
           >
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">How the Infobank Helps Your Team</h2>
-            <p className="text-lg text-gray-600 leading-relaxed mb-6">
+            <h2 className="text-3xl font-bold text-white mb-6">How the Infobank Helps Your Team</h2>
+            <p className="text-lg text-[#cbd5e1] leading-relaxed mb-6">
               Political intelligence is the foundation of effective campaigns and responsive governance. The Infobank brings
               together definitions, frameworks and working notes that teams can use every day.
             </p>
-            <p className="text-gray-600 leading-relaxed mb-6">
+            <p className="text-[#cbd5e1] leading-relaxed mb-6">
               It covers the full stack – booth-level data, constituency mapping, voter segments, digital and media signals, field
               organisation maps and governance performance views. Each concept is written for practical use by leaders and teams,
               not just analysts.
             </p>
-            <p className="text-gray-600 leading-relaxed">
+            <p className="text-[#cbd5e1] leading-relaxed">
               Across India, political intelligence is gathered from thousands of booths, villages and wards – from single-seat
               campaigns to multi-state strategies. The Infobank is where this experience is distilled into reusable knowledge.
             </p>
-            <p className="text-gray-600 leading-relaxed mt-4">
+            <p className="text-[#cbd5e1] leading-relaxed mt-4">
               In the digital age, political intelligence has moved from scattered reports and spreadsheets to integrated platforms
               that connect research, data, field feedback and digital signals into one coherent view. Digineta&apos;s Infobank
               reflects this shift.
@@ -238,8 +238,8 @@ export default function InfobankPage() {
                           <IconComponent className="w-6 h-6 text-white" />
                         </div>
                         <div>
-                          <CardTitle className="text-2xl text-gray-900">{section.title}</CardTitle>
-                          <p className="text-gray-600">{section.subsections.length} subsections</p>
+                          <CardTitle className="text-2xl text-white">{section.title}</CardTitle>
+                          <p className="text-[#cbd5e1]">{section.subsections.length} subsections</p>
                         </div>
                       </div>
                       <div className="flex items-center space-x-2">
@@ -251,12 +251,12 @@ export default function InfobankPage() {
                           className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
                           title="Back to top"
                         >
-                          <ArrowUp className="w-5 h-5 text-gray-600" />
+                          <ArrowUp className="w-5 h-5 text-[#cbd5e1]" />
                         </button>
                         {isExpanded ? (
-                          <ChevronUp className="w-6 h-6 text-gray-600" />
+                          <ChevronUp className="w-6 h-6 text-[#cbd5e1]" />
                         ) : (
-                          <ChevronDown className="w-6 h-6 text-gray-600" />
+                          <ChevronDown className="w-6 h-6 text-[#cbd5e1]" />
                         )}
                       </div>
                     </div>
@@ -271,21 +271,21 @@ export default function InfobankPage() {
                           return (
                             <div key={subsection.id} className="border border-gray-200 rounded-lg">
                               <div 
-                                className="flex items-center justify-between p-4 cursor-pointer hover:bg-gray-50 transition-colors"
+                                className="flex items-center justify-between p-4 cursor-pointer hover:bg-[#111827] transition-colors"
                                 onClick={() => toggleSubsection(subsection.id)}
                               >
-                                <h3 className="text-lg font-semibold text-gray-900">{subsection.title}</h3>
+                                <h3 className="text-lg font-semibold text-white">{subsection.title}</h3>
                                 {isSubExpanded ? (
-                                  <ChevronUp className="w-5 h-5 text-gray-600" />
+                                  <ChevronUp className="w-5 h-5 text-[#cbd5e1]" />
                                 ) : (
-                                  <ChevronDown className="w-5 h-5 text-gray-600" />
+                                  <ChevronDown className="w-5 h-5 text-[#cbd5e1]" />
                                 )}
                               </div>
                               
                               {isSubExpanded && (
                                 <div className="px-4 pb-4">
                                   <div className="prose prose-lg max-w-none">
-                                    <p className="text-gray-700 leading-relaxed whitespace-pre-line">
+                                    <p className="text-[#cbd5e1] leading-relaxed whitespace-pre-line">
                                       {subsection.content}
                                     </p>
                                   </div>

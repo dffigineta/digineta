@@ -43,16 +43,16 @@ export default function ShipyardInfobankPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Global Shipbuilding Industry</CardTitle>
+                <CardTitle className="text-3xl text-white">Global Shipbuilding Industry</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The global shipbuilding industry is dominated by East Asian countries, particularly China, South Korea, and Japan, which together account for over 90% of global ship production by tonnage. These countries have developed world-class infrastructure, advanced technology, and skilled workforce.
                 </p>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The industry is highly capital-intensive and cyclical, closely tied to global trade patterns and economic conditions. Shipbuilding orders fluctuate based on freight rates, commodity prices, and fleet replacement needs.
                 </p>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Modern shipyards are adopting advanced technologies including modular construction, robotics, 3D design, and digital twins to improve efficiency and reduce construction time. Some of the largest shipyards can build vessels exceeding 400,000 DWT.
                 </p>
               </CardContent>
@@ -68,19 +68,19 @@ export default function ShipyardInfobankPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Indian Shipbuilding Sector</CardTitle>
+                <CardTitle className="text-3xl text-white">Indian Shipbuilding Sector</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   India has a rich history of shipbuilding dating back thousands of years. The modern Indian shipbuilding industry comprises several public and private sector shipyards with capabilities ranging from small vessels to large merchant ships and naval vessels.
                 </p>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Major Indian shipyards include Cochin Shipyard Limited (CSL), Mazagon Dock Shipbuilders Limited (MDL), Garden Reach Shipbuilders & Engineers (GRSE), Goa Shipyard Limited (GSL), Hindustan Shipyard Limited (HSL), and several private yards like Larsen & Toubro Shipbuilding and Pipavav Defence & Offshore Engineering.
                 </p>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The Indian government has launched the Shipbuilding Financial Assistance Policy to promote domestic shipbuilding and make Indian shipyards globally competitive. The policy provides financial assistance to Indian shipyards to bridge the price gap with foreign yards.
                 </p>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   India&apos;s shipbuilding industry has strong capabilities in building specialized vessels including offshore supply vessels, dredgers, tugs, and defense vessels. The country is also developing capabilities in building large merchant ships and offshore platforms.
                 </p>
               </CardContent>
@@ -96,30 +96,30 @@ export default function ShipyardInfobankPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Types of Shipyards</CardTitle>
+                <CardTitle className="text-3xl text-white">Types of Shipyards</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">New Construction Yards</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">New Construction Yards</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     Specialized facilities for building new ships from scratch. These yards require extensive infrastructure including dry docks, slipways, heavy-lift cranes, fabrication shops, and assembly areas. They employ thousands of workers including engineers, welders, electricians, and technicians.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Ship Repair Yards</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Ship Repair Yards</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     Focus on maintenance, repair, and conversion of existing vessels. Services include hull repairs, engine overhauls, equipment replacement, painting, and dry-docking services. India has several well-equipped ship repair facilities in Mumbai, Cochin, Vizag, and other port cities.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Offshore Yards</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Offshore Yards</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     Specialized in building offshore structures including oil rigs, FPSOs (Floating Production Storage and Offloading units), jack-up platforms, and offshore support vessels. These require advanced engineering capabilities and specialized equipment.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Naval Dockyards</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Naval Dockyards</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     Government-owned facilities dedicated to building and maintaining naval vessels including warships, submarines, and patrol boats. These yards have stringent security requirements and specialized capabilities for defense equipment.
                   </p>
                 </div>
@@ -136,13 +136,13 @@ export default function ShipyardInfobankPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Shipbuilding Process</CardTitle>
+                <CardTitle className="text-3xl text-white">Shipbuilding Process</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Modern shipbuilding follows a systematic approach:
                 </p>
-                <ol className="list-decimal pl-6 space-y-3 text-lg text-gray-700">
+                <ol className="list-decimal pl-6 space-y-3 text-lg text-[#cbd5e1]">
                   <li><strong>Design & Engineering</strong>: Detailed design using CAD/CAM systems, structural analysis, and hydrodynamic testing</li>
                   <li><strong>Steel Cutting & Fabrication</strong>: Automated cutting of steel plates and assembly of sections</li>
                   <li><strong>Pre-Assembly</strong>: Creation of large modules including compartments and systems</li>
@@ -166,13 +166,13 @@ export default function ShipyardInfobankPage() {
           >
             <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Innovation & Future Trends</CardTitle>
+                <CardTitle className="text-3xl text-white">Innovation & Future Trends</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The shipbuilding industry is embracing new technologies:
                 </p>
-                <ul className="list-disc pl-6 space-y-2 text-lg text-gray-700">
+                <ul className="list-disc pl-6 space-y-2 text-lg text-[#cbd5e1]">
                   <li><strong>Green Shipbuilding</strong>: Eco-friendly vessels with alternative propulsion systems and energy-efficient designs</li>
                   <li><strong>Smart Manufacturing</strong>: Industry 4.0 technologies including robotics, automation, and AI</li>
                   <li><strong>Digital Twins</strong>: Virtual replicas for design optimization and performance prediction</li>

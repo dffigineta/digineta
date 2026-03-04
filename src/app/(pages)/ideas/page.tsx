@@ -72,8 +72,8 @@ export default function IdeasPage() {
             viewport={{ once: true }}
             className="mb-12"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Latest Blog Posts</h2>
-            <p className="text-xl text-gray-600">Stay updated with political technology and campaign insights</p>
+            <h2 className="text-4xl font-bold text-white mb-4">Latest Blog Posts</h2>
+            <p className="text-xl text-[#cbd5e1]">Stay updated with political technology and campaign insights</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -99,8 +99,8 @@ export default function IdeasPage() {
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-600 mb-4">{blog.excerpt}</p>
-                    <div className="flex items-center justify-between text-sm text-gray-500">
+                    <p className="text-[#cbd5e1] mb-4">{blog.excerpt}</p>
+                    <div className="flex items-center justify-between text-sm text-[#64748b]">
                       <div className="flex items-center">
                         <User className="w-4 h-4 mr-1" />
                         {blog.author}
@@ -127,8 +127,8 @@ export default function IdeasPage() {
             viewport={{ once: true }}
             className="mb-12"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Upcoming Events</h2>
-            <p className="text-xl text-gray-600">Join us at political technology workshops, labs, and briefings</p>
+            <h2 className="text-4xl font-bold text-white mb-4">Upcoming Events</h2>
+            <p className="text-xl text-[#cbd5e1]">Join us at political technology workshops, labs, and briefings</p>
           </motion.div>
 
           <div className="max-w-3xl mx-auto space-y-6">
@@ -145,7 +145,7 @@ export default function IdeasPage() {
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                       <div>
                         <CardTitle className="text-2xl mb-2">{event.title}</CardTitle>
-                        <p className="text-gray-600">{event.description}</p>
+                        <p className="text-[#cbd5e1]">{event.description}</p>
                       </div>
                       <Badge className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white whitespace-nowrap">
                         {event.date}
@@ -153,7 +153,7 @@ export default function IdeasPage() {
                     </div>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-600">{event.location}</p>
+                    <p className="text-[#cbd5e1]">{event.location}</p>
                   </CardContent>
                 </Card>
               </motion.div>

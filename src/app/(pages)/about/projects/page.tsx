@@ -12,7 +12,7 @@ const projectCategories = [
     id: 'elections-campaigns',
     title: 'Elections & campaigns',
     icon: Anchor,
-    color: 'from-[#B31942] to-[#002147]',
+    color: 'from-[#f97316] to-[#0f172a]',
     projects: [
       'State assembly election – booth-level influence mapping and targeting',
       'National campaign – narrative design and message discipline across states',
@@ -24,7 +24,7 @@ const projectCategories = [
     id: 'governance-outreach',
     title: 'Governance & outreach',
     icon: Ship,
-    color: 'from-[#002147] to-[#B31942]',
+    color: 'from-[#0f172a] to-[#f97316]',
     projects: [
       'Chief Minister\'s Office – flagship program communication framework',
       'State department – citizen feedback and service improvement loop',
@@ -36,7 +36,7 @@ const projectCategories = [
     id: 'digital-platforms',
     title: 'Digital platforms & tools',
     icon: Building,
-    color: 'from-[#002147] to-[#002147]',
+    color: 'from-[#0f172a] to-[#0f172a]',
     projects: [
       'Party data platform – unified voter, volunteer and media view',
       'Leader app – constituency updates, media, and network management',
@@ -48,7 +48,7 @@ const projectCategories = [
     id: 'research-intelligence',
     title: 'Research & intelligence',
     icon: Container,
-    color: 'from-[#B31942] to-[#B31942]',
+    color: 'from-[#f97316] to-[#f97316]',
     projects: [
       'Opinion research – tracking favourability and issue salience over time',
       'Sentiment mapping – social, media and field signal integration',
@@ -60,7 +60,7 @@ const projectCategories = [
     id: 'organisation-building',
     title: 'Organisation & capacity building',
     icon: Building,
-    color: 'from-[#002147] to-[#B31942]',
+    color: 'from-[#0f172a] to-[#f97316]',
     projects: [
       'Cadre training – field operations and reporting practices',
       'War-room setup – roles, rhythms and decision rituals',
@@ -84,7 +84,7 @@ export default function ProjectsPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-[#B31942] via-[#002147] to-[#00152e] text-white">
+      <section className="relative py-20 bg-gradient-to-br from-[#f97316] via-[#0f172a] to-[#0a0a0a] text-white">
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <nav className="text-sm text-white/70 mb-4">
@@ -134,7 +134,7 @@ export default function ProjectsPage() {
                       <Button
                         variant="ghost"
                         size="sm"
-                        className="p-2 hover:bg-[#002147]/5"
+                        className="p-2 hover:bg-[#0f172a]/5"
                       >
                         {isExpanded ? (
                           <ChevronUp className="w-5 h-5 text-black" />
@@ -160,7 +160,7 @@ export default function ProjectsPage() {
                             initial={{ opacity: 0, x: -20 }}
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.3, delay: projectIndex * 0.02 }}
-                            className="flex items-start space-x-3 p-3 rounded-lg hover:bg-[#002147]/5 transition-colors"
+                            className="flex items-start space-x-3 p-3 rounded-lg hover:bg-[#0f172a]/5 transition-colors"
                           >
                             <div className={`w-2 h-2 bg-gradient-to-r ${category.color} rounded-full mt-2 flex-shrink-0`}></div>
                             <p className="text-black leading-relaxed">{project}</p>

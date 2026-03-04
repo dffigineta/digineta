@@ -16,7 +16,7 @@ const services = [
 export default function GlobalMaritimeKnowledgeCenterPage() {
   return (
     <div className="min-h-screen">
-      <section className="relative py-20 bg-gradient-to-br from-[#B31942] via-[#8F1333] to-[#002147] text-white overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-br from-[#f97316] via-[#ea6c0a] to-[#0f172a] text-white overflow-hidden">
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Political Intelligence & Knowledge Centre</h1>
@@ -65,7 +65,7 @@ export default function GlobalMaritimeKnowledgeCenterPage() {
                 <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow bg-white">
                   <CardContent className="pt-6">
                     <div className="flex items-center">
-                      <div className="w-2 h-2 bg-[#B31942] rounded-full mr-3" />
+                      <div className="w-2 h-2 bg-[#f97316] rounded-full mr-3" />
                       <p className="font-semibold text-black">{service}</p>
                     </div>
                   </CardContent>

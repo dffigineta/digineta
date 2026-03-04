@@ -34,9 +34,9 @@ export default function MarketStudySettingUpCFSICDPage() {
         <div className="max-w-4xl mx-auto">
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Overview</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Overview</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Market feasibility study for developing Container Freight Station (CFS) or Inland Container Depot (ICD) facility in an inland location. The study assessed cargo potential, infrastructure requirements, competitive positioning, and financial viability for serving export-import trade in the hinterland region.
                 </p>
               </CardContent>
@@ -45,9 +45,9 @@ export default function MarketStudySettingUpCFSICDPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Client</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Client</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   A logistics developer planning to invest in ICD infrastructure to serve industrial clusters in an inland region. The client needed comprehensive assessment of cargo generation potential, optimal location selection, infrastructure specifications, and business model development for sustainable ICD operations.
                 </p>
               </CardContent>
@@ -56,9 +56,9 @@ export default function MarketStudySettingUpCFSICDPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Challenge</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Challenge</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The challenge involved assessing realistic cargo capture potential in presence of existing ICDs and direct port evacuation options. Key issues included evaluating industrial growth projections, understanding exporter/importer preferences, determining optimal distance from seaport, assessing rail connectivity availability and reliability, and creating a differentiated value proposition to attract customers.
                 </p>
               </CardContent>
@@ -67,9 +67,9 @@ export default function MarketStudySettingUpCFSICDPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Methodology</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Methodology</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The study conducted extensive surveys of exporters and importers in the region to understand cargo volumes, current logistics practices, and pain points. Analysis of industrial estates, manufacturing clusters, and free trade zones provided cargo generation estimates. Connectivity assessment evaluated rail infrastructure, frequency of train services, transit times to major ports. Competitive analysis benchmarked existing ICDs on services, tariffs, and market share. Financial modeling incorporated land costs, infrastructure investment, operating expenses, and throughput-based revenue projections.
                 </p>
               </CardContent>
@@ -78,9 +78,9 @@ export default function MarketStudySettingUpCFSICDPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Digineta recommended a 30-acre ICD facility with rail siding connectivity and capacity for 100,000 TEUs annually. The facility design included container yards, CFS operations for LCL cargo, customs clearance services, warehousing facilities, and truck parking. We identified target customer segments including textile exporters, engineering goods manufacturers, and import cargo for retail/distribution. Business model emphasized value-added services including door pickup/delivery, documentation support, and flexible storage options. Implementation roadmap covered Customs approval process, rail siding development, and equipment procurement. Financial analysis showed payback period of 6-7 years with steady-state IRR of 13%, assuming 40% market share of addressable cargo base.
                 </p>
               </CardContent>
@@ -89,13 +89,13 @@ export default function MarketStudySettingUpCFSICDPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.5 }} className="mb-12">
             <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy</div>
+                  <div className="font-semibold text-lg text-white">Digineta Consultancy</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                    <div className="text-gray-700">
+                    <div className="text-[#cbd5e1]">
                       <div>11B 114, WeWork India Management</div>
                       <div>10th floor, Tower 1</div>
                       <div>Seawoods Grand Central, Sector 40</div>

@@ -44,10 +44,10 @@ export default function BusinessPlanCementShippingPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Overview</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Overview</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   &ldquo;Shipping sector in India had been growing tremendously and had led client to examine shipping as a possible area of logistics integration of port and trading activities. The study had to discuss the cement shipping markets from client&apos;s perspective and delineate the market entry strategies.&rdquo;
                 </p>
               </CardContent>
@@ -64,10 +64,10 @@ export default function BusinessPlanCementShippingPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Client</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Client</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Client is one of India&apos;s most dynamic business houses with an annual turnover of Rs.160 billion. Client has established itself in trading businesses and has considerable investment in maritime infrastructure.
                 </p>
               </CardContent>
@@ -84,10 +84,10 @@ export default function BusinessPlanCementShippingPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Challenge</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Challenge</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Sound understanding of the cement market, both globally and locally is very important. Existing trends in cement movement had to be established for deciding market entry strategy. Also study of various organizational structures across the Indian shipping companies had to be done to help client in deciding organizational structure and manpower planning.
                 </p>
               </CardContent>
@@ -104,10 +104,10 @@ export default function BusinessPlanCementShippingPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Methodology</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Methodology</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The market for the trade of cement is much localized and there exist regional blocks like European Gulf and Red sea region, North American block and Asia Pacific block. Indian cement trade with these blocks was understood; similarly distribution of cement manufacturers in the hinterland was mapped. Shipping dynamics of the cement carriers revealed them to be specialized vessels and commanding a premium up to 80% over normal bulk carrier rates. Other aspects like parcel size and ship sizes were analyzed in light of competition.
                 </p>
               </CardContent>
@@ -124,10 +124,10 @@ export default function BusinessPlanCementShippingPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Digineta Proposition</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Digineta did financial analysis for four possible alternatives of entering the market based on the current trends and future prospects. We recommended acquisition of second hand bulk carrier of 12000 DWT for operating bagged cement or clinker trade, for export as well as coastal run.
                 </p>
               </CardContent>
@@ -144,16 +144,16 @@ export default function BusinessPlanCementShippingPage() {
           >
             <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Contact for further information</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">
+                  <div className="font-semibold text-lg text-white">
                     Digineta Consultancy
                   </div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                    <div className="text-gray-700">
+                    <div className="text-[#cbd5e1]">
                       <div>11B 114, WeWork India Management</div>
                       <div>10th floor, Tower 1</div>
                       <div>Seawoods Grand Central, Sector 40</div>

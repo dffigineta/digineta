@@ -60,7 +60,7 @@ export default function OnlineEnquiryPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-[#B31942] via-[#002147] to-[#00152e] text-white">
+      <section className="relative py-20 bg-gradient-to-br from-[#f97316] via-[#0f172a] to-[#0a0a0a] text-white">
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <nav className="text-sm text-white/70 mb-4">
@@ -95,7 +95,7 @@ export default function OnlineEnquiryPage() {
             </p>
             <p className="text-sm text-black/70">
               Your information will not be shared with anyone else. Please read our{' '}
-              <Link href="/policy" className="text-[#002147] hover:text-[#B31942] underline">
+              <Link href="/policy" className="text-[#0f172a] hover:text-[#f97316] underline">
                 Privacy Policy
               </Link>{' '}
               for more information.
@@ -112,15 +112,15 @@ export default function OnlineEnquiryPage() {
             <Card className="border-0 shadow-2xl bg-white">
               <CardContent className="p-8">
                 {submitStatus === 'success' && (
-                  <div className="mb-6 p-4 bg-[#002147]/5 border border-[#002147]/30 rounded-lg flex items-center space-x-3">
-                    <CheckCircle className="w-5 h-5 text-[#002147]" />
+                  <div className="mb-6 p-4 bg-[#0f172a]/5 border border-[#0f172a]/30 rounded-lg flex items-center space-x-3">
+                    <CheckCircle className="w-5 h-5 text-[#0f172a]" />
                     <p className="text-black font-medium">Thank you! Your enquiry has been submitted successfully. We will get back to you shortly.</p>
                   </div>
                 )}
                 
                 {submitStatus === 'error' && (
-                  <div className="mb-6 p-4 bg-[#B31942]/5 border border-[#B31942]/30 rounded-lg flex items-center space-x-3">
-                    <AlertCircle className="w-5 h-5 text-[#B31942]" />
+                  <div className="mb-6 p-4 bg-[#f97316]/5 border border-[#f97316]/30 rounded-lg flex items-center space-x-3">
+                    <AlertCircle className="w-5 h-5 text-[#f97316]" />
                     <p className="text-black font-medium">Sorry, there was an error. Please try again.</p>
                   </div>
                 )}
@@ -128,7 +128,7 @@ export default function OnlineEnquiryPage() {
                 <form className="space-y-8" onSubmit={handleSubmit}>
                   {/* How can we help section */}
                   <div className="bg-white rounded-xl p-6 shadow-lg">
-                    <h3 className="text-xl font-semibold text-gray-900 mb-6">How can we help:</h3>
+                    <h3 className="text-xl font-semibold text-white mb-6">How can we help:</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                       {[
                         'Election campaigns',
@@ -145,7 +145,7 @@ export default function OnlineEnquiryPage() {
                             value={option}
                             checked={formData.serviceType === option}
                             onChange={handleChange}
-                            className="w-4 h-4 text-[#B31942] bg-gray-100 border-gray-300 focus:ring-[#B31942]"
+                            className="w-4 h-4 text-[#f97316] bg-gray-100 border-gray-300 focus:ring-[#f97316]"
                           />
                           <span className="text-black font-medium">{option}</span>
                         </label>
@@ -156,7 +156,7 @@ export default function OnlineEnquiryPage() {
                   <div className="border-t border-gray-200 pt-8">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                           First Name <span className="text-red-500">*</span>
                         </label>
                         <Input 
@@ -169,7 +169,7 @@ export default function OnlineEnquiryPage() {
                         />
                       </div>
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                           Last Name <span className="text-red-500">*</span>
                         </label>
                         <Input 
@@ -185,7 +185,7 @@ export default function OnlineEnquiryPage() {
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                           Email <span className="text-red-500">*</span>
                         </label>
                         <Input 
@@ -199,7 +199,7 @@ export default function OnlineEnquiryPage() {
                         />
                       </div>
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-2">
+                        <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                           Mobile <span className="text-red-500">*</span>
                         </label>
                         <Input 
@@ -215,7 +215,7 @@ export default function OnlineEnquiryPage() {
                     </div>
                     
                     <div className="mt-6">
-                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                      <label className="block text-sm font-medium text-[#cbd5e1] mb-2">
                         Message <span className="text-red-500">*</span>
                       </label>
                       <Textarea 
@@ -233,7 +233,7 @@ export default function OnlineEnquiryPage() {
                       <Button 
                         type="submit"
                         size="lg" 
-                        className="w-full bg-gradient-to-r from-[#B31942] to-[#002147] hover:from-[#B31942] hover:to-[#002147] text-white py-4 text-lg font-semibold"
+                        className="w-full bg-gradient-to-r from-[#f97316] to-[#0f172a] hover:from-[#f97316] hover:to-[#0f172a] text-white py-4 text-lg font-semibold"
                         disabled={isSubmitting}
                       >
                         {isSubmitting ? 'Submitting...' : 'Submit'}

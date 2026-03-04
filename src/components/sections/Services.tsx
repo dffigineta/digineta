@@ -26,14 +26,14 @@ export default function Services({
   showIcons = true
 }: ServicesProps) {
   return (
-    <section className="py-16 bg-gray-50">
+    <section className="py-16 bg-[#111827]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             {title}
           </h2>
           {description && (
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-[#cbd5e1] max-w-3xl mx-auto leading-relaxed">
               {description}
             </p>
           )}
@@ -61,7 +61,7 @@ export default function Services({
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4 leading-relaxed">
+                  <p className="text-[#cbd5e1] mb-4 leading-relaxed">
                     {service.description}
                   </p>
                   <Link 

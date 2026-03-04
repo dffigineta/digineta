@@ -67,7 +67,7 @@ export default function TrafficStudiesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <section className="relative py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-r from-[#f97316] to-[#0f172a] text-white overflow-hidden">
         <div className="absolute inset-0 bg-[#0f172a]/40"></div>
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
@@ -104,8 +104,8 @@ export default function TrafficStudiesPage() {
               className="lg:col-span-1"
             >
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-full h-full bg-[#B31942]/20 rounded-2xl rotate-3"></div>
-                <div className="relative bg-[#002147] p-4 rounded-2xl shadow-xl flex items-center justify-center">
+                <div className="absolute -top-4 -left-4 w-full h-full bg-[#f97316]/20 rounded-2xl rotate-3"></div>
+                <div className="relative bg-[#0f172a] p-4 rounded-2xl shadow-xl flex items-center justify-center">
                   <div className="w-full h-48 md:h-64 bg-white/10 rounded-xl" />
                 </div>
               </div>
@@ -120,10 +120,10 @@ export default function TrafficStudiesPage() {
             >
               {/* Overview */}
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                <h2 className="text-3xl font-bold text-white mb-6">
                   Granular Booth & Segment Analysis
                 </h2>
-                <div className="space-y-4 text-gray-700 leading-relaxed">
+                <div className="space-y-4 text-[#cbd5e1] leading-relaxed">
                   <p>
                     Our booth & segment analysis provides critical insights into voter behavior, helping 
                     campaigns optimize resource allocation, prioritize booths, and design targeted outreach. 
@@ -151,10 +151,10 @@ export default function TrafficStudiesPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-4xl font-bold text-white mb-6">
               Our Booth & Segment Analysis Services
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-[#cbd5e1] max-w-3xl mx-auto">
               Comprehensive analysis solutions designed to optimize campaign resource allocation 
               and support strategic targeting decisions.
             </p>
@@ -171,13 +171,13 @@ export default function TrafficStudiesPage() {
               >
                 <Card className="h-full hover:shadow-xl transition-all duration-300 border-0 bg-white/70 backdrop-blur-sm">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-[#B31942] to-[#002147] rounded-2xl flex items-center justify-center mb-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#f97316] to-[#0f172a] rounded-2xl flex items-center justify-center mb-4">
                       <service.icon className="w-8 h-8 text-white" />
                     </div>
                     <CardTitle className="text-xl">{service.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-600 leading-relaxed">{service.description}</p>
+                    <p className="text-[#cbd5e1] leading-relaxed">{service.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -196,7 +196,7 @@ export default function TrafficStudiesPage() {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+            <h2 className="text-4xl font-bold text-white mb-12 text-center">
               Analysis Methodologies
             </h2>
             
@@ -210,8 +210,8 @@ export default function TrafficStudiesPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-3 h-3 bg-[#002147] rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-gray-700 font-medium">{method}</p>
+                  <div className="w-3 h-3 bg-[#0f172a] rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-[#cbd5e1] font-medium">{method}</p>
                 </motion.div>
               ))}
             </div>
@@ -229,7 +229,7 @@ export default function TrafficStudiesPage() {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+            <h2 className="text-4xl font-bold text-white mb-12 text-center">
               Applications for Campaigns
             </h2>
             
@@ -243,8 +243,8 @@ export default function TrafficStudiesPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-3 h-3 bg-[#B31942] rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-gray-700 font-medium">{application}</p>
+                  <div className="w-3 h-3 bg-[#f97316] rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-[#cbd5e1] font-medium">{application}</p>
                 </motion.div>
               ))}
             </div>
@@ -253,7 +253,7 @@ export default function TrafficStudiesPage() {
       </section>
 
       {/* Key Benefits */}
-      <section className="py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white">
+      <section className="py-20 bg-gradient-to-r from-[#f97316] to-[#0f172a] text-white">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -308,7 +308,7 @@ export default function TrafficStudiesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-gray-900 to-[#002147]">
+      <section className="py-20 bg-gradient-to-r from-gray-900 to-[#0f172a]">
         <div className="container mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -326,7 +326,7 @@ export default function TrafficStudiesPage() {
             <Link href="/contact">
               <Button 
                 size="lg" 
-                className="bg-white text-[#002147] hover:bg-white/90 font-semibold px-8 py-4"
+                className="bg-white text-[#0f172a] hover:bg-white/90 font-semibold px-8 py-4"
               >
                 Get Started
               </Button>

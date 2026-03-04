@@ -53,7 +53,7 @@ export default function SustainableShippingPracticesBlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardContent className="p-8">
-                <p className="text-xl text-gray-700 leading-relaxed mb-6">
+                <p className="text-xl text-[#cbd5e1] leading-relaxed mb-6">
                   The most successful political leaders in India&apos;s emerging democratic landscape are those who think beyond the election cycle. Sustainable political campaigning isn&apos;t just about winning — it&apos;s about building organizations, credibility, and governance frameworks that last.
                 </p>
               </CardContent>
@@ -63,10 +63,10 @@ export default function SustainableShippingPracticesBlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">1. Building Long-Term Political Organizations</CardTitle>
+                <CardTitle className="text-3xl text-white">1. Building Long-Term Political Organizations</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Short-term campaign machinery that disappears after polling day is a wasted investment. Leaders who convert their campaign infrastructure into year-round constituency organizations — with active booth committees, women&apos;s wings, and youth groups — build compounding political capital.
                 </p>
               </CardContent>
@@ -76,10 +76,10 @@ export default function SustainableShippingPracticesBlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">2. Ethical Digital Practices</CardTitle>
+                <CardTitle className="text-3xl text-white">2. Ethical Digital Practices</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Misinformation, fake voter outreach, and purchased engagement may provide short-term noise, but they erode long-term trust. Campaigns that commit to verified content, transparent communication, and authentic community engagement build more durable reputations.
                 </p>
               </CardContent>
@@ -89,10 +89,10 @@ export default function SustainableShippingPracticesBlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">3. Governance-Focused Campaigns</CardTitle>
+                <CardTitle className="text-3xl text-white">3. Governance-Focused Campaigns</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Voters are becoming more sophisticated. Campaigns that center around specific, trackable governance promises — water supply, road quality, school infrastructure — create accountability frameworks that differentiate serious leaders from opportunistic ones.
                 </p>
               </CardContent>
@@ -102,10 +102,10 @@ export default function SustainableShippingPracticesBlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">4. Inclusive Outreach</CardTitle>
+                <CardTitle className="text-3xl text-white">4. Inclusive Outreach</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Sustainable campaigns actively include marginalized communities, women voters, and first-time voters in their strategy. This isn&apos;t just ethical — it&apos;s smart. These segments are growing in electoral influence and are more responsive to leaders who address them directly and respectfully.
                 </p>
               </CardContent>
@@ -115,10 +115,10 @@ export default function SustainableShippingPracticesBlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.5 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">5. Impact Beyond Election Cycles</CardTitle>
+                <CardTitle className="text-3xl text-white">5. Impact Beyond Election Cycles</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The leaders who dominate Indian politics in the next decade will be those who build visible track records between elections. Regular constituency reports, public grievance resolution, and community development initiatives transform leaders from election-cycle figures into permanent institutions.
                 </p>
               </CardContent>
@@ -128,10 +128,10 @@ export default function SustainableShippingPracticesBlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.6 }}>
             <Card className="border-0 shadow-xl mb-12 bg-gradient-to-br from-blue-50 to-cyan-50">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Conclusion</CardTitle>
+                <CardTitle className="text-3xl text-white">Conclusion</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Political sustainability is a long game. The investment made in ethical organization-building and governance-first campaigning today creates a compounding advantage that no amount of last-minute spending can replicate.
                 </p>
               </CardContent>

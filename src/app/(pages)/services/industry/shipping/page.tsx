@@ -112,10 +112,10 @@ export default function ShippingPage() {
             >
               {/* Leading Shipping Consultant */}
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                <h2 className="text-3xl font-bold text-white mb-6">
                   Leading Shipping Consultant in India
                 </h2>
-                <div className="space-y-4 text-gray-700 leading-relaxed">
+                <div className="space-y-4 text-[#cbd5e1] leading-relaxed">
                   <p>
                     Shipping is a global industry and its prospects are associated with the level of global 
                     economic and industrial activity. However, the shipping market is known to be cyclical 
@@ -150,10 +150,10 @@ export default function ShippingPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-4xl font-bold text-white mb-6">
               Benefits with Digineta&apos;s leadership advisory
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-[#cbd5e1] max-w-3xl mx-auto">
               Our comprehensive approach combines industry expertise with cutting-edge analytics 
               to deliver exceptional results for shipping operations and investments.
             </p>
@@ -176,7 +176,7 @@ export default function ShippingPage() {
                     <CardTitle className="text-xl">{benefit.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
+                    <p className="text-[#cbd5e1] leading-relaxed">{benefit.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -195,7 +195,7 @@ export default function ShippingPage() {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+            <h2 className="text-4xl font-bold text-white mb-12 text-center">
               Leaders & Offices We Support
             </h2>
             
@@ -210,7 +210,7 @@ export default function ShippingPage() {
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
                   <div className="w-3 h-3 bg-purple-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-gray-700 font-medium">{segment}</p>
+                  <p className="text-[#cbd5e1] font-medium">{segment}</p>
                 </motion.div>
               ))}
             </div>
@@ -228,7 +228,7 @@ export default function ShippingPage() {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+            <h2 className="text-4xl font-bold text-white mb-12 text-center">
               Core Capabilities for Leaders & Offices
             </h2>
             
@@ -243,7 +243,7 @@ export default function ShippingPage() {
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
                   <div className="w-3 h-3 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-gray-700 font-medium">{area}</p>
+                  <p className="text-[#cbd5e1] font-medium">{area}</p>
                 </motion.div>
               ))}
             </div>

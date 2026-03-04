@@ -44,10 +44,10 @@ export default function BusinessOpportunityCoastalRoRoShippingPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Overview</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Overview</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Comprehensive market study to identify and evaluate business opportunities in coastal Roll-on/Roll-off (RO-RO) shipping services along India&apos;s coastline. The study examined potential routes, cargo volumes, infrastructure requirements, and commercial viability of establishing RO-RO operations for transporting vehicles, trailers, and wheeled cargo.
                 </p>
               </CardContent>
@@ -64,10 +64,10 @@ export default function BusinessOpportunityCoastalRoRoShippingPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Client</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Client</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   A leading shipping company exploring diversification opportunities in coastal shipping. The client sought to evaluate the potential for RO-RO services to transport automobiles, commercial vehicles, and heavy equipment along India&apos;s east and west coasts, leveraging the government&apos;s coastal shipping incentives.
                 </p>
               </CardContent>
@@ -84,10 +84,10 @@ export default function BusinessOpportunityCoastalRoRoShippingPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Challenge</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Challenge</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The key challenge was to assess the feasibility of RO-RO operations in a market dominated by road transport. This required analyzing cargo generation patterns, identifying suitable routes, evaluating port infrastructure readiness, understanding competitive dynamics with road transport, and determining the optimal vessel specifications and deployment strategy.
                 </p>
               </CardContent>
@@ -104,10 +104,10 @@ export default function BusinessOpportunityCoastalRoRoShippingPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Methodology</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Methodology</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The study involved extensive market research including interviews with automobile manufacturers, logistics providers, and transport companies. Analysis of vehicle production and distribution patterns identified potential cargo volumes. Port assessments evaluated RO-RO infrastructure availability and development needs. Financial modeling incorporated vessel acquisition costs, operating expenses, freight rates, and government incentives to determine project viability.
                 </p>
               </CardContent>
@@ -124,10 +124,10 @@ export default function BusinessOpportunityCoastalRoRoShippingPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Digineta Proposition</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Digineta recommended priority routes connecting major automobile manufacturing hubs with distribution centers, including Chennai-Kolkata, Mumbai-Vizag, and Gujarat-Kerala corridors. We identified specific vessel requirements (capacity 150-200 vehicles, loading ramps, roll-on/roll-off configuration) and developed a phased deployment strategy. The business plan included partnership opportunities with automobile manufacturers for contract cargo, integration with existing logistics networks, and strategies to achieve competitive pricing against road transport while maintaining service reliability.
                 </p>
               </CardContent>
@@ -144,16 +144,16 @@ export default function BusinessOpportunityCoastalRoRoShippingPage() {
           >
             <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Contact for further information</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">
+                  <div className="font-semibold text-lg text-white">
                     Digineta Consultancy
                   </div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                    <div className="text-gray-700">
+                    <div className="text-[#cbd5e1]">
                       <div>11B 114, WeWork India Management</div>
                       <div>10th floor, Tower 1</div>
                       <div>Seawoods Grand Central, Sector 40</div>

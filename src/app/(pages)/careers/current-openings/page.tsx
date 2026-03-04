@@ -35,7 +35,7 @@ export default function CurrentOpeningsPage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-12"
           >
-            <p className="text-lg text-gray-600 leading-relaxed">
+            <p className="text-lg text-[#cbd5e1] leading-relaxed">
               Want to join the Digineta team? Here are our current openings in political technology, 
               research, and campaign operations. Pick the one which suits you and submit your resume.
             </p>
@@ -55,11 +55,11 @@ export default function CurrentOpeningsPage() {
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                   <div className="flex-1">
                     <CardTitle className="text-2xl mb-3">Senior Campaign Strategist</CardTitle>
-                    <p className="text-gray-600 mb-4">
+                    <p className="text-[#cbd5e1] mb-4">
                       Lead multi-state election campaigns, design path-to-victory strategies, and work with party leadership 
                       on narrative and booth-level execution. Experience in Indian politics and data-driven campaigning required.
                     </p>
-                    <div className="flex flex-wrap gap-4 text-sm text-gray-600">
+                    <div className="flex flex-wrap gap-4 text-sm text-[#cbd5e1]">
                       <div className="flex items-center">
                         <Briefcase className="w-4 h-4 mr-2" />
                         Strategy
@@ -90,11 +90,11 @@ export default function CurrentOpeningsPage() {
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                   <div className="flex-1">
                     <CardTitle className="text-2xl mb-3">Political Research & Data Analyst</CardTitle>
-                    <p className="text-gray-600 mb-4">
+                    <p className="text-[#cbd5e1] mb-4">
                       Analyze polling data, voter sentiment, and constituency-level trends. Build dashboards and models 
                       for vote share forecasting and segment analysis. Experience with survey research and statistical modeling preferred.
                     </p>
-                    <div className="flex flex-wrap gap-4 text-sm text-gray-600">
+                    <div className="flex flex-wrap gap-4 text-sm text-[#cbd5e1]">
                       <div className="flex items-center">
                         <Briefcase className="w-4 h-4 mr-2" />
                         Research
@@ -125,11 +125,11 @@ export default function CurrentOpeningsPage() {
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                   <div className="flex-1">
                     <CardTitle className="text-2xl mb-3">Product Designer (Political Platforms)</CardTitle>
-                    <p className="text-gray-600 mb-4">
+                    <p className="text-[#cbd5e1] mb-4">
                       Design user experiences for leader apps, voter management tools, and campaign dashboards. 
                       Work on Mahaneta, Netabanner and other Digineta platforms. Experience with mobile-first design and Indian language interfaces preferred.
                     </p>
-                    <div className="flex flex-wrap gap-4 text-sm text-gray-600">
+                    <div className="flex flex-wrap gap-4 text-sm text-[#cbd5e1]">
                       <div className="flex items-center">
                         <Briefcase className="w-4 h-4 mr-2" />
                         Design
@@ -160,11 +160,11 @@ export default function CurrentOpeningsPage() {
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                   <div className="flex-1">
                     <CardTitle className="text-2xl mb-3">Program Finance & Operations Analyst</CardTitle>
-                    <p className="text-gray-600 mb-4">
+                    <p className="text-[#cbd5e1] mb-4">
                       Support campaign and governance program budgeting, resource allocation, and financial planning. 
                       Work with teams on program feasibility and cost optimization. Experience with political campaigns or public programs preferred.
                     </p>
-                    <div className="flex flex-wrap gap-4 text-sm text-gray-600">
+                    <div className="flex flex-wrap gap-4 text-sm text-[#cbd5e1]">
                       <div className="flex items-center">
                         <Briefcase className="w-4 h-4 mr-2" />
                         Finance
@@ -197,8 +197,8 @@ export default function CurrentOpeningsPage() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-center mt-12 p-8 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-2xl"
             >
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Don&apos;t see a suitable position?</h3>
-              <p className="text-gray-600 mb-6">
+              <h3 className="text-2xl font-bold text-white mb-4">Don&apos;t see a suitable position?</h3>
+              <p className="text-[#cbd5e1] mb-6">
                 We&apos;re always looking for talented professionals. Submit your resume and we&apos;ll get back to you when a suitable opportunity arises.
               </p>
               <Link href="/careers/submit-resume">

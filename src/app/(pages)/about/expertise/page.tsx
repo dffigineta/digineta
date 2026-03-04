@@ -10,7 +10,7 @@ export default function ExpertisePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-[#B31942] via-[#002147] to-[#00152e] text-white">
+      <section className="relative py-20 bg-gradient-to-br from-[#f97316] via-[#0f172a] to-[#0a0a0a] text-white">
         <div className="container mx-auto px-4">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <nav className="text-sm text-white/70 mb-4">
@@ -41,8 +41,8 @@ export default function ExpertisePage() {
             >
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-r from-[#B31942] to-[#002147] rounded-2xl transform rotate-3 opacity-20"></div>
-                  <div className="relative bg-[#002147] rounded-2xl p-8 h-80 flex items-center justify-center">
+                  <div className="absolute inset-0 bg-gradient-to-r from-[#f97316] to-[#0f172a] rounded-2xl transform rotate-3 opacity-20"></div>
+                  <div className="relative bg-[#0f172a] rounded-2xl p-8 h-80 flex items-center justify-center">
                     <div className="text-center text-white">
                       <div className="w-24 h-24 bg-white/10 rounded-full mx-auto mb-4"></div>
                       <div className="w-32 h-4 bg-white/20 rounded mx-auto mb-2"></div>
@@ -93,7 +93,7 @@ export default function ExpertisePage() {
                   transition={{ duration: 0.4 }}
                   className="flex items-start space-x-4"
                 >
-                  <CheckCircle className="w-6 h-6 text-[#B31942] mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-6 h-6 text-[#f97316] mt-1 flex-shrink-0" />
                   <p className="text-black">
                     We start with evidence, not assumptions. Our campaign and governance strategies are
                     built on real voter behaviour, sentiment signals and network maps – not just
@@ -108,7 +108,7 @@ export default function ExpertisePage() {
                   transition={{ duration: 0.4, delay: 0.1 }}
                   className="flex items-start space-x-4"
                 >
-                  <Users className="w-6 h-6 text-[#002147] mt-1 flex-shrink-0" />
+                  <Users className="w-6 h-6 text-[#0f172a] mt-1 flex-shrink-0" />
                   <p className="text-black">
                     We understand our partners&apos; realities – coalition dynamics, local leadership,
                     internal structures and media ecosystems – and design solutions that work inside
@@ -123,7 +123,7 @@ export default function ExpertisePage() {
                   transition={{ duration: 0.4, delay: 0.2 }}
                   className="flex items-start space-x-4"
                 >
-                  <Award className="w-6 h-6 text-[#B31942] mt-1 flex-shrink-0" />
+                  <Award className="w-6 h-6 text-[#f97316] mt-1 flex-shrink-0" />
                   <p className="text-black">
                     We blend political experience with product-thinking and modern campaign technology –
                     from data platforms and dashboards to field tools and narrative labs.
@@ -137,7 +137,7 @@ export default function ExpertisePage() {
                   transition={{ duration: 0.4, delay: 0.3 }}
                   className="flex items-start space-x-4"
                 >
-                  <Lightbulb className="w-6 h-6 text-[#002147] mt-1 flex-shrink-0" />
+                  <Lightbulb className="w-6 h-6 text-[#0f172a] mt-1 flex-shrink-0" />
                   <p className="text-black">
                     We bring structured experimentation to politics – rapid testing of messages,
                     creatives and formats across digital and field, so you scale what actually works.
@@ -151,7 +151,7 @@ export default function ExpertisePage() {
                   transition={{ duration: 0.4, delay: 0.4 }}
                   className="flex items-start space-x-4"
                 >
-                  <Target className="w-6 h-6 text-[#B31942] mt-1 flex-shrink-0" />
+                  <Target className="w-6 h-6 text-[#f97316] mt-1 flex-shrink-0" />
                   <p className="text-black">
                     We go down to the booth and ward level – identifying priority segments, local
                     influencers and micro-geographies, then designing targeted interventions for each.
@@ -165,7 +165,7 @@ export default function ExpertisePage() {
                   transition={{ duration: 0.4, delay: 0.5 }}
                   className="flex items-start space-x-4"
                 >
-                  <CheckCircle className="w-6 h-6 text-[#002147] mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-6 h-6 text-[#0f172a] mt-1 flex-shrink-0" />
                   <p className="text-black">
                     We stay through implementation – building teams, training cadre, tracking execution
                     and feeding intelligence back into strategy every week.
@@ -179,7 +179,7 @@ export default function ExpertisePage() {
                   transition={{ duration: 0.4, delay: 0.6 }}
                   className="flex items-start space-x-4"
                 >
-                  <ArrowRight className="w-6 h-6 text-[#B31942] mt-1 flex-shrink-0" />
+                  <ArrowRight className="w-6 h-6 text-[#f97316] mt-1 flex-shrink-0" />
                   <p className="text-black">
                     We measure what matters – vote share movement, favourability shifts, network growth
                     and narrative adoption – and present it in simple frameworks leaders can act on.
@@ -192,7 +192,7 @@ export default function ExpertisePage() {
           {/* Sidebar */}
           <div className="space-y-8">
             {/* Sample impact stories */}
-            <Card className="bg-[#B31942] text-white border-0 shadow-2xl">
+            <Card className="bg-[#f97316] text-white border-0 shadow-2xl">
               <CardHeader>
                 <div className="flex items-center space-x-2 mb-4">
                   <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
@@ -221,7 +221,7 @@ export default function ExpertisePage() {
             </Card>
 
             {/* Case Studies */}
-            <Card className="bg-[#002147] text-white border-0 shadow-2xl">
+            <Card className="bg-[#0f172a] text-white border-0 shadow-2xl">
               <CardHeader>
                 <div className="flex items-center space-x-2 mb-4">
                   <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">

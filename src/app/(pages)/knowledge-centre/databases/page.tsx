@@ -66,13 +66,13 @@ export default function DatabasesPage() {
               viewport={{ once: true }}
               className="mb-12"
             >
-              <p className="text-lg text-gray-700 mb-8">
+              <p className="text-lg text-[#cbd5e1] mb-8">
                 Digineta research unit supports the consultancy work by collecting various maritime related data. 
                 In this process we are able to build exhaustive database for different sectors of maritime arena. 
                 This is a paid service since we need to invest in collecting data from both primary and secondary sources.
               </p>
               
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">The features of the Digineta Knowledge Base include..</h2>
+              <h2 className="text-3xl font-bold text-white mb-6">The features of the Digineta Knowledge Base include..</h2>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 mb-8">
                 {features.map((feature, index) => (
@@ -89,14 +89,14 @@ export default function DatabasesPage() {
                           <feature.icon className="w-7 h-7 text-white" />
                         </div>
                         <CardTitle className="text-xl mb-3">{feature.title}</CardTitle>
-                        <p className="text-gray-600">{feature.description}</p>
+                        <p className="text-[#cbd5e1]">{feature.description}</p>
                       </CardHeader>
                     </Card>
                   </motion.div>
                 ))}
               </div>
               
-              <p className="text-lg text-gray-700">
+              <p className="text-lg text-[#cbd5e1]">
                 The information in the portal is updated at regular intervals to ensure the most up to date 
                 information is made available to our subscribers through this unique and industry first initiative in India.
               </p>
@@ -115,7 +115,7 @@ export default function DatabasesPage() {
                   <CardTitle className="text-2xl">Shipbuilding Database Portal</CardTitle>
                   <p className="text-blue-100 mt-2">Access comprehensive shipbuilding industry data and analytics</p>
                 </CardHeader>
-                <div className="p-4 bg-gray-50">
+                <div className="p-4 bg-[#111827]">
                   <div className="relative rounded-lg overflow-hidden shadow-xl">
                     <Image
                       src="/images/analytics-data.jpg"
@@ -125,7 +125,7 @@ export default function DatabasesPage() {
                       className="w-full h-auto"
                     />
                   </div>
-                  <p className="text-center text-gray-600 mt-4 text-sm">
+                  <p className="text-center text-[#cbd5e1] mt-4 text-sm">
                     Screenshot of Digineta&apos;s Shipbuilding Database Portal
                   </p>
                 </div>

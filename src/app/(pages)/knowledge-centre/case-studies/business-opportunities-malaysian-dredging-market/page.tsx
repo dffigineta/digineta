@@ -23,7 +23,7 @@ export default function BusinessOpportunitiesMalaysianDredgingMarketPage() {
               <Link href="/knowledge-centre/case-studies">
                 <ArrowLeft className="w-6 h-6 text-blue-200 hover:text-white transition-colors" />
               </Link>
-              <Badge className="bg-gray-500 text-white">Dredging</Badge>
+              <Badge className="bg-[#111827]0 text-white">Dredging</Badge>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Business opportunities in Malaysian Dredging market</h1>
           </motion.div>
@@ -34,9 +34,9 @@ export default function BusinessOpportunitiesMalaysianDredgingMarketPage() {
         <div className="max-w-4xl mx-auto">
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Overview</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Overview</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Market opportunity assessment for an Indian dredging company planning to expand into Malaysia. The study evaluated Malaysia&apos;s dredging market including port development, land reclamation, coastal protection, and offshore oil & gas support, identifying specific business opportunities and entry strategies for the international market.
                 </p>
               </CardContent>
@@ -45,9 +45,9 @@ export default function BusinessOpportunitiesMalaysianDredgingMarketPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Client</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Client</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   A leading Indian dredging contractor with established operations in India seeking international expansion. The client wanted to assess Malaysia&apos;s dredging market potential, understand regulatory requirements, identify tender opportunities, and develop a market entry strategy for Southeast Asian operations.
                 </p>
               </CardContent>
@@ -56,9 +56,9 @@ export default function BusinessOpportunitiesMalaysianDredgingMarketPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Challenge</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Challenge</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The challenge was to assess opportunities in a mature and competitive market dominated by established Malaysian and international dredging companies. Key issues included understanding procurement procedures, evaluating financial and technical prequalification requirements, assessing local content requirements, and determining competitive advantages an Indian company could leverage in Malaysia.
                 </p>
               </CardContent>
@@ -67,9 +67,9 @@ export default function BusinessOpportunitiesMalaysianDredgingMarketPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Methodology</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Methodology</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The study involved in-country research in Malaysia including meetings with port authorities, land reclamation developers, and dredging contractors. Analysis of Malaysia&apos;s infrastructure development plans identified upcoming projects. Regulatory framework review covered licensing requirements, vessel registration, and environmental regulations. Competitive assessment evaluated major Malaysian dredging companies and international players. Project pipeline analysis identified tendering opportunities in port expansion, land reclamation for urban development, and maintenance dredging contracts.
                 </p>
               </CardContent>
@@ -78,9 +78,9 @@ export default function BusinessOpportunitiesMalaysianDredgingMarketPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Digineta identified specific opportunities in maintenance dredging contracts for Malaysian ports and land reclamation projects in Johor region. Recommended entry strategy through joint venture with local Malaysian partner to meet local content requirements and leverage established relationships. The business plan included equipment deployment strategy (mobilizing existing fleet from India), establishing local office in Kuala Lumpur, and recruiting local technical and administrative staff. We provided competitive pricing guidance and identified 5-7 near-term tender opportunities worth USD 50-70 million. Risk assessment covered political stability, contract enforcement, payment security, and currency exposure with mitigation strategies.
                 </p>
               </CardContent>
@@ -89,13 +89,13 @@ export default function BusinessOpportunitiesMalaysianDredgingMarketPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.5 }} className="mb-12">
             <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy</div>
+                  <div className="font-semibold text-lg text-white">Digineta Consultancy</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                    <div className="text-gray-700">
+                    <div className="text-[#cbd5e1]">
                       <div>11B 114, WeWork India Management</div>
                       <div>10th floor, Tower 1</div>
                       <div>Seawoods Grand Central, Sector 40</div>

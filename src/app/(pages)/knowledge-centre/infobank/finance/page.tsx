@@ -43,16 +43,16 @@ export default function FinanceInfobankPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Maritime Finance Overview</CardTitle>
+                <CardTitle className="text-3xl text-white">Maritime Finance Overview</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Maritime finance is a specialized sector dealing with funding for ships, ports, offshore structures, and maritime infrastructure. It is one of the most capital-intensive industries, with a single large vessel costing hundreds of millions of dollars.
                 </p>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The sector encompasses ship acquisition financing, working capital for shipping operations, trade finance for cargo transactions, port development funding, and project finance for maritime infrastructure.
                 </p>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Maritime finance involves unique risks including vessel value fluctuation, freight rate volatility, counterparty risks, and regulatory changes. Specialized financial institutions and banks with maritime expertise provide these services globally.
                 </p>
               </CardContent>
@@ -68,36 +68,36 @@ export default function FinanceInfobankPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Ship Financing Methods</CardTitle>
+                <CardTitle className="text-3xl text-white">Ship Financing Methods</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Bank Loans</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Bank Loans</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     Traditional term loans with the vessel as collateral (mortgage). Typically covers 60-80% of vessel value with repayment periods of 5-15 years. Banks conduct detailed due diligence on the vessel, borrower, and market conditions.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Lease Financing</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Lease Financing</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     Financial lease or operating lease structures where a lessor purchases the vessel and leases it to the operator. Provides off-balance-sheet financing and tax advantages. Popular for new vessels and fleet expansion.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Bond Markets</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Bond Markets</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     Large shipping companies and port operators raise funds through corporate bonds or securitized bonds backed by vessel portfolios. Provides access to capital markets and diversifies funding sources.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Equity & IPOs</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Equity & IPOs</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     Private equity funds and public listings provide equity capital for fleet acquisition and expansion. Several shipping companies are listed on stock exchanges in Norway, Greece, Singapore, and Hong Kong.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Export Credit Agencies (ECAs)</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
+                  <h3 className="text-xl font-semibold text-white mb-2">Export Credit Agencies (ECAs)</h3>
+                  <p className="text-lg text-[#cbd5e1] leading-relaxed">
                     Government-backed agencies in shipbuilding nations provide financing or guarantees for vessel construction. ECAs like Korea Eximbank, China Exim Bank, and European ECAs support national shipbuilding industries.
                   </p>
                 </div>
@@ -114,13 +114,13 @@ export default function FinanceInfobankPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Trade Finance in Shipping</CardTitle>
+                <CardTitle className="text-3xl text-white">Trade Finance in Shipping</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Trade finance facilitates international cargo movements by providing working capital and payment guarantees:
                 </p>
-                <ul className="list-disc pl-6 space-y-2 text-lg text-gray-700">
+                <ul className="list-disc pl-6 space-y-2 text-lg text-[#cbd5e1]">
                   <li><strong>Letters of Credit (LC)</strong>: Bank guarantee ensuring payment upon presentation of compliant documents, reducing counterparty risk for exporters and importers</li>
                   <li><strong>Documentary Collections</strong>: Banks act as intermediaries for payment collection against shipping documents</li>
                   <li><strong>Bank Guarantees</strong>: Performance guarantees, payment guarantees, and bid bonds for maritime contracts</li>
@@ -141,19 +141,19 @@ export default function FinanceInfobankPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Maritime Finance in India</CardTitle>
+                <CardTitle className="text-3xl text-white">Maritime Finance in India</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Indian banks and financial institutions have traditionally been cautious in maritime lending due to volatility and sector-specific risks. However, several initiatives have been launched to promote shipping finance:
                 </p>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The Reserve Bank of India (RBI) has provided guidelines for ship financing, and banks like SBI, PNB, and Bank of India have specialized shipping finance divisions. EXIM Bank of India provides export credit for shipbuilding and maritime equipment.
                 </p>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The government&apos;s Shipbuilding Financial Assistance Policy provides subsidies to bridge the cost gap between Indian and foreign shipyards, making financing more attractive for domestically-built vessels.
                 </p>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Maritime India Vision 2030 aims to increase credit availability for shipping and port sectors through policy reforms, credit guarantee schemes, and fostering partnerships between banks and shipping companies.
                 </p>
               </CardContent>
@@ -169,13 +169,13 @@ export default function FinanceInfobankPage() {
           >
             <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Risk Assessment & Due Diligence</CardTitle>
+                <CardTitle className="text-3xl text-white">Risk Assessment & Due Diligence</CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Maritime finance requires comprehensive risk assessment:
                 </p>
-                <ul className="list-disc pl-6 space-y-2 text-lg text-gray-700">
+                <ul className="list-disc pl-6 space-y-2 text-lg text-[#cbd5e1]">
                   <li><strong>Vessel Valuation</strong>: Independent appraisals considering age, condition, specifications, and market values</li>
                   <li><strong>Market Analysis</strong>: Freight rate trends, supply-demand dynamics, and sector outlook</li>
                   <li><strong>Credit Assessment</strong>: Borrower&apos;s financial strength, management experience, and track record</li>

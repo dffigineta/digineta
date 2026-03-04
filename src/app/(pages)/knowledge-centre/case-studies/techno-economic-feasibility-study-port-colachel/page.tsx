@@ -44,10 +44,10 @@ export default function TechnoEconomicFeasibilityStudyPortColachelPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Overview</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Overview</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   &ldquo;Comprehensive feasibility study for developing a new deep-water port at Colachel, Tamil Nadu, including market analysis, technical design, and financial viability assessment. The study evaluated the potential for establishing a major port facility that could serve the southern region of India and handle international cargo traffic.&rdquo;
                 </p>
               </CardContent>
@@ -64,10 +64,10 @@ export default function TechnoEconomicFeasibilityStudyPortColachelPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Client</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Client</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Government of Tamil Nadu, through the Tamil Nadu Maritime Board, commissioned this study to assess the viability of developing a new port at Colachel. The project aimed to enhance maritime connectivity and boost economic development in the southern districts of Tamil Nadu.
                 </p>
               </CardContent>
@@ -84,10 +84,10 @@ export default function TechnoEconomicFeasibilityStudyPortColachelPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Challenge</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Challenge</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The primary challenge was to conduct a comprehensive feasibility study that would determine the technical, economic, and environmental viability of the proposed port. This included analyzing market demand, assessing natural conditions, designing appropriate infrastructure, and evaluating financial returns while considering environmental impact and stakeholder concerns.
                 </p>
               </CardContent>
@@ -104,10 +104,10 @@ export default function TechnoEconomicFeasibilityStudyPortColachelPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Methodology</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Methodology</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The study involved detailed market research to identify cargo potential, traffic forecasting for the next 30 years, and competitive analysis with existing ports. Technical assessment included hydrographic surveys, geotechnical studies, and port layout design. Financial modeling incorporated capital costs, operational expenses, and revenue projections. Environmental impact assessment evaluated ecological considerations and mitigation measures.
                 </p>
               </CardContent>
@@ -124,10 +124,10 @@ export default function TechnoEconomicFeasibilityStudyPortColachelPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Digineta Proposition</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Digineta recommended a phased development approach starting with a general cargo terminal and expanding to container facilities based on market demand. The master plan included deep-water berths, modern cargo handling equipment, and efficient road and rail connectivity. Financial analysis showed positive returns with an IRR of 12-15% over the project lifecycle. We also provided detailed implementation roadmap and risk mitigation strategies.
                 </p>
               </CardContent>
@@ -144,16 +144,16 @@ export default function TechnoEconomicFeasibilityStudyPortColachelPage() {
           >
             <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle>
+                <CardTitle className="text-2xl text-white mb-4">Contact for further information</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">
+                  <div className="font-semibold text-lg text-white">
                     Digineta Consultancy
                   </div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                    <div className="text-gray-700">
+                    <div className="text-[#cbd5e1]">
                       <div>11B 114, WeWork India Management</div>
                       <div>10th floor, Tower 1</div>
                       <div>Seawoods Grand Central, Sector 40</div>

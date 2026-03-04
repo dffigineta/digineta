@@ -53,7 +53,7 @@ export default function ContainerShippingMarketAnalysisBlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardContent className="p-8">
-                <p className="text-xl text-gray-700 leading-relaxed mb-6">
+                <p className="text-xl text-[#cbd5e1] leading-relaxed mb-6">
                   Winning Indian elections increasingly comes down to one thing: knowing your voter. Booth-level analysis and voter segmentation have moved from advanced tactics to baseline requirements for competitive campaigns.
                 </p>
               </CardContent>
@@ -63,10 +63,10 @@ export default function ContainerShippingMarketAnalysisBlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">1. Understanding Booth-Level Data</CardTitle>
+                <CardTitle className="text-3xl text-white">1. Understanding Booth-Level Data</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Each polling booth represents a micro-community with its own demographic profile, caste composition, historical turnout, and swing patterns. A winning campaign maps every booth — identifying strongholds to consolidate, weak booths to recover, and swing booths to contest aggressively.
                 </p>
               </CardContent>
@@ -76,10 +76,10 @@ export default function ContainerShippingMarketAnalysisBlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">2. Voter Segmentation Frameworks</CardTitle>
+                <CardTitle className="text-3xl text-white">2. Voter Segmentation Frameworks</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Effective segmentation goes beyond caste and religion. Modern campaigns segment voters by: age group and first-time voter status, urban vs. rural concerns, economic profile and employment type, past voting behavior and party alignment, and engagement level (active supporters, persuadable, or opposition-leaning).
                 </p>
               </CardContent>
@@ -89,10 +89,10 @@ export default function ContainerShippingMarketAnalysisBlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">3. Targeting Strategies by Segment</CardTitle>
+                <CardTitle className="text-3xl text-white">3. Targeting Strategies by Segment</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Each segment demands a different communication approach. Persuadable voters need issue-based outreach with local relevance. Loyal supporters need mobilization and motivation. Opposition voters may not be worth direct investment — but preventing their turnout through counter-mobilization in key booths can shift margins.
                 </p>
               </CardContent>
@@ -102,10 +102,10 @@ export default function ContainerShippingMarketAnalysisBlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">4. Ground-Truthing with Field Data</CardTitle>
+                <CardTitle className="text-3xl text-white">4. Ground-Truthing with Field Data</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Quantitative booth data must be validated with field intelligence. Booth-level workers and local leaders hold contextual knowledge that no dataset captures — a feud between community leaders, a recently completed infrastructure project, or a new factory that&apos;s created local employment. Integrating this qualitative layer makes segmentation far more accurate.
                 </p>
               </CardContent>
@@ -115,10 +115,10 @@ export default function ContainerShippingMarketAnalysisBlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.5 }}>
             <Card className="border-0 shadow-xl mb-12">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">5. Continuous Refinement</CardTitle>
+                <CardTitle className="text-3xl text-white">5. Continuous Refinement</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Voter segment analysis is not a one-time pre-election exercise. Campaigns that track sentiment shifts, monitor local incidents, and update their booth maps throughout the campaign cycle make better tactical decisions and avoid being caught off guard by late-breaking dynamics.
                 </p>
               </CardContent>
@@ -128,10 +128,10 @@ export default function ContainerShippingMarketAnalysisBlogPage() {
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.6 }}>
             <Card className="border-0 shadow-xl mb-12 bg-gradient-to-br from-blue-50 to-cyan-50">
               <CardHeader>
-                <CardTitle className="text-3xl text-gray-900">Conclusion</CardTitle>
+                <CardTitle className="text-3xl text-white">Conclusion</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The playbook is clear: treat every booth as a unique battleground, treat every voter segment as a distinct audience, and let data inform — but not replace — the human judgment of experienced ground teams.
                 </p>
               </CardContent>

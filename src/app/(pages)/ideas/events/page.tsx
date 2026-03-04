@@ -60,10 +60,10 @@ export default function EventsPage() {
                         {event.type}
                       </Badge>
                     </div>
-                    <p className="text-gray-600 text-lg leading-relaxed">{event.description}</p>
+                    <p className="text-[#cbd5e1] text-lg leading-relaxed">{event.description}</p>
                   </CardHeader>
                   <CardContent>
-                    <div className="flex flex-wrap gap-6 text-gray-600">
+                    <div className="flex flex-wrap gap-6 text-[#cbd5e1]">
                       <div className="flex items-center">
                         <Calendar className="w-5 h-5 mr-2 text-blue-600" />
                         {event.date}

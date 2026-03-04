@@ -11,7 +11,7 @@ const audiences = [
     description:
       'Parties and alliances contesting national and state elections that need integrated research, strategy and execution.',
     services: ['General election campaigns', 'Assembly elections', 'Alliance coordination', 'War-room design'],
-    color: 'from-[#B31942] to-[#002147]'
+    color: 'from-[#f97316] to-[#0f172a]'
   },
   {
     icon: Shield,
@@ -19,7 +19,7 @@ const audiences = [
     description:
       'Leaders, CMs\' offices and core political teams that require clarity, communication and decision support.',
     services: ['Leader reputation tracking', 'Office communication systems', 'Decision dashboards', 'Stakeholder engagement'],
-    color: 'from-[#002147] to-[#B31942]'
+    color: 'from-[#0f172a] to-[#f97316]'
   },
   {
     icon: Users,
@@ -27,7 +27,7 @@ const audiences = [
     description:
       'Urban local bodies, panchayats and city campaigns focused on turnout, delivery and everyday citizen experience.',
     services: ['Ward-level planning', 'Local narrative and media', 'Volunteer and cadre programs', 'Governance scorecards'],
-    color: 'from-[#B31942] to-[#B31942]'
+    color: 'from-[#f97316] to-[#f97316]'
   },
   {
     icon: Megaphone,
@@ -35,7 +35,7 @@ const audiences = [
     description:
       'Issue-based coalitions, advocacy groups and citizen platforms building awareness and organised participation.',
     services: ['Issue campaign design', 'Membership and communities', 'Digital mobilisation', 'Coalition alignment'],
-    color: 'from-[#002147] to-[#002147]'
+    color: 'from-[#0f172a] to-[#0f172a]'
   },
   {
     icon: Globe2,
@@ -43,14 +43,14 @@ const audiences = [
     description:
       'Governments and departments running flagship schemes and reforms that need communication, feedback and iteration.',
     services: ['Scheme communication frameworks', 'Citizen feedback loops', 'Program dashboards', 'Change management'],
-    color: 'from-[#002147] to-[#B31942]'
+    color: 'from-[#0f172a] to-[#f97316]'
   },
 ]
 
 export default function IndustryPage() {
   return (
     <div className="min-h-screen">
-      <section className="relative py-20 bg-gradient-to-br from-[#B31942] via-[#002147] to-[#00152e] text-white">
+      <section className="relative py-20 bg-gradient-to-br from-[#f97316] via-[#0f172a] to-[#0a0a0a] text-white">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -90,7 +90,7 @@ export default function IndustryPage() {
                   <CardContent>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                       {audience.services.map((service, idx) => (
-                        <div key={idx} className="bg-[#002147]/5 rounded-lg p-4 text-center">
+                        <div key={idx} className="bg-[#0f172a]/5 rounded-lg p-4 text-center">
                           <p className="font-semibold text-black text-sm">{service}</p>
                         </div>
                       ))}

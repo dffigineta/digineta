@@ -125,10 +125,10 @@ export default function InfrastructureFinancePage() {
             >
               {/* Overview */}
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                <h2 className="text-3xl font-bold text-white mb-6">
                   Strategic Infrastructure Finance Solutions
                 </h2>
-                <div className="space-y-4 text-gray-700 leading-relaxed">
+                <div className="space-y-4 text-[#cbd5e1] leading-relaxed">
                   <p>
                     Our infrastructure finance advisory services provide strategic financial 
                     solutions for large-scale maritime infrastructure projects. We help clients 
@@ -158,10 +158,10 @@ export default function InfrastructureFinancePage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-4xl font-bold text-white mb-6">
               Our Infrastructure Finance Services
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-[#cbd5e1] max-w-3xl mx-auto">
               Comprehensive financial advisory solutions designed to secure optimal funding 
               for maritime infrastructure projects and ensure successful financial outcomes.
             </p>
@@ -184,7 +184,7 @@ export default function InfrastructureFinancePage() {
                     <CardTitle className="text-xl">{service.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-600 leading-relaxed">{service.description}</p>
+                    <p className="text-[#cbd5e1] leading-relaxed">{service.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -203,7 +203,7 @@ export default function InfrastructureFinancePage() {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+            <h2 className="text-4xl font-bold text-white mb-12 text-center">
               Financing Solutions We Provide
             </h2>
             
@@ -218,7 +218,7 @@ export default function InfrastructureFinancePage() {
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
                   <div className="w-3 h-3 bg-sky-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-gray-700 font-medium">{type}</p>
+                  <p className="text-[#cbd5e1] font-medium">{type}</p>
                 </motion.div>
               ))}
             </div>
@@ -236,7 +236,7 @@ export default function InfrastructureFinancePage() {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+            <h2 className="text-4xl font-bold text-white mb-12 text-center">
               Maritime Infrastructure Sectors
             </h2>
             
@@ -251,7 +251,7 @@ export default function InfrastructureFinancePage() {
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
                   <div className="w-3 h-3 bg-blue-500 rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-gray-700 font-medium">{sector}</p>
+                  <p className="text-[#cbd5e1] font-medium">{sector}</p>
                 </motion.div>
               ))}
             </div>

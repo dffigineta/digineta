@@ -66,7 +66,7 @@ export default function TechnicalDesignPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-rose-50 to-white">
       {/* Header */}
-      <section className="relative py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white overflow-hidden">
+      <section className="relative py-20 bg-gradient-to-r from-[#f97316] to-[#0f172a] text-white overflow-hidden">
         <div className="absolute inset-0 bg-[#0f172a]/40"></div>
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
@@ -125,10 +125,10 @@ export default function TechnicalDesignPage() {
             >
               {/* Overview */}
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                <h2 className="text-3xl font-bold text-white mb-6">
                   Design Excellence for Political Technology
                 </h2>
-                <div className="space-y-4 text-gray-700 leading-relaxed">
+                <div className="space-y-4 text-[#cbd5e1] leading-relaxed">
                   <p>
                     Our digital product & UX design services provide comprehensive design solutions 
                     for political and governance platforms. We combine advanced design principles 
@@ -157,10 +157,10 @@ export default function TechnicalDesignPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-4xl font-bold text-white mb-6">
               Our Digital Product & UX Design Services
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-[#cbd5e1] max-w-3xl mx-auto">
               Comprehensive design solutions for political and governance digital products, 
               ensuring optimal user experience and strategic effectiveness.
             </p>
@@ -177,13 +177,13 @@ export default function TechnicalDesignPage() {
               >
                 <Card className="h-full hover:shadow-xl transition-all duration-300 border-0 bg-white/70 backdrop-blur-sm">
                   <CardHeader>
-                    <div className="w-16 h-16 bg-gradient-to-br from-[#B31942] to-[#002147] rounded-2xl flex items-center justify-center mb-4">
+                    <div className="w-16 h-16 bg-gradient-to-br from-[#f97316] to-[#0f172a] rounded-2xl flex items-center justify-center mb-4">
                       <service.icon className="w-8 h-8 text-white" />
                     </div>
                     <CardTitle className="text-xl">{service.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-600 leading-relaxed">{service.description}</p>
+                    <p className="text-[#cbd5e1] leading-relaxed">{service.description}</p>
                   </CardContent>
                 </Card>
               </motion.div>
@@ -202,7 +202,7 @@ export default function TechnicalDesignPage() {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+            <h2 className="text-4xl font-bold text-white mb-12 text-center">
               Digital Product Types We Design
             </h2>
             
@@ -216,8 +216,8 @@ export default function TechnicalDesignPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="w-3 h-3 bg-[#002147] rounded-full mt-2 flex-shrink-0"></div>
-                  <p className="text-gray-700 font-medium">{area}</p>
+                  <div className="w-3 h-3 bg-[#0f172a] rounded-full mt-2 flex-shrink-0"></div>
+                  <p className="text-[#cbd5e1] font-medium">{area}</p>
                 </motion.div>
               ))}
             </div>
@@ -235,7 +235,7 @@ export default function TechnicalDesignPage() {
             viewport={{ once: true }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
+            <h2 className="text-4xl font-bold text-white mb-12 text-center">
               Design Deliverables
             </h2>
             
@@ -249,8 +249,8 @@ export default function TechnicalDesignPage() {
                   viewport={{ once: true }}
                   className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <CheckCircle className="w-6 h-6 text-[#002147] mt-1 flex-shrink-0" />
-                  <p className="text-gray-700 font-medium">{deliverable}</p>
+                  <CheckCircle className="w-6 h-6 text-[#0f172a] mt-1 flex-shrink-0" />
+                  <p className="text-[#cbd5e1] font-medium">{deliverable}</p>
                 </motion.div>
               ))}
             </div>
@@ -259,7 +259,7 @@ export default function TechnicalDesignPage() {
       </section>
 
       {/* Value Proposition */}
-      <section className="py-20 bg-gradient-to-r from-[#B31942] to-[#002147] text-white">
+      <section className="py-20 bg-gradient-to-r from-[#f97316] to-[#0f172a] text-white">
         <div className="container mx-auto px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -314,7 +314,7 @@ export default function TechnicalDesignPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-gray-900 to-[#002147]">
+      <section className="py-20 bg-gradient-to-r from-gray-900 to-[#0f172a]">
         <div className="container mx-auto px-6 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -332,7 +332,7 @@ export default function TechnicalDesignPage() {
             <Link href="/contact">
               <Button 
                 size="lg" 
-                className="bg-white text-[#002147] hover:bg-white/90 font-semibold px-8 py-4"
+                className="bg-white text-[#0f172a] hover:bg-white/90 font-semibold px-8 py-4"
               >
                 Get Started
               </Button>

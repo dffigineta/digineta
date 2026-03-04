@@ -34,9 +34,9 @@ export default function BulkCargoTrafficForecastStatePortSouthGujaratPage() {
         <div className="max-w-4xl mx-auto">
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Overview</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Overview</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Comprehensive traffic forecasting study for a state-owned minor port in South Gujarat region. The study analyzed bulk cargo generation potential in the hinterland, assessed competitive positioning against neighboring ports, developed commodity-wise traffic projections, and provided recommendations for port infrastructure development to capture projected cargo volumes.
                 </p>
               </CardContent>
@@ -45,9 +45,9 @@ export default function BulkCargoTrafficForecastStatePortSouthGujaratPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Client</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Client</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Gujarat Maritime Board managing the state port and planning infrastructure expansion. The client needed reliable traffic forecasts to justify capital expenditure, attract private terminal operators, and develop a master plan aligned with realistic cargo growth expectations for bulk commodities including coal, fertilizers, and industrial materials.
                 </p>
               </CardContent>
@@ -56,9 +56,9 @@ export default function BulkCargoTrafficForecastStatePortSouthGujaratPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Challenge</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Challenge</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   South Gujarat has several competing ports including major private ports. The challenge was to forecast realistic traffic capture considering intense competition, hinterland overlap, and infrastructure constraints. Required detailed analysis of industrial demand, transport economics, and competitive advantages to determine achievable market share for different bulk commodities.
                 </p>
               </CardContent>
@@ -67,9 +67,9 @@ export default function BulkCargoTrafficForecastStatePortSouthGujaratPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Methodology</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Methodology</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The study conducted extensive hinterland analysis covering thermal power plants, chemical industries, steel plants, and fertilizer manufacturers. Commodity-wise demand projections incorporated capacity expansion plans and import/export requirements. Transport cost modeling evaluated road and rail freight costs to different ports, identifying cost-competitive catchment areas. Competitive analysis assessed capabilities and strategies of neighboring ports. Traffic allocation methodology considered port proximity, draft limitations, cargo handling efficiency, and connectivity infrastructure. Sensitivity analysis tested forecasts under different economic growth and industrial development scenarios.
                 </p>
               </CardContent>
@@ -78,9 +78,9 @@ export default function BulkCargoTrafficForecastStatePortSouthGujaratPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Digineta forecasted bulk cargo traffic growth from current 3 million tonnes to 8-10 million tonnes over 10 years. Major commodities included thermal coal (3-4 MT) for power plants, fertilizers and chemicals (2-2.5 MT), industrial salt and minerals (1.5-2 MT), and POL products (1-1.5 MT). The projections identified specific industrial customers and their cargo requirements. Infrastructure recommendations included dedicated berths for different commodities: 2 berths for coal with mechanized unloading, 1 multi-purpose berth for fertilizers/chemicals, and expanded storage areas. Connectivity improvements suggested included rail siding extensions and road upgrades. Phasing strategy aligned infrastructure development with traffic growth milestones. The realistic forecasts enabled successful PPP structuring for coal terminal development, attracting private operators with confidence in traffic potential.
                 </p>
               </CardContent>
@@ -89,13 +89,13 @@ export default function BulkCargoTrafficForecastStatePortSouthGujaratPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.5 }} className="mb-12">
             <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy</div>
+                  <div className="font-semibold text-lg text-white">Digineta Consultancy</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                    <div className="text-gray-700">
+                    <div className="text-[#cbd5e1]">
                       <div>11B 114, WeWork India Management</div>
                       <div>10th floor, Tower 1</div>
                       <div>Seawoods Grand Central, Sector 40</div>

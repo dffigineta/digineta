@@ -46,7 +46,7 @@ const practices = [
 export default function PracticeAreaPage() {
   return (
     <div className="min-h-screen">
-      <section className="relative py-20 bg-gradient-to-br from-[#B31942] via-[#002147] to-[#00152e] text-white">
+      <section className="relative py-20 bg-gradient-to-br from-[#f97316] via-[#0f172a] to-[#0a0a0a] text-white">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -74,7 +74,7 @@ export default function PracticeAreaPage() {
               >
                 <Card className="h-full border-0 shadow-xl hover:shadow-2xl transition-all hover:-translate-y-2 bg-white">
                   <CardHeader>
-                    <div className="w-14 h-14 bg-gradient-to-br from-[#B31942] to-[#002147] rounded-2xl flex items-center justify-center mb-4">
+                    <div className="w-14 h-14 bg-gradient-to-br from-[#f97316] to-[#0f172a] rounded-2xl flex items-center justify-center mb-4">
                       <practice.icon className="w-7 h-7 text-white" />
                     </div>
                     <CardTitle className="text-xl text-black">{practice.title}</CardTitle>

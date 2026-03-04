@@ -34,9 +34,9 @@ export default function FeasibilityStudyPortBasedMultiProductSEZPage() {
         <div className="max-w-4xl mx-auto">
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Overview</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Overview</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Comprehensive feasibility study for developing a port-based Special Economic Zone (SEZ) with multiple product sectors. The study evaluated the potential for establishing an integrated industrial-port complex combining manufacturing, processing, and export facilities with dedicated port infrastructure for seamless cargo movement.
                 </p>
               </CardContent>
@@ -45,9 +45,9 @@ export default function FeasibilityStudyPortBasedMultiProductSEZPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Client</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Client</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   A major infrastructure developer planning to establish a port-based SEZ to attract export-oriented industries. The client sought to understand market demand, optimal product mix, infrastructure requirements, investment needed, and financial viability of the multi-product SEZ concept.
                 </p>
               </CardContent>
@@ -56,9 +56,9 @@ export default function FeasibilityStudyPortBasedMultiProductSEZPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Challenge</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Challenge</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The key challenge was designing an optimal product mix that would maximize land utilization and attract quality investors while ensuring port infrastructure could efficiently handle diverse cargo types. The study needed to balance infrastructure sharing across sectors, assess market demand for each product vertical, evaluate regulatory compliance for SEZ operations, and create a financially viable development model.
                 </p>
               </CardContent>
@@ -67,9 +67,9 @@ export default function FeasibilityStudyPortBasedMultiProductSEZPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Methodology</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Methodology</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The study involved extensive market research across multiple sectors including textiles, pharmaceuticals, engineering, gems & jewelry, and electronics. Analysis of export trends and FDI patterns identified high-potential sectors. Port requirements assessment covered berth specifications, cargo handling equipment, and connectivity infrastructure. SEZ regulatory framework evaluation ensured compliance with government policies. Financial modeling incorporated land development costs, infrastructure investments, operational revenues, and fiscal incentives.
                 </p>
               </CardContent>
@@ -78,9 +78,9 @@ export default function FeasibilityStudyPortBasedMultiProductSEZPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Digineta recommended a phased 500-acre SEZ with dedicated sectors for pharmaceuticals (150 acres), engineering & electronics (200 acres), and textiles & apparel (150 acres). Port facilities included multi-purpose berths, container terminal, and bulk cargo jetty. The master plan integrated manufacturing zones with logistics areas, warehousing, and common infrastructure (power, water, effluent treatment). Marketing strategy included investor outreach programs and anchor tenant identification. Financial projections showed attractive returns with IRR of 14-16% over 15 years, supported by SEZ tax benefits and land appreciation.
                 </p>
               </CardContent>
@@ -89,13 +89,13 @@ export default function FeasibilityStudyPortBasedMultiProductSEZPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.5 }} className="mb-12">
             <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy</div>
+                  <div className="font-semibold text-lg text-white">Digineta Consultancy</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                    <div className="text-gray-700">
+                    <div className="text-[#cbd5e1]">
                       <div>11B 114, WeWork India Management</div>
                       <div>10th floor, Tower 1</div>
                       <div>Seawoods Grand Central, Sector 40</div>

@@ -35,7 +35,7 @@ export default function CareersPage() {
             className="mb-16"
           >
             <div className="prose prose-lg max-w-none">
-              <p className="text-lg text-gray-600 leading-relaxed mb-8">
+              <p className="text-lg text-[#cbd5e1] leading-relaxed mb-8">
                 Digineta believes employees are our key resources and recruits the best talent across political strategy, 
                 data science, product design, and campaign operations. People working at Digineta come from diverse 
                 backgrounds - premier institutes, political organizations, tech companies, and field experience. 
@@ -48,7 +48,7 @@ export default function CareersPage() {
               </p>
               
               <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">
-                <p className="text-lg text-gray-700 font-medium italic">
+                <p className="text-lg text-[#cbd5e1] font-medium italic">
                   Digineta&apos;s work culture revolves around the principles of honesty, dedication, discretion, and outcome-focused execution.
                 </p>
               </div>
@@ -74,7 +74,7 @@ export default function CareersPage() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-[#cbd5e1] leading-relaxed">
                     Our commitment to our mission drives us towards our goals. At Digineta, we work on campaigns and 
                     programs that are both stimulating and impactful. Our professionals work with leaders, parties, and 
                     organizations across India on a variety of assignments ranging from national election campaigns to 
@@ -101,7 +101,7 @@ export default function CareersPage() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-[#cbd5e1] leading-relaxed">
                     We maintain a professional and disciplined work culture while being flexible to the demands of campaign 
                     cycles and field realities. Our professionalism and discretion are what build our clients&apos; confidence 
                     in us and have earned us a strong reputation among leaders and parties. A friendly and collaborative 
@@ -129,12 +129,12 @@ export default function CareersPage() {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 leading-relaxed mb-4">
+                  <p className="text-[#cbd5e1] leading-relaxed mb-4">
                     Ours is a flat, seamless organisation where communication does not follow rigorous protocols. 
                     We place high value on delivery and therefore do not attach much importance to designations. 
                     We believe that respect comes from knowledge and achievement rather than years of experience.
                   </p>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-[#cbd5e1] leading-relaxed">
                     We encourage a formal but friendly and professional environment fostering a strong sense of 
                     camaraderie and fairplay in all our relationships.
                   </p>

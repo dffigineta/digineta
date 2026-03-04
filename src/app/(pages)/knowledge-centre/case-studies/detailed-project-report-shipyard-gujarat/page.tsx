@@ -34,9 +34,9 @@ export default function DetailedProjectReportShipyardGujaratPage() {
         <div className="max-w-4xl mx-auto">
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Overview</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Overview</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Comprehensive Detailed Project Report (DPR) for establishing a modern shipbuilding facility in Gujarat. The project covered technical specifications, infrastructure design, machinery selection, manpower planning, financial projections, and implementation roadmap for a greenfield shipyard capable of building commercial vessels up to 25,000 DWT.
                 </p>
               </CardContent>
@@ -45,9 +45,9 @@ export default function DetailedProjectReportShipyardGujaratPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Client</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Client</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   An industrial conglomerate planning to diversify into shipbuilding sector. The client had secured waterfront land in Gujarat and required a comprehensive project report covering technical, commercial, and financial aspects for investment approval and securing project financing from financial institutions.
                 </p>
               </CardContent>
@@ -56,9 +56,9 @@ export default function DetailedProjectReportShipyardGujaratPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Challenge</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Challenge</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The challenge involved designing a competitive shipyard that could match international standards while remaining cost-effective. Key considerations included vessel type selection, production capacity planning, technology choices, infrastructure layout, workforce development, and creating a sustainable business model in a globally competitive industry dominated by established Asian shipyards.
                 </p>
               </CardContent>
@@ -67,9 +67,9 @@ export default function DetailedProjectReportShipyardGujaratPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Methodology</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Methodology</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   The DPR development involved site assessment including hydrographic surveys and geotechnical studies. Market analysis identified target vessel types with strong demand (bulk carriers, tankers, offshore supply vessels). Technical design covered shipyard layout, dry dock specifications (160m x 30m), fabrication shops, assembly areas, and launching arrangements. Equipment planning included cranes, welding systems, plate processing machinery, and marine equipment. Detailed manpower planning covered skilled workers, engineers, and management. Financial modeling incorporated capital expenditure (Rs. 800 crores), working capital, revenue projections, and sensitivity analysis.
                 </p>
               </CardContent>
@@ -78,9 +78,9 @@ export default function DetailedProjectReportShipyardGujaratPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-lg text-gray-700 leading-relaxed">
+                <p className="text-lg text-[#cbd5e1] leading-relaxed">
                   Digineta recommended a phased development starting with ship repair and small vessel construction, progressing to commercial vessels up to 25,000 DWT. The master plan included one large dry dock, fabrication facilities, 150-ton goliath crane, and modern outfitting shops. We suggested technology partnerships with established shipyards for know-how transfer. Business strategy focused on Indian coastal shipping fleet and offshore sector initially, expanding to export markets. The DPR included detailed implementation schedule (24 months construction), manpower recruitment plan, and quality/safety management systems. Financial analysis projected breakeven at 60% capacity utilization with IRR of 12% over 15-year horizon.
                 </p>
               </CardContent>
@@ -89,13 +89,13 @@ export default function DetailedProjectReportShipyardGujaratPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.5 }} className="mb-12">
             <Card className="border-0 shadow-xl bg-gradient-to-br from-blue-50 to-cyan-50">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-white mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy</div>
+                  <div className="font-semibold text-lg text-white">Digineta Consultancy</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                    <div className="text-gray-700">
+                    <div className="text-[#cbd5e1]">
                       <div>11B 114, WeWork India Management</div>
                       <div>10th floor, Tower 1</div>
                       <div>Seawoods Grand Central, Sector 40</div>
