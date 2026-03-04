@@ -149,12 +149,12 @@ export default function MultiLogisticsParkAhmedabadPage() {
               <CardContent>
                 <div className="space-y-4">
                   <div className="font-semibold text-lg text-gray-900">
-                    Digineta Consultancy Pvt. Ltd.
+                    Digineta Consultancy
                   </div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">
-                      <div>11B 114, WeWork India Management Pvt Ltd</div>
+                      <div>11B 114, WeWork India Management</div>
                       <div>10th floor, Tower 1</div>
                       <div>Seawoods Grand Central, Sector 40</div>
                       <div>Nerul, Navi Mumbai (Maharashtra) 400706</div>

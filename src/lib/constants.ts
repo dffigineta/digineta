@@ -184,7 +184,7 @@ export const testimonials: Testimonial[] = [
     name: 'Himadri S. Roy',
     position: 'Financial Controller',
     company: 'Gulf Petrochem FZC, UAE',
-    content: 'Gulf Petrochem FZC, UAE, had commissioned Digineta Consultants Pvt. Ltd., Navi Mumbai, to carry out the Market Feasibility and Techno-Economic Validation studies for our upcoming 320,000 MT Bulk Liquid Storage & Handling Terminal at Pipavav Port, Gujarat. In this connection, we are happy to place on record our sincere appreciation to them for a job well done...'
+    content: 'Gulf Petrochem FZC, UAE, had commissioned Digineta Consultants, Navi Mumbai, to carry out the Market Feasibility and Techno-Economic Validation studies for our upcoming 320,000 MT Bulk Liquid Storage & Handling Terminal at Pipavav Port, Gujarat. In this connection, we are happy to place on record our sincere appreciation to them for a job well done...'
   },
   {
     id: 'port-authority',
