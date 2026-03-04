@@ -114,7 +114,7 @@ export default function BusinessOpportunityCoastalRoRoShippingPage() {
             </Card>
           </motion.section>
 
-          {/* i-maritime Proposition */}
+          {/* Digineta Proposition */}
           <motion.section
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -124,11 +124,11 @@ export default function BusinessOpportunityCoastalRoRoShippingPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle>
+                <CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime recommended priority routes connecting major automobile manufacturing hubs with distribution centers, including Chennai-Kolkata, Mumbai-Vizag, and Gujarat-Kerala corridors. We identified specific vessel requirements (capacity 150-200 vehicles, loading ramps, roll-on/roll-off configuration) and developed a phased deployment strategy. The business plan included partnership opportunities with automobile manufacturers for contract cargo, integration with existing logistics networks, and strategies to achieve competitive pricing against road transport while maintaining service reliability.
+                  Digineta recommended priority routes connecting major automobile manufacturing hubs with distribution centers, including Chennai-Kolkata, Mumbai-Vizag, and Gujarat-Kerala corridors. We identified specific vessel requirements (capacity 150-200 vehicles, loading ramps, roll-on/roll-off configuration) and developed a phased deployment strategy. The business plan included partnership opportunities with automobile manufacturers for contract cargo, integration with existing logistics networks, and strategies to achieve competitive pricing against road transport while maintaining service reliability.
                 </p>
               </CardContent>
             </Card>
@@ -149,7 +149,7 @@ export default function BusinessOpportunityCoastalRoRoShippingPage() {
               <CardContent>
                 <div className="space-y-4">
                   <div className="font-semibold text-lg text-gray-900">
-                    i-maritime Consultancy Pvt. Ltd.
+                    Digineta Consultancy Pvt. Ltd.
                   </div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />

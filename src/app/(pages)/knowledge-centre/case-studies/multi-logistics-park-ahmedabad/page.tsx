@@ -114,7 +114,7 @@ export default function MultiLogisticsParkAhmedabadPage() {
             </Card>
           </motion.section>
 
-          {/* i-maritime Proposition */}
+          {/* Digineta Proposition */}
           <motion.section
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -124,11 +124,11 @@ export default function MultiLogisticsParkAhmedabadPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle>
+                <CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime recommended a phased development approach with initial focus on container and general cargo handling. The master plan included dedicated zones for different cargo types, state-of-the-art warehouse facilities, and integrated IT systems for efficient operations. We provided detailed technical specifications and financial projections for the project.
+                  Digineta recommended a phased development approach with initial focus on container and general cargo handling. The master plan included dedicated zones for different cargo types, state-of-the-art warehouse facilities, and integrated IT systems for efficient operations. We provided detailed technical specifications and financial projections for the project.
                 </p>
               </CardContent>
             </Card>
@@ -149,7 +149,7 @@ export default function MultiLogisticsParkAhmedabadPage() {
               <CardContent>
                 <div className="space-y-4">
                   <div className="font-semibold text-lg text-gray-900">
-                    i-maritime Consultancy Pvt. Ltd.
+                    Digineta Consultancy Pvt. Ltd.
                   </div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />

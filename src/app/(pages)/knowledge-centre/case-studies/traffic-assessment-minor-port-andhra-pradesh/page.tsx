@@ -78,10 +78,10 @@ export default function TrafficAssessmentMinorPortAndhraPradeshPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime identified niche opportunities in breakbulk cargo, coastal shipping, and serving local industries with specialized requirements. Traffic potential estimated at 1-1.5 million tonnes initially, growing to 2.5-3 million tonnes in 7-10 years. Primary cargo types included steel products, project cargo for nearby industries, agricultural commodities, and coastal coal movements. Recommended focused development strategy: 1-2 multi-purpose berths with mobile harbor cranes, open storage yards, and basic warehousing. Suggested targeting cargo diversion from congested major ports through competitive pricing and faster turnaround. Implementation strategy included phased development aligned with cargo growth and PPP model for terminal operations. Financial analysis showed modest but stable returns with lower risk compared to greenfield port development, making it attractive for specific investor profiles seeking steady cash flows rather than high growth potential.
+                  Digineta identified niche opportunities in breakbulk cargo, coastal shipping, and serving local industries with specialized requirements. Traffic potential estimated at 1-1.5 million tonnes initially, growing to 2.5-3 million tonnes in 7-10 years. Primary cargo types included steel products, project cargo for nearby industries, agricultural commodities, and coastal coal movements. Recommended focused development strategy: 1-2 multi-purpose berths with mobile harbor cranes, open storage yards, and basic warehousing. Suggested targeting cargo diversion from congested major ports through competitive pricing and faster turnaround. Implementation strategy included phased development aligned with cargo growth and PPP model for terminal operations. Financial analysis showed modest but stable returns with lower risk compared to greenfield port development, making it attractive for specific investor profiles seeking steady cash flows rather than high growth potential.
                 </p>
               </CardContent>
             </Card>
@@ -92,7 +92,7 @@ export default function TrafficAssessmentMinorPortAndhraPradeshPage() {
               <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">i-maritime Consultancy Pvt. Ltd.</div>
+                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy Pvt. Ltd.</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">

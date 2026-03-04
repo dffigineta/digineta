@@ -78,10 +78,10 @@ export default function BulkCargoTrafficForecastStatePortSouthGujaratPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime forecasted bulk cargo traffic growth from current 3 million tonnes to 8-10 million tonnes over 10 years. Major commodities included thermal coal (3-4 MT) for power plants, fertilizers and chemicals (2-2.5 MT), industrial salt and minerals (1.5-2 MT), and POL products (1-1.5 MT). The projections identified specific industrial customers and their cargo requirements. Infrastructure recommendations included dedicated berths for different commodities: 2 berths for coal with mechanized unloading, 1 multi-purpose berth for fertilizers/chemicals, and expanded storage areas. Connectivity improvements suggested included rail siding extensions and road upgrades. Phasing strategy aligned infrastructure development with traffic growth milestones. The realistic forecasts enabled successful PPP structuring for coal terminal development, attracting private operators with confidence in traffic potential.
+                  Digineta forecasted bulk cargo traffic growth from current 3 million tonnes to 8-10 million tonnes over 10 years. Major commodities included thermal coal (3-4 MT) for power plants, fertilizers and chemicals (2-2.5 MT), industrial salt and minerals (1.5-2 MT), and POL products (1-1.5 MT). The projections identified specific industrial customers and their cargo requirements. Infrastructure recommendations included dedicated berths for different commodities: 2 berths for coal with mechanized unloading, 1 multi-purpose berth for fertilizers/chemicals, and expanded storage areas. Connectivity improvements suggested included rail siding extensions and road upgrades. Phasing strategy aligned infrastructure development with traffic growth milestones. The realistic forecasts enabled successful PPP structuring for coal terminal development, attracting private operators with confidence in traffic potential.
                 </p>
               </CardContent>
             </Card>
@@ -92,7 +92,7 @@ export default function BulkCargoTrafficForecastStatePortSouthGujaratPage() {
               <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">i-maritime Consultancy Pvt. Ltd.</div>
+                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy Pvt. Ltd.</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">

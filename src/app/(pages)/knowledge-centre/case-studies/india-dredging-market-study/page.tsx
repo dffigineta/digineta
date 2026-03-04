@@ -78,10 +78,10 @@ export default function IndiaDredgingMarketStudyPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime estimated India&apos;s annual dredging market at Rs. 4,000-5,000 crores with strong growth prospects driven by Sagarmala Programme, National Waterways development, and port deepening projects. We identified equipment demand for trailing suction hopper dredgers (TSHD), cutter suction dredgers (CSD), and grab dredgers. Key customers included Dredging Corporation of India (DCI), major ports, private port operators, and infrastructure developers. Recommended market entry through strategic partnership with Indian dredging companies, equipment leasing models, and targeting specific high-value projects. Provided competitive intelligence on established players and their market shares.
+                  Digineta estimated India&apos;s annual dredging market at Rs. 4,000-5,000 crores with strong growth prospects driven by Sagarmala Programme, National Waterways development, and port deepening projects. We identified equipment demand for trailing suction hopper dredgers (TSHD), cutter suction dredgers (CSD), and grab dredgers. Key customers included Dredging Corporation of India (DCI), major ports, private port operators, and infrastructure developers. Recommended market entry through strategic partnership with Indian dredging companies, equipment leasing models, and targeting specific high-value projects. Provided competitive intelligence on established players and their market shares.
                 </p>
               </CardContent>
             </Card>
@@ -92,7 +92,7 @@ export default function IndiaDredgingMarketStudyPage() {
               <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">i-maritime Consultancy Pvt. Ltd.</div>
+                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy Pvt. Ltd.</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">

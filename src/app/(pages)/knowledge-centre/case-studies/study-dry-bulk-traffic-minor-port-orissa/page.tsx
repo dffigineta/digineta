@@ -78,10 +78,10 @@ export default function StudyDryBulkTrafficMinorPortOrissaPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime assessed dry bulk traffic potential at 4-6 million tonnes annually comprising iron ore (2-3 MT export), thermal coal (1.5-2 MT import), and other bulk materials including limestone, dolomite, and industrial minerals (0.5-1 MT). Iron ore traffic dependent on securing commitments from specific mining companies and favorable export policies. Coal traffic linked to commissioning of thermal power projects in the region. Recommended terminal configuration: dedicated iron ore berth with shiploaders (10 MTPA capacity), multi-purpose berth for coal/other bulks with grab unloaders, and railway sidings with adequate storage yards. Success factors identified: competitive port tariffs, efficient cargo handling (2-3 days vessel turnaround), and long-term contracts with anchor customers. Phased development suggested to align with traffic ramp-up and minimize idle capacity risk.
+                  Digineta assessed dry bulk traffic potential at 4-6 million tonnes annually comprising iron ore (2-3 MT export), thermal coal (1.5-2 MT import), and other bulk materials including limestone, dolomite, and industrial minerals (0.5-1 MT). Iron ore traffic dependent on securing commitments from specific mining companies and favorable export policies. Coal traffic linked to commissioning of thermal power projects in the region. Recommended terminal configuration: dedicated iron ore berth with shiploaders (10 MTPA capacity), multi-purpose berth for coal/other bulks with grab unloaders, and railway sidings with adequate storage yards. Success factors identified: competitive port tariffs, efficient cargo handling (2-3 days vessel turnaround), and long-term contracts with anchor customers. Phased development suggested to align with traffic ramp-up and minimize idle capacity risk.
                 </p>
               </CardContent>
             </Card>
@@ -92,7 +92,7 @@ export default function StudyDryBulkTrafficMinorPortOrissaPage() {
               <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">i-maritime Consultancy Pvt. Ltd.</div>
+                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy Pvt. Ltd.</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">

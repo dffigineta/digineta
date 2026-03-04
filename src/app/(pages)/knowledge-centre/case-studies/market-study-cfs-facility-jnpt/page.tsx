@@ -87,11 +87,11 @@ export default function MarketStudyCFSFacilityJNPTPage() {
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle>
+                <CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime recommended a medium-sized CFS facility (15-20 acres) with capacity for 50,000 TEUs annually, strategically located with excellent road connectivity. We identified niche opportunities in specific cargo types and customer segments underserved by existing facilities. The business plan emphasized value-added services including customs clearance, warehousing, and last-mile delivery. Recommended technology investments in container tracking systems and digital documentation. Financial projections showed acceptable returns with breakeven achievable within 3-4 years through competitive pricing and superior service quality.
+                  Digineta recommended a medium-sized CFS facility (15-20 acres) with capacity for 50,000 TEUs annually, strategically located with excellent road connectivity. We identified niche opportunities in specific cargo types and customer segments underserved by existing facilities. The business plan emphasized value-added services including customs clearance, warehousing, and last-mile delivery. Recommended technology investments in container tracking systems and digital documentation. Financial projections showed acceptable returns with breakeven achievable within 3-4 years through competitive pricing and superior service quality.
                 </p>
               </CardContent>
             </Card>
@@ -104,7 +104,7 @@ export default function MarketStudyCFSFacilityJNPTPage() {
               </CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">i-maritime Consultancy Pvt. Ltd.</div>
+                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy Pvt. Ltd.</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">

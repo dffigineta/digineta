@@ -78,10 +78,10 @@ export default function StrategyReportIndianPortSectorPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime&apos;s strategy report provided comprehensive roadmap organized into six strategic pillars: (1) Infrastructure Development - Rs. 2 lakh crore investment needed over 10 years in new berths, deepening, mechanization, and connectivity; (2) Operational Excellence - implementing global best practices for cargo handling, reducing vessel turnaround times by 30-40%; (3) Governance Reforms - transitioning to landlord port model, professionalizing port boards, and regulatory streamlining; (4) Private Sector Participation - accelerating PPP projects, transparent tender processes, and investor-friendly policies; (5) Technology Adoption - Port Community Systems, automation, and digital documentation; (6) Skill Development - training programs for port workforce and fostering maritime clusters. The report identified specific priority projects, phased implementation timelines, and institutional reforms. Strategic recommendations influenced subsequent government policy initiatives including Sagarmala Programme and Major Port Authorities Act. The report became a widely-referenced document shaping India&apos;s port sector transformation agenda and guiding investment decisions by public and private stakeholders.
+                  Digineta&apos;s strategy report provided comprehensive roadmap organized into six strategic pillars: (1) Infrastructure Development - Rs. 2 lakh crore investment needed over 10 years in new berths, deepening, mechanization, and connectivity; (2) Operational Excellence - implementing global best practices for cargo handling, reducing vessel turnaround times by 30-40%; (3) Governance Reforms - transitioning to landlord port model, professionalizing port boards, and regulatory streamlining; (4) Private Sector Participation - accelerating PPP projects, transparent tender processes, and investor-friendly policies; (5) Technology Adoption - Port Community Systems, automation, and digital documentation; (6) Skill Development - training programs for port workforce and fostering maritime clusters. The report identified specific priority projects, phased implementation timelines, and institutional reforms. Strategic recommendations influenced subsequent government policy initiatives including Sagarmala Programme and Major Port Authorities Act. The report became a widely-referenced document shaping India&apos;s port sector transformation agenda and guiding investment decisions by public and private stakeholders.
                 </p>
               </CardContent>
             </Card>
@@ -92,7 +92,7 @@ export default function StrategyReportIndianPortSectorPage() {
               <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">i-maritime Consultancy Pvt. Ltd.</div>
+                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy Pvt. Ltd.</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">

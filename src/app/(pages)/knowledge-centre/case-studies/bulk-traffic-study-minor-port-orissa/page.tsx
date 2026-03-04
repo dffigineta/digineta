@@ -119,11 +119,11 @@ export default function BulkTrafficStudyMinorPortOrissaPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle>
+                <CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime provided detailed traffic projections for 20-year planning horizon, segmented by commodity and source. We recommended phased development starting with coal and iron ore terminals, followed by specialized facilities for other bulk commodities. The study identified specific industrial clients for long-term contracts and suggested competitive pricing strategies. Infrastructure recommendations included mechanized cargo handling systems, adequate storage areas, and rail/road connectivity improvements to ensure efficient port operations.
+                  Digineta provided detailed traffic projections for 20-year planning horizon, segmented by commodity and source. We recommended phased development starting with coal and iron ore terminals, followed by specialized facilities for other bulk commodities. The study identified specific industrial clients for long-term contracts and suggested competitive pricing strategies. Infrastructure recommendations included mechanized cargo handling systems, adequate storage areas, and rail/road connectivity improvements to ensure efficient port operations.
                 </p>
               </CardContent>
             </Card>
@@ -143,7 +143,7 @@ export default function BulkTrafficStudyMinorPortOrissaPage() {
               <CardContent>
                 <div className="space-y-4">
                   <div className="font-semibold text-lg text-gray-900">
-                    i-maritime Consultancy Pvt. Ltd.
+                    Digineta Consultancy Pvt. Ltd.
                   </div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />

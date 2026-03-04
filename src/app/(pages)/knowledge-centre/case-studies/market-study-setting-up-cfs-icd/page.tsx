@@ -78,10 +78,10 @@ export default function MarketStudySettingUpCFSICDPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime recommended a 30-acre ICD facility with rail siding connectivity and capacity for 100,000 TEUs annually. The facility design included container yards, CFS operations for LCL cargo, customs clearance services, warehousing facilities, and truck parking. We identified target customer segments including textile exporters, engineering goods manufacturers, and import cargo for retail/distribution. Business model emphasized value-added services including door pickup/delivery, documentation support, and flexible storage options. Implementation roadmap covered Customs approval process, rail siding development, and equipment procurement. Financial analysis showed payback period of 6-7 years with steady-state IRR of 13%, assuming 40% market share of addressable cargo base.
+                  Digineta recommended a 30-acre ICD facility with rail siding connectivity and capacity for 100,000 TEUs annually. The facility design included container yards, CFS operations for LCL cargo, customs clearance services, warehousing facilities, and truck parking. We identified target customer segments including textile exporters, engineering goods manufacturers, and import cargo for retail/distribution. Business model emphasized value-added services including door pickup/delivery, documentation support, and flexible storage options. Implementation roadmap covered Customs approval process, rail siding development, and equipment procurement. Financial analysis showed payback period of 6-7 years with steady-state IRR of 13%, assuming 40% market share of addressable cargo base.
                 </p>
               </CardContent>
             </Card>
@@ -92,7 +92,7 @@ export default function MarketStudySettingUpCFSICDPage() {
               <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">i-maritime Consultancy Pvt. Ltd.</div>
+                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy Pvt. Ltd.</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">

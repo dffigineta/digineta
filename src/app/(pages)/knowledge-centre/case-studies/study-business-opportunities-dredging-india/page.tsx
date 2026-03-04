@@ -78,10 +78,10 @@ export default function StudyBusinessOpportunitiesDredgingIndiaPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime identified specific opportunities worth Rs. 5,000-6,000 crores over 5 years in capital dredging (new port development, deepening projects), maintenance dredging (annual contracts), inland waterways (National Waterways 1, 2, 3 development), and land reclamation (coastal infrastructure projects). Recommended entry strategy through establishing Indian subsidiary, prequalifying for major port tenders, and mobilizing specialized equipment (TSHD 10,000+ cubic meter capacity). Identified immediate opportunities in 3-4 large capital dredging projects under tendering and long-term maintenance contracts at private ports. Business model combined spot projects with multi-year maintenance contracts for revenue stability. Provided detailed equipment mobilization plan, Indian partner identification for local expertise, and financial projections showing attractive returns despite initial mobilization costs.
+                  Digineta identified specific opportunities worth Rs. 5,000-6,000 crores over 5 years in capital dredging (new port development, deepening projects), maintenance dredging (annual contracts), inland waterways (National Waterways 1, 2, 3 development), and land reclamation (coastal infrastructure projects). Recommended entry strategy through establishing Indian subsidiary, prequalifying for major port tenders, and mobilizing specialized equipment (TSHD 10,000+ cubic meter capacity). Identified immediate opportunities in 3-4 large capital dredging projects under tendering and long-term maintenance contracts at private ports. Business model combined spot projects with multi-year maintenance contracts for revenue stability. Provided detailed equipment mobilization plan, Indian partner identification for local expertise, and financial projections showing attractive returns despite initial mobilization costs.
                 </p>
               </CardContent>
             </Card>
@@ -92,7 +92,7 @@ export default function StudyBusinessOpportunitiesDredgingIndiaPage() {
               <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">i-maritime Consultancy Pvt. Ltd.</div>
+                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy Pvt. Ltd.</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">

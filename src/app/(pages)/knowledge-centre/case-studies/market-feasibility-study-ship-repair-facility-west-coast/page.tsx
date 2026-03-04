@@ -78,10 +78,10 @@ export default function MarketFeasibilityStudyShipRepairFacilityWestCoastPage() 
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime recommended a ship repair facility in Gujarat with one large dry dock (300m x 50m) capable of handling Aframax tankers and large bulk carriers, plus one smaller dock (150m x 25m) for coastal vessels and small offshore vessels. Target market included routine repairs, survey-related work, and emergency repairs for vessels calling at Gujarat ports. The facility design included modern workshops for hull repairs, machinery overhauls, electrical/electronics work, and painting. Competitive advantages included strategic location on major shipping lanes, lower labor costs versus Singapore/Dubai, and government incentives for maritime infrastructure. Financial projections showed 25-30 dry docking jobs annually at steady state with Rs. 200-300 crore annual revenue. Break-even achievable at 60% capacity utilization with IRR of 11-13% over 20-year project life. Recommended phased development starting with one dry dock and expanding based on market response.
+                  Digineta recommended a ship repair facility in Gujarat with one large dry dock (300m x 50m) capable of handling Aframax tankers and large bulk carriers, plus one smaller dock (150m x 25m) for coastal vessels and small offshore vessels. Target market included routine repairs, survey-related work, and emergency repairs for vessels calling at Gujarat ports. The facility design included modern workshops for hull repairs, machinery overhauls, electrical/electronics work, and painting. Competitive advantages included strategic location on major shipping lanes, lower labor costs versus Singapore/Dubai, and government incentives for maritime infrastructure. Financial projections showed 25-30 dry docking jobs annually at steady state with Rs. 200-300 crore annual revenue. Break-even achievable at 60% capacity utilization with IRR of 11-13% over 20-year project life. Recommended phased development starting with one dry dock and expanding based on market response.
                 </p>
               </CardContent>
             </Card>
@@ -92,7 +92,7 @@ export default function MarketFeasibilityStudyShipRepairFacilityWestCoastPage() 
               <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">i-maritime Consultancy Pvt. Ltd.</div>
+                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy Pvt. Ltd.</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">

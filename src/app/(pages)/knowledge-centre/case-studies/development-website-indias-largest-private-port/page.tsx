@@ -78,10 +78,10 @@ export default function DevelopmentWebsiteIndiasLargestPrivatePortPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime delivered a comprehensive website featuring: Corporate section with company profile, infrastructure details, sustainability initiatives, and career opportunities; Services section detailing cargo handling capabilities, special services, and value propositions; Customer portal with vessel schedules, cargo tracking, documentation downloads, and online enquiries; Real-time information including berth status, vessel arrivals, and weather updates; Resource center with tariffs, port procedures, forms, and notices; Media center with news, events, and photo gallery. The website employed modern responsive design ensuring excellent mobile experience, fast loading times, and intuitive navigation. Integration with port operational systems provided real-time vessel and cargo information. SEO optimization achieved top rankings for key maritime search terms. The website significantly enhanced port&apos;s digital presence, improved customer service efficiency, and supported business development efforts by showcasing world-class facilities and capabilities to global shipping community.
+                  Digineta delivered a comprehensive website featuring: Corporate section with company profile, infrastructure details, sustainability initiatives, and career opportunities; Services section detailing cargo handling capabilities, special services, and value propositions; Customer portal with vessel schedules, cargo tracking, documentation downloads, and online enquiries; Real-time information including berth status, vessel arrivals, and weather updates; Resource center with tariffs, port procedures, forms, and notices; Media center with news, events, and photo gallery. The website employed modern responsive design ensuring excellent mobile experience, fast loading times, and intuitive navigation. Integration with port operational systems provided real-time vessel and cargo information. SEO optimization achieved top rankings for key maritime search terms. The website significantly enhanced port&apos;s digital presence, improved customer service efficiency, and supported business development efforts by showcasing world-class facilities and capabilities to global shipping community.
                 </p>
               </CardContent>
             </Card>
@@ -92,7 +92,7 @@ export default function DevelopmentWebsiteIndiasLargestPrivatePortPage() {
               <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">i-maritime Consultancy Pvt. Ltd.</div>
+                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy Pvt. Ltd.</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">

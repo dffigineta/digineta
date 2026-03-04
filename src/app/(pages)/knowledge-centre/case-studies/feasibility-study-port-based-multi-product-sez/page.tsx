@@ -78,10 +78,10 @@ export default function FeasibilityStudyPortBasedMultiProductSEZPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime recommended a phased 500-acre SEZ with dedicated sectors for pharmaceuticals (150 acres), engineering & electronics (200 acres), and textiles & apparel (150 acres). Port facilities included multi-purpose berths, container terminal, and bulk cargo jetty. The master plan integrated manufacturing zones with logistics areas, warehousing, and common infrastructure (power, water, effluent treatment). Marketing strategy included investor outreach programs and anchor tenant identification. Financial projections showed attractive returns with IRR of 14-16% over 15 years, supported by SEZ tax benefits and land appreciation.
+                  Digineta recommended a phased 500-acre SEZ with dedicated sectors for pharmaceuticals (150 acres), engineering & electronics (200 acres), and textiles & apparel (150 acres). Port facilities included multi-purpose berths, container terminal, and bulk cargo jetty. The master plan integrated manufacturing zones with logistics areas, warehousing, and common infrastructure (power, water, effluent treatment). Marketing strategy included investor outreach programs and anchor tenant identification. Financial projections showed attractive returns with IRR of 14-16% over 15 years, supported by SEZ tax benefits and land appreciation.
                 </p>
               </CardContent>
             </Card>
@@ -92,7 +92,7 @@ export default function FeasibilityStudyPortBasedMultiProductSEZPage() {
               <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">i-maritime Consultancy Pvt. Ltd.</div>
+                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy Pvt. Ltd.</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">

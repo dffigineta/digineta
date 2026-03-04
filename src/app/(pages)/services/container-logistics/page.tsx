@@ -19,7 +19,7 @@ export default function ContainerLogisticsPage() {
       <p>
         Logistics industry is closely linked to sectors such as containers, ports and shipping. We exploit our diverse knowledge to provide flexible consulting -in container logistics and shipping logistics. Logistics cost analysis forms part of the port feasibility or warehousing /CFS feasibility study. Our core competency lies in Container logistics. We have also helped our clients in shipping logistics, iron ore logistics, steel logistics, container logistics and warehousing, coal logistics, automobile logistics, logistics cost analysis.
       </p>
-      <h2>Benefits with i-maritime’s Container Logistics and Warhousing Services</h2>
+      <h2>Benefits with Digineta’s Container Logistics and Warhousing Services</h2>
       <h2>Segments of Container and Shipping Logistics</h2>
       <h2>Practice Area in Shipping and Container Logistics</h2>
     </div>

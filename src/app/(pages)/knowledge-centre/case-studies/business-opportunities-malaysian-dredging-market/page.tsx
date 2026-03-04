@@ -78,10 +78,10 @@ export default function BusinessOpportunitiesMalaysianDredgingMarketPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime identified specific opportunities in maintenance dredging contracts for Malaysian ports and land reclamation projects in Johor region. Recommended entry strategy through joint venture with local Malaysian partner to meet local content requirements and leverage established relationships. The business plan included equipment deployment strategy (mobilizing existing fleet from India), establishing local office in Kuala Lumpur, and recruiting local technical and administrative staff. We provided competitive pricing guidance and identified 5-7 near-term tender opportunities worth USD 50-70 million. Risk assessment covered political stability, contract enforcement, payment security, and currency exposure with mitigation strategies.
+                  Digineta identified specific opportunities in maintenance dredging contracts for Malaysian ports and land reclamation projects in Johor region. Recommended entry strategy through joint venture with local Malaysian partner to meet local content requirements and leverage established relationships. The business plan included equipment deployment strategy (mobilizing existing fleet from India), establishing local office in Kuala Lumpur, and recruiting local technical and administrative staff. We provided competitive pricing guidance and identified 5-7 near-term tender opportunities worth USD 50-70 million. Risk assessment covered political stability, contract enforcement, payment security, and currency exposure with mitigation strategies.
                 </p>
               </CardContent>
             </Card>
@@ -92,7 +92,7 @@ export default function BusinessOpportunitiesMalaysianDredgingMarketPage() {
               <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">i-maritime Consultancy Pvt. Ltd.</div>
+                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy Pvt. Ltd.</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">

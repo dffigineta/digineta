@@ -67,12 +67,12 @@ export default function DatabasesPage() {
               className="mb-12"
             >
               <p className="text-lg text-gray-700 mb-8">
-                i-maritime research unit supports the consultancy work by collecting various maritime related data. 
+                Digineta research unit supports the consultancy work by collecting various maritime related data. 
                 In this process we are able to build exhaustive database for different sectors of maritime arena. 
                 This is a paid service since we need to invest in collecting data from both primary and secondary sources.
               </p>
               
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">The features of the i-maritime Knowledge Base include..</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">The features of the Digineta Knowledge Base include..</h2>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 mb-8">
                 {features.map((feature, index) => (
@@ -119,14 +119,14 @@ export default function DatabasesPage() {
                   <div className="relative rounded-lg overflow-hidden shadow-xl">
                     <Image
                       src="/i-shipbuildingportal.jpg"
-                      alt="i-maritime Shipbuilding Database Portal"
+                      alt="Digineta Shipbuilding Database Portal"
                       width={1200}
                       height={800}
                       className="w-full h-auto"
                     />
                   </div>
                   <p className="text-center text-gray-600 mt-4 text-sm">
-                    Screenshot of i-maritime&apos;s Shipbuilding Database Portal
+                    Screenshot of Digineta&apos;s Shipbuilding Database Portal
                   </p>
                 </div>
               </Card>

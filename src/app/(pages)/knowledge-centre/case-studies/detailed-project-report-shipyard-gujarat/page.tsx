@@ -78,10 +78,10 @@ export default function DetailedProjectReportShipyardGujaratPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime recommended a phased development starting with ship repair and small vessel construction, progressing to commercial vessels up to 25,000 DWT. The master plan included one large dry dock, fabrication facilities, 150-ton goliath crane, and modern outfitting shops. We suggested technology partnerships with established shipyards for know-how transfer. Business strategy focused on Indian coastal shipping fleet and offshore sector initially, expanding to export markets. The DPR included detailed implementation schedule (24 months construction), manpower recruitment plan, and quality/safety management systems. Financial analysis projected breakeven at 60% capacity utilization with IRR of 12% over 15-year horizon.
+                  Digineta recommended a phased development starting with ship repair and small vessel construction, progressing to commercial vessels up to 25,000 DWT. The master plan included one large dry dock, fabrication facilities, 150-ton goliath crane, and modern outfitting shops. We suggested technology partnerships with established shipyards for know-how transfer. Business strategy focused on Indian coastal shipping fleet and offshore sector initially, expanding to export markets. The DPR included detailed implementation schedule (24 months construction), manpower recruitment plan, and quality/safety management systems. Financial analysis projected breakeven at 60% capacity utilization with IRR of 12% over 15-year horizon.
                 </p>
               </CardContent>
             </Card>
@@ -92,7 +92,7 @@ export default function DetailedProjectReportShipyardGujaratPage() {
               <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">i-maritime Consultancy Pvt. Ltd.</div>
+                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy Pvt. Ltd.</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">

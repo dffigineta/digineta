@@ -204,21 +204,21 @@ export const testimonials: Testimonial[] = [
     name: 'Himadri S. Roy',
     position: 'Financial Controller',
     company: 'Gulf Petrochem FZC, UAE',
-    content: 'Gulf Petrochem FZC, UAE, had commissioned i-maritime Consultants Pvt. Ltd., Navi Mumbai, to carry out the Market Feasibility and Techno-Economic Validation studies for our upcoming 320,000 MT Bulk Liquid Storage & Handling Terminal at Pipavav Port, Gujarat. In this connection, we are happy to place on record our sincere appreciation to them for a job well done...'
+    content: 'Gulf Petrochem FZC, UAE, had commissioned Digineta Consultants Pvt. Ltd., Navi Mumbai, to carry out the Market Feasibility and Techno-Economic Validation studies for our upcoming 320,000 MT Bulk Liquid Storage & Handling Terminal at Pipavav Port, Gujarat. In this connection, we are happy to place on record our sincere appreciation to them for a job well done...'
   },
   {
     id: 'port-authority',
     name: 'John Smith',
     position: 'Port Director',
     company: 'Mumbai Port Authority',
-    content: 'i-maritime provided exceptional consulting services for our port modernization project. Their expertise in maritime infrastructure and strategic planning was invaluable in achieving our objectives.'
+    content: 'Digineta provided exceptional consulting services for our port modernization project. Their expertise in maritime infrastructure and strategic planning was invaluable in achieving our objectives.'
   },
   {
     id: 'shipping-company',
     name: 'Sarah Johnson',
     position: 'CEO',
     company: 'Ocean Shipping Lines',
-    content: 'The team at i-maritime delivered outstanding results for our fleet expansion strategy. Their deep industry knowledge and practical approach helped us make informed decisions.'
+    content: 'The team at Digineta delivered outstanding results for our fleet expansion strategy. Their deep industry knowledge and practical approach helped us make informed decisions.'
   }
 ]
 

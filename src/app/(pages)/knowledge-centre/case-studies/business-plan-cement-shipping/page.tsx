@@ -114,7 +114,7 @@ export default function BusinessPlanCementShippingPage() {
             </Card>
           </motion.section>
 
-          {/* i-maritime Proposition */}
+          {/* Digineta Proposition */}
           <motion.section
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -124,11 +124,11 @@ export default function BusinessPlanCementShippingPage() {
           >
             <Card className="border-0 shadow-xl">
               <CardHeader>
-                <CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle>
+                <CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime did financial analysis for four possible alternatives of entering the market based on the current trends and future prospects. We recommended acquisition of second hand bulk carrier of 12000 DWT for operating bagged cement or clinker trade, for export as well as coastal run.
+                  Digineta did financial analysis for four possible alternatives of entering the market based on the current trends and future prospects. We recommended acquisition of second hand bulk carrier of 12000 DWT for operating bagged cement or clinker trade, for export as well as coastal run.
                 </p>
               </CardContent>
             </Card>
@@ -149,7 +149,7 @@ export default function BusinessPlanCementShippingPage() {
               <CardContent>
                 <div className="space-y-4">
                   <div className="font-semibold text-lg text-gray-900">
-                    i-maritime Consultancy Pvt. Ltd.
+                    Digineta Consultancy Pvt. Ltd.
                   </div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />

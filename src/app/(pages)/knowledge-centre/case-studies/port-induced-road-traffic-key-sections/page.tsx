@@ -78,10 +78,10 @@ export default function PortInducedRoadTrafficKeySectionsPage() {
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime&apos;s study quantified that port operations contributed 45-50% of total heavy vehicle traffic on key highway sections. Current port traffic generated approximately 3,000-3,500 truck trips per day, projected to grow to 6,000-7,000 trips by 2030 with port expansion. Identified three critical bottleneck sections requiring immediate widening from 4-lane to 6-lane configuration. Recommended phased improvement program: Phase 1 (2 years) - widening critical 15 km section and grade separators at 3 intersections (Rs. 450 crores); Phase 2 (3-5 years) - remaining 25 km widening and bypass road (Rs. 800 crores); Phase 3 (5-10 years) - dedicated truck corridor and rail connectivity augmentation. The study supported successful approval of World Bank funding for Phase 1 improvements, significantly improving port connectivity and reducing transit times by 30-40%.
+                  Digineta&apos;s study quantified that port operations contributed 45-50% of total heavy vehicle traffic on key highway sections. Current port traffic generated approximately 3,000-3,500 truck trips per day, projected to grow to 6,000-7,000 trips by 2030 with port expansion. Identified three critical bottleneck sections requiring immediate widening from 4-lane to 6-lane configuration. Recommended phased improvement program: Phase 1 (2 years) - widening critical 15 km section and grade separators at 3 intersections (Rs. 450 crores); Phase 2 (3-5 years) - remaining 25 km widening and bypass road (Rs. 800 crores); Phase 3 (5-10 years) - dedicated truck corridor and rail connectivity augmentation. The study supported successful approval of World Bank funding for Phase 1 improvements, significantly improving port connectivity and reducing transit times by 30-40%.
                 </p>
               </CardContent>
             </Card>
@@ -92,7 +92,7 @@ export default function PortInducedRoadTrafficKeySectionsPage() {
               <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">i-maritime Consultancy Pvt. Ltd.</div>
+                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy Pvt. Ltd.</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">

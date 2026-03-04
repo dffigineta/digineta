@@ -1,6 +1,6 @@
 # Button Implementations Summary
 
-All buttons in the i-maritime website have been successfully implemented with full functionality. No dummy buttons remain.
+All buttons in the Digineta website have been successfully implemented with full functionality. No dummy buttons remain.
 
 ## 🔍 1. Search Functionality (Header Component)
 

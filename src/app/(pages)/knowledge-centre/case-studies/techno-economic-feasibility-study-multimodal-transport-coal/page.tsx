@@ -78,10 +78,10 @@ export default function TechnoEconomicFeasibilityStudyMultimodalTransportCoalPag
 
           <motion.section initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.4 }} className="mb-12">
             <Card className="border-0 shadow-xl">
-              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">i-maritime Proposition</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Digineta Proposition</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  i-maritime recommended a multimodal corridor: mine to Paradip/Haldia port by rail (300-400 km), coastal shipping to destination port (1,000-1,200 km), and inland waterway/short rail to power plant (50-100 km). The system could transport 3-5 million tonnes annually with 15-20% cost savings versus direct rail freight. Infrastructure requirements included coal loading terminal at port, mechanized cargo handling, and dedicated berths at destination. Vessel fleet included 4-6 self-unloading coastal vessels and supporting barges. Implementation plan covered equipment procurement, regulatory approvals, and phased deployment over 18-24 months. The solution also offered environmental benefits with 30-35% lower carbon emissions compared to rail transport, supporting sustainability goals.
+                  Digineta recommended a multimodal corridor: mine to Paradip/Haldia port by rail (300-400 km), coastal shipping to destination port (1,000-1,200 km), and inland waterway/short rail to power plant (50-100 km). The system could transport 3-5 million tonnes annually with 15-20% cost savings versus direct rail freight. Infrastructure requirements included coal loading terminal at port, mechanized cargo handling, and dedicated berths at destination. Vessel fleet included 4-6 self-unloading coastal vessels and supporting barges. Implementation plan covered equipment procurement, regulatory approvals, and phased deployment over 18-24 months. The solution also offered environmental benefits with 30-35% lower carbon emissions compared to rail transport, supporting sustainability goals.
                 </p>
               </CardContent>
             </Card>
@@ -92,7 +92,7 @@ export default function TechnoEconomicFeasibilityStudyMultimodalTransportCoalPag
               <CardHeader><CardTitle className="text-2xl text-gray-900 mb-4">Contact for further information</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-4">
-                  <div className="font-semibold text-lg text-gray-900">i-maritime Consultancy Pvt. Ltd.</div>
+                  <div className="font-semibold text-lg text-gray-900">Digineta Consultancy Pvt. Ltd.</div>
                   <div className="flex items-start gap-3">
                     <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
                     <div className="text-gray-700">
