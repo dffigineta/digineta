@@ -6,28 +6,6 @@ export const navigation: NavigationItem[] = [
     href: '/political-platform',
   },
   {
-    label: 'About Digineta',
-    href: '/about',
-    children: [
-      {
-        label: 'Corporate Profile',
-        href: '/about/corporate-profile',
-        children: [
-          { label: 'Business Consulting', href: '/about/business-consulting' },
-          { label: 'Technical Design Consulting', href: '/about/technical-design-consulting' },
-          { label: 'Corporate Finance Advisory', href: '/about/corporate-finance-advisory' },
-          { label: 'Global Maritime Knowledge Center', href: '/about/global-maritime-knowledge-center' },
-        ],
-      },
-      { label: 'Capabilities & Expertise', href: '/about/expertise' },
-      { label: 'Leadership & Network', href: '/about/people' },
-      { label: 'Campaigns & Partners', href: '/about/clients' },
-      { label: 'Testimonials', href: '/about/testimonials' },
-      { label: 'Flagship Engagements', href: '/about/projects' },
-      { label: 'Partner with Digineta', href: '/about/online-enquiry' },
-    ]
-  },
-  {
     label: 'Our Solutions',
     href: '/services',
     children: [
@@ -69,11 +47,33 @@ export const navigation: NavigationItem[] = [
     ]
   },
   {
-    label: 'Join Our Team',
-    href: '/careers',
+    label: 'About Digineta',
+    href: '/about',
     children: [
-      { label: 'Current Openings', href: '/careers/current-openings' },
-      { label: 'Submit Resume', href: '/careers/submit-resume' },
+      {
+        label: 'Corporate Profile',
+        href: '/about/corporate-profile',
+        children: [
+          { label: 'Business Consulting', href: '/about/business-consulting' },
+          { label: 'Technical Design Consulting', href: '/about/technical-design-consulting' },
+          { label: 'Corporate Finance Advisory', href: '/about/corporate-finance-advisory' },
+          { label: 'Global Maritime Knowledge Center', href: '/about/global-maritime-knowledge-center' },
+        ],
+      },
+      { label: 'Capabilities & Expertise', href: '/about/expertise' },
+      { label: 'Leadership & Network', href: '/about/people' },
+      { label: 'Campaigns & Partners', href: '/about/clients' },
+      { label: 'Testimonials', href: '/about/testimonials' },
+      { label: 'Flagship Engagements', href: '/about/projects' },
+      { label: 'Partner with Digineta', href: '/about/online-enquiry' },
+      {
+        label: 'Work with Us',
+        href: '/careers',
+        children: [
+          { label: 'Current Openings', href: '/careers/current-openings' },
+          { label: 'Submit Resume', href: '/careers/submit-resume' },
+        ],
+      },
     ]
   },
 ]
